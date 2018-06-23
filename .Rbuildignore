@@ -1,0 +1,8 @@
+^paletteer\.Rproj$
+^\.Rproj\.user$
+^README\.Rmd$
+^data-raw$
+^LICENSE\.md$
+^\.travis\.yml$
+^codecov\.yml$
+^appveyor\.yml$

@@ -1,0 +1,84 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+# paletteer
+
+<!---
+[![Travis build status](https://travis-ci.org/EmilHvitfeldt/paletteer.svg?branch=master)](https://travis-ci.org/EmilHvitfeldt/paletteer)
+[![Coverage status](https://codecov.io/gh/EmilHvitfeldt/paletteer/branch/master/graph/badge.svg)](https://codecov.io/github/EmilHvitfeldt/paletteer?branch=master)
+[![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/EmilHvitfeldt/paletteer?branch=master&svg=true)](https://ci.appveyor.com/project/EmilHvitfeldt/paletteer)
+[![CRAN status](https://www.r-pkg.org/badges/version/paletteer)](https://cran.r-project.org/package=paletteer)
+[![CRAN_Download_Badge](http://cranlogs.r-pkg.org/badges/scico)](https://CRAN.R-project.org/package=scico)
+-->
+
+The goal of paletteer is to be a comprehensize collection of color palettes in r using a common API.
+
+## Installation
+
+<!---
+You can install the released version of paletteer from [CRAN](https://CRAN.R-project.org) with:
+
+``` r
+install.packages("paletteer")
+```
+-->
+
+If you want the development version then install directly from GitHub:
+
+```{r, eval=FALSE}
+# install.packages("devtools")
+devtools::install_github("EmilHvitfeldt/paletteer")
+```
+
+## Palettes
+
+The palettes are divided into 2 groups; *discrete* and *continuous*. For discrete palette you have the choice between the *fixed width palettes* and *dynamic palettes*. Most common of the two are the fixed width palettes which have a set amout of colors which doesn't change when the number of colors requisted vary.
+
+```{r}
+library(paletteer)
+pals::pal.bands(
+  paletteer_d("nord", "frost"),
+  paletteer_d("dutchmasters", "milkmaid"),
+  paletteer_d("LaCroixColoR", "Lime"), 
+  main = "Fixed width palettes",
+  labels = c("nord\n frost", "dutchmasters\n milkmaid", "LaCroixColoR\n Lime")
+  )
+```
+
+on the other hand we have the dynamic palettes where the colors of the palette depend on the number of colors you need.
+
+```{r}
+pals::pal.bands(
+  paletteer_dynamic("cartography", "green.pal", 2),
+  paletteer_dynamic("cartography", "green.pal", 5),
+  paletteer_dynamic("cartography", "green.pal", 8),
+  main = "Dynamic palettes",
+  labels = c("cartography\n green.pal\n n = 2",
+             "cartography\n green.pal\n n = 5",
+             "cartography\n green.pal\n n = 6")
+  )
+```
+
+Names of current avaliable dicrete palettes.
+
+```{r}
+palettes_discrete_names
+```
+
+Names of current avaliable dynamic palettes.
+
+```{r}
+palettes_dynamic_names
+```
+

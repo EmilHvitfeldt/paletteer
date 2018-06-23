@@ -1,0 +1,169 @@
+The 'paletteer' package as a whole is released under the GPL-3 license.
+
+This file lists the copyright holders and licenses of the various colormaps and palettes in the 'paletteer' package.
+
+
+-----
+awtools palettes
+By: Austin Wehrwein
+License: MIT
+https://github.com/awhstin/awtools/blob/master/DESCRIPTION
+
+-----
+dichromat Color Schemes
+By: Thomas Lumley, Ken Knoblauch, Scott Waichler, Achim Zeileis
+License: GPL-2
+https://github.com/cran/dichromat/blob/master/DESCRIPTION
+
+-----
+dutchmasters palettes
+By: Edwin Thoen
+License: MIT
+https://github.com/EdwinTh/dutchmasters/blob/master/DESCRIPTION
+
+-----
+
+ggsci palettes
+By: Nan Xiao, Miaozhu Li
+License: GPL-3
+https://github.com/road2stat/ggsci/blob/master/LICENSE
+
+-----
+
+ggpomological palettes
+By: Garrick Aden-Buie
+License: CC0
+https://github.com/gadenbuie/ggpomological/blob/master/LICENSE.md
+
+-----
+
+ggthemes palettes
+By: Jeffrey B. Arnold
+License: GPL-2
+https://github.com/jrnold/ggthemes/blob/master/DESCRIPTION
+
+-----
+
+ghibli palettes
+By: Ewen Henderson
+License: MIT
+https://github.com/ewenme/ghibli/blob/master/LICENSE
+
+-----
+
+jcolors palettes
+By: Jared Huling
+License: GPL-2
+https://github.com/jaredhuling/jcolors/blob/master/DESCRIPTION
+
+-----
+
+LaCroixColoR palettes
+By: Dave Armitage, Johannes Bjork
+License: No license
+https://github.com/johannesbjork/LaCroixColoR/blob/master/DESCRIPTION
+
+-----
+
+NineteenEightyR palettes
+By: John Hughes
+License: No license
+https://github.com/m-clark/NineteenEightyR/blob/master/DESCRIPTION
+
+-----
+
+nord palettes
+By: Arctic Ice Studio, Sven Greb
+License: MIT
+https://github.com/arcticicestudio/nord/blob/develop/LICENSE.md
+
+-----
+
+ochRe palettes
+By: Alicia Allan, Di Cook, Ross Gayler, Holly Kirk, Roger Peng, Elle Saber
+License: MIT
+https://github.com/ropenscilabs/ochRe/blob/master/LICENSE
+
+------
+
+quickpalette palettes
+By: Emil Hvitfeldt
+License: MIT
+https://github.com/EmilHvitfeldt/quickpalette/blob/master/LICENSE
+
+-----
+
+Redmonder palettes
+By: Pedro Mac Dowell Innecco, Erich Neuwirth
+License: Apache License 2.0
+https://github.com/pmdci/Redmonder/blob/master/DESCRIPTION
+
+-----
+
+RSkittleBrewer palettes
+By: Alyssa Frazee
+License: MIT
+https://github.com/alyssafrazee/RSkittleBrewer/blob/master/LICENSE
+
+-----
+
+wesanderson palettes
+By: Karthik Ram
+License: MIT
+https://github.com/karthik/wesanderson/blob/master/LICENSE
+
+-----
+
+yarrr palettes
+By: Nathaniel Phillips
+License: GPL-2
+https://github.com/ndphillips/yarrr/blob/master/DESCRIPTION
+
+-----
+
+cmocean colormaps
+Copyright: Kristen Thyng
+License: MIT
+https://github.com/matplotlib/cmocean/blob/master/LICENSE.txt
+
+-----
+
+ColorBrewer palettes
+Copyright: Cynthia Brewer, Mark Harrower, and The Pennsylvania State University
+License: Apache License, Version 2.0
+http://www.personal.psu.edu/cab38/ColorBrewer/ColorBrewer_updates.html
+
+-----
+
+Matplotlib colormaps
+By: Nathaniel J. Smith, Stefan van der Walt, and (in the case of viridis) Eric Firing.
+License: CC0 license / public domain
+https://github.com/BIDS/colormap/blob/master/colormaps.py
+
+-----
+
+Colormaps by Peter Kovesi
+License: CC BY
+http://peterkovesi.com/projects/colourmaps/index.html
+License: MIT
+https://github.com/peterkovesi/PerceptualColourMaps.jl/blob/master/LICENSE.md
+
+-----
+
+Matteo Niccoli palettes
+License: Similar to MIT
+http://www.mathworks.com/matlabcentral/fileexchange/view_license?file_info_id=28982
+
+-----
+
+Color palettes by Kevin Coombes
+License: Apache License (== 2.0)
+https://rdrr.io/rforge/Polychrome/
+
+---
+
+Cividis, by  Jamie R. Nuñez, Christopher R. Anderton, Ryan S. Renslow
+License: Similar to MIT
+https://github.com/pnnl/cmaputil/blob/master/LICENSE
+
+---
