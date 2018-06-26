@@ -7,9 +7,10 @@
 paletteer_dynamic(package, palette, n, direction = 1, scale = FALSE)
 }
 \arguments{
-\item{package}{Name of package from which the palette is desired.}
+\item{package}{Name of package from which the palette is desired as string
+or symbol.}
 
-\item{palette}{Name of palette.}
+\item{palette}{Name of palette as string or symbol.}
 
 \item{n}{Number of colors desired. If omitted, returns complete palette.}
 
@@ -21,7 +22,9 @@ paletteer_dynamic(package, palette, n, direction = 1, scale = FALSE)
 A vector of colors.
 }
 \description{
-Get dynamic palette by package and name
+Avaliable package/palette combinations are avaliable in the data.frame
+\code{\link[paletteer]{palettes_dynamic_names}}. Both \code{package} and \code{palette} can
+be supplied as symbols or strings.
 }
 \examples{
 paletteer_dynamic("ggthemes_solarized", "green", 8)

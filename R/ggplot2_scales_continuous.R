@@ -3,6 +3,10 @@
 #' These functions provide the option to use continuous palettes along with the
 #' `ggplot2` package. It goes without saying that it requires `ggplot2` to work.
 #'
+#' Avaliable package/palette combinations are avaliable in the data.frame
+#' \code{\link[paletteer]{palettes_c_names}}. Both `package` and `palette` can be
+#' supplied as symbols or strings.
+#'
 #' @param ... Arguments to pass on to `ggplot2::scale_colour_gradientn()` or
 #' `ggplot2::scale_fill_gradientn()`
 #' @inheritParams paletteer_c
@@ -11,6 +15,16 @@
 #'
 #' @name ggplot2-scales-continuous
 #' @rdname ggplot2-scales-continuous
+#'
+#' @examples
+#'
+#' if (require('ggplot2')) {
+#'
+#'   ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, colour = Petal.Length)) +
+#'     geom_point() +
+#'     scale_colour_paletteer_c(package = "scico", palette = "tokyo")
+#' }
+#'
 #' @export
 scale_colour_paletteer_c <- function(package, palette, direction = 1, ...) {
   if (!requireNamespace("ggplot2", quietly = TRUE)) {

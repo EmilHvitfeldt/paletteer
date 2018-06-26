@@ -16,9 +16,10 @@ scale_fill_paletteer_d(package, palette, direction = 1, dynamic = FALSE,
   ...)
 }
 \arguments{
-\item{package}{Name of package from which the palette is desired.}
+\item{package}{Name of package from which the palette is desired as string
+or symbol.}
 
-\item{palette}{Name of palette.}
+\item{palette}{Name of palette as string or symbol.}
 
 \item{direction}{Either \code{1} or \code{-1}. If \code{-1} the palette will be reversed.}
 
@@ -31,4 +32,20 @@ palettes. Defaults to FALSE which indicates discrete palettes.}
 These functions provide the option to use the discrete and dynamic palettes
 along with the \code{ggplot2} package. It goes without saying that it requires
 \code{ggplot2} to work.
+}
+\details{
+Avaliable package/palette combinations are avaliable in the data.frame
+\code{\link[paletteer]{palettes_d_names}} and
+\code{\link[paletteer]{palettes_dynamic_names}}. Both \code{package} and
+\code{palette} can be supplied as symbols or strings.
+}
+\examples{
+
+if (require('ggplot2')) {
+
+  ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, colour = Species)) +
+    geom_point() +
+    scale_colour_paletteer_d(package = "nord", palette = "frost")
+}
+
 }

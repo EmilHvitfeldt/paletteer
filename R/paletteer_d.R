@@ -1,7 +1,12 @@
 #' Get discrete palette by package and name
 #'
-#' @param package Name of package from which the palette is desired.
-#' @param palette Name of palette.
+#' Avaliable package/palette combinations are avaliable in the data.frame
+#' \code{\link[paletteer]{palettes_d_names}}. Both `package` and `palette`
+#' can be supplied as symbols or strings.
+#'
+#' @param package Name of package from which the palette is desired as string
+#' or symbol.
+#' @param palette Name of palette as string or symbol.
 #' @param n Number of colors desired. If omitted, returns complete palette.
 #' @param direction Either `1` or `-1`. If `-1` the palette will be reversed.
 #' @param type Either "discrete" or "continuous". Colors are interpolated if

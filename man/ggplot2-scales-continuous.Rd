@@ -14,9 +14,10 @@ scale_color_paletteer_c(package, palette, direction = 1, ...)
 scale_fill_paletteer_c(package, palette, direction = 1, ...)
 }
 \arguments{
-\item{package}{Name of package from which the palette is desired.}
+\item{package}{Name of package from which the palette is desired as string
+or symbol.}
 
-\item{palette}{Name of palette.}
+\item{palette}{Name of palette as string or symbol.}
 
 \item{direction}{Either \code{1} or \code{-1}. If \code{-1} the palette will be reversed.}
 
@@ -29,4 +30,19 @@ A \code{ScaleContinuous} object that can be added to a \code{ggplot} object
 \description{
 These functions provide the option to use continuous palettes along with the
 \code{ggplot2} package. It goes without saying that it requires \code{ggplot2} to work.
+}
+\details{
+Avaliable package/palette combinations are avaliable in the data.frame
+\code{\link[paletteer]{palettes_c_names}}. Both \code{package} and \code{palette} can be
+supplied as symbols or strings.
+}
+\examples{
+
+if (require('ggplot2')) {
+
+  ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, colour = Petal.Length)) +
+    geom_point() +
+    scale_colour_paletteer_c(package = "scico", palette = "tokyo")
+}
+
 }
