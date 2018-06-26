@@ -18,7 +18,8 @@ ggthemes_df <- tibble(package = "ggthemes",
 pals_df <- tibble(package = "pals",
        palette = names(pals:::syspals)) %>%
   dplyr::filter(!str_detect(palette, "^brewer"),
-                !str_detect(palette, "glasbey|kelly|stepped|tol|watlington"))
+                !str_detect(palette, "glasbey|kelly|stepped|tol|watlington"),
+                !str_detect(palette, "viridis|inferno|magma|plasma|cividis"))
 
 scico_df <- tibble(package = "scico",
                    palette = names(scico:::palettes))
@@ -49,7 +50,12 @@ other_df <- frame_data(
   "palr", "bathyDeepPal",
   "palr", "chlPal",
   "palr", "icePal",
-  "palr", "sstPal"
+  "palr", "sstPal",
+  "viridis", "viridis",
+  "viridis", "inferno",
+  "viridis", "magma",
+  "viridis", "plasma",
+  "viridis", "cividis"
 ) %>% as.data.frame()
 
 palettes_c_names <- dplyr::bind_rows(ggthemes_df, pals_df, scico_df, other_df) %>%
