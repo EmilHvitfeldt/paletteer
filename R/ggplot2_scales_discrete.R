@@ -23,17 +23,14 @@ pal_pal <- function(package, palette, scale, dynamic) {
 #' @param dynamic toggles between the discrete palettes and the dynamic
 #'     palettes. Defaults to FALSE which indicates discrete palettes.
 #' @inheritParams paletteer_d
-#' @importFrom ggplot2 scale_colour_manual
 #'
 #' @export
-#'
-#' @importFrom ggplot2 discrete_scale scale_color_gradientn
 scale_colour_paletteer_d <- function(package, palette, dynamic = FALSE, ...) {
 
   package <- rlang::quo_name(rlang::enquo(package))
   palette <- rlang::quo_name(rlang::enquo(palette))
 
-  discrete_scale("colour", paste(package, palette, sep = "-"),
+  ggplot2::discrete_scale("colour", paste(package, palette, sep = "-"),
                  pal_pal(package = package, palette = palette, scale = TRUE,
                          dynamic = dynamic), ...)
 
@@ -52,7 +49,7 @@ scale_fill_paletteer_d <- function(package, palette, dynamic = FALSE, ...) {
   package <- rlang::quo_name(rlang::enquo(package))
   palette <- rlang::quo_name(rlang::enquo(palette))
 
-  discrete_scale("fill", paste(package, palette, sep = "-"),
+  ggplot2::discrete_scale("fill", paste(package, palette, sep = "-"),
                  pal_pal(package = package, palette = palette, scale = TRUE,
                          dynamic = dynamic), ...)
 

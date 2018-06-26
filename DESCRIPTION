@@ -21,6 +21,7 @@ Imports:
     rlang
 Suggests: 
     covr,
-    testthat
+    testthat,
+    ggplot2
 Remotes: 
     jaredhuling/jcolors
