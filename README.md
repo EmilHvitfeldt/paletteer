@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-paletteer
-=========
+paletteer <img src="man/figures/logo.png" align="right" />
+==========================================================
 
 <!---
 [![Travis build status](https://travis-ci.org/EmilHvitfeldt/paletteer.svg?branch=master)](https://travis-ci.org/EmilHvitfeldt/paletteer)
@@ -45,7 +45,7 @@ pals::pal.bands(
   )
 ```
 
-<img src="man/figures/README-unnamed-chunk-2-1.png" width="100%" />
+![](man/figures/README-unnamed-chunk-2-1.png)
 
 on the other hand we have the dynamic palettes where the colors of the palette depend on the number of colors you need.
 
@@ -61,7 +61,7 @@ pals::pal.bands(
   )
 ```
 
-<img src="man/figures/README-unnamed-chunk-3-1.png" width="100%" />
+![](man/figures/README-unnamed-chunk-3-1.png)
 
 Names of current avaliable dicrete palettes.
 
