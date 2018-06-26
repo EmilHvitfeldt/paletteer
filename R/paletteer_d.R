@@ -5,15 +5,20 @@
 #' @param n Number of colors desired. If omitted, returns complete palette.
 #' @param type Either "discrete" or "continuous". Colors are interpolated if
 #'   "continuous" is picked. Defaults to "discrete".
+#' @param scale Toggles quotation, defaults to FALSE.
 #' @return A vector of colors.
 #' @examples
 #' paletteer_d("nord", "frost")
 #' paletteer_d("wesanderson", "Royal1", 3)
 #' paletteer_d("Redmonder", "dPBIPuOr", 14, "continuous")
 #' @export
-paletteer_d <- function (package, palette, n, type = c("discrete", "continuous")) {
-  package <- rlang::quo_name(rlang::enquo(package))
-  palette <- rlang::quo_name(rlang::enquo(palette))
+paletteer_d <- function (package, palette, n, type = c("discrete", "continuous"),
+                         scale = FALSE) {
+
+  if (!scale) {
+    package <- rlang::quo_name(rlang::enquo(package))
+    palette <- rlang::quo_name(rlang::enquo(palette))
+  }
 
   type <- match.arg(type)
   pal <- palettes_discrete[[c(package, palette)]]

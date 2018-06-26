@@ -4,7 +4,7 @@
 \alias{paletteer_c}
 \title{Get continuous palette by package and name}
 \usage{
-paletteer_c(package, palette, n)
+paletteer_c(package, palette, n, scale = FALSE)
 }
 \arguments{
 \item{package}{Name of package from which the palette is desired.}
@@ -12,6 +12,8 @@ paletteer_c(package, palette, n)
 \item{palette}{Name of palette.}
 
 \item{n}{Number of colors desired. If omitted, returns complete palette.}
+
+\item{scale}{Toggles quotation, defaults to FALSE.}
 }
 \value{
 A vector of colors.
