@@ -2,28 +2,24 @@
 % Please edit documentation in R/paletteer_c.R
 \name{paletteer_c}
 \alias{paletteer_c}
-\title{Get discrete palette by package and name}
+\title{Get continuous palette by package and name}
 \usage{
-paletteer_c(package, name, n)
+paletteer_c(package, palette, n)
 }
 \arguments{
 \item{package}{Name of package from which the palette is desired.}
 
-\item{name}{Name of palette.}
+\item{palette}{Name of palette.}
 
 \item{n}{Number of colors desired. If omitted, returns complete palette.}
-
-\item{type}{Either "discrete" or "continuous". Colors are interpolated if
-"continuous" is picked. Defaults to "discrete".}
 }
 \value{
 A vector of colors.
 }
 \description{
-Get discrete palette by package and name
+Get continuous palette by package and name
 }
 \examples{
-paletteer_d("nord", "frost")
-paletteer_d("wesanderson", "Royal1", 3)
-paletteer_d("Redmonder", "dPBIPuOr", 14, "continuous")
+paletteer_c(jcolors, pal10, 10)
+paletteer_c(scico, berlin, 100)
 }

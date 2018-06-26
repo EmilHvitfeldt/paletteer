@@ -20,6 +20,6 @@ A vector of colors.
 Get dynamic palette by package and name
 }
 \examples{
-paletteer_dynamic("solarized", "green", 8)
+paletteer_dynamic("ggthemes_solarized", "green", 8)
 paletteer_dynamic("cartography", "sand.pal", 20)
 }

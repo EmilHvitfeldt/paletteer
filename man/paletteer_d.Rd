@@ -4,12 +4,12 @@
 \alias{paletteer_d}
 \title{Get discrete palette by package and name}
 \usage{
-paletteer_d(package, name, n, type = c("discrete", "continuous"))
+paletteer_d(package, palette, n, type = c("discrete", "continuous"))
 }
 \arguments{
 \item{package}{Name of package from which the palette is desired.}
 
-\item{name}{Name of palette.}
+\item{palette}{Name of palette.}
 
 \item{n}{Number of colors desired. If omitted, returns complete palette.}
 
