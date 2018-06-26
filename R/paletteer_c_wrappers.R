@@ -69,7 +69,6 @@ paletteer_c_scico <- function(name, n) {
   scico::scico(n = n, palette = name)
 }
 
-#' @import viridisLite
 #' @export
 paletteer_c_viridis <- function(name, n) {
   pal_gen <- get(name)

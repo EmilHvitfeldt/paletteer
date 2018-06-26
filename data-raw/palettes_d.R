@@ -199,7 +199,7 @@ yarrr_pals <- mapply(yarrr::piratepal, yarrr_names) %>%
   lapply(unname)
 
 # discrete fixed number of colors
-palettes_discrete <- list(
+palettes_d <- list(
   awtools = awtools_pals,
   dichromat = dichromat_pals,
   dutchmasters = dutchmasters_pals,
@@ -224,4 +224,4 @@ palettes_discrete <- list(
   yarrr = yarrr_pals
 )
 
-usethis::use_data(palettes_discrete)
+usethis::use_data(palettes_d)

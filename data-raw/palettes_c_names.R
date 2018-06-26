@@ -49,12 +49,7 @@ other_df <- frame_data(
   "palr", "bathyDeepPal",
   "palr", "chlPal",
   "palr", "icePal",
-  "palr", "sstPal",
-  "viridis", "cividis",
-  "viridis", "inferno",
-  "viridis", "magma",
-  "viridis", "plasma",
-  "viridis", "viridis"
+  "palr", "sstPal"
 ) %>% as.data.frame()
 
 palettes_c_names <- dplyr::bind_rows(ggthemes_df, pals_df, scico_df, other_df) %>%

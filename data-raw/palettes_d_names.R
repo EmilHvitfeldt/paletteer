@@ -3,11 +3,11 @@ library(purrr)
 library(dplyr)
 library(paletteer)
 
-palettes_discrete_names <- purrr::imap_dfr(palettes_discrete,
+palettes_d_names <- purrr::imap_dfr(palettes_d,
                                            ~ data.frame(package = .y,
-                                                        name = names(.x),
+                                                        palette = names(.x),
                                                         length = sapply(.x, length),
                                                         stringsAsFactors = FALSE)) %>%
   tibble::remove_rownames()
 
-usethis::use_data(palettes_discrete_names, overwrite = TRUE)
+usethis::use_data(palettes_d_names, overwrite = TRUE)

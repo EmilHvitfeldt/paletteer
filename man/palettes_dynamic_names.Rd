@@ -7,7 +7,7 @@
 \format{A data.frame of 25 observations with 3 variables:
 \describe{
 \item{package}{character, name of package}
-\item{name}{character, name of palette}
+\item{palette}{character, name of palette}
 \item{length}{integer, maximal number of colors in palette}
 }}
 \usage{

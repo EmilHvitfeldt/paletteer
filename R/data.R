@@ -9,10 +9,10 @@
 #' LaCroixColoR, NineteenEightyR, nord, ochRe, pals, Polychrome, quickpalette,
 #' rcartocolor, RColorBrewer, Redmonder, RSkittleBrewer, wesanderson and yarrr.
 #'
-#' data.frame of palette names can be found here \code{\link{palettes_discrete_names}}.
+#' data.frame of palette names can be found here \code{\link{palettes_d_names}}.
 #'
 #' @format A list of 22 lists.
-"palettes_discrete"
+"palettes_d"
 
 #' Names of all fixed discrete palettes
 #'
@@ -24,15 +24,15 @@
 #' LaCroixColoR, NineteenEightyR, nord, ochRe, pals, Polychrome, quickpalette,
 #' rcartocolor, RColorBrewer, Redmonder, RSkittleBrewer, wesanderson and yarrr.
 #'
-#' Full list of palette can be found here \code{\link{palettes_discrete}}.
+#' Full list of palette can be found here \code{\link{palettes_d}}.
 #'
 #' @format A data.frame of 466 observations with 3 variables:
 #' \describe{
 #'   \item{package}{character, name of package}
-#'   \item{name}{character, name of palette}
+#'   \item{palette}{character, name of palette}
 #'   \item{length}{integer, number of colors in palette}
 #' }
-"palettes_discrete_names"
+"palettes_d_names"
 
 #' Complete list of dynamic palettes
 #'
@@ -60,7 +60,7 @@
 #' @format A data.frame of 25 observations with 3 variables:
 #' \describe{
 #'   \item{package}{character, name of package}
-#'   \item{name}{character, name of palette}
+#'   \item{palette}{character, name of palette}
 #'   \item{length}{integer, maximal number of colors in palette}
 #' }
 "palettes_dynamic_names"
@@ -78,4 +78,4 @@
 #'   \item{package}{character, name of package}
 #'   \item{palette}{character, name of palette}
 #' }
-"palettes_discrete_names"
+"palettes_c_names"
