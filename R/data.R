@@ -64,3 +64,18 @@
 #'   \item{length}{integer, maximal number of colors in palette}
 #' }
 "palettes_dynamic_names"
+
+#' Names of all continuous palettes
+#'
+#' A data.frame of the names and lengths of the continuous palettes included in
+#' this package.
+#'
+#' Contains palettes names from the following packages: ggthemes, grDevices,
+#' jcolors, oompaBase, palr, pals, scico and viridis.
+#'
+#' @format A data.frame of 180 observations with 2 variables:
+#' \describe{
+#'   \item{package}{character, name of package}
+#'   \item{palette}{character, name of palette}
+#' }
+"palettes_discrete_names"
