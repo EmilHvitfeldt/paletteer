@@ -7,16 +7,18 @@
 \alias{scale_fill_paletteer_c}
 \title{Continuous scales to use for ggplot2}
 \usage{
-scale_colour_paletteer_c(package, palette, ...)
+scale_colour_paletteer_c(package, palette, direction = 1, ...)
 
-scale_color_paletteer_c(package, palette, ...)
+scale_color_paletteer_c(package, palette, direction = 1, ...)
 
-scale_fill_paletteer_c(package, palette, ...)
+scale_fill_paletteer_c(package, palette, direction = 1, ...)
 }
 \arguments{
 \item{package}{Name of package from which the palette is desired.}
 
 \item{palette}{Name of palette.}
+
+\item{direction}{Either \code{1} or \code{-1}. If \code{-1} the palette will be reversed.}
 
 \item{...}{Arguments to pass on to \code{ggplot2::scale_colour_gradientn()} or
 \code{ggplot2::scale_fill_gradientn()}}

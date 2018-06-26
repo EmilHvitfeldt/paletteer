@@ -4,8 +4,8 @@
 \alias{paletteer_d}
 \title{Get discrete palette by package and name}
 \usage{
-paletteer_d(package, palette, n, type = c("discrete", "continuous"),
-  scale = FALSE)
+paletteer_d(package, palette, n, direction = 1, type = c("discrete",
+  "continuous"), scale = FALSE)
 }
 \arguments{
 \item{package}{Name of package from which the palette is desired.}
@@ -13,6 +13,8 @@ paletteer_d(package, palette, n, type = c("discrete", "continuous"),
 \item{palette}{Name of palette.}
 
 \item{n}{Number of colors desired. If omitted, returns complete palette.}
+
+\item{direction}{Either \code{1} or \code{-1}. If \code{-1} the palette will be reversed.}
 
 \item{type}{Either "discrete" or "continuous". Colors are interpolated if
 "continuous" is picked. Defaults to "discrete".}
@@ -28,5 +30,5 @@ Get discrete palette by package and name
 \examples{
 paletteer_d("nord", "frost")
 paletteer_d("wesanderson", "Royal1", 3)
-paletteer_d("Redmonder", "dPBIPuOr", 14, "continuous")
+paletteer_d("Redmonder", "dPBIPuOr", 14, type = "continuous")
 }

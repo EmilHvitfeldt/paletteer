@@ -4,7 +4,7 @@
 \alias{paletteer_c}
 \title{Get continuous palette by package and name}
 \usage{
-paletteer_c(package, palette, n, scale = FALSE)
+paletteer_c(package, palette, n, direction = 1, scale = FALSE)
 }
 \arguments{
 \item{package}{Name of package from which the palette is desired.}
@@ -12,6 +12,8 @@ paletteer_c(package, palette, n, scale = FALSE)
 \item{palette}{Name of palette.}
 
 \item{n}{Number of colors desired. If omitted, returns complete palette.}
+
+\item{direction}{Either \code{1} or \code{-1}. If \code{-1} the palette will be reversed.}
 
 \item{scale}{Toggles quotation, defaults to FALSE.}
 }

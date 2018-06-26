@@ -3,13 +3,19 @@
 #' @param package Name of package from which the palette is desired.
 #' @param palette Name of palette.
 #' @param n Number of colors desired. If omitted, returns complete palette.
+#' @param direction Either `1` or `-1`. If `-1` the palette will be reversed.
 #' @param scale Toggles quotation, defaults to FALSE.
 #' @return A vector of colors.
 #' @examples
 #' paletteer_dynamic("ggthemes_solarized", "green", 8)
 #' paletteer_dynamic("cartography", "sand.pal", 20)
 #' @export
-paletteer_dynamic <- function (package, palette, n, scale = FALSE) {
+paletteer_dynamic <- function (package, palette, n, direction = 1,
+                               scale = FALSE) {
+
+  if (abs(direction) != 1) {
+    stop("direction must be 1 or -1")
+  }
 
   if (!scale) {
     package <- rlang::quo_name(rlang::enquo(package))
@@ -27,5 +33,10 @@ paletteer_dynamic <- function (package, palette, n, scale = FALSE) {
     stop(paste("Number of requested colors greater than this palette can offer which is ",
                length(pal), ".", sep = ""))
   }
-  pal[[n]]
+
+  if (direction == -1) {
+    rev(pal[[n]])
+  } else {
+    pal[[n]]
+  }
 }

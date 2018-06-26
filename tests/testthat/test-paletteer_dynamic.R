@@ -24,3 +24,10 @@ test_that("paletteer_dynamic works when package and name are provided as symbols
   expect_length(paletteer_dynamic(ggthemes_solarized, green, 4), 4)
 })
 
+test_that("direction works correctly in paletteer_dynamic", {
+  expect_equal(paletteer_dynamic("ggthemes_solarized", "green", 3, direction = 1),
+               c("#859900", "#dc322f", "#268bd2"))
+  expect_equal(paletteer_dynamic("ggthemes_solarized", "green", 3, direction = -1),
+               c("#268bd2", "#dc322f", "#859900"))
+  expect_error(paletteer_dynamic("ggthemes_solarized", "green", 3, direction = 10))
+})
