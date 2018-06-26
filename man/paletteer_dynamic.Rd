@@ -9,11 +9,11 @@ paletteer_dynamic(package, palette, n, scale = FALSE)
 \arguments{
 \item{package}{Name of package from which the palette is desired.}
 
+\item{palette}{Name of palette.}
+
 \item{n}{Number of colors desired. If omitted, returns complete palette.}
 
 \item{scale}{Toggles quotation, defaults to FALSE.}
-
-\item{name}{Name of palette.}
 }
 \value{
 A vector of colors.

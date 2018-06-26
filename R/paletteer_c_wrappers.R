@@ -1,3 +1,16 @@
+#' Wrappers around continuous palette functions by package
+#'
+#' These functions provide a function wrapper for each package such that a
+#' palette can be generated using only the name of the desired palette and the
+#' length.
+#'
+#' @param name Character, name of palette.
+#' @param n Integer, number of colors.
+#'
+#' @return Vector of color values from specified palette.
+#'
+#' @name paleteer-c-wrapper
+#' @rdname paleteer-c-wrapper
 #' @export
 paletteer_c_ggthemes <- function(name, n) {
 
@@ -16,12 +29,13 @@ paletteer_c_ggthemes <- function(name, n) {
     type <- "ordered-diverging"
   }
 
-  pal_gen <- ggthemes:::tableau_gradient_pal(palette = name,
-                                             type = type)
+  pal_gen <- ggthemes::tableau_gradient_pal(palette = name,
+                                            type = type)
 
   pal_gen(x = seq(0, 1, length.out = n))
 }
 
+#' @rdname paleteer-c-wrapper
 #' @export
 paletteer_c_grDevices <- function(name, n) {
   objs <- mget(ls("package:grDevices"), inherits = TRUE)
@@ -30,6 +44,7 @@ paletteer_c_grDevices <- function(name, n) {
   pal_gen(n = n)
 }
 
+#' @rdname paleteer-c-wrapper
 #' @export
 paletteer_c_jcolors <- function(name, n) {
   name <- match.arg(name, c("default", "pal2", "pal3", "pal4", "pal10",
@@ -41,6 +56,7 @@ paletteer_c_jcolors <- function(name, n) {
 
 #' @importFrom oompaBase redscale greenscale bluescale blueyellow cyanyellow
 #' @importFrom oompaBase redgreen jetColors greyscale
+#' @rdname paleteer-c-wrapper
 #' @export
 paletteer_c_oompaBase <- function(name, n) {
   pal_gen <- get(name)
@@ -49,6 +65,7 @@ paletteer_c_oompaBase <- function(name, n) {
 }
 
 #' @importFrom palr bathyDeepPal chlPal icePal sstPal
+#' @rdname paleteer-c-wrapper
 #' @export
 paletteer_c_palr <- function(name, n) {
   pal_gen <- get(name)
@@ -100,6 +117,7 @@ paletteer_c_palr <- function(name, n) {
 #' @importFrom pals kovesi.rainbow_bgyr_35_85_c72 kovesi.rainbow_bgyr_35_85_c73
 #' @importFrom pals kovesi.rainbow_bgyrm_35_85_c69
 #' @importFrom pals kovesi.rainbow_bgyrm_35_85_c71
+#' @rdname paleteer-c-wrapper
 #' @export
 paletteer_c_pals <- function(name, n) {
   pal_gen <- get(name)
@@ -107,12 +125,14 @@ paletteer_c_pals <- function(name, n) {
   pal_gen(n = n)
 }
 
+#' @rdname paleteer-c-wrapper
 #' @export
 paletteer_c_scico <- function(name, n) {
   scico::scico(n = n, palette = name)
 }
 
 #' @importFrom viridisLite cividis inferno magma plasma viridis
+#' @rdname paleteer-c-wrapper
 #' @export
 paletteer_c_viridis <- function(name, n) {
   pal_gen <- get(name)

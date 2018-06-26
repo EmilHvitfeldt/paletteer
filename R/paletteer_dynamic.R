@@ -1,7 +1,7 @@
 #' Get dynamic palette by package and name
 #'
 #' @param package Name of package from which the palette is desired.
-#' @param name Name of palette.
+#' @param palette Name of palette.
 #' @param n Number of colors desired. If omitted, returns complete palette.
 #' @param scale Toggles quotation, defaults to FALSE.
 #' @return A vector of colors.
@@ -19,7 +19,7 @@ paletteer_dynamic <- function (package, palette, n, scale = FALSE) {
     }
   }
 
-  pal <- palettes_dynamic[[c(package, palette)]]
+  pal <- paletteer::palettes_dynamic[[c(package, palette)]]
   if (is.null(pal))
     stop("Palette not found. Make sure both package and palette name are spelled correct.")
 

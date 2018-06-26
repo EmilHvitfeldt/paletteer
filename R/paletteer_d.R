@@ -21,7 +21,7 @@ paletteer_d <- function (package, palette, n, type = c("discrete", "continuous")
   }
 
   type <- match.arg(type)
-  pal <- palettes_discrete[[c(package, palette)]]
+  pal <- paletteer::palettes_d[[c(package, palette)]]
   if (is.null(pal))
     stop("Palette not found. Make sure both package and palette name are spelled correct.")
   if (missing(n)) {

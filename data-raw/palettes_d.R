@@ -224,4 +224,4 @@ palettes_d <- list(
   yarrr = yarrr_pals
 )
 
-usethis::use_data(palettes_d)
+usethis::use_data(palettes_d, overwrite = TRUE)
