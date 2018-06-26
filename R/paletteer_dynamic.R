@@ -5,7 +5,7 @@
 #' @param n Number of colors desired. If omitted, returns complete palette.
 #' @return A vector of colors.
 #' @examples
-#' paletteer_dynamic("solarized", "green", 8)
+#' paletteer_dynamic("ggthemes_solarized", "green", 8)
 #' paletteer_dynamic("cartography", "sand.pal", 20)
 #' @export
 paletteer_dynamic <- function (package, name, n) {
