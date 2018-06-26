@@ -20,6 +20,7 @@ Imports:
     viridisLite,
     rlang
 Suggests: 
-    covr
-Remotes:  
+    covr,
+    testthat
+Remotes: 
     jaredhuling/jcolors
