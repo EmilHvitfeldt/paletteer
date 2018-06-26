@@ -39,26 +39,27 @@ paletteer_c_jcolors <- function(name, n) {
   pal_gen(n = n)
 }
 
+#' @importFrom oompaBase redscale greenscale bluescale blueyellow cyanyellow
+#' @importFrom oompaBase redgreen jetColors greyscale
 #' @export
 paletteer_c_oompaBase <- function(name, n) {
-  objs <- mget(ls("package:oompaBase"), inherits = TRUE)
-  pal_gen <- get(name, objs)
+  pal_gen <- get(name)
 
   pal_gen(N = n)
 }
 
+#' @importFrom palr bathyDeepPal chlPal icePal sstPal
 #' @export
 paletteer_c_palr <- function(name, n) {
-  objs <- mget(ls("package:palr"), inherits = TRUE)
-  pal_gen <- get(name, objs)
+  pal_gen <- get(name)
 
   pal_gen(x = n)
 }
 
+#' @import pals
 #' @export
 paletteer_c_pals <- function(name, n) {
-  objs <- mget(ls("package:pals"), inherits = TRUE)
-  pal_gen <- get(name, objs)
+  pal_gen <- get(name)
 
   pal_gen(n = n)
 }
@@ -68,10 +69,10 @@ paletteer_c_scico <- function(name, n) {
   scico::scico(n = n, palette = name)
 }
 
+#' @import viridisLite
 #' @export
 paletteer_c_viridis <- function(name, n) {
-  objs <- mget(ls("package:viridisLite"), inherits = TRUE)
-  pal_gen <- get(name, objs)
+  pal_gen <- get(name)
 
   pal_gen(n = n)
 }
