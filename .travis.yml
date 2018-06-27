@@ -4,5 +4,8 @@ language: R
 sudo: false
 cache: packages
 
+install:
+  - ./travis-tool.sh install_r oompaBase
+
 after_success:
     - Rscript -e 'covr::codecov()'
