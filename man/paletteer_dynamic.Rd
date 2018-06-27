@@ -4,7 +4,7 @@
 \alias{paletteer_dynamic}
 \title{Get dynamic palette by package and name}
 \usage{
-paletteer_dynamic(package, palette, n, direction = 1, scale = FALSE)
+paletteer_dynamic(package, palette, n, direction = 1)
 }
 \arguments{
 \item{package}{Name of package from which the palette is desired as string
@@ -15,8 +15,6 @@ or symbol.}
 \item{n}{Number of colors desired. If omitted, returns complete palette.}
 
 \item{direction}{Either \code{1} or \code{-1}. If \code{-1} the palette will be reversed.}
-
-\item{scale}{Toggles quotation, defaults to FALSE.}
 }
 \value{
 A vector of colors.

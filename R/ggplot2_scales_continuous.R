@@ -31,14 +31,13 @@ scale_colour_paletteer_c <- function(package, palette, direction = 1, ...) {
     stop('ggplot2 is required for this functionality', call. = FALSE)
   }
 
-  package <- rlang::quo_name(rlang::enquo(package))
-  palette <- rlang::quo_name(rlang::enquo(palette))
+  package <- rlang::ensym(package)
+  palette <- rlang::ensym(palette)
 
-  ggplot2::scale_colour_gradientn(colours = paletteer_c(package = package,
-                                                        palette = palette,
+  ggplot2::scale_colour_gradientn(colours = paletteer_c(package = !!package,
+                                                        palette = !!palette,
                                                         direction = direction,
-                                                        256,
-                                                        scale = TRUE), ...)
+                                                        256), ...)
 }
 #' @rdname ggplot2-scales-continuous
 #' @export
@@ -52,12 +51,11 @@ scale_fill_paletteer_c <- function(package, palette, direction = 1, ...) {
     stop('ggplot2 is required for this functionality', call. = FALSE)
   }
 
-  package <- rlang::quo_name(rlang::enquo(package))
-  palette <- rlang::quo_name(rlang::enquo(palette))
+  package <- rlang::ensym(package)
+  palette <- rlang::ensym(palette)
 
-  ggplot2::scale_fill_gradientn(colours = paletteer_c(package = package,
-                                                      palette = palette,
+  ggplot2::scale_fill_gradientn(colours = paletteer_c(package = !!package,
+                                                      palette = !!palette,
                                                       direction = direction,
-                                                      256,
-                                                      scale = TRUE), ...)
+                                                      256), ...)
 }
