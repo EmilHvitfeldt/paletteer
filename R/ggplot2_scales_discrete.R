@@ -1,15 +1,17 @@
 
-pal_pal <- function(package, palette, scale, direction, dynamic) {
+pal_pal <- function(package, palette, direction, dynamic) {
+
+  package <- rlang::ensym(package)
+  palette <- rlang::ensym(palette)
 
   if (dynamic) {
     function(n) {
-      paletteer_dynamic(package = package, palette = palette, n = n,
-                        direction = direction, scale = scale)
+      paletteer_dynamic(package = !!package, palette = !!palette, n = n,
+                        direction = direction)
     }
   } else {
     function(n) {
-      paletteer_d(package = package, palette = palette, direction = direction,
-                  scale = scale)
+      paletteer_d(package = !!package, palette = !!palette, direction = direction)
     }
   }
 }
@@ -44,11 +46,11 @@ pal_pal <- function(package, palette, scale, direction, dynamic) {
 scale_colour_paletteer_d <- function(package, palette, direction = 1,
                                      dynamic = FALSE, ...) {
 
-  package <- rlang::quo_name(rlang::enquo(package))
-  palette <- rlang::quo_name(rlang::enquo(palette))
+  package <- rlang::ensym(package)
+  palette <- rlang::ensym(palette)
 
   ggplot2::discrete_scale("colour", paste(package, palette, sep = "-"),
-                 pal_pal(package = package, palette = palette, scale = TRUE,
+                 pal_pal(package = !!package, palette = !!palette,
                          dynamic = dynamic, direction = direction), ...)
 
 }
@@ -64,11 +66,11 @@ scale_color_paletteer_d <- scale_colour_paletteer_d
 scale_fill_paletteer_d <- function(package, palette, direction = 1,
                                    dynamic = FALSE, ...) {
 
-  package <- rlang::quo_name(rlang::enquo(package))
-  palette <- rlang::quo_name(rlang::enquo(palette))
+  package <- rlang::ensym(package)
+  palette <- rlang::ensym(palette)
 
   ggplot2::discrete_scale("fill", paste(package, palette, sep = "-"),
-                 pal_pal(package = package, palette = palette, scale = TRUE,
+                 pal_pal(package = !!package, palette = !!palette,
                          dynamic = dynamic, direction = direction), ...)
 
 }

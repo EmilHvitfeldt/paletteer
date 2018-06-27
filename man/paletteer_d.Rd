@@ -5,7 +5,7 @@
 \title{Get discrete palette by package and name}
 \usage{
 paletteer_d(package, palette, n, direction = 1, type = c("discrete",
-  "continuous"), scale = FALSE)
+  "continuous"))
 }
 \arguments{
 \item{package}{Name of package from which the palette is desired as string
@@ -19,8 +19,6 @@ or symbol.}
 
 \item{type}{Either "discrete" or "continuous". Colors are interpolated if
 "continuous" is picked. Defaults to "discrete".}
-
-\item{scale}{Toggles quotation, defaults to FALSE.}
 }
 \value{
 A vector of colors.
