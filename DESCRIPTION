@@ -1,8 +1,11 @@
 Package: paletteer
-Version: 0.0.0.9000
-Title: What the Package Does (One Line, Title Case)
-Description: What the package does (one paragraph).
-Authors@R: person("First", "Last", , "first.last@example.com", c("aut", "cre"))
+Version: 0.0.1
+Title: Comprehensive Collection Of Color Palettes
+Description: The choices of color palettes in R can be quite overwhelming with 
+    palettes spread over many packages with many different API's. This packages
+    aims to collect all color palettes across the R ecosystem under the same
+    package with a streamlined API.
+Authors@R: person("Emil", "Hvitfeldt", email = "emilhhvitfeldt@gmail.com", role = c("aut", "cre"))
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true

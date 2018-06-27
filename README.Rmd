@@ -14,15 +14,15 @@ knitr::opts_chunk$set(
 
 # paletteer <img src="man/figures/logo.png" align="right" />
 
-<!---
 [![Travis build status](https://travis-ci.org/EmilHvitfeldt/paletteer.svg?branch=master)](https://travis-ci.org/EmilHvitfeldt/paletteer)
 [![Coverage status](https://codecov.io/gh/EmilHvitfeldt/paletteer/branch/master/graph/badge.svg)](https://codecov.io/github/EmilHvitfeldt/paletteer?branch=master)
 [![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/EmilHvitfeldt/paletteer?branch=master&svg=true)](https://ci.appveyor.com/project/EmilHvitfeldt/paletteer)
+<!---
 [![CRAN status](https://www.r-pkg.org/badges/version/paletteer)](https://cran.r-project.org/package=paletteer)
 [![CRAN_Download_Badge](http://cranlogs.r-pkg.org/badges/scico)](https://CRAN.R-project.org/package=scico)
 -->
 
-The goal of paletteer is to be a comprehensize collection of color palettes in r using a common API.
+The goal of paletteer is to be a comprehensize collection of color palettes in R using a common interface. Think of it as the "caret of palettes".
 
 ## Installation
 
@@ -34,7 +34,7 @@ install.packages("paletteer")
 ```
 -->
 
-If you want the development version then install directly from GitHub:
+the package is not yet on CRAN but ff you want the development version then install directly from GitHub:
 
 ```{r, eval=FALSE}
 # install.packages("devtools")
@@ -43,9 +43,9 @@ devtools::install_github("EmilHvitfeldt/paletteer")
 
 ## Palettes
 
-The palettes are divided into 2 groups; *discrete* and *continuous*. For discrete palette you have the choice between the *fixed width palettes* and *dynamic palettes*. Most common of the two are the fixed width palettes which have a set amout of colors which doesn't change when the number of colors requisted vary.
+The palettes are divided into 2 groups; *discrete* and *continuous*. For discrete palette you have the choice between the *fixed width palettes* and *dynamic palettes*. Most common of the two are the fixed width palettes which have a set amount of colors which doesn't change when the number of colors requisted vary like the following palettes:
 
-```{r}
+```{r echo=FALSE}
 library(paletteer)
 pals::pal.bands(
   paletteer_d("nord", "frost"),
@@ -56,9 +56,9 @@ pals::pal.bands(
   )
 ```
 
-on the other hand we have the dynamic palettes where the colors of the palette depend on the number of colors you need.
+on the other hand we have the dynamic palettes where the colors of the palette depend on the number of colors you need like the `green.pal` palette from the `cartography` package:
 
-```{r}
+```{r echo=FALSE}
 pals::pal.bands(
   paletteer_dynamic("cartography", "green.pal", 2),
   paletteer_dynamic("cartography", "green.pal", 5),
@@ -70,15 +70,48 @@ pals::pal.bands(
   )
 ```
 
-Names of current avaliable dicrete palettes.
+Lastly we have the continuous palettes which provides as many colors as you need for a smooth transition of color:
 
-```{r}
-palettes_discrete_names
+```{r echo=FALSE}
+library(paletteer)
+pals::pal.bands(
+  paletteer_c("viridis", "inferno", 256),
+  paletteer_c("grDevices", "terrain.colors", 256),
+  paletteer_c("scico", "berlin", 256), 
+  main = "continuous palettes",
+  labels = c("viridis\n inferno", "grDevices\n terrain.colors", "scico\n berlin")
+  )
 ```
 
-Names of current avaliable dynamic palettes.
+This package includes `r nrow(palettes_c_names) + nrow(palettes_d_names) + nrow(palettes_dynamic_names)` from `r length(unique(c(palettes_c_names$package, palettes_d_names$package, palettes_dynamic_names$package))) - 2` different packages and information about these can be found in the following data.frames: `palettes_c_names`, `palettes_d_names` and `palettes_dynamic_names`.
+
+## Examples
+
+All the palettes can be accessed from the 3 functions `paletteer_c()`, `paletteer_d()` and `paletteer_dynamic()` using the package and palette arguments.
 
 ```{r}
-palettes_dynamic_names
+paletteer_c(package = "scico", palette = "berlin", n = 10)
+paletteer_d("nord", "frost")
+paletteer_dynamic("cartography", "green.pal", 5)
+```
+
+All of the functions also support symbol argument such that you don't have to put your names in quotes
+
+```{r}
+paletteer_c(scico, berlin, 10)
+paletteer_d(nord, frost)
+paletteer_dynamic(cartography, green.pal, 5)
+```
+
+## ggplot2 scales
+
+Lastly the package also includes scales for `ggplot2` using the same standard interface
+
+```{r}
+library(ggplot2)
+
+ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +
+  geom_point() +
+  scale_color_paletteer_d(nord, aurora)
 ```
 

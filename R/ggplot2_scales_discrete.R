@@ -20,7 +20,7 @@ pal_pal <- function(package, palette, scale, direction, dynamic) {
 #' along with the `ggplot2` package. It goes without saying that it requires
 #' `ggplot2` to work.
 #'
-#' Avaliable package/palette combinations are avaliable in the data.frame
+#' Available package/palette combinations are available in the data.frame
 #' \code{\link[paletteer]{palettes_d_names}} and
 #' \code{\link[paletteer]{palettes_dynamic_names}}. Both `package` and
 #' `palette` can be supplied as symbols or strings.

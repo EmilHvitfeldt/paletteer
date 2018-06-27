@@ -1,6 +1,6 @@
 #' Get discrete palette by package and name
 #'
-#' Avaliable package/palette combinations are avaliable in the data.frame
+#' Available package/palette combinations are available in the data.frame
 #' \code{\link[paletteer]{palettes_d_names}}. Both `package` and `palette`
 #' can be supplied as symbols or strings.
 #'

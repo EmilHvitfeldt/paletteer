@@ -34,7 +34,7 @@ along with the \code{ggplot2} package. It goes without saying that it requires
 \code{ggplot2} to work.
 }
 \details{
-Avaliable package/palette combinations are avaliable in the data.frame
+Available package/palette combinations are available in the data.frame
 \code{\link[paletteer]{palettes_d_names}} and
 \code{\link[paletteer]{palettes_dynamic_names}}. Both \code{package} and
 \code{palette} can be supplied as symbols or strings.

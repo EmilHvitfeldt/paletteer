@@ -4,9 +4,12 @@
 \name{paletteer-package}
 \alias{paletteer}
 \alias{paletteer-package}
-\title{paletteer: What the Package Does (One Line, Title Case)}
+\title{paletteer: Comprehensive Collection Of Color Palettes}
 \description{
-What the package does (one paragraph).
+The choices of color palettes in R can be quite overwhelming with
+palettes spread over many packages with many different API's. This packages
+aims to collect all color palettes across the R ecosystem under the same
+package with a streamlined API.
 }
 \seealso{
 Useful links:
@@ -17,7 +20,7 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: First Last \email{first.last@example.com}
+\strong{Maintainer}: Emil Hvitfeldt \email{emilhhvitfeldt@gmail.com}
 
 }
 \keyword{internal}
