@@ -26,8 +26,7 @@ paletteer_c <- function(package, palette, n, direction = 1, scale = FALSE) {
     palette <- rlang::quo_name(rlang::enquo(palette))
   }
 
-  objs <- mget(ls("package:paletteer"), inherits = TRUE)
-  gen_fun <- get(paste0("paletteer_c_", package), objs)
+  gen_fun <- wrapper_c[[package]]
 
   out <- gen_fun(name = palette, n = n)
 
