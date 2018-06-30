@@ -4,8 +4,18 @@ language: R
 sudo: false
 cache: packages
 
-install:
-  - ./travis-tool.sh install_r oompaBase
+r_binary_packages:
+ - ggthemes
+ - jcolors
+ - oompaBase
+ - palr
+ - pals
+ - scico
+ - viridisLite
+ - rlang
+ - testthat
+ - ggplot2
+ - covr
 
 after_success:
     - Rscript -e 'covr::codecov()'
