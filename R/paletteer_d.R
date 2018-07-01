@@ -27,10 +27,12 @@ paletteer_d <- function (package, palette, n, direction = 1,
   package <- rlang::quo_name(rlang::enquo(package))
   palette <- rlang::quo_name(rlang::enquo(palette))
 
+  package <- match.arg(package, unique(paletteer::palettes_d_names$package))
+
   type <- match.arg(type)
   pal <- paletteer::palettes_d[[c(package, palette)]]
   if (is.null(pal))
-    stop("Palette not found. Make sure both package and palette name are spelled correct.")
+    stop("Palette not found. Make sure the palette name are spelled correct.")
   if (missing(n)) {
     n <- length(pal)
   }

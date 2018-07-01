@@ -23,6 +23,8 @@ paletteer_c <- function(package, palette, n, direction = 1) {
   package <- rlang::quo_name(rlang::enquo(package))
   palette <- rlang::quo_name(rlang::enquo(palette))
 
+  package <- match.arg(package, names(wrapper_c))
+
   gen_fun <- wrapper_c[[package]]
 
   out <- gen_fun(name = palette, n = n)
