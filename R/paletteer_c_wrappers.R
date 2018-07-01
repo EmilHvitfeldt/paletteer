@@ -13,23 +13,16 @@
 #' @rdname paleteer-c-wrapper
 paletteer_c_ggthemes <- function(name, n) {
 
-  ggthemes_c_seq_names <- names(ggthemes::ggthemes_data[[
-    c("tableau", "color-palettes", "ordered-sequential")
-    ]])
-  ggthemes_c_diq_names <- names(ggthemes::ggthemes_data[[
-    c("tableau", "color-palettes", "ordered-diverging")
-    ]])
+  ggthemes_c_seq_names <- names(ggthemes::ggthemes_data$tableau$sequential)
+  ggthemes_c_div_names <- names(ggthemes::ggthemes_data$tableau$diverging)
 
-  name <- match.arg(name, c(ggthemes_c_seq_names, ggthemes_c_diq_names))
+  name <- match.arg(name, c(ggthemes_c_seq_names, ggthemes_c_div_names))
 
   if (name %in% ggthemes_c_seq_names) {
-    type <- "ordered-sequential"
+    pal_gen <- ggthemes::tableau_seq_gradient_pal(palette = name)
   } else {
-    type <- "ordered-diverging"
+    type <- ggthemes::tableau_div_gradient_pal(palette = name)
   }
-
-  pal_gen <- ggthemes::tableau_gradient_pal(palette = name,
-                                            type = type)
 
   pal_gen(x = seq(0, 1, length.out = n))
 }

@@ -4,12 +4,8 @@ library(paletteer)
 library(stringr)
 
 
-ggthemes_c_seq_names <- names(ggthemes::ggthemes_data[[
-  c("tableau", "color-palettes", "ordered-sequential")
-  ]])
-ggthemes_c_diq_names <- names(ggthemes::ggthemes_data[[
-  c("tableau", "color-palettes", "ordered-diverging")
-  ]])
+ggthemes_c_seq_names <- names(ggthemes::ggthemes_data$tableau$sequential)
+ggthemes_c_diq_names <- names(ggthemes::ggthemes_data$tableau$diverging)
 
 ggthemes_df <- tibble(package = "ggthemes",
            palette = c(ggthemes_c_seq_names, ggthemes_c_diq_names))
