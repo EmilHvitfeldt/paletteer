@@ -27,6 +27,9 @@ Imports:
 Suggests: 
     covr,
     testthat,
-    ggplot2
+    ggplot2,
+    knitr,
+    rmarkdown
 Remotes: 
     jaredhuling/jcolors
+VignetteBuilder: knitr
