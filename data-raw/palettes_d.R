@@ -32,48 +32,37 @@ ggpomological_pals <- list(
 )
 
 ## ggthemes excel
-ggthemes_excel_pals <- lapply(ggthemes::ggthemes_data$excel$themes,
-                              function(x) x[["accents"]])
+ggthemes_excel_pals <- ggthemes::ggthemes_data$excel
 names(ggthemes_excel_pals) <- paste("excel", names(ggthemes_excel_pals), sep = "_")
 
 ## ggthemes tableau
-ggthemes_tableau_pals <- lapply(ggthemes::ggthemes_data$tableau$`color-palettes`$regular,
-                                function(x) x[["value"]])
+ggthemes_tableau_pals <- lapply(ggthemes::ggthemes_data$tableau$colors, unname)
 names(ggthemes_tableau_pals) <- paste("tableau", names(ggthemes_tableau_pals), sep = "_")
 
 ggthemes_pals <- c(
   list(
-    calc = ggthemes::ggthemes_data$calc$colors$value,
-    colorblind = ggthemes::ggthemes_data$colorblind$value,
-    economist_bg = ggthemes::ggthemes_data$economist$bg$value,
-    economist_fg = ggthemes::ggthemes_data$economist$fg$value
+    calc = unname(ggthemes::ggthemes_data$calc$colors),
+    colorblind = unname(ggthemes::ggthemes_data$colorblind),
+    economist_bg = unname(ggthemes::ggthemes_data$economist$bg),
+    economist_fg = unname(ggthemes::ggthemes_data$economist$fg)
   ),
   ggthemes_excel_pals,
   list(
-    few_light = ggthemes::ggthemes_data$few$colors$Light$value,
-    few_medium = ggthemes::ggthemes_data$few$colors$Medium$value,
-    few_dark = ggthemes::ggthemes_data$few$colors$Dark$value,
-    fivethirtyeight = ggthemes::ggthemes_data$fivethirtyeight$value,
-    gdocs = ggthemes::ggthemes_data$gdocs$colors$value,
-    hc_default = ggthemes::ggthemes_data$hc$default,
-    hc_darkunica = ggthemes::ggthemes_data$hc$darkunica,
-    solarized_base = unlist(lapply(ggthemes::ggthemes_data$solarized$Base,
-                                   function(x)
-                                     x[["value"]])),
-    solarized_accents = unlist(
-      lapply(ggthemes::ggthemes_data$solarized$Accents,
-             function(x)
-               x[["value"]])
-    ),
-    stata_s2color = ggthemes::ggthemes_data$stata$colors$schemes$s2color$value,
-    stata_s1rcolor = ggthemes::ggthemes_data$stata$colors$schemes$s1rcolor$value,
-    stata_s1color = ggthemes::ggthemes_data$stata$colors$schemes$s1color$value,
-    stata_mono = ggthemes::ggthemes_data$stata$colors$schemes$mono$value,
-    wsj_rgby = ggthemes::ggthemes_data$wsj$palettes$rgby$value,
-    wsj_red_green = ggthemes::ggthemes_data$wsj$palettes$red_green$value,
-    wsj_black_green = ggthemes::ggthemes_data$wsj$palettes$black_green$value,
-    wsj_dem_rep = ggthemes::ggthemes_data$wsj$palettes$dem_rep$value,
-    wsj_colors6 = ggthemes::ggthemes_data$wsj$palettes$colors6$value
+    few_light = unname(ggthemes::ggthemes_data$few$light),
+    few_medium = unname(ggthemes::ggthemes_data$few$medium),
+    few_dark = unname(ggthemes::ggthemes_data$few$dark),
+    fivethirtyeight = unname(ggthemes::ggthemes_data$fivethirtyeight),
+    gdocs = unname(ggthemes::ggthemes_data$gdocs),
+    hc_default = unname(ggthemes::ggthemes_data$hc$palettes$default),
+    hc_darkunica = unname(ggthemes::ggthemes_data$hc$palettes$darkunica),
+    solarized_base = unname(ggthemes::ggthemes_data$solarized$base),
+    solarized_accents = unname(ggthemes::ggthemes_data$solarized$accents),
+    stata_colors = unname(ggthemes::ggthemes_data$stata$colors),
+    wsj_rgby = unname(ggthemes::ggthemes_data$wsj$palettes$rgby),
+    wsj_red_green = unname(ggthemes::ggthemes_data$wsj$palettes$red_green),
+    wsj_black_green = unname(ggthemes::ggthemes_data$wsj$palettes$black_green),
+    wsj_dem_rep = unname(ggthemes::ggthemes_data$wsj$palettes$dem_rep),
+    wsj_colors6 = unname(ggthemes::ggthemes_data$wsj$palettes$colors6)
   ),
   ggthemes_tableau_pals
 )
