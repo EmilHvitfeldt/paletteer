@@ -122,6 +122,9 @@ nord_pals <- nord:::nord_palettes
 ## ochRe
 ochRe_pals <- ochRe::ochre_palettes
 
+## palettetown
+palettetown_pals <- palettetown:::pokeColours
+
 ## pals
 pals_pals <- lapply(
   list(
@@ -202,6 +205,7 @@ palettes_d <- list(
   NineteenEightyR = NineteenEightyR_pals,
   nord = nord_pals,
   ochRe = ochRe_pals,
+  palettetown = palettetown_pals,
   pals = pals_pals,
   Polychrome = Polychrome_pals,
   quickpalette = quickpalette_pals,

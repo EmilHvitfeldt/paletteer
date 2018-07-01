@@ -133,6 +133,7 @@ paletteer incldues palettes from the following packages:
 - NineteenEightyR [github](https://github.com/m-clark/NineteenEightyR)
 - nord [github](https://github.com/jkaupp/nord) [CRAN](https://cran.r-project.org/web/packages/nord/index.html)
 - oompaBase [CRAN](https://cran.r-project.org/web/packages/oompaBase/index.html)
+- palettetown [github](https://github.com/timcdlucas/palettetown) [CRAN](https://cran.r-project.org/web/packages/palettetown/index.html)
 - palr [github](https://github.com/AustralianAntarcticDivision/palr) [CRAN](https://cran.r-project.org/web/packages/palr/index.html)
 - pals [github](https://github.com/kwstat/pals) [CRAN](https://cran.r-project.org/web/packages/pals/index.html)
 - Polychrome [CRAN](https://cran.r-project.org/web/packages/Polychrome/index.html)

@@ -42,7 +42,7 @@ Lastly we have the continuous palettes which provides as many colors as you need
 
 ![](man/figures/README-unnamed-chunk-4-1.png)
 
-This package includes 647 from 27 different packages and information about these can be found in the following data.frames: `palettes_c_names`, `palettes_d_names` and `palettes_dynamic_names`.
+This package includes 966 from 28 different packages and information about these can be found in the following data.frames: `palettes_c_names`, `palettes_d_names` and `palettes_dynamic_names`.
 
 Examples
 --------
@@ -105,6 +105,7 @@ paletteer incldues palettes from the following packages:
 -   NineteenEightyR [github](https://github.com/m-clark/NineteenEightyR)
 -   nord [github](https://github.com/jkaupp/nord) [CRAN](https://cran.r-project.org/web/packages/nord/index.html)
 -   oompaBase [CRAN](https://cran.r-project.org/web/packages/oompaBase/index.html)
+-   palettetown [github](https://github.com/timcdlucas/palettetown) [CRAN](https://cran.r-project.org/web/packages/palettetown/index.html)
 -   palr [github](https://github.com/AustralianAntarcticDivision/palr) [CRAN](https://cran.r-project.org/web/packages/palr/index.html)
 -   pals [github](https://github.com/kwstat/pals) [CRAN](https://cran.r-project.org/web/packages/pals/index.html)
 -   Polychrome [CRAN](https://cran.r-project.org/web/packages/Polychrome/index.html)

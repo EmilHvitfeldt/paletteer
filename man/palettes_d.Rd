@@ -4,7 +4,7 @@
 \name{palettes_d}
 \alias{palettes_d}
 \title{Complete list of fixed discrete palettes}
-\format{A list of 22 lists.}
+\format{A list of 23 lists.}
 \usage{
 palettes_d
 }
