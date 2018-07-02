@@ -6,7 +6,8 @@ Description: The choices of color palettes in R can be quite overwhelming with
     aims to collect all color palettes across the R ecosystem under the same
     package with a streamlined API.
 Authors@R: person("Emil", "Hvitfeldt", email = "emilhhvitfeldt@gmail.com", role = c("aut", "cre"))
-License: MIT + file LICENSE
+License: GPL-3
+Copyright: file COPYRIGHTS
 Encoding: UTF-8
 LazyData: true
 URL: https://github.com/EmilHvitfeldt/paletteer
