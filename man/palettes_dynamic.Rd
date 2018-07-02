@@ -11,7 +11,7 @@ palettes_dynamic
 \description{
 A list of all the dynamic palettes included in this package. Structured as
 a list of lists with the first level being each package and the second level
-being the palettes avaliable in that package, and the third level being the
+being the palettes available in that package, and the third level being the
 palettes for various lengths.
 }
 \details{
