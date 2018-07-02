@@ -35,4 +35,6 @@ In the file `R/data.R` update the format for `palettes_d` and `palettes_d_names`
 
 run `devtools::document()`.  
 
+Include license reference in `LICENSE` file
+
 Include reference in the end of README.Rmd and knit to finish.
