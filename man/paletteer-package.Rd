@@ -4,7 +4,7 @@
 \name{paletteer-package}
 \alias{paletteer}
 \alias{paletteer-package}
-\title{paletteer: Comprehensive Collection Of Color Palettes}
+\title{paletteer: Comprehensive Collection of Color Palettes}
 \description{
 The choices of color palettes in R can be quite overwhelming with
 palettes spread over many packages with many different API's. This packages

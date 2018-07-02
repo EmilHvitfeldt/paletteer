@@ -20,7 +20,7 @@ or symbol.}
 A vector of colors.
 }
 \description{
-Available package/palette combinations are avaliable in the data.frame
+Available package/palette combinations are available in the data.frame
 \code{\link[paletteer]{palettes_dynamic_names}}. Both \code{package} and \code{palette} can
 be supplied as symbols or strings.
 }
