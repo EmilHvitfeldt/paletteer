@@ -4,7 +4,6 @@
 \alias{paleteer-c-wrapper}
 \alias{paletteer_c_ggthemes}
 \alias{paletteer_c_grDevices}
-\alias{paletteer_c_jcolors}
 \alias{paletteer_c_oompaBase}
 \alias{paletteer_c_palr}
 \alias{paletteer_c_pals}
@@ -15,8 +14,6 @@
 paletteer_c_ggthemes(name, n)
 
 paletteer_c_grDevices(name, n)
-
-paletteer_c_jcolors(name, n)
 
 paletteer_c_oompaBase(name, n)
 

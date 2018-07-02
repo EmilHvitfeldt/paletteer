@@ -11,7 +11,6 @@
 #' @param direction Either `1` or `-1`. If `-1` the palette will be reversed.
 #' @return A vector of colors.
 #' @examples
-#' paletteer_c(jcolors, pal10, 10)
 #' paletteer_c(scico, berlin, 100)
 #' @export
 paletteer_c <- function(package, palette, n, direction = 1) {

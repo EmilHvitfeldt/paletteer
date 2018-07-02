@@ -1,5 +1,5 @@
 Package: paletteer
-Version: 0.0.1.9000
+Version: 0.1.0
 Title: Comprehensive Collection Of Color Palettes
 Description: The choices of color palettes in R can be quite overwhelming with 
     palettes spread over many packages with many different API's. This packages
@@ -30,6 +30,4 @@ Suggests:
     ggplot2,
     knitr,
     rmarkdown
-Remotes: 
-    jaredhuling/jcolors
 VignetteBuilder: knitr

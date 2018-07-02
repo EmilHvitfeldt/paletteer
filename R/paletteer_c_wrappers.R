@@ -35,15 +35,6 @@ paletteer_c_grDevices <- function(name, n) {
 }
 
 #' @rdname paleteer-c-wrapper
-paletteer_c_jcolors <- function(name, n) {
-  name <- match.arg(name, c("default", "pal2", "pal3", "pal4", "pal10",
-                            "pal11", "pal12", "rainbow"))
-  pal_gen <- jcolors::jcolors_contin(palette = name)
-
-  pal_gen(n = n)
-}
-
-#' @rdname paleteer-c-wrapper
 paletteer_c_oompaBase <- function(name, n) {
   pal_gen <- getExportedValue("oompaBase", name)
 
@@ -83,7 +74,6 @@ paletteer_c_viridis <- function(name, n) {
 wrapper_c <- list(
   ggthemes = paletteer_c_ggthemes,
   grDevices = paletteer_c_grDevices,
-  jcolors = paletteer_c_jcolors,
   oompaBase = paletteer_c_oompaBase,
   palr = paletteer_c_palr,
   pals = paletteer_c_pals,

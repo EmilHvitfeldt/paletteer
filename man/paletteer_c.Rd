@@ -25,6 +25,5 @@ Available package/palette combinations are available in the data.frame
 be supplied as symbols or strings.
 }
 \examples{
-paletteer_c(jcolors, pal10, 10)
 paletteer_c(scico, berlin, 100)
 }
