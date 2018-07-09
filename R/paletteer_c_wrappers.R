@@ -13,8 +13,20 @@
 #' @rdname paleteer-c-wrapper
 paletteer_c_ggthemes <- function(name, n) {
 
-  ggthemes_c_seq_names <- names(ggthemes::ggthemes_data$tableau$sequential)
-  ggthemes_c_div_names <- names(ggthemes::ggthemes_data$tableau$diverging)
+  ggthemes_c_seq_names <- c("Red", "Green", "Blue", "Orange", "Gray",
+                            "Red Light", "Green Light", "Blue Light",
+                            "Orange Light", "Area Red" , "Area Green",
+                            "Area Brown", "Blue-Green Sequential",
+                            "Brown Sequential", "Purple Sequential",
+                            "Grey Sequential")
+
+  ggthemes_c_div_names <- c("Red-Blue", "Red-Green", "Red-White-Green",
+                            "Red-Black", "Red-White-Black","Green-Blue",
+                            "Orange-Blue", "Orange-White-Blue",
+                            "Red-Green Light", "Red-White-Green Light",
+                            "Red-White-Black Light", "Orange-Blue Light",
+                            "Orange-White-Blue Light", "Orange-Blue",
+                            "Light Red-Green", "Temperature")
 
   name <- match.arg(name, c(ggthemes_c_seq_names, ggthemes_c_div_names))
 
