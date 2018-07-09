@@ -19,8 +19,4 @@ Useful links:
 }
 
 }
-\author{
-\strong{Maintainer}: Emil Hvitfeldt \email{emilhhvitfeldt@gmail.com}
-
-}
 \keyword{internal}

@@ -4,7 +4,9 @@ This is a resubmission. In this version I have:
 * More clearly specified the overall license of the package to match the 
   LICENSE files.
 * Changed the lisence field in the DESCRIPTION file to "GPL-3".
-* remaned LICENSE file to LICENSE.note.
+* Remaned LICENSE file to LICENSE.note.
+* Create and reference AUTHORS file.
+* Referenced LICENSE.note file in DESCRIPTION.
 
 ## Test environments
 * local OS X install, R 3.5.0
