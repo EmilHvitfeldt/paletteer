@@ -135,6 +135,7 @@ paletteer incldues palettes from the following packages:
     [CRAN](https://cran.r-project.org/web/packages/nord/index.html)
   - oompaBase
     [CRAN](https://cran.r-project.org/web/packages/oompaBase/index.html)
+  - ochRe [github](https://github.com/ropenscilabs/ochRe)
   - palettetown [github](https://github.com/timcdlucas/palettetown)
     [CRAN](https://cran.r-project.org/web/packages/palettetown/index.html)
   - palr [github](https://github.com/AustralianAntarcticDivision/palr)
