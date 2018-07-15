@@ -33,7 +33,7 @@ paletteer_c_ggthemes <- function(name, n) {
   if (name %in% ggthemes_c_seq_names) {
     pal_gen <- ggthemes::tableau_seq_gradient_pal(palette = name)
   } else {
-    type <- ggthemes::tableau_div_gradient_pal(palette = name)
+    pal_gen <- ggthemes::tableau_div_gradient_pal(palette = name)
   }
 
   pal_gen(x = seq(0, 1, length.out = n))
