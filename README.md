@@ -58,6 +58,9 @@ you need for a smooth transition of color:
 This package includes 958 from 28 different packages and information
 about these can be found in the following data.frames:
 `palettes_c_names`, `palettes_d_names` and `palettes_dynamic_names`.
+Additionally this [github
+repo](https://github.com/EmilHvitfeldt/r-color-palettes) showcases all
+the palettes included in the package and more.
 
 ## Examples
 
