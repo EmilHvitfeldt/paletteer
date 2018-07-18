@@ -4,18 +4,20 @@
 \name{palettes_dynamic_names}
 \alias{palettes_dynamic_names}
 \title{Names of all fixed discrete palettes}
-\format{A data.frame of 25 observations with 3 variables:
+\format{A data.frame of 25 observations with 4 variables:
 \describe{
 \item{package}{character, name of package}
 \item{palette}{character, name of palette}
 \item{length}{integer, maximal number of colors in palette}
+\item{type}{character, type of palette}
+
 }}
 \usage{
 palettes_dynamic_names
 }
 \description{
-A data.frame of the names and lengths of the dynamic palettes included in
-this package.
+A data.frame of the names and other characteristics of the dynamic palettes
+included in this package.
 }
 \details{
 Contains palettes from the following packages: cartography and ggthemes.

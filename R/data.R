@@ -16,8 +16,8 @@
 
 #' Names of all fixed discrete palettes
 #'
-#' A data.frame of the names and lengths of the discrete palettes of fixed
-#' lengths included in this package.
+#' A data.frame of the names and other characteristics of the discrete palettes
+#' of fixed lengths included in this package.
 #'
 #' Contains palettes names from the following packages: awtools, dichromat,
 #' dutchmasters, ggsci, ggpomological, ggthemes, ghibli, grDevices, jcolors,
@@ -26,11 +26,12 @@
 #'
 #' Full list of palette can be found here \code{\link{palettes_d}}.
 #'
-#' @format A data.frame of 785 observations with 3 variables:
+#' @format A data.frame of 785 observations with 4 variables:
 #' \describe{
 #'   \item{package}{character, name of package}
 #'   \item{palette}{character, name of palette}
 #'   \item{length}{integer, number of colors in palette}
+#'   \item{type}{character, type of palette}
 #' }
 "palettes_d_names"
 
@@ -50,32 +51,35 @@
 
 #' Names of all fixed discrete palettes
 #'
-#' A data.frame of the names and lengths of the dynamic palettes included in
-#' this package.
+#' A data.frame of the names and other characteristics of the dynamic palettes
+#' included in this package.
 #'
 #' Contains palettes from the following packages: cartography and ggthemes.
 #'
 #' Full list of palette can be found here \code{\link{palettes_dynamic}}.
 #'
-#' @format A data.frame of 25 observations with 3 variables:
+#' @format A data.frame of 25 observations with 4 variables:
 #' \describe{
 #'   \item{package}{character, name of package}
 #'   \item{palette}{character, name of palette}
 #'   \item{length}{integer, maximal number of colors in palette}
+#'   \item{type}{character, type of palette}
+#'
 #' }
 "palettes_dynamic_names"
 
 #' Names of all continuous palettes
 #'
-#' A data.frame of the names and lengths of the continuous palettes included in
-#' this package.
+#' A data.frame of the names and other characteristics of the continuous
+#' palettes included in this package.
 #'
 #' Contains palettes names from the following packages: ggthemes, grDevices,
 #' jcolors, oompaBase, palr, pals, scico and viridis.
 #'
-#' @format A data.frame of 156 observations with 2 variables:
+#' @format A data.frame of 156 observations with 3 variables:
 #' \describe{
 #'   \item{package}{character, name of package}
 #'   \item{palette}{character, name of palette}
+#'   \item{type}{character, type of palette}
 #' }
 "palettes_c_names"
