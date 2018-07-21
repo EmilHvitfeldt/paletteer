@@ -6,14 +6,14 @@
 \alias{scale_fill_paletteer_d}
 \title{Discrete scales to use for ggplot2}
 \usage{
-scale_colour_paletteer_d(package, palette, direction = 1, dynamic = FALSE,
-  ...)
+scale_colour_paletteer_d(package, palette, direction = 1,
+  dynamic = FALSE, ...)
 
-scale_color_paletteer_d(package, palette, direction = 1, dynamic = FALSE,
-  ...)
+scale_color_paletteer_d(package, palette, direction = 1,
+  dynamic = FALSE, ...)
 
-scale_fill_paletteer_d(package, palette, direction = 1, dynamic = FALSE,
-  ...)
+scale_fill_paletteer_d(package, palette, direction = 1,
+  dynamic = FALSE, ...)
 }
 \arguments{
 \item{package}{Name of package from which the palette is desired as string

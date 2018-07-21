@@ -6,10 +6,12 @@
 \alias{paletteer-package}
 \title{paletteer: Comprehensive Collection of Color Palettes}
 \description{
-The choices of color palettes in R can be quite overwhelming with
-palettes spread over many packages with many different API's. This packages
-aims to collect all color palettes across the R ecosystem under the same
-package with a streamlined API.
+\if{html}{\figure{logo.png}{options: align='right'}}
+
+The choices of color palettes in R can be quite overwhelming with 
+    palettes spread over many packages with many different API's. This packages
+    aims to collect all color palettes across the R ecosystem under the same
+    package with a streamlined API.
 }
 \seealso{
 Useful links:
@@ -17,6 +19,10 @@ Useful links:
   \item \url{https://github.com/EmilHvitfeldt/paletteer}
   \item Report bugs at \url{https://github.com/EmilHvitfeldt/paletteer/issues}
 }
+
+}
+\author{
+\strong{Maintainer}: Emil Hvitfeldt \email{emilhhvitfeldt@gmail.com}
 
 }
 \keyword{internal}

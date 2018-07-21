@@ -1,3 +1,5 @@
+^docs$
+^_pkgdown\.yml$
 ^paletteer\.Rproj$
 ^\.Rproj\.user$
 ^README\.Rmd$
