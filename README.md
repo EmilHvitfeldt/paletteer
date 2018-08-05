@@ -13,13 +13,13 @@ status](https://www.r-pkg.org/badges/version/paletteer)](https://cran.r-project.
 [![Coverage
 status](https://codecov.io/gh/EmilHvitfeldt/paletteer/branch/master/graph/badge.svg)](https://codecov.io/github/EmilHvitfeldt/paletteer?branch=master)
 
-The goal of paletteer is to be a comprehensize collection of color
+The goal of **paletteer** is to be a comprehensive collection of color
 palettes in R using a common interface. Think of it as the “caret of
 palettes”.
 
 ## Installation
 
-You can install the released version of paletteer from
+You can install the released version of **paletteer** from
 [CRAN](https://CRAN.R-project.org) with:
 
 ``` r
@@ -40,7 +40,7 @@ The palettes are divided into 2 groups; *discrete* and *continuous*. For
 discrete palette you have the choice between the *fixed width palettes*
 and *dynamic palettes*. Most common of the two are the fixed width
 palettes which have a set amount of colors which doesn’t change when the
-number of colors requisted vary like the following palettes:
+number of colors requested vary like the following palettes:
 
 ![](man/figures/README-unnamed-chunk-2-1.png)<!-- -->
 
@@ -113,7 +113,7 @@ ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +
 
 ## Included packages
 
-paletteer incldues palettes from the following packages:
+**paletteer** includes palettes from the following packages:
 
   - awtools [github](https://github.com/awhstin/awtools)
   - cartography [github](https://github.com/riatelab/cartography)
