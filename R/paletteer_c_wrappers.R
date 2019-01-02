@@ -13,22 +13,33 @@
 #' @rdname paleteer-c-wrapper
 paletteer_c_ggthemes <- function(name, n) {
 
-  ggthemes_c_seq_names <- c("Red", "Green", "Blue", "Orange", "Gray",
-                            "Red Light", "Green Light", "Blue Light",
-                            "Orange Light", "Area Red" , "Area Green",
-                            "Area Brown", "Blue-Green Sequential",
-                            "Brown Sequential", "Purple Sequential",
-                            "Grey Sequential")
+  ggthemes_c_seq_names <- c("Blue-Green Sequential", "Blue Light", "Orange Light", "Blue", "Orange",
+                            "Green", "Red", "Purple", "Brown", "Gray", "Gray Warm", "Blue-Teal",
+                            "Orange-Gold", "Green-Gold", "Red-Gold", "Classic Green", "Classic Gray",
+                            "Classic Blue", "Classic Red", "Classic Orange", "Classic Area Red",
+                            "Classic Area Green", "Classic Area-Brown")
 
-  ggthemes_c_div_names <- c("Red-Blue", "Red-Green", "Red-White-Green",
-                            "Red-Black", "Red-White-Black","Green-Blue",
-                            "Orange-Blue", "Orange-White-Blue",
-                            "Red-Green Light", "Red-White-Green Light",
-                            "Red-White-Black Light", "Orange-Blue Light",
-                            "Orange-White-Blue Light", "Orange-Blue",
-                            "Light Red-Green", "Temperature")
+  ggthemes_c_div_names <- c("Orange-Blue Diverging", "Red-Green Diverging", "Green-Blue Diverging",
+                            "Red-Blue Diverging", "Red-Black Diverging", "Gold-Purple Diverging",
+                            "Red-Green-Gold Diverging", "Sunset-Sunrise Diverging", "Orange-Blue-White Diverging",
+                            "Red-Green-White Diverging", "Green-Blue-White Diverging", "Red-Blue-White Diverging",
+                            "Red-Black-White Diverging", "Orange-Blue Light Diverging", "Temperature Diverging",
+                            "Classic Red-Green", "Classic Red-Blue", "Classic Red-Black", "Classic Area Red-Green",
+                            "Classic Orange-Blue", "Classic Green-Blue", "Classic Red-White-Green",
+                            "Classic Red-White-Black", "Classic Orange-White-Blue", "Classic Red-White-Black Light",
+                            "Classic Orange-White-Blue Light", "Classic Red-White-Green Light",
+                            "Classic Red-Green Light")
 
-  name <- match.arg(name, c(ggthemes_c_seq_names, ggthemes_c_div_names))
+  name <- try(match.arg(name, c(ggthemes_c_seq_names,ggthemes_c_div_names)),silent = T)
+
+  if (class(name) == 'try-error') {
+    ggthemes_list <- paste(c(ggthemes_c_seq_names,
+                             ggthemes_c_div_names),
+                           collapse = '\n')
+    stop(sprintf('Error in match.arg, "arg" should be one of: \n%s',
+                 dd))
+
+  }
 
   if (name %in% ggthemes_c_seq_names) {
     pal_gen <- ggthemes::tableau_seq_gradient_pal(palette = name)
