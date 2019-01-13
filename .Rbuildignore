@@ -1,3 +1,4 @@
+^\.github$
 ^docs$
 ^_pkgdown\.yml$
 ^paletteer\.Rproj$
@@ -9,3 +10,4 @@
 ^codecov\.yml$
 ^appveyor\.yml$
 ^cran-comments\.md$
+^CONTRIBUTING\.md$
