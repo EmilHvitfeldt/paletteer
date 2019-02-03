@@ -90,6 +90,11 @@ paletteer_c_viridis <- function(name, n) {
   pal_gen(n = n)
 }
 
+#' @rdname paleteer-c-wrapper
+paletteer_c_harrypotter <- function(name, n) {
+  harrypotter::hp(n = n, option = name)
+}
+
 #' List of all wrapper functions used in paletteer_c
 #'
 #' @format Named list of all wrapper functions
@@ -97,6 +102,7 @@ paletteer_c_viridis <- function(name, n) {
 wrapper_c <- list(
   ggthemes = paletteer_c_ggthemes,
   grDevices = paletteer_c_grDevices,
+  harrypotter = paletteer_c_harrypotter,
   oompaBase = paletteer_c_oompaBase,
   palr = paletteer_c_palr,
   pals = paletteer_c_pals,

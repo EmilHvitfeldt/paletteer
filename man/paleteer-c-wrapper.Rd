@@ -9,6 +9,7 @@
 \alias{paletteer_c_pals}
 \alias{paletteer_c_scico}
 \alias{paletteer_c_viridis}
+\alias{paletteer_c_harrypotter}
 \title{Wrappers around continuous palette functions by package}
 \usage{
 paletteer_c_ggthemes(name, n)
@@ -24,6 +25,8 @@ paletteer_c_pals(name, n)
 paletteer_c_scico(name, n)
 
 paletteer_c_viridis(name, n)
+
+paletteer_c_harrypotter(name, n)
 }
 \arguments{
 \item{name}{Character, name of palette.}

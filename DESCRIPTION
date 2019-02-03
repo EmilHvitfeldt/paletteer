@@ -21,6 +21,7 @@ Imports:
     ggthemes,
     jcolors,
     oompaBase,
+    harrypotter (>= 2.1.0), 
     palr,
     pals,
     scico,

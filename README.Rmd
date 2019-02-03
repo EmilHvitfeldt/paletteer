@@ -128,6 +128,7 @@ ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +
 - ggthemes [github](https://github.com/jrnold/ggthemes) [CRAN](https://cran.r-project.org/web/packages/ggthemes/index.html)
 - ghibli [github](https://github.com/ewenme/ghibli) [CRAN](https://cran.r-project.org/web/packages/ghibli/index.html)
 - grDevices [CRAN](https://cran.r-project.org/web/packages/RGraphics/index.html)
+- harrypotter [github](https://github.com/aljrico/harrypotter) [CRAN](https://cran.r-project.org/web/packages/harrypotter)
 - jcolors [github](https://github.com/jaredhuling/jcolors) [CRAN](https://cran.r-project.org/web/packages/jcolors/index.html)
 - LaCroixColoR [github](https://github.com/johannesbjork/LaCroixColoR)
 - NineteenEightyR [github](https://github.com/m-clark/NineteenEightyR)

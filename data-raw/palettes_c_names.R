@@ -57,10 +57,15 @@ other_df <- tribble(
   "viridis", "cividis", "sequential"
 ) %>% as.data.frame()
 
+harrypotter_df <- tibble(package = "harrypotter",
+                         palette = unique(harrypotter::hp.map$option),
+                         type = "sequential")
+
 palettes_c_names <- dplyr::bind_rows(ggthemes_df,
                                      pals_df,
                                      scico_df,
-                                     other_df) %>%
+                                     other_df,
+                                     harrypotter_df) %>%
   dplyr::arrange(package) %>%
   as.data.frame()
 

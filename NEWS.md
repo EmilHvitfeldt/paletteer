@@ -1,6 +1,7 @@
 # paletteer 0.1.0.9000
 
 * Description of how to add palettes have been moved from a vignette to CONTRIBUTION.md.
+* 15 palettes have been added from the harrypotter package.
 
 # paletteer 0.1.0
 

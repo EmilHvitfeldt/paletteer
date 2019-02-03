@@ -76,7 +76,7 @@
 #' Contains palettes names from the following packages: ggthemes, grDevices,
 #' jcolors, oompaBase, palr, pals, scico and viridis.
 #'
-#' @format A data.frame of 174 observations with 3 variables:
+#' @format A data.frame of 189 observations with 3 variables:
 #' \describe{
 #'   \item{package}{character, name of package}
 #'   \item{palette}{character, name of palette}
