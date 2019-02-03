@@ -2,6 +2,7 @@
 
 * Description of how to add palettes have been moved from a vignette to CONTRIBUTION.md.
 * 15 palettes have been added from the harrypotter package.
+* 16 palettes have been added from the gameofthrones package.
 
 # paletteer 0.1.0
 

@@ -73,10 +73,11 @@
 #' A data.frame of the names and other characteristics of the continuous
 #' palettes included in this package.
 #'
-#' Contains palettes names from the following packages: ggthemes, grDevices,
-#' jcolors, oompaBase, palr, pals, scico and viridis.
+#' Contains palettes names from the following packages: gameofthrones,
+#' ggthemes, grDevices, harrypotter, jcolors, oompaBase, palr, pals,
+#' scico and viridis.
 #'
-#' @format A data.frame of 189 observations with 3 variables:
+#' @format A data.frame of 205 observations with 3 variables:
 #' \describe{
 #'   \item{package}{character, name of package}
 #'   \item{palette}{character, name of palette}

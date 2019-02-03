@@ -61,11 +61,16 @@ harrypotter_df <- tibble(package = "harrypotter",
                          palette = unique(harrypotter::hp.map$option),
                          type = "sequential")
 
+gameofthrones_df <- tibble(package = "harrypotter",
+                           palette = unique(gameofthrones::got.map$house),
+                           type = "sequential")
+
 palettes_c_names <- dplyr::bind_rows(ggthemes_df,
                                      pals_df,
                                      scico_df,
                                      other_df,
-                                     harrypotter_df) %>%
+                                     harrypotter_df,
+                                     gameofthrones_df) %>%
   dplyr::arrange(package) %>%
   as.data.frame()
 

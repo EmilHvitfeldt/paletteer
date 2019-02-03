@@ -55,7 +55,7 @@ you need for a smooth transition of color:
 
 ![](man/figures/README-unnamed-chunk-4-1.png)<!-- -->
 
-This package includes 999 from 29 different packages and information
+This package includes 1015 from 29 different packages and information
 about these can be found in the following data.frames:
 `palettes_c_names`, `palettes_d_names` and `palettes_dynamic_names`.
 Additionally this [github
@@ -121,6 +121,8 @@ ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +
   - dichromat
     [CRAN](https://cran.r-project.org/web/packages/dichromat/index.html)
   - dutchmasters [github](https://github.com/EdwinTh/dutchmasters)
+  - gameofthrones [github](https://github.com/aljrico/gameofthrones)
+    [CRAN](https://cran.r-project.org/web/packages/gameofthrones/index.html)
   - ggsci [github](https://github.com/road2stat/ggsci)
     [CRAN](https://cran.r-project.org/web/packages/ggsci/index.html)
   - ggpomological [github](https://github.com/gadenbuie/ggpomological)
