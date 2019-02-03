@@ -30,14 +30,14 @@ paletteer_c_ggthemes <- function(name, n) {
                             "Classic Orange-White-Blue Light", "Classic Red-White-Green Light",
                             "Classic Red-Green Light")
 
-  name <- try(match.arg(name, c(ggthemes_c_seq_names,ggthemes_c_div_names)),silent = T)
+  name <- try(match.arg(name, c(ggthemes_c_seq_names, ggthemes_c_div_names)), silent = T)
 
   if (class(name) == 'try-error') {
     ggthemes_list <- paste(c(ggthemes_c_seq_names,
                              ggthemes_c_div_names),
                            collapse = '\n')
     stop(sprintf('Error in match.arg, "arg" should be one of: \n%s',
-                 dd))
+                 ggthemes_list))
 
   }
 

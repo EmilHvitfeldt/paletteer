@@ -3,9 +3,8 @@ library(magrittr)
 library(paletteer)
 library(stringr)
 
-
-ggthemes_c_seq_names <- names(ggthemes::ggthemes_data$tableau$sequential)
-ggthemes_c_diq_names <- names(ggthemes::ggthemes_data$tableau$diverging)
+ggthemes_c_seq_names <- names(ggthemes::ggthemes_data$tableau$`color-palettes`$`ordered-sequential`)
+ggthemes_c_diq_names <- names(ggthemes::ggthemes_data$tableau$`color-palettes`$`ordered-diverging`)
 
 ggthemes_df <- tibble(
   package = "ggthemes",
@@ -13,7 +12,6 @@ ggthemes_df <- tibble(
   type = c(rep("sequential", length(ggthemes_c_seq_names)),
            rep("diverging", length(ggthemes_c_diq_names)))
   )
-
 
 pals_df <- tibble(package = "pals",
        palette = names(pals:::syspals)) %>%
@@ -27,13 +25,13 @@ pals_df <- tibble(package = "pals",
 
 scico_df <- tibble(package = "scico",
                    palette = names(scico:::palettes)) %>%
-  dplyr::mutate(type = c(rep("diverging", 1), rep("sequential", 1),
-                         rep("diverging", 2), rep("sequential", 5),
-                         rep("diverging", 1), rep("sequential", 3),
-                         rep("diverging", 1), rep("sequential", 2),
-                         rep("diverging", 1)))
+  dplyr::mutate(type = c("sequential", "sequential", "sequential", "diverging", "sequential",
+                         "diverging", "sequential", "diverging", "sequential", "sequential",
+                         "sequential", "sequential", "sequential", "sequential", "sequential",
+                         "diverging", "diverging", "sequential", "sequential", "diverging",
+                         "diverging", "sequential", "sequential", "diverging"))
 
-other_df <- frame_data(
+other_df <- tribble(
   ~package, ~palette, ~type,
   "grDevices", "rainbow", "sequential",
   "grDevices", "heat.colors", "sequential",
@@ -59,7 +57,10 @@ other_df <- frame_data(
   "viridis", "cividis", "sequential"
 ) %>% as.data.frame()
 
-palettes_c_names <- dplyr::bind_rows(ggthemes_df, pals_df, scico_df, other_df) %>%
+palettes_c_names <- dplyr::bind_rows(ggthemes_df,
+                                     pals_df,
+                                     scico_df,
+                                     other_df) %>%
   dplyr::arrange(package) %>%
   as.data.frame()
 
