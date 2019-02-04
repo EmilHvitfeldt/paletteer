@@ -147,6 +147,7 @@ ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +
 - Redmonder [CRAN](https://cran.r-project.org/web/packages/Redmonder/index.html)
 - RSkittleBrewer [github](https://github.com/alyssafrazee/RSkittleBrewer)
 - scico [github](https://github.com/thomasp85/scico) [CRAN](https://cran.r-project.org/web/packages/scico/index.html)
+- tidyquant [github](https://github.com/business-science/tidyquant) [CRAN](https://cran.r-project.org/web/packages/tidyquant/index.html)
 - viridis [github](https://github.com/sjmgarnier/viridis) [CRAN](https://cran.r-project.org/web/packages/viridis/index.html)
 - visibly [github](https://github.com/m-clark/visibly) [CRAN](https://cran.r-project.org/web/packages/visibly/index.html)
 - wesanderson [github](https://github.com/karthik/wesanderson) [CRAN](https://cran.r-project.org/web/packages/wesanderson/index.html)

@@ -55,7 +55,7 @@ you need for a smooth transition of color:
 
 ![](man/figures/README-unnamed-chunk-4-1.png)<!-- -->
 
-This package includes 1015 from 29 different packages and information
+This package includes 1035 from 30 different packages and information
 about these can be found in the following data.frames:
 `palettes_c_names`, `palettes_d_names` and `palettes_dynamic_names`.
 Additionally this [github
@@ -162,6 +162,8 @@ ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +
     [github](https://github.com/alyssafrazee/RSkittleBrewer)
   - scico [github](https://github.com/thomasp85/scico)
     [CRAN](https://cran.r-project.org/web/packages/scico/index.html)
+  - tidyquant [github](https://github.com/business-science/tidyquant)
+    [CRAN](https://cran.r-project.org/web/packages/tidyquant/index.html)
   - viridis [github](https://github.com/sjmgarnier/viridis)
     [CRAN](https://cran.r-project.org/web/packages/viridis/index.html)
   - visibly [github](https://github.com/m-clark/visibly)

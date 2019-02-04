@@ -36,7 +36,7 @@ ggthemes_excel_pals <- ggthemes::ggthemes_data$excel
 names(ggthemes_excel_pals) <- paste("excel", names(ggthemes_excel_pals), sep = "_")
 
 ## ggthemes tableau
-ggthemes_tableau_pals <- lapply(ggthemes::ggthemes_data$tableau$colors, unname)
+ggthemes_tableau_pals <- lapply(ggthemes::ggthemes_data$tableau$`color-palettes`$regular, unname)
 names(ggthemes_tableau_pals) <- paste("tableau", names(ggthemes_tableau_pals), sep = "_")
 
 ggthemes_pals <- c(
@@ -182,6 +182,13 @@ RSkittleBrewer_pals <- lapply(mapply(RSkittleBrewer::RSkittleBrewer,
                                      flavor = RSkittleBrewer_name),
                               unname)
 
+## tidyquant
+tidyquant_pals <- list(
+  tq_light = tidyquant::palette_light(),
+  tq_dark = tidyquant::palette_dark(),
+  tq_green = tidyquant::palette_green()
+)
+
 ## wesanderson
 wesanderson_pals <- wesanderson::wes_palettes
 
@@ -213,6 +220,7 @@ palettes_d <- list(
   RColorBrewer = rcolorbrewer_pals,
   Redmonder = redmonder_pals,
   RSkittleBrewer = RSkittleBrewer_pals,
+  tidyquant = tidyquant_pals,
   wesanderson = wesanderson_pals,
   yarrr = yarrr_pals
 )
