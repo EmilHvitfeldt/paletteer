@@ -61,7 +61,7 @@ harrypotter_df <- tibble(package = "harrypotter",
                          palette = unique(harrypotter::hp.map$option),
                          type = "sequential")
 
-gameofthrones_df <- tibble(package = "harrypotter",
+gameofthrones_df <- tibble(package = "gameofthrones",
                            palette = unique(gameofthrones::got.map$house),
                            type = "sequential")
 
