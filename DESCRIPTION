@@ -19,7 +19,7 @@ Depends:
     R (>= 2.10)
 Imports: 
     gameofthrones (>= 1.0.0),
-    ggthemes,
+    ggthemes (>= 4.0.0),
     jcolors,
     oompaBase,
     harrypotter (>= 2.1.0), 

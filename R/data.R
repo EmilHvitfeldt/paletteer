@@ -28,7 +28,7 @@
 #'
 #' Full list of palette can be found here \code{\link{palettes_d}}.
 #'
-#' @format A data.frame of 805 observations with 4 variables:
+#' @format A data.frame of 855 observations with 4 variables:
 #' \describe{
 #'   \item{package}{character, name of package}
 #'   \item{palette}{character, name of palette}

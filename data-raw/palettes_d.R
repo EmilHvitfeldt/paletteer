@@ -1,6 +1,7 @@
 library(magrittr)
 
-## awtools
+
+## awtools --------------------------------------------------------------------
 awtools_pals <- list(
   a_palette = awtools:::a_palette,
   a_spalette = awtools:::a_spalette,
@@ -9,13 +10,13 @@ awtools_pals <- list(
   spalette = awtools:::spalette
 )
 
-## dichromat
+## dichromat ------------------------------------------------------------------
 dichromat_pals <- dichromat::colorschemes
 
-## dutchmasters
+## dutchmasters ---------------------------------------------------------------
 dutchmasters_pals <- lapply(dutchmasters::dutchmasters, unname)
 
-## ggsci
+## ggsci ----------------------------------------------------------------------
 ggsci_names <- mapply(function(x, y)
   paste(names(x), y, sep = "_"),
   ggsci:::ggsci_db,
@@ -25,55 +26,74 @@ ggsci_names <- mapply(function(x, y)
 ggsci_pals <- lapply(purrr::flatten(ggsci:::ggsci_db), unname)
 names(ggsci_pals) <- ggsci_names
 
-## ggpomological
+## ggpomological --------------------------------------------------------------
 ggpomological_pals <- list(
   pomological_base = unname(unlist(ggpomological:::pomological_base)),
   pomological_palette = unname(unlist(ggpomological:::pomological_palette))
 )
 
-## ggthemes excel
-ggthemes_excel_pals <- ggthemes::ggthemes_data$excel
-names(ggthemes_excel_pals) <- paste("excel", names(ggthemes_excel_pals), sep = "_")
+## ggthemes -------------------------------------------------------------------
 
 ## ggthemes tableau
-ggthemes_tableau_pals <- lapply(ggthemes::ggthemes_data$tableau$`color-palettes`$regular, unname)
-names(ggthemes_tableau_pals) <- paste("tableau", names(ggthemes_tableau_pals), sep = "_")
+ggthemes_tableau_pals <- lapply(ggthemes::ggthemes_data$tableau$`color-palettes`$regular,
+                                function(x) x$value)
+
+## ggthemes few
+ggthemes_few_pals <- lapply(ggthemes::ggthemes_data$few$colors, function(x) x$value)
+names(ggthemes_few_pals) <- paste("few", names(ggthemes_few_pals), sep = "_")
+names(ggthemes_few_pals) <- gsub(" ", "_", names(ggthemes_few_pals))
+
+## ggthemes excel
+ggthemes_excel_pals <- lapply(ggthemes::ggthemes_data$excel$themes, function(x) x$accents)
+names(ggthemes_excel_pals) <- paste("excel", names(ggthemes_excel_pals), sep = "_")
+names(ggthemes_excel_pals) <- gsub(" ", "_", names(ggthemes_excel_pals))
+
+## ggthemes wsj
+ggthemes_wsj_pals <- lapply(ggthemes::ggthemes_data$wsj$palettes, function(x) x$value)
+names(ggthemes_wsj_pals) <- paste("wsj", names(ggthemes_wsj_pals), sep = "_")
+names(ggthemes_wsj_pals) <- gsub(" ", "_", names(ggthemes_wsj_pals))
+
+## ggthemes stata
+ggthemes_stata_pals <- lapply(ggthemes::ggthemes_data$stata$colors$schemes,
+                              function(x) x$value)
+names(ggthemes_stata_pals) <- paste("stata", names(ggthemes_stata_pals), sep = "_")
+names(ggthemes_stata_pals) <- gsub(" ", "_", names(ggthemes_stata_pals))
+
+## ggthemes hc
+ggthemes_hc_pals <- ggthemes::ggthemes_data$hc
+names(ggthemes_hc_pals) <- paste("hc", names(ggthemes_hc_pals), sep = "_")
+names(ggthemes_hc_pals) <- gsub(" ", "_", names(ggthemes_hc_pals))
+
+## ggthemes economist
+ggthemes_economist_pals <- lapply(ggthemes::ggthemes_data$economist,
+                           function(x) x$value)
+names(ggthemes_economist_pals) <- paste("hc", names(ggthemes_economist_pals), sep = "_")
+names(ggthemes_economist_pals) <- gsub(" ", "_", names(ggthemes_economist_pals))
 
 ggthemes_pals <- c(
   list(
-    calc = unname(ggthemes::ggthemes_data$calc$colors),
-    colorblind = unname(ggthemes::ggthemes_data$colorblind),
-    economist_bg = unname(ggthemes::ggthemes_data$economist$bg),
-    economist_fg = unname(ggthemes::ggthemes_data$economist$fg)
+    calc = ggthemes::ggthemes_data$calc$colors$value,
+    manyeys = ggthemes::ggthemes_data$manyeyes,
+    gdoc = ggthemes::ggthemes_data$gdocs$colors$value,
+    fivethirtyeight = ggthemes::ggthemes_data$fivethirtyeight$value,
+    colorblind = ggthemes::ggthemes_data$colorblind$value
   ),
+  ggthemes_tableau_pals,
+  ggthemes_few_pals,
   ggthemes_excel_pals,
-  list(
-    few_light = unname(ggthemes::ggthemes_data$few$light),
-    few_medium = unname(ggthemes::ggthemes_data$few$medium),
-    few_dark = unname(ggthemes::ggthemes_data$few$dark),
-    fivethirtyeight = unname(ggthemes::ggthemes_data$fivethirtyeight),
-    gdocs = unname(ggthemes::ggthemes_data$gdocs),
-    hc_default = unname(ggthemes::ggthemes_data$hc$palettes$default),
-    hc_darkunica = unname(ggthemes::ggthemes_data$hc$palettes$darkunica),
-    solarized_base = unname(ggthemes::ggthemes_data$solarized$base),
-    solarized_accents = unname(ggthemes::ggthemes_data$solarized$accents),
-    stata_colors = unname(ggthemes::ggthemes_data$stata$colors),
-    wsj_rgby = unname(ggthemes::ggthemes_data$wsj$palettes$rgby),
-    wsj_red_green = unname(ggthemes::ggthemes_data$wsj$palettes$red_green),
-    wsj_black_green = unname(ggthemes::ggthemes_data$wsj$palettes$black_green),
-    wsj_dem_rep = unname(ggthemes::ggthemes_data$wsj$palettes$dem_rep),
-    wsj_colors6 = unname(ggthemes::ggthemes_data$wsj$palettes$colors6)
-  ),
-  ggthemes_tableau_pals
+  ggthemes_wsj_pals,
+  ggthemes_stata_pals,
+  ggthemes_hc_pals,
+  ggthemes_economist_pals
 )
 
-## ghibli
+## ghibli ---------------------------------------------------------------------
 ghibli_pals <- ghibli::ghibli_palettes
 
-## grDevices
+## grDevices ------------------------------------------------------------------
 grDevices_pals <- list(blues9 = grDevices::blues9)
 
-## jcolors
+## jcolors --------------------------------------------------------------------
 jcolors_pals <- lapply(
   list(
     default = jcolors::jcolors(palette = "default"),
@@ -93,14 +113,14 @@ jcolors_pals <- lapply(
   unname
 )
 
-## LaCroixColoR
+## LaCroixColoR ---------------------------------------------------------------
 LaCroixColoR_pals <- c(
   lapply(LaCroixColoR::lacroix_palettes[1:20], function(x)
     x[1,]),
   list(paired = LaCroixColoR::lacroix_palettes$paired)
 )
 
-## NineteenEightyR
+## NineteenEightyR ------------------------------------------------------------
 NineteenEightyR_pals <- list(
   cobra = NineteenEightyR::cobra(),
   electronic_night = NineteenEightyR::electronic_night(),
@@ -116,16 +136,16 @@ NineteenEightyR_pals <- list(
   youngturqs = NineteenEightyR::youngturqs()
 )
 
-## nord
+## nord -----------------------------------------------------------------------
 nord_pals <- nord:::nord_palettes
 
-## ochRe
+## ochRe ----------------------------------------------------------------------
 ochRe_pals <- ochRe::ochre_palettes
 
-## palettetown
+## palettetown ----------------------------------------------------------------
 palettetown_pals <- palettetown:::pokeColours
 
-## pals
+## pals -----------------------------------------------------------------------
 pals_pals <- lapply(
   list(
     alphabet = pals::alphabet(),
@@ -140,7 +160,7 @@ pals_pals <- lapply(
   unname
 )
 
-## Polychrome
+## Polychrome -----------------------------------------------------------------
 Polychrome_pals <- lapply(
   list(
     alphabet = Polychrome::alphabet.colors(),
@@ -154,50 +174,50 @@ Polychrome_pals <- lapply(
   unname
 )
 
-## quickpalette
+## quickpalette ---------------------------------------------------------------
 quickpalette_pals <- c(quickpalette:::qp_art,
                        quickpalette:::mschart)
 
-## rcartocolor
+## rcartocolor ----------------------------------------------------------------
 rcartocolors_pals <- lapply(rcartocolor::cartocolors$Name,
                             function(x) rcartocolor::carto_pal(name = x))
 names(rcartocolors_pals) <- rcartocolor::cartocolors$Name
 
-## rcolorbrewer
+## rcolorbrewer ---------------------------------------------------------------
 RColorBrewer_name <- rownames(RColorBrewer::brewer.pal.info)
 RColorBrewer_ncolor <- RColorBrewer::brewer.pal.info$maxcolors
 rcolorbrewer_pals <- mapply(RColorBrewer::brewer.pal, n = RColorBrewer_ncolor,
                             name = RColorBrewer_name)
 names(rcolorbrewer_pals) <- RColorBrewer_name
 
-## redmonder
+## redmonder ------------------------------------------------------------------
 redmonder_name <- rownames(Redmonder::redmonder.pal.info)
 redmonder_ncolor <- Redmonder::redmonder.pal.info$maxcolors
 redmonder_pals <- mapply(Redmonder::redmonder.pal, n = redmonder_ncolor, name = redmonder_name)
 names(redmonder_pals) <- redmonder_name
 
-## RSkittleBrewer
+## RSkittleBrewer -------------------------------------------------------------
 RSkittleBrewer_name <- c("original", "tropical", "wildberry", "M&M", "smarties")
 RSkittleBrewer_pals <- lapply(mapply(RSkittleBrewer::RSkittleBrewer,
                                      flavor = RSkittleBrewer_name),
                               unname)
 
-## tidyquant
+## tidyquant ------------------------------------------------------------------
 tidyquant_pals <- list(
   tq_light = tidyquant::palette_light(),
   tq_dark = tidyquant::palette_dark(),
   tq_green = tidyquant::palette_green()
 )
 
-## wesanderson
+## wesanderson ----------------------------------------------------------------
 wesanderson_pals <- wesanderson::wes_palettes
 
-## yarrr
+## yarrr ----------------------------------------------------------------------
 yarrr_names <- yarrr::piratepal("names")
 yarrr_pals <- mapply(yarrr::piratepal, yarrr_names) %>%
   lapply(unname)
 
-# discrete fixed number of colors
+# discrete fixed number of colors ---------------------------------------------
 palettes_d <- list(
   awtools = awtools_pals,
   dichromat = dichromat_pals,

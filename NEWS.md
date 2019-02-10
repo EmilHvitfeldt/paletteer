@@ -1,4 +1,8 @@
-# paletteer 0.2.0.
+# paletteer 0.2.0.9000
+
+* Fixed bug where ggthemes wasn't loaded properly. (#26)
+
+# paletteer 0.2.0
 
 * Description of how to add palettes have been moved from a vignette to CONTRIBUTION.md.
 * 15 palettes have been added from the harrypotter package.

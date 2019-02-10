@@ -38,3 +38,7 @@ test_that("direction works correctly in paletteer_d", {
                c("#FAEFD1", "#C93312", "#899DA4"))
   expect_error(paletteer_d("wesanderson", "Royal1", 3, direction = 10))
 })
+
+test_that("all ggthemes palettes are of length two or longer", {
+  expect_true(all(sapply(palettes_d$ggthemes, length) > 1))
+})
