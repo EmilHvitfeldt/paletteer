@@ -3,3 +3,4 @@
 .RData
 .Ruserdata
 inst/doc
+.Ds_Store
