@@ -1,4 +1,4 @@
-# paletteer 0.2.0.9000
+# paletteer 0.2.1
 
 * Fixed bug where ggthemes wasn't loaded properly. (#26)
 
