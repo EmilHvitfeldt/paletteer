@@ -1,3 +1,5 @@
+# paletteer (development version)
+
 # paletteer 0.2.1
 
 * Fixed bug where ggthemes wasn't loaded properly. (#26)
