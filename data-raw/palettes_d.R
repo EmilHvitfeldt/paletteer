@@ -217,6 +217,23 @@ yarrr_names <- yarrr::piratepal("names")
 yarrr_pals <- mapply(yarrr::piratepal, yarrr_names) %>%
   lapply(unname)
 
+## vapoRwave
+vapoRwave_pals <- list(
+  avanti = vapoRwave::avanti_palette,
+  cool = vapoRwave::cool_palette,
+  crystalPepsi = vapoRwave::crystalPepsi_palette,
+  floralShoppe = vapoRwave::floralShoppe_palette,
+  hotlineBling = vapoRwave::hotlineBling_palette,
+  hyperBubble = vapoRwave::hyperBubble_palette,
+  jazzCup = vapoRwave::jazzCup_palette,
+  jwz = vapoRwave::jwz_palette,
+  macPlus = vapoRwave::macPlus_palette,
+  mallSoft = vapoRwave::mallSoft_palette,
+  newRetro = vapoRwave::newRetro_palette,
+  seaPunk = vapoRwave::seaPunk_palette,
+  sunSet = vapoRwave::sunSet_palette
+)
+                            
 # discrete fixed number of colors ---------------------------------------------
 palettes_d <- list(
   awtools = awtools_pals,
@@ -242,7 +259,8 @@ palettes_d <- list(
   RSkittleBrewer = RSkittleBrewer_pals,
   tidyquant = tidyquant_pals,
   wesanderson = wesanderson_pals,
-  yarrr = yarrr_pals
+  yarrr = yarrr_pals,
+  vapoRwave = vapoRwave_pals
 )
 
 usethis::use_data(palettes_d, overwrite = TRUE)
