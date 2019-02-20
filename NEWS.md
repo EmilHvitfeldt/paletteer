@@ -15,3 +15,4 @@
 
 * Added a `NEWS.md` file to track changes to the package.
 * Added palettetown palettes.
+* Added vapoRwave palettes.

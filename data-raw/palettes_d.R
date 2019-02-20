@@ -209,6 +209,24 @@ tidyquant_pals <- list(
   tq_green = tidyquant::palette_green()
 )
 
+## vapoRwave
+vapoRwave_pals <- list(
+  avanti = vapoRwave:::avanti_palette,
+  cool = vapoRwave:::cool_palette,
+  crystalPepsi = vapoRwave:::crystalPepsi_palette,
+  floralShoppe = vapoRwave:::floralShoppe_palette,
+  hotlineBling = vapoRwave:::hotlineBling_palette,
+  hyperBubble = vapoRwave:::hyperBubble_palette,
+  jazzCup = vapoRwave:::jazzCup_palette,
+  jwz = vapoRwave:::jwz_palette,
+  macPlus = vapoRwave:::macPlus_palette,
+  mallSoft = vapoRwave:::mallSoft_palette,
+  newRetro = vapoRwave:::newRetro_palette,
+  seaPunk = vapoRwave:::seaPunk_palette,
+  sunSet = vapoRwave:::sunSet_palette,
+  vapoRwave = vapoRwave:::vapoRwave_palette
+)
+
 ## wesanderson ----------------------------------------------------------------
 wesanderson_pals <- wesanderson::wes_palettes
 
@@ -241,6 +259,7 @@ palettes_d <- list(
   Redmonder = redmonder_pals,
   RSkittleBrewer = RSkittleBrewer_pals,
   tidyquant = tidyquant_pals,
+  vapoRwave = vapoRwave_pals,
   wesanderson = wesanderson_pals,
   yarrr = yarrr_pals
 )
