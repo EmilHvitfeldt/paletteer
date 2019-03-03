@@ -168,6 +168,7 @@ ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +
     [CRAN](https://cran.r-project.org/web/packages/viridis/index.html)
   - visibly [github](https://github.com/m-clark/visibly)
     [CRAN](https://cran.r-project.org/web/packages/visibly/index.html)
+  - vapoRwave [github](https://github.com/moldach/vapoRwave)
   - wesanderson [github](https://github.com/karthik/wesanderson)
     [CRAN](https://cran.r-project.org/web/packages/wesanderson/index.html)
   - yarrr [github](https://github.com/ndphillips/yarrr)
