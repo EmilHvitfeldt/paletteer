@@ -21,7 +21,7 @@ of fixed lengths included in this package.
 \details{
 Contains palettes names from the following packages: awtools, dichromat,
 dutchmasters, ggsci, ggpomological, ggthemes, ghibli, grDevices, jcolors,
-LaCroixColoR, NineteenEightyR, nord, ochRe, pals, Polychrome, quickpalette,
+LaCroixColoR, NineteenEightyR, nord, ochRe, pals, Polychrome, miscpalettes,
 rcartocolor, RColorBrewer, Redmonder, RSkittleBrewer, tidyquant, wesanderson
 and yarrr.
 

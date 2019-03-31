@@ -151,7 +151,7 @@ ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +
     [CRAN](https://cran.r-project.org/web/packages/pals/index.html)
   - Polychrome
     [CRAN](https://cran.r-project.org/web/packages/Polychrome/index.html)
-  - quickpalette [github](https://github.com/EmilHvitfeldt/quickpalette)
+  - miscpalettes [github](https://github.com/EmilHvitfeldt/miscpalettes)
   - rcartocolor [github](https://github.com/Nowosad/rcartocolor)
     [CRAN](https://cran.r-project.org/web/packages/rcartocolor/index.html)
   - RColorBrewer

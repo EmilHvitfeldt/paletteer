@@ -174,9 +174,9 @@ Polychrome_pals <- lapply(
   unname
 )
 
-## quickpalette ---------------------------------------------------------------
-quickpalette_pals <- c(quickpalette:::qp_art,
-                       quickpalette:::mschart)
+## miscpalettes ---------------------------------------------------------------
+miscpalettes_pals <- c(miscpalettes::artistic,
+                       miscpalettes::mschart)
 
 ## rcartocolor ----------------------------------------------------------------
 rcartocolors_pals <- lapply(rcartocolor::cartocolors$Name,
@@ -235,7 +235,7 @@ palettes_d <- list(
   palettetown = palettetown_pals,
   pals = pals_pals,
   Polychrome = Polychrome_pals,
-  quickpalette = quickpalette_pals,
+  miscpalettes = miscpalettes_pals,
   rcartocolor = rcartocolors_pals,
   RColorBrewer = rcolorbrewer_pals,
   Redmonder = redmonder_pals,
