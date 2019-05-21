@@ -98,6 +98,7 @@ standard interface
 
 ``` r
 library(ggplot2)
+#> Warning: package 'ggplot2' was built under R version 3.5.3
 
 ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +
   geom_point() +
@@ -164,6 +165,7 @@ ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +
     [CRAN](https://cran.r-project.org/web/packages/scico/index.html)
   - tidyquant [github](https://github.com/business-science/tidyquant)
     [CRAN](https://cran.r-project.org/web/packages/tidyquant/index.html)
+  - tvthemes [github](https://github.com/Ryo-N7/tvthemes)
   - viridis [github](https://github.com/sjmgarnier/viridis)
     [CRAN](https://cran.r-project.org/web/packages/viridis/index.html)
   - visibly [github](https://github.com/m-clark/visibly)

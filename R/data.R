@@ -7,12 +7,12 @@
 #' Contains palettes from the following packages: awtools, dichromat,
 #' dutchmasters, ggsci, ggpomological, ggthemes, ghibli, grDevices, jcolors,
 #' LaCroixColoR, NineteenEightyR, nord, ochRe, pals, Polychrome, miscpalettes,
-#' rcartocolor, RColorBrewer, Redmonder, RSkittleBrewer, tidyquant, vapoRwave,
-#' wesanderson and yarrr.
+#' rcartocolor, RColorBrewer, Redmonder, RSkittleBrewer, tidyquant, tvthemes,
+#' vapoRwave, wesanderson and yarrr.
 #'
 #' data.frame of palette names can be found here \code{\link{palettes_d_names}}.
 #'
-#' @format A list of 25 lists.
+#' @format A list of 26 lists.
 "palettes_d"
 
 #' Names of all fixed discrete palettes
@@ -23,12 +23,12 @@
 #' Contains palettes names from the following packages: awtools, dichromat,
 #' dutchmasters, ggsci, ggpomological, ggthemes, ghibli, grDevices, jcolors,
 #' LaCroixColoR, NineteenEightyR, nord, ochRe, pals, Polychrome, miscpalettes,
-#' rcartocolor, RColorBrewer, Redmonder, RSkittleBrewer, tidyquant, vapoRwave,
-#' wesanderson and yarrr.
+#' rcartocolor, RColorBrewer, Redmonder, RSkittleBrewer, tidyquant, tvthemes,
+#' vapoRwave, wesanderson and yarrr.
 #'
 #' Full list of palette can be found here \code{\link{palettes_d}}.
 #'
-#' @format A data.frame of 869 observations with 4 variables:
+#' @format A data.frame of 888 observations with 4 variables:
 #' \describe{
 #'   \item{package}{character, name of package}
 #'   \item{palette}{character, name of palette}

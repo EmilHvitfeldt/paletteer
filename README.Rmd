@@ -148,6 +148,7 @@ ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +
 - RSkittleBrewer [github](https://github.com/alyssafrazee/RSkittleBrewer)
 - scico [github](https://github.com/thomasp85/scico) [CRAN](https://cran.r-project.org/web/packages/scico/index.html)
 - tidyquant [github](https://github.com/business-science/tidyquant) [CRAN](https://cran.r-project.org/web/packages/tidyquant/index.html)
+- tvthemes [github](https://github.com/Ryo-N7/tvthemes)
 - viridis [github](https://github.com/sjmgarnier/viridis) [CRAN](https://cran.r-project.org/web/packages/viridis/index.html)
 - visibly [github](https://github.com/m-clark/visibly) [CRAN](https://cran.r-project.org/web/packages/visibly/index.html)
 - vapoRwave [github](https://github.com/moldach/vapoRwave)

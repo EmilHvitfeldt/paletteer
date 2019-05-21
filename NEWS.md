@@ -1,5 +1,7 @@
 # paletteer (development version)
 
+* 16 palettes have been added from the tvthemes package.
+
 # paletteer 0.2.1
 
 * Fixed bug where ggthemes wasn't loaded properly. (#26)

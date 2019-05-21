@@ -209,6 +209,26 @@ tidyquant_pals <- list(
   tq_green = tidyquant::palette_green()
 )
 
+## tvthemes ------------------------------------------------------------------
+tvthemes_pals <- list(
+  airNomads = tvthemes:::airNomads_palette,
+  brooklyn99 = tvthemes:::brooklyn99_palette,
+  brooklyn99_dark = tvthemes:::brooklyn99_dark_palette,
+  earthKingdom = tvthemes:::earthKingdom_palette,
+  fireNation = tvthemes:::fireNation_palette,
+  greyjoy = tvthemes:::greyjoy_palette,
+  lannister = tvthemes:::lannister_palette,
+  parksAndRec = tvthemes:::parksAndRec_palette,
+  rickAndMorty = tvthemes:::rickAndMorty_palette,
+  simpsons = tvthemes:::simpsons_palette,
+  spongeBob = tvthemes:::spongeBob_palette,
+  stark = tvthemes:::stark_palette,
+  targaryen = tvthemes:::targaryen_palette,
+  tully = tvthemes:::tully_palette,
+  tyrell = tvthemes:::tyrell_palette,
+  waterTribe = tvthemes:::waterTribe_palette
+)
+
 ## vapoRwave
 vapoRwave_pals <- list(
   avanti = vapoRwave:::avanti_palette,
@@ -259,6 +279,7 @@ palettes_d <- list(
   Redmonder = redmonder_pals,
   RSkittleBrewer = RSkittleBrewer_pals,
   tidyquant = tidyquant_pals,
+  tvthemes = tvthemes_pals,
   vapoRwave = vapoRwave_pals,
   wesanderson = wesanderson_pals,
   yarrr = yarrr_pals
