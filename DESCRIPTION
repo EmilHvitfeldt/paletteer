@@ -22,15 +22,18 @@ Imports:
     ggthemes (>= 4.0.0),
     jcolors,
     oompaBase,
-    harrypotter (>= 2.1.0), 
+    harrypotter (>= 2.1.0),
     palr,
     pals,
     scico,
     viridisLite,
-    rlang
+    rlang,
+    glue,
+    rematch2,
+    rstudioapi
 Suggests: 
     covr,
-    testthat,
+    testthat (>= 2.1.0),
     ggplot2,
     knitr,
     rmarkdown
