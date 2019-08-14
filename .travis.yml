@@ -4,18 +4,5 @@ language: R
 sudo: false
 cache: packages
 
-r_binary_packages:
- - ggthemes
- - jcolors
- - oompaBase
- - palr
- - pals
- - scico
- - viridisLite
- - rlang
- - testthat
- - ggplot2
- - covr
-
 after_success:
     - Rscript -e 'covr::codecov()'
