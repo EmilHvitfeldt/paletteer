@@ -4,8 +4,13 @@ language: R
 sudo: false
 cache: packages
 
-install:
- - apt-get install libglu1-mesa-dev
+addons:
+  apt:
+    sources:
+    - sourceline: "deb http://archive.ubuntu.com/ubuntu/ xenial multiverse"
+    - sourceline: "deb http://archive.ubuntu.com/ubuntu/ xenial-backports universe"
+    packages:
+    - libglu1-mesa-dev # legacy GL RenderSystem only
 
 after_success:
     - Rscript -e 'covr::codecov()'
