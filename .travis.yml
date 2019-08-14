@@ -4,5 +4,8 @@ language: R
 sudo: false
 cache: packages
 
+install:
+ - $RENV install_r R.rsp rgl
+
 after_success:
     - Rscript -e 'covr::codecov()'
