@@ -17,6 +17,9 @@ The goal of **paletteer** is to be a comprehensive collection of color
 palettes in R using a common interface. Think of it as the “caret of
 palettes”.
 
+**Notice** This version is not backwards compatible with versions \<=
+0.2.1. Please refer to the end of the readme for breaking changes
+
 ## Installation
 
 You can install the released version of **paletteer** from
@@ -55,7 +58,7 @@ you need for a smooth transition of color:
 
 ![](man/figures/README-unnamed-chunk-4-1.png)<!-- -->
 
-This package includes 1085 from 31 different packages and information
+This package includes 1099 from 32 different packages and information
 about these can be found in the following data.frames:
 `palettes_c_names`, `palettes_d_names` and `palettes_dynamic_names`.
 Additionally this [github
@@ -65,31 +68,23 @@ the palettes included in the package and more.
 ## Examples
 
 All the palettes can be accessed from the 3 functions `paletteer_c()`,
-`paletteer_d()` and `paletteer_dynamic()` using the package and palette
-arguments.
+`paletteer_d()` and `paletteer_dynamic()` using the by using the syntax
+packagename::palettename.
 
 ``` r
-paletteer_c(package = "scico", palette = "berlin", n = 10)
+paletteer_c("scico::berlin", n = 10)
 #>  [1] "#9EB0FF" "#5AA3DA" "#2D7597" "#194155" "#11181D" "#270C01" "#501802"
 #>  [8] "#8A3F2A" "#C37469" "#FFACAC"
-paletteer_d("nord", "frost")
+paletteer_d("nord::frost")
 #> [1] "#8FBCBB" "#88C0D0" "#81A1C1" "#5E81AC"
-paletteer_dynamic("cartography", "green.pal", 5)
+paletteer_dynamic("cartography::green.pal", 5)
 #> [1] "#B8D9A9" "#8DBC80" "#5D9D52" "#287A22" "#17692C"
 ```
 
-All of the functions also support symbol argument such that you don’t
-have to put your names in quotes
+All of the functions now also support tab completion to easily access
+the hundress of choicses
 
-``` r
-paletteer_c(scico, berlin, 10)
-#>  [1] "#9EB0FF" "#5AA3DA" "#2D7597" "#194155" "#11181D" "#270C01" "#501802"
-#>  [8] "#8A3F2A" "#C37469" "#FFACAC"
-paletteer_d(nord, frost)
-#> [1] "#8FBCBB" "#88C0D0" "#81A1C1" "#5E81AC"
-paletteer_dynamic(cartography, green.pal, 5)
-#> [1] "#B8D9A9" "#8DBC80" "#5D9D52" "#287A22" "#17692C"
-```
+![](man/figures/paletteer-demo.gif)
 
 ## ggplot2 scales
 
@@ -101,10 +96,28 @@ library(ggplot2)
 
 ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +
   geom_point() +
-  scale_color_paletteer_d(nord, aurora)
+  scale_color_paletteer_d(`nord::aurora`)
 ```
 
-![](man/figures/README-unnamed-chunk-7-1.png)<!-- -->
+![](man/figures/README-unnamed-chunk-6-1.png)<!-- -->
+
+## Breaking changes
+
+In version \<= 0.2.1 a palatte was selected by specifying a `package`
+and `palette` argument like so
+
+``` r
+paletteer_c(package = "nord", palette = "frost")
+```
+
+After version 0.2.1 palettes are selected using the syntax
+packagename::palettename inside the palette functions.
+
+``` r
+paletteer_c("nord::frost")
+# or
+paletteer_c(`nord::frost`)
+```
 
 ## Special thanks
 
