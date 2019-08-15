@@ -4,18 +4,17 @@ language: R
 sudo: false
 cache: packages
 
-r_binary_packages:
- - ggthemes
- - jcolors
- - oompaBase
- - palr
- - pals
- - scico
- - viridisLite
- - rlang
- - testthat
- - ggplot2
- - covr
+env:
+  global:
+    - RGL_USE_NULL=TRUE
+
+addons:
+  apt:
+    sources:
+    - sourceline: "deb http://archive.ubuntu.com/ubuntu/ xenial multiverse"
+    - sourceline: "deb http://archive.ubuntu.com/ubuntu/ xenial-backports universe"
+    packages:
+    - libglu1-mesa-dev # legacy GL RenderSystem only
 
 after_success:
     - Rscript -e 'covr::codecov()'
