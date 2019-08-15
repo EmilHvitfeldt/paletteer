@@ -3,11 +3,11 @@ library(magrittr)
 
 ## awtools --------------------------------------------------------------------
 awtools_pals <- list(
-  a_palette = awtools:::a_palette,
-  a_spalette = awtools:::a_spalette,
-  mpalette = awtools:::mpalette,
-  ppalette = awtools:::ppalette,
-  spalette = awtools:::spalette
+  a_palette = awtools::a_palette,
+  bpalette = awtools::bpalette,
+  gpalette = awtools::gpalette,
+  mpalette = awtools::mpalette,
+  spalette = awtools::spalette
 )
 
 ## dichromat ------------------------------------------------------------------
@@ -209,7 +209,7 @@ tidyquant_pals <- list(
   tq_green = tidyquant::palette_green()
 )
 
-## vapoRwave
+## vapoRwave -------------------------------------------------------------------
 vapoRwave_pals <- list(
   avanti = vapoRwave:::avanti_palette,
   cool = vapoRwave:::cool_palette,
