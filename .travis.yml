@@ -4,6 +4,10 @@ language: R
 sudo: false
 cache: packages
 
+env:
+  global:
+    - RGL_USE_NULL=TRUE
+
 addons:
   apt:
     sources:
