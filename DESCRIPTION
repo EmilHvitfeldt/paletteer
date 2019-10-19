@@ -30,7 +30,8 @@ Imports:
     rlang
 Suggests: 
     covr,
-    testthat,
+    testthat (>= 2.1.0),
     ggplot2,
     knitr,
-    rmarkdown
+    rmarkdown,
+    vdiffr
