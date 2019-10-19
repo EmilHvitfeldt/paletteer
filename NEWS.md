@@ -1,5 +1,7 @@
 # paletteer (development version)
 
+* All front facing functions now take a single `palette` argument of the format `package::palette` instead of the  previous two arguments package and palette.
+
 # paletteer 0.2.1
 
 * Fixed bug where ggthemes wasn't loaded properly. (#26)

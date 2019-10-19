@@ -120,13 +120,13 @@ paletteer_d_completer <- function(env) {
   }
 
   if (current_function(env) %in% c_funs) {
-    return(c_names)
+    return(paste0('"', c_names, '"'))
   }
   if (current_function(env) %in% d_funs) {
-    return(d_names)
+    return(paste0('"', d_names, '"'))
   }
   if (current_function(env) == "paletteer_dynamic") {
-    return(dym_names)
+    return(paste0('"', dym_names, '"'))
   }
 }
 
