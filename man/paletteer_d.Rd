@@ -4,14 +4,12 @@
 \alias{paletteer_d}
 \title{Get discrete palette by package and name}
 \usage{
-paletteer_d(package, palette, n, direction = 1, type = c("discrete",
+paletteer_d(palette, n, direction = 1, type = c("discrete",
   "continuous"))
 }
 \arguments{
-\item{package}{Name of package from which the palette is desired as string
-or symbol.}
-
-\item{palette}{Name of palette as string or symbol.}
+\item{palette}{Name of palette as a string. Must be on the form
+packagename::palettename.}
 
 \item{n}{Number of colors desired. If omitted, returns complete palette.}
 
@@ -25,11 +23,10 @@ A vector of colors.
 }
 \description{
 Available package/palette combinations are available in the data.frame
-\code{\link[paletteer]{palettes_d_names}}. Both \code{package} and \code{palette}
-can be supplied as symbols or strings.
+\code{\link[paletteer]{palettes_d_names}}.
 }
 \examples{
-paletteer_d("nord", "frost")
-paletteer_d("wesanderson", "Royal1", 3)
-paletteer_d("Redmonder", "dPBIPuOr", 14, type = "continuous")
+paletteer_d("nord::frost")
+paletteer_d("wesanderson::Royal1", 3)
+paletteer_d("Redmonder::dPBIPuOr", 14, type = "continuous")
 }

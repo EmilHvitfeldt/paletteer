@@ -4,8 +4,7 @@
 #' `ggplot2` package. It goes without saying that it requires `ggplot2` to work.
 #'
 #' Available package/palette combinations are available in the data.frame
-#' \code{\link[paletteer]{palettes_c_names}}. Both `package` and `palette` can be
-#' supplied as symbols or strings.
+#' \code{\link[paletteer]{palettes_c_names}}.
 #'
 #' @param ... Arguments to pass on to `ggplot2::scale_colour_gradientn()` or
 #' `ggplot2::scale_fill_gradientn()`
@@ -22,20 +21,16 @@
 #'
 #'   ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, colour = Petal.Length)) +
 #'     geom_point() +
-#'     scale_colour_paletteer_c(package = "scico", palette = "tokyo")
+#'     scale_colour_paletteer_c("scico::tokyo")
 #' }
 #'
 #' @export
-scale_colour_paletteer_c <- function(package, palette, direction = 1, ...) {
+scale_colour_paletteer_c <- function(palette, direction = 1, ...) {
   if (!requireNamespace("ggplot2", quietly = TRUE)) {
     stop('ggplot2 is required for this functionality', call. = FALSE)
   }
 
-  package <- rlang::ensym(package)
-  palette <- rlang::ensym(palette)
-
-  ggplot2::scale_colour_gradientn(colours = paletteer_c(package = !!package,
-                                                        palette = !!palette,
+  ggplot2::scale_colour_gradientn(colours = paletteer_c(palette = {{palette}},
                                                         direction = direction,
                                                         256), ...)
 }
@@ -46,16 +41,12 @@ scale_color_paletteer_c <- scale_colour_paletteer_c
 #' @rdname ggplot2-scales-continuous
 #' @export
 #'
-scale_fill_paletteer_c <- function(package, palette, direction = 1, ...) {
+scale_fill_paletteer_c <- function(palette, direction = 1, ...) {
   if (!requireNamespace("ggplot2", quietly = TRUE)) {
     stop('ggplot2 is required for this functionality', call. = FALSE)
   }
 
-  package <- rlang::ensym(package)
-  palette <- rlang::ensym(palette)
-
-  ggplot2::scale_fill_gradientn(colours = paletteer_c(package = !!package,
-                                                      palette = !!palette,
+  ggplot2::scale_fill_gradientn(colours = paletteer_c(palette = {{palette}},
                                                       direction = direction,
                                                       256), ...)
 }

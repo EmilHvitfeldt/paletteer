@@ -1,17 +1,14 @@
 
-pal_pal <- function(package, palette, direction, dynamic) {
-
-  package <- rlang::ensym(package)
-  palette <- rlang::ensym(palette)
+pal_pal <- function(palette, direction, dynamic) {
 
   if (dynamic) {
     function(n) {
-      paletteer_dynamic(package = !!package, palette = !!palette, n = n,
+      paletteer_dynamic(palette = {{palette}}, n = n,
                         direction = direction)
     }
   } else {
     function(n) {
-      paletteer_d(package = !!package, palette = !!palette, direction = direction)
+      paletteer_d(palette = {{palette}}, direction = direction)
     }
   }
 }
@@ -24,8 +21,7 @@ pal_pal <- function(package, palette, direction, dynamic) {
 #'
 #' Available package/palette combinations are available in the data.frame
 #' \code{\link[paletteer]{palettes_d_names}} and
-#' \code{\link[paletteer]{palettes_dynamic_names}}. Both `package` and
-#' `palette` can be supplied as symbols or strings.
+#' \code{\link[paletteer]{palettes_dynamic_names}}.
 #'
 #' @rdname ggplot2-scales-discrete
 #' @param ... additional arguments to pass to discrete_scale
@@ -39,18 +35,17 @@ pal_pal <- function(package, palette, direction, dynamic) {
 #'
 #'   ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, colour = Species)) +
 #'     geom_point() +
-#'     scale_colour_paletteer_d(package = "nord", palette = "frost")
+#'     scale_colour_paletteer_d("nord::frost")
 #' }
 #'
 #' @export
-scale_colour_paletteer_d <- function(package, palette, direction = 1,
+scale_colour_paletteer_d <- function(palette, direction = 1,
                                      dynamic = FALSE, ...) {
 
-  package <- rlang::ensym(package)
-  palette <- rlang::ensym(palette)
+  palette_name <- rlang::quo_name(rlang::enquo(palette))
 
-  ggplot2::discrete_scale("colour", paste(package, palette, sep = "-"),
-                 pal_pal(package = !!package, palette = !!palette,
+  ggplot2::discrete_scale("colour", palette_name,
+                 pal_pal(palette = {{palette}},
                          dynamic = dynamic, direction = direction), ...)
 
 }
@@ -63,14 +58,13 @@ scale_color_paletteer_d <- scale_colour_paletteer_d
 #' @rdname ggplot2-scales-discrete
 #' @export
 #'
-scale_fill_paletteer_d <- function(package, palette, direction = 1,
+scale_fill_paletteer_d <- function(palette, direction = 1,
                                    dynamic = FALSE, ...) {
 
-  package <- rlang::ensym(package)
-  palette <- rlang::ensym(palette)
+  palette_name <- rlang::quo_name(rlang::enquo(palette))
 
-  ggplot2::discrete_scale("fill", paste(package, palette, sep = "-"),
-                 pal_pal(package = !!package, palette = !!palette,
+  ggplot2::discrete_scale("fill", palette_name,
+                 pal_pal(palette = {{palette}},
                          dynamic = dynamic, direction = direction), ...)
 
 }
