@@ -66,13 +66,6 @@ current_function <- function(env) {
   fun
 }
 
-#' @importFrom rlang return_from
-return_unless <- function(x) {
-  if (!isTRUE(x)) {
-    return_from(parent.frame(2))
-  }
-}
-
 is_first_argument <- function(env) {
   buffer <- env[["linebuffer"]]
   !is.na(rematch2::re_match(buffer, "[^[:space:](]+[(][^[:space:]=,]*$")$.match)
@@ -121,11 +114,11 @@ paletteer_d_completer <- function(env) {
   d_funs <- c("paletteer_d", "scale_color_paletteer_d",
               "scale_colour_paletteer_d", "scale_fill_paletteer_d")
 
-  cat(current_function(env))
-  return_unless(current_function(env) %in% c(c_funs, d_funs, "paletteer_dynamic") &&
-                  is_first_argument(env))
+  if (!(current_function(env) %in% c(c_funs, d_funs, "paletteer_dynamic") &&
+                  is_first_argument(env))) {
+    return(NULL)
+  }
 
-  cat(" and it got here")
   if (current_function(env) %in% c_funs) {
     return(c_names)
   }
@@ -138,12 +131,7 @@ paletteer_d_completer <- function(env) {
 }
 
 .onLoad <- function(lib, pkg) {
-  if (!is.null(default <- rc.getOption("custom.completer"))) {
-    if (!isTRUE(all.equal(default, completeme))) {
-      warn("Found default custom.completer, registering as 'default'")
-      register_completion(paletteer = paletteer_d_completer)
-    }
-  }
   rc.options(custom.completer = completeme)
+  register_completion(paletteer = paletteer_d_completer)
 }
 
