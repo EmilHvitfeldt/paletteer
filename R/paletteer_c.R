@@ -1,17 +1,15 @@
 #' Get continuous palette by package and name
 #'
 #' Available package/palette combinations are available in the data.frame
-#' \code{\link[paletteer]{palettes_c_names}}. Both `package` and `palette` can
-#' be supplied as symbols or strings.
+#' \code{\link[paletteer]{palettes_c_names}}.
 #'
-#' @param palette Name of palette as string or symbol. Must be on the form
+#' @param palette Name of palette as a string. Must be on the form
 #' packagename::palettename.
 #' @param n Number of colors desired. If omitted, returns complete palette.
 #' @param direction Either `1` or `-1`. If `-1` the palette will be reversed.
 #' @return A vector of colors.
 #' @examples
 #' paletteer_c("scico::berlin", 100)
-#' paletteer_c(`scico::berlin`, 100)
 #' @export
 paletteer_c <- function(palette, n, direction = 1) {
 
@@ -19,10 +17,9 @@ paletteer_c <- function(palette, n, direction = 1) {
     stop("direction must be 1 or -1")
   }
 
-  palette <- rlang::quo_name(rlang::enquo(palette))
-
   if (!(palette %in% c_names)) {
-    stop("Palette not found. Make sure the palette name are spelled correct.")
+    stop('Palette not found. Make sure both package and palette ',
+         'name are spelled correct in the format "package::palette"')
   }
 
   palette <- unlist(strsplit(palette, "::"))

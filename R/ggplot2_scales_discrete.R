@@ -21,8 +21,7 @@ pal_pal <- function(palette, direction, dynamic) {
 #'
 #' Available package/palette combinations are available in the data.frame
 #' \code{\link[paletteer]{palettes_d_names}} and
-#' \code{\link[paletteer]{palettes_dynamic_names}}. Both `package` and
-#' `palette` can be supplied as symbols or strings.
+#' \code{\link[paletteer]{palettes_dynamic_names}}.
 #'
 #' @rdname ggplot2-scales-discrete
 #' @param ... additional arguments to pass to discrete_scale
@@ -36,7 +35,7 @@ pal_pal <- function(palette, direction, dynamic) {
 #'
 #'   ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, colour = Species)) +
 #'     geom_point() +
-#'     scale_colour_paletteer_d(`nord::frost`)
+#'     scale_colour_paletteer_d("nord::frost")
 #' }
 #'
 #' @export

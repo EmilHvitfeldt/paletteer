@@ -13,7 +13,7 @@ scale_color_paletteer_d(palette, direction = 1, dynamic = FALSE, ...)
 scale_fill_paletteer_d(palette, direction = 1, dynamic = FALSE, ...)
 }
 \arguments{
-\item{palette}{Name of palette as string or symbol. Must be on the form
+\item{palette}{Name of palette as a string. Must be on the form
 packagename::palettename.}
 
 \item{direction}{Either \code{1} or \code{-1}. If \code{-1} the palette will be reversed.}
@@ -31,8 +31,7 @@ along with the \code{ggplot2} package. It goes without saying that it requires
 \details{
 Available package/palette combinations are available in the data.frame
 \code{\link[paletteer]{palettes_d_names}} and
-\code{\link[paletteer]{palettes_dynamic_names}}. Both \code{package} and
-\code{palette} can be supplied as symbols or strings.
+\code{\link[paletteer]{palettes_dynamic_names}}.
 }
 \examples{
 
@@ -40,7 +39,7 @@ if (require('ggplot2')) {
 
   ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, colour = Species)) +
     geom_point() +
-    scale_colour_paletteer_d(`nord::frost`)
+    scale_colour_paletteer_d("nord::frost")
 }
 
 }

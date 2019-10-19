@@ -24,12 +24,6 @@ test_that("paletteer_d return correct amount when type is set to continuous", {
   expect_length(paletteer_d("wesanderson::Royal1", 100, type = "continuous"), 100)
 })
 
-
-test_that("paletteer_d works when package and name are provided as symbols", {
-  expect_length(paletteer_d("wesanderson::Royal1"), 4)
-  expect_length(paletteer_d(`wesanderson::Royal1`), 4)
-})
-
 test_that("direction works correctly in paletteer_d", {
   expect_equal(paletteer_d("wesanderson::Royal1", 3, direction = 1),
                c("#899DA4", "#C93312", "#FAEFD1"))

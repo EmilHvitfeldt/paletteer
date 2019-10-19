@@ -14,7 +14,7 @@ scale_color_paletteer_c(palette, direction = 1, ...)
 scale_fill_paletteer_c(palette, direction = 1, ...)
 }
 \arguments{
-\item{palette}{Name of palette as string or symbol. Must be on the form
+\item{palette}{Name of palette as a string. Must be on the form
 packagename::palettename.}
 
 \item{direction}{Either \code{1} or \code{-1}. If \code{-1} the palette will be reversed.}
@@ -31,8 +31,7 @@ These functions provide the option to use continuous palettes along with the
 }
 \details{
 Available package/palette combinations are available in the data.frame
-\code{\link[paletteer]{palettes_c_names}}. Both \code{package} and \code{palette} can be
-supplied as symbols or strings.
+\code{\link[paletteer]{palettes_c_names}}.
 }
 \examples{
 

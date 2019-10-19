@@ -106,7 +106,7 @@ library(ggplot2)
 
 ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +
   geom_point() +
-  scale_color_paletteer_d(`nord::aurora`)
+  scale_color_paletteer_d("nord::aurora")
 ```
 
 ## Breaking changes
@@ -117,12 +117,10 @@ In version <= 0.2.1 a palatte was selected by specifying a `package` and `palett
 paletteer_c(package = "nord", palette = "frost")
 ```
 
-After version 0.2.1 palettes are selected using the syntax packagename::palettename inside the palette functions.
+After version 0.2.1 palettes are selected using the syntax `"packagename::palettename"` inside the palette functions.
 
 ```{r, eval=FALSE}
 paletteer_c("nord::frost")
-# or
-paletteer_c(`nord::frost`)
 ```
 
 ## Special thanks

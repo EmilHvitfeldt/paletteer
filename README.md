@@ -96,7 +96,7 @@ library(ggplot2)
 
 ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +
   geom_point() +
-  scale_color_paletteer_d(`nord::aurora`)
+  scale_color_paletteer_d("nord::aurora")
 ```
 
 ![](man/figures/README-unnamed-chunk-6-1.png)<!-- -->
@@ -111,12 +111,10 @@ paletteer_c(package = "nord", palette = "frost")
 ```
 
 After version 0.2.1 palettes are selected using the syntax
-packagename::palettename inside the palette functions.
+`"packagename::palettename"` inside the palette functions.
 
 ``` r
 paletteer_c("nord::frost")
-# or
-paletteer_c(`nord::frost`)
 ```
 
 ## Special thanks

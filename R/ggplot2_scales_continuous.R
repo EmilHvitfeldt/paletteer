@@ -4,8 +4,7 @@
 #' `ggplot2` package. It goes without saying that it requires `ggplot2` to work.
 #'
 #' Available package/palette combinations are available in the data.frame
-#' \code{\link[paletteer]{palettes_c_names}}. Both `package` and `palette` can be
-#' supplied as symbols or strings.
+#' \code{\link[paletteer]{palettes_c_names}}.
 #'
 #' @param ... Arguments to pass on to `ggplot2::scale_colour_gradientn()` or
 #' `ggplot2::scale_fill_gradientn()`

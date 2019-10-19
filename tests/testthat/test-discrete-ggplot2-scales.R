@@ -44,46 +44,6 @@ test_that("scale_*_paletteer_d correctly assigns colors when dynamic = TRUE", {
   expect_equal(layer_data(p3)$fill, c("#B2D6A3", "#5A9C50", "#197230"))
 })
 
-test_that("scale_colour_paletteer_d works with quotation", {
-  p1 <- ggplot(df, aes(x, y, colour = color)) +
-    geom_point() +
-    scale_colour_paletteer_d("nord::lumina")
-
-  p2 <- ggplot(df, aes(x, y, colour = color)) +
-    geom_point() +
-    scale_colour_paletteer_d(`nord::lumina`)
-
-  expect_equal(layer_data(p1)$colour, c("#EDDAEB", "#AD8CAE", "#4F93B8"))
-  expect_equal(layer_data(p2)$colour, c("#EDDAEB", "#AD8CAE", "#4F93B8"))
-})
-
-test_that("scale_color_paletteer_d works with quotation", {
-  p1 <- ggplot(df, aes(x, y, color = color)) +
-    geom_point() +
-    scale_color_paletteer_d("nord::lumina")
-
-  p2 <- ggplot(df, aes(x, y, color = color)) +
-    geom_point() +
-    scale_color_paletteer_d(`nord::lumina`)
-
-  expect_equal(layer_data(p1)$colour, c("#EDDAEB", "#AD8CAE", "#4F93B8"))
-  expect_equal(layer_data(p2)$colour, c("#EDDAEB", "#AD8CAE", "#4F93B8"))
-})
-
-
-test_that("scale_fill_paletteer_d works with quotation", {
-  p1 <- ggplot(df, aes(x, y, fill = color)) +
-    geom_point() +
-    scale_fill_paletteer_d("nord::lumina")
-
-  p2 <- ggplot(df, aes(x, y, fill = color)) +
-    geom_point() +
-    scale_fill_paletteer_d(`nord::lumina`)
-
-  expect_equal(layer_data(p1)$fill, c("#EDDAEB", "#AD8CAE", "#4F93B8"))
-  expect_equal(layer_data(p2)$fill, c("#EDDAEB", "#AD8CAE", "#4F93B8"))
-})
-
 test_that("scale_*_paletteer_d correctly used direction", {
   p1 <- ggplot(df, aes(x, y, colour = color)) +
     geom_point() +

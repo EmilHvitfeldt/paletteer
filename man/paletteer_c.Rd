@@ -7,7 +7,7 @@
 paletteer_c(palette, n, direction = 1)
 }
 \arguments{
-\item{palette}{Name of palette as string or symbol. Must be on the form
+\item{palette}{Name of palette as a string. Must be on the form
 packagename::palettename.}
 
 \item{n}{Number of colors desired. If omitted, returns complete palette.}
@@ -19,10 +19,8 @@ A vector of colors.
 }
 \description{
 Available package/palette combinations are available in the data.frame
-\code{\link[paletteer]{palettes_c_names}}. Both \code{package} and \code{palette} can
-be supplied as symbols or strings.
+\code{\link[paletteer]{palettes_c_names}}.
 }
 \examples{
 paletteer_c("scico::berlin", 100)
-paletteer_c(`scico::berlin`, 100)
 }
