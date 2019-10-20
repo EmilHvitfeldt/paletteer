@@ -34,8 +34,9 @@ all_names <- function(package, type = NULL) {
                                           which(palettes_d_names$type == type)), ]$palette
   }
 
-  color_list_d <- lapply(names_d, paletteer_d, package = !!package)
-
+  if(length(names_d) > 0) {
+    color_list_d <- lapply(paste0(package, "::", names_d), paletteer_d)
+  }
   if(is.null(type)) {
     names_c <- palettes_c_names[which(palettes_c_names$package == package), ]$palette
   } else {
@@ -44,7 +45,7 @@ all_names <- function(package, type = NULL) {
   }
 
   if(length(names_c) > 0) {
-    color_list_c <- lapply(names_c, paletteer_c, package = !!package, n = 256)
+    color_list_c <- lapply(paste0(package, "::", names_c), paletteer_c, n = 256)
   }
 
   if(is.null(type)) {
@@ -59,8 +60,7 @@ all_names <- function(package, type = NULL) {
 
   if(length(names_dynamic) > 0) {
     color_list_dynamic <- mapply(paletteer_dynamic,
-                                 package = package,
-                                 palette = names_dynamic,
+                                 palette = paste0(package, "::", names_dynamic),
                                  n = length_dynamic, SIMPLIFY = FALSE)
   }
 
