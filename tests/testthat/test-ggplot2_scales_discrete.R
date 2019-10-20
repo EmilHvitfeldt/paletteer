@@ -21,9 +21,9 @@ test_that("scale_*_paletteer_d correctly assigns colors", {
     geom_raster() +
     scale_fill_paletteer_d("nord::lumina")
 
-  expect_equal(layer_data(p1)$colour, c("#EDDAEB", "#AD8CAE", "#4F93B8"))
-  expect_equal(layer_data(p2)$colour, c("#EDDAEB", "#AD8CAE", "#4F93B8"))
-  expect_equal(layer_data(p3)$fill, c("#EDDAEB", "#AD8CAE", "#4F93B8"))
+  expect_equal(layer_data(p1)$colour, c("#EDDAEBFF", "#AD8CAEFF", "#4F93B8FF"))
+  expect_equal(layer_data(p2)$colour, c("#EDDAEBFF", "#AD8CAEFF", "#4F93B8FF"))
+  expect_equal(layer_data(p3)$fill, c("#EDDAEBFF", "#AD8CAEFF", "#4F93B8FF"))
 })
 
 test_that("scale_*_paletteer_d correctly assigns colors when dynamic = TRUE", {
@@ -39,9 +39,9 @@ test_that("scale_*_paletteer_d correctly assigns colors when dynamic = TRUE", {
     geom_raster() +
     scale_fill_paletteer_d("cartography::green.pal", dynamic = TRUE)
 
-  expect_equal(layer_data(p1)$colour, c("#B2D6A3", "#5A9C50", "#197230"))
-  expect_equal(layer_data(p2)$colour, c("#B2D6A3", "#5A9C50", "#197230"))
-  expect_equal(layer_data(p3)$fill, c("#B2D6A3", "#5A9C50", "#197230"))
+  expect_equal(layer_data(p1)$colour, c("#B2D6A3FF", "#5A9C50FF", "#197230FF"))
+  expect_equal(layer_data(p2)$colour, c("#B2D6A3FF", "#5A9C50FF", "#197230FF"))
+  expect_equal(layer_data(p3)$fill, c("#B2D6A3FF", "#5A9C50FF", "#197230FF"))
 })
 
 test_that("scale_*_paletteer_d correctly used direction", {
@@ -69,11 +69,11 @@ test_that("scale_*_paletteer_d correctly used direction", {
     geom_raster() +
     scale_fill_paletteer_d("nord::lumina", direction = -1)
 
-  expect_equal(layer_data(p1)$colour, c("#EDDAEB", "#AD8CAE", "#4F93B8"))
-  expect_equal(layer_data(p2)$colour, c("#EDDAEB", "#AD8CAE", "#4F93B8"))
-  expect_equal(layer_data(p3)$fill, c("#EDDAEB", "#AD8CAE", "#4F93B8"))
-  expect_equal(layer_data(p4)$colour, c("#222B4C", "#306489", "#4F93B8"))
-  expect_equal(layer_data(p5)$colour, c("#222B4C", "#306489", "#4F93B8"))
-  expect_equal(layer_data(p6)$fill, c("#222B4C", "#306489", "#4F93B8"))
+  expect_equal(layer_data(p1)$colour, c("#EDDAEBFF", "#AD8CAEFF", "#4F93B8FF"))
+  expect_equal(layer_data(p2)$colour, c("#EDDAEBFF", "#AD8CAEFF", "#4F93B8FF"))
+  expect_equal(layer_data(p3)$fill, c("#EDDAEBFF", "#AD8CAEFF", "#4F93B8FF"))
+  expect_equal(layer_data(p4)$colour, c("#222B4CFF", "#306489FF", "#4F93B8FF"))
+  expect_equal(layer_data(p5)$colour, c("#222B4CFF", "#306489FF", "#4F93B8FF"))
+  expect_equal(layer_data(p6)$fill, c("#222B4CFF", "#306489FF", "#4F93B8FF"))
 })
 

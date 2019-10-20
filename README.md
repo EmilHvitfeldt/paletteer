@@ -73,12 +73,14 @@ packagename::palettename.
 
 ``` r
 paletteer_c("scico::berlin", n = 10)
-#>  [1] "#9EB0FF" "#5AA3DA" "#2D7597" "#194155" "#11181D" "#270C01" "#501802"
-#>  [8] "#8A3F2A" "#C37469" "#FFACAC"
+#> <colors>
+#> #9EB0FFFF #5AA3DAFF #2D7597FF #194155FF #11181DFF #270C01FF #501802FF #8A3F2AFF #C37469FF #FFACACFF
 paletteer_d("nord::frost")
-#> [1] "#8FBCBB" "#88C0D0" "#81A1C1" "#5E81AC"
+#> <colors>
+#> #8FBCBBFF #88C0D0FF #81A1C1FF #5E81ACFF
 paletteer_dynamic("cartography::green.pal", 5)
-#> [1] "#B8D9A9" "#8DBC80" "#5D9D52" "#287A22" "#17692C"
+#> <colors>
+#> #B8D9A9FF #8DBC80FF #5D9D52FF #287A22FF #17692CFF
 ```
 
 All of the functions now also support tab completion to easily access

@@ -42,8 +42,8 @@ paletteer_d <- function (palette, n, direction = 1,
                 discrete = pal[1:n])
 
   if (direction == -1) {
-    rev(out)
+    prismatic::color(rev(out))
   } else {
-    out
+    prismatic::color(out)
   }
 }

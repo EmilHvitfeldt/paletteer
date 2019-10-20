@@ -35,8 +35,8 @@ paletteer_dynamic <- function (palette, n, direction = 1) {
   }
 
   if (direction == -1) {
-    rev(pal[[n]])
+    prismatic::color(rev(pal[[n]]))
   } else {
-    pal[[n]]
+    prismatic::color(pal[[n]])
   }
 }

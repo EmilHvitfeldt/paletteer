@@ -26,9 +26,9 @@ test_that("paletteer_d return correct amount when type is set to continuous", {
 
 test_that("direction works correctly in paletteer_d", {
   expect_equal(paletteer_d("wesanderson::Royal1", 3, direction = 1),
-               c("#899DA4", "#C93312", "#FAEFD1"))
+               prismatic::color(c("#899DA4", "#C93312", "#FAEFD1")))
   expect_equal(paletteer_d("wesanderson::Royal1", 3, direction = -1),
-               c("#FAEFD1", "#C93312", "#899DA4"))
+               prismatic::color(c("#FAEFD1", "#C93312", "#899DA4")))
   expect_error(paletteer_d("wesanderson::Royal1", 3, direction = 10))
 })
 

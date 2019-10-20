@@ -30,7 +30,8 @@ Imports:
     rlang,
     glue,
     rematch2,
-    rstudioapi
+    rstudioapi,
+    prismatic
 Suggests: 
     covr,
     testthat (>= 2.1.0),

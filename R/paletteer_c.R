@@ -29,8 +29,8 @@ paletteer_c <- function(palette, n, direction = 1) {
   out <- gen_fun(name = palette[2], n = n)
 
   if (direction == -1) {
-    rev(out)
+    prismatic::color(rev(out))
   } else {
-    out
+    prismatic::color(out)
   }
 }
