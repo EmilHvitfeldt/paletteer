@@ -4,8 +4,7 @@
 \alias{paletteer_d}
 \title{Get discrete palette by package and name}
 \usage{
-paletteer_d(palette, n, direction = 1, type = c("discrete",
-  "continuous"))
+paletteer_d(palette, n, direction = 1, type = c("discrete", "continuous"))
 }
 \arguments{
 \item{palette}{Name of palette as a string. Must be on the form

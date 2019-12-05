@@ -126,63 +126,41 @@ paletteer_c("nord::frost")
 
 ## Included packages
 
-**paletteer** includes palettes from the following packages:
+**paletteer** includes palettes from the following
+packages:
 
-  - awtools [github](https://github.com/awhstin/awtools)
-  - cartography [github](https://github.com/riatelab/cartography)
-    [CRAN](https://cran.r-project.org/web/packages/cartography/index.html)
-  - dichromat
-    [CRAN](https://cran.r-project.org/web/packages/dichromat/index.html)
-  - dutchmasters [github](https://github.com/EdwinTh/dutchmasters)
-  - gameofthrones [github](https://github.com/aljrico/gameofthrones)
-    [CRAN](https://cran.r-project.org/web/packages/gameofthrones/index.html)
-  - ggsci [github](https://github.com/road2stat/ggsci)
-    [CRAN](https://cran.r-project.org/web/packages/ggsci/index.html)
-  - ggpomological [github](https://github.com/gadenbuie/ggpomological)
-  - ggthemes [github](https://github.com/jrnold/ggthemes)
-    [CRAN](https://cran.r-project.org/web/packages/ggthemes/index.html)
-  - ghibli [github](https://github.com/ewenme/ghibli)
-    [CRAN](https://cran.r-project.org/web/packages/ghibli/index.html)
-  - grDevices
-    [CRAN](https://cran.r-project.org/web/packages/RGraphics/index.html)
-  - harrypotter [github](https://github.com/aljrico/harrypotter)
-    [CRAN](https://cran.r-project.org/web/packages/harrypotter)
-  - jcolors [github](https://github.com/jaredhuling/jcolors)
-    [CRAN](https://cran.r-project.org/web/packages/jcolors/index.html)
-  - LaCroixColoR [github](https://github.com/johannesbjork/LaCroixColoR)
-  - NineteenEightyR [github](https://github.com/m-clark/NineteenEightyR)
-  - nord [github](https://github.com/jkaupp/nord)
-    [CRAN](https://cran.r-project.org/web/packages/nord/index.html)
-  - oompaBase
-    [CRAN](https://cran.r-project.org/web/packages/oompaBase/index.html)
-  - ochRe [github](https://github.com/ropenscilabs/ochRe)
-  - palettetown [github](https://github.com/timcdlucas/palettetown)
-    [CRAN](https://cran.r-project.org/web/packages/palettetown/index.html)
-  - palr [github](https://github.com/AustralianAntarcticDivision/palr)
-    [CRAN](https://cran.r-project.org/web/packages/palr/index.html)
-  - pals [github](https://github.com/kwstat/pals)
-    [CRAN](https://cran.r-project.org/web/packages/pals/index.html)
-  - Polychrome
-    [CRAN](https://cran.r-project.org/web/packages/Polychrome/index.html)
-  - miscpalettes [github](https://github.com/EmilHvitfeldt/miscpalettes)
-  - rcartocolor [github](https://github.com/Nowosad/rcartocolor)
-    [CRAN](https://cran.r-project.org/web/packages/rcartocolor/index.html)
-  - RColorBrewer
-    [CRAN](https://cran.r-project.org/web/packages/RColorBrewer/index.html)
-  - Redmonder
-    [CRAN](https://cran.r-project.org/web/packages/Redmonder/index.html)
-  - RSkittleBrewer
-    [github](https://github.com/alyssafrazee/RSkittleBrewer)
-  - scico [github](https://github.com/thomasp85/scico)
-    [CRAN](https://cran.r-project.org/web/packages/scico/index.html)
-  - tidyquant [github](https://github.com/business-science/tidyquant)
-    [CRAN](https://cran.r-project.org/web/packages/tidyquant/index.html)
-  - viridis [github](https://github.com/sjmgarnier/viridis)
-    [CRAN](https://cran.r-project.org/web/packages/viridis/index.html)
-  - visibly [github](https://github.com/m-clark/visibly)
-    [CRAN](https://cran.r-project.org/web/packages/visibly/index.html)
-  - vapoRwave [github](https://github.com/moldach/vapoRwave)
-  - wesanderson [github](https://github.com/karthik/wesanderson)
-    [CRAN](https://cran.r-project.org/web/packages/wesanderson/index.html)
-  - yarrr [github](https://github.com/ndphillips/yarrr)
-    [CRAN](https://cran.r-project.org/web/packages/yarrr/index.html)
+| Name            | Github                                                                                          | CRAN                                                      |
+| :-------------- | :---------------------------------------------------------------------------------------------- | :-------------------------------------------------------- |
+| awtools         | [awhstin/awtools - 0.2.1](https://github.com/awhstin/awtools)                                   | \-                                                        |
+| cartography     | [riatelab/cartography - 2.2.1.1](https://github.com/riatelab/cartography)                       | [2.2.1](https://CRAN.R-project.org/package=cartography)   |
+| dichromat       | \-                                                                                              | [2.0-0](https://CRAN.R-project.org/package=dichromat)     |
+| dutchmasters    | [EdwinTh/dutchmasters - 0.1.0](https://github.com/EdwinTh/dutchmasters)                         | \-                                                        |
+| gameofthrones   | [aljrico/gameofthrone - 1.0.1](https://github.com/aljrico/gameofthrone)                         | [1.0.0](https://CRAN.R-project.org/package=gameofthrones) |
+| ggsci           | [road2stat/ggsci - 2.9](https://github.com/road2stat/ggsci)                                     | [2.9](https://CRAN.R-project.org/package=ggsci)           |
+| ggpomological   | [gadenbuie/ggpomological - 0.1.2](https://github.com/gadenbuie/ggpomological)                   | \-                                                        |
+| ggthemes        | [jrnold/ggthemes - 4.2.0](https://github.com/jrnold/ggthemes)                                   | [4.2.0](https://CRAN.R-project.org/package=ggthemes)      |
+| ghibli          | [ewenme/ghibli - 0.3.0.9000](https://github.com/ewenme/ghibli)                                  | [0.3.0](https://CRAN.R-project.org/package=ghibli)        |
+| grDevices       | \-                                                                                              | [2.0-14](https://CRAN.R-project.org/package=grDevices)    |
+| harrypotter     | [aljrico/harrypotter - 2.1.0](https://github.com/aljrico/harrypotter)                           | [2.1.0](https://CRAN.R-project.org/package=harrypotter)   |
+| jcolors         | [jaredhuling/jcolors - 0.0.4](https://github.com/jaredhuling/jcolors)                           | [0.0.4](https://CRAN.R-project.org/package=jcolors)       |
+| LaCroixColoR    | [johannesbjork/LaCroixColoR - 0.1.0](https://github.com/johannesbjork/LaCroixColoR)             | \-                                                        |
+| NineteenEightyR | [m-clark/NineteenEightyR - 0.1.0](https://github.com/m-clark/NineteenEightyR)                   | \-                                                        |
+| nord            | [jkaupp/nord - 1.0.0](https://github.com/jkaupp/nord)                                           | [1.0.0](https://CRAN.R-project.org/package=nord)          |
+| oompaBase       | \-                                                                                              | [3.2.9](https://CRAN.R-project.org/package=oompaBase)     |
+| ochRe           | [ropenscilabs/ochRe - 1.0.0](https://github.com/ropenscilabs/ochRe)                             | \-                                                        |
+| palettetown     | [timcdlucas/palettetown - 0.1.1.90000](https://github.com/timcdlucas/palettetown)               | [0.1.1](https://CRAN.R-project.org/package=palettetown)   |
+| palr            | [AustralianAntarcticDivision/palr - 0.1.0](https://github.com/AustralianAntarcticDivision/palr) | [0.1.0](https://CRAN.R-project.org/package=palr)          |
+| pals            | [kwstat/pals - 1.6](https://github.com/kwstat/pals)                                             | [1.6](https://CRAN.R-project.org/package=pals)            |
+| Polychrome      | \-                                                                                              | [1.2.3](https://CRAN.R-project.org/package=Polychrome)    |
+| miscpalettes    | [EmilHvitfeldt/miscpalettes - 0.0.0.9000](https://github.com/EmilHvitfeldt/miscpalettes)        | \-                                                        |
+| rcartocolor     | [Nowosad/rcartocolor - 2.0.0](https://github.com/Nowosad/rcartocolor)                           | [2.0.0](https://CRAN.R-project.org/package=rcartocolor)   |
+| RColorBrewer    | \-                                                                                              | [1.1-2](https://CRAN.R-project.org/package=RColorBrewer)  |
+| Redmonder       | \-                                                                                              | [0.2.0](https://CRAN.R-project.org/package=Redmonder)     |
+| RSkittleBrewer  | [alyssafrazee/RSkittleBrewer - 1.1](https://github.com/alyssafrazee/RSkittleBrewer)             | \-                                                        |
+| scico           | [thomasp85/scico - 1.1.0](https://github.com/thomasp85/scico)                                   | [1.1.0](https://CRAN.R-project.org/package=scico)         |
+| tidyquant       | [business-science/tidyquant - 0.5.8](https://github.com/business-science/tidyquant)             | [0.5.8](https://CRAN.R-project.org/package=tidyquant)     |
+| viridis         | [sjmgarnier/viridis - 0.5.1](https://github.com/sjmgarnier/viridis)                             | [0.5.1](https://CRAN.R-project.org/package=viridis)       |
+| visibly         | [m-clark/visibly - 0.2.6](https://github.com/m-clark/visibly)                                   | \-                                                        |
+| vapoRwave       | [moldach/vapoRwave - 0.0.0.9000](https://github.com/moldach/vapoRwave)                          | \-                                                        |
+| wesanderson     | [karthik/wesanderson - 0.3.6.9000](https://github.com/karthik/wesanderson)                      | [0.3.6](https://CRAN.R-project.org/package=wesanderson)   |
+| yarrr           | [ndphillips/yarrr - 0.1.6](https://github.com/ndphillips/yarrr)                                 | [0.1.5](https://CRAN.R-project.org/package=yarrr)         |

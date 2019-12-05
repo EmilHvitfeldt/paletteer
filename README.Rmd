@@ -131,37 +131,18 @@ paletteer_c("nord::frost")
 
 **paletteer** includes palettes from the following packages:
 
-- awtools [github](https://github.com/awhstin/awtools)
-- cartography [github](https://github.com/riatelab/cartography) [CRAN](https://cran.r-project.org/web/packages/cartography/index.html)
-- dichromat [CRAN](https://cran.r-project.org/web/packages/dichromat/index.html)
-- dutchmasters [github](https://github.com/EdwinTh/dutchmasters)
-- gameofthrones [github](https://github.com/aljrico/gameofthrones) [CRAN](https://cran.r-project.org/web/packages/gameofthrones/index.html)
-- ggsci [github](https://github.com/road2stat/ggsci) [CRAN](https://cran.r-project.org/web/packages/ggsci/index.html)
-- ggpomological [github](https://github.com/gadenbuie/ggpomological)
-- ggthemes [github](https://github.com/jrnold/ggthemes) [CRAN](https://cran.r-project.org/web/packages/ggthemes/index.html)
-- ghibli [github](https://github.com/ewenme/ghibli) [CRAN](https://cran.r-project.org/web/packages/ghibli/index.html)
-- grDevices [CRAN](https://cran.r-project.org/web/packages/RGraphics/index.html)
-- harrypotter [github](https://github.com/aljrico/harrypotter) [CRAN](https://cran.r-project.org/web/packages/harrypotter)
-- jcolors [github](https://github.com/jaredhuling/jcolors) [CRAN](https://cran.r-project.org/web/packages/jcolors/index.html)
-- LaCroixColoR [github](https://github.com/johannesbjork/LaCroixColoR)
-- NineteenEightyR [github](https://github.com/m-clark/NineteenEightyR)
-- nord [github](https://github.com/jkaupp/nord) [CRAN](https://cran.r-project.org/web/packages/nord/index.html)
-- oompaBase [CRAN](https://cran.r-project.org/web/packages/oompaBase/index.html)
-- ochRe [github](https://github.com/ropenscilabs/ochRe)
-- palettetown [github](https://github.com/timcdlucas/palettetown) [CRAN](https://cran.r-project.org/web/packages/palettetown/index.html)
-- palr [github](https://github.com/AustralianAntarcticDivision/palr) [CRAN](https://cran.r-project.org/web/packages/palr/index.html)
-- pals [github](https://github.com/kwstat/pals) [CRAN](https://cran.r-project.org/web/packages/pals/index.html)
-- Polychrome [CRAN](https://cran.r-project.org/web/packages/Polychrome/index.html)
-- miscpalettes [github](https://github.com/EmilHvitfeldt/miscpalettes)
-- rcartocolor [github](https://github.com/Nowosad/rcartocolor) 
-[CRAN](https://cran.r-project.org/web/packages/rcartocolor/index.html)
-- RColorBrewer [CRAN](https://cran.r-project.org/web/packages/RColorBrewer/index.html)
-- Redmonder [CRAN](https://cran.r-project.org/web/packages/Redmonder/index.html)
-- RSkittleBrewer [github](https://github.com/alyssafrazee/RSkittleBrewer)
-- scico [github](https://github.com/thomasp85/scico) [CRAN](https://cran.r-project.org/web/packages/scico/index.html)
-- tidyquant [github](https://github.com/business-science/tidyquant) [CRAN](https://cran.r-project.org/web/packages/tidyquant/index.html)
-- viridis [github](https://github.com/sjmgarnier/viridis) [CRAN](https://cran.r-project.org/web/packages/viridis/index.html)
-- visibly [github](https://github.com/m-clark/visibly) [CRAN](https://cran.r-project.org/web/packages/visibly/index.html)
-- vapoRwave [github](https://github.com/moldach/vapoRwave)
-- wesanderson [github](https://github.com/karthik/wesanderson) [CRAN](https://cran.r-project.org/web/packages/wesanderson/index.html)
-- yarrr [github](https://github.com/ndphillips/yarrr) [CRAN](https://cran.r-project.org/web/packages/yarrr/index.html)
+```{r, echo=FALSE}
+p_df <- paletteer_packages
+p_df$Github <- ifelse(!is.na(paletteer_packages$Github),
+                            paste0("[", paletteer_packages$Github, " - ", 
+                            paletteer_packages$github_ver, "](https://github.com/", 
+                            paletteer_packages$Github, ")"),
+                            "-")
+
+p_df$CRAN <- ifelse(paletteer_packages$CRAN,
+  paste0("[", paletteer_packages$CRAN_ver, "](https://CRAN.R-project.org/package=", paletteer_packages$Name, 
+                    ")"),
+  "-")
+
+knitr::kable(p_df[c("Name", "Github", "CRAN")])
+```
