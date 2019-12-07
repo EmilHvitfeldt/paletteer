@@ -12,3 +12,4 @@
 ^appveyor\.yml$
 ^cran-comments\.md$
 ^CONTRIBUTING\.md$
+^pkgdown$
