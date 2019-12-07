@@ -10,7 +10,7 @@ paletteer_c(palette, n, direction = 1)
 \item{palette}{Name of palette as a string. Must be on the form
 packagename::palettename.}
 
-\item{n}{Number of colors desired. If omitted, returns complete palette.}
+\item{n}{Number of colors desired. Must be supplied.}
 
 \item{direction}{Either \code{1} or \code{-1}. If \code{-1} the palette will be reversed.}
 }

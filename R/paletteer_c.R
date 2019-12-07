@@ -5,7 +5,7 @@
 #'
 #' @param palette Name of palette as a string. Must be on the form
 #' packagename::palettename.
-#' @param n Number of colors desired. If omitted, returns complete palette.
+#' @param n Number of colors desired. Must be supplied.
 #' @param direction Either `1` or `-1`. If `-1` the palette will be reversed.
 #' @return A vector of colors.
 #' @examples
