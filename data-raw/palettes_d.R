@@ -29,6 +29,10 @@ dichromat_pals <- dichromat::colorschemes
 ## dutchmasters ---------------------------------------------------------------
 dutchmasters_pals <- lapply(dutchmasters::dutchmasters, unname)
 
+## fishualize
+fishualize_pals <- split(as.character(fishualize::fishcolors$hex),
+                         fishualize::fishcolors$option)
+
 ## ggsci ----------------------------------------------------------------------
 ggsci_names <- mapply(function(x, y)
   paste(names(x), y, sep = "_"),
@@ -268,6 +272,7 @@ palettes_d <- list(
   basetheme = basetheme_pals,
   dichromat = dichromat_pals,
   dutchmasters = dutchmasters_pals,
+  fishualize = fishualize_pals,
   ggsci = ggsci_pals,
   ggpomological = ggpomological_pals,
   ggthemes = ggthemes_pals,

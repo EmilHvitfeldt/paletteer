@@ -4,7 +4,7 @@
 \name{palettes_d}
 \alias{palettes_d}
 \title{Complete list of fixed discrete palettes}
-\format{A list of 30 lists.}
+\format{A list of 31 lists.}
 \usage{
 palettes_d
 }
@@ -14,11 +14,11 @@ package. Structured as a list of lists with the first level being each
 package and the second level being the palettes available in that package.
 }
 \details{
-Contains palettes from the following packages: awtools, dichromat,
-dutchmasters, ggsci, ggpomological, ggthemes, ghibli, grDevices, jcolors,
-LaCroixColoR, lisa, NineteenEightyR, nord, ochRe, pals, Polychrome,
-miscpalettes, rcartocolor, RColorBrewer, Redmonder, RSkittleBrewer,
-tidyquant, vapoRwave, wesanderson and yarrr.
+Contains palettes from the following packages: awtools, basetheme, dichromat,
+dutchmasters, fishualize, ggsci, ggpomological, ggthemes, ggthemr, ghibli,
+grDevices, IslamicArt, jcolors, LaCroixColoR, lisa, NineteenEightyR, nord,
+ochRe, pals, Polychrome, miscpalettes, rcartocolor, RColorBrewer, Redmonder,
+RSkittleBrewer, tidyquant, vapeplot, vapoRwave, wesanderson and yarrr.
 
 data.frame of palette names can be found here \code{\link{palettes_d_names}}.
 }

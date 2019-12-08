@@ -4,15 +4,15 @@
 #' package. Structured as a list of lists with the first level being each
 #' package and the second level being the palettes available in that package.
 #'
-#' Contains palettes from the following packages: awtools, dichromat,
-#' dutchmasters, ggsci, ggpomological, ggthemes, ghibli, grDevices, jcolors,
-#' LaCroixColoR, lisa, NineteenEightyR, nord, ochRe, pals, Polychrome,
-#' miscpalettes, rcartocolor, RColorBrewer, Redmonder, RSkittleBrewer,
-#' tidyquant, vapoRwave, wesanderson and yarrr.
+#' Contains palettes from the following packages: awtools, basetheme, dichromat,
+#' dutchmasters, fishualize, ggsci, ggpomological, ggthemes, ggthemr, ghibli,
+#' grDevices, IslamicArt, jcolors, LaCroixColoR, lisa, NineteenEightyR, nord,
+#' ochRe, pals, Polychrome, miscpalettes, rcartocolor, RColorBrewer, Redmonder,
+#' RSkittleBrewer, tidyquant, vapeplot, vapoRwave, wesanderson and yarrr.
 #'
 #' data.frame of palette names can be found here \code{\link{palettes_d_names}}.
 #'
-#' @format A list of 30 lists.
+#' @format A list of 31 lists.
 "palettes_d"
 
 #' Names of all fixed discrete palettes
@@ -20,15 +20,16 @@
 #' A data.frame of the names and other characteristics of the discrete palettes
 #' of fixed lengths included in this package.
 #'
-#' Contains palettes names from the following packages: awtools, dichromat,
-#' dutchmasters, ggsci, ggpomological, ggthemes, ghibli, grDevices, jcolors,
-#' LaCroixColoR, lisa, NineteenEightyR, nord, ochRe, pals, Polychrome,
-#' miscpalettes, rcartocolor, RColorBrewer, Redmonder, RSkittleBrewer,
-#' tidyquant, vapoRwave, wesanderson and yarrr.
+#' Contains palettes names from the following packages: awtools, basetheme,
+#' dichromat, dutchmasters, fishualize, ggsci, ggpomological, ggthemes,
+#' ggthemr, ghibli, grDevices, IslamicArt, jcolors, LaCroixColoR, lisa,
+#' NineteenEightyR, nord, ochRe, pals, Polychrome, miscpalettes, rcartocolor,
+#' RColorBrewer, Redmonder, RSkittleBrewer, tidyquant, vapeplot, vapoRwave,
+#' wesanderson and yarrr.
 #'
 #' Full list of palette can be found here \code{\link{palettes_d}}.
 #'
-#' @format A data.frame of 1054 observations with 4 variables:
+#' @format A data.frame of 1138 observations with 4 variables:
 #' \describe{
 #'   \item{package}{character, name of package}
 #'   \item{palette}{character, name of palette}
