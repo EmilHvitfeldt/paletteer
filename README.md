@@ -58,7 +58,7 @@ you need for a smooth transition of color:
 
 ![](man/figures/README-unnamed-chunk-4-1.png)<!-- -->
 
-This package includes 1258 from 35 different packages and information
+This package includes 1266 from 36 different packages and information
 about these can be found in the following data.frames:
 `palettes_c_names`, `palettes_d_names` and `palettes_dynamic_names`.
 Additionally this [github
@@ -162,6 +162,7 @@ packages:
 | RSkittleBrewer  | [alyssafrazee/RSkittleBrewer - 1.1](https://github.com/alyssafrazee/RSkittleBrewer)             | \-                                                        |
 | scico           | [thomasp85/scico - 1.1.0](https://github.com/thomasp85/scico)                                   | [1.1.0](https://CRAN.R-project.org/package=scico)         |
 | tidyquant       | [business-science/tidyquant - 0.5.8](https://github.com/business-science/tidyquant)             | [0.5.8](https://CRAN.R-project.org/package=tidyquant)     |
+| vapeplot        | [seasmith/vapeplot - 0.1.0](https://github.com/seasmith/vapeplot)                               | \-                                                        |
 | vapoRwave       | [moldach/vapoRwave - 0.0.0.9000](https://github.com/moldach/vapoRwave)                          | \-                                                        |
 | viridis         | [sjmgarnier/viridis - 0.5.1](https://github.com/sjmgarnier/viridis)                             | [0.5.1](https://CRAN.R-project.org/package=viridis)       |
 | visibly         | [m-clark/visibly - 0.2.6](https://github.com/m-clark/visibly)                                   | \-                                                        |

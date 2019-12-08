@@ -228,6 +228,10 @@ tidyquant_pals <- list(
   tq_green = tidyquant::palette_green()
 )
 
+## vapeplot ------------------------------------------------------------------
+
+vapeplot_pals <- vapeplot::vapeplot_palettes
+
 ## vapoRwave -------------------------------------------------------------------
 vapoRwave_pals <- list(
   avanti = vapoRwave:::avanti_palette,
@@ -281,6 +285,7 @@ palettes_d <- list(
   Redmonder = redmonder_pals,
   RSkittleBrewer = RSkittleBrewer_pals,
   tidyquant = tidyquant_pals,
+  vapeplot = vapeplot_pals,
   vapoRwave = vapoRwave_pals,
   wesanderson = wesanderson_pals,
   yarrr = yarrr_pals
