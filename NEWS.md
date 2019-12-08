@@ -9,6 +9,7 @@
 * 8 palettes have been added from the vapeplot package. ($42)
 * 18 palettes have been added from the ggthemr package. (#47)
 * 84 palettes have been added from the fishualize package. (#52)
+* 18 palettes have been added from the DresdenColor package. (#54)
 
 # paletteer 0.2.1
 

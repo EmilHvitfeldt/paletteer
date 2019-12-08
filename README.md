@@ -58,7 +58,7 @@ you need for a smooth transition of color:
 
 ![](man/figures/README-unnamed-chunk-4-1.png)<!-- -->
 
-This package includes 1368 from 38 different packages and information
+This package includes 1386 from 39 different packages and information
 about these can be found in the following data.frames:
 `palettes_c_names`, `palettes_d_names` and `palettes_dynamic_names`.
 Additionally this [github
@@ -135,6 +135,7 @@ packages:
 | basetheme       | [KKPMW/basetheme - 0.1.2](https://github.com/KKPMW/basetheme)                                   | [0.1.2](https://CRAN.R-project.org/package=basetheme)     |
 | cartography     | [riatelab/cartography - 2.2.1.1](https://github.com/riatelab/cartography)                       | [2.2.1](https://CRAN.R-project.org/package=cartography)   |
 | dichromat       | \-                                                                                              | [2.0-0](https://CRAN.R-project.org/package=dichromat)     |
+| DresdenColor    | [katiesaund/DresdenColor - 0.0.0.9000](https://github.com/katiesaund/DresdenColor)              | \-                                                        |
 | dutchmasters    | [EdwinTh/dutchmasters - 0.1.0](https://github.com/EdwinTh/dutchmasters)                         | \-                                                        |
 | fishualize      | [nschiett/fishualize - 0.2.999](https://github.com/nschiett/fishualize)                         | [0.1.0](https://CRAN.R-project.org/package=fishualize)    |
 | gameofthrones   | [aljrico/gameofthrones - 1.0.1](https://github.com/aljrico/gameofthrones)                       | [1.0.0](https://CRAN.R-project.org/package=gameofthrones) |

@@ -5,14 +5,15 @@
 #' package and the second level being the palettes available in that package.
 #'
 #' Contains palettes from the following packages: awtools, basetheme, dichromat,
-#' dutchmasters, fishualize, ggsci, ggpomological, ggthemes, ggthemr, ghibli,
-#' grDevices, IslamicArt, jcolors, LaCroixColoR, lisa, NineteenEightyR, nord,
-#' ochRe, pals, Polychrome, miscpalettes, rcartocolor, RColorBrewer, Redmonder,
-#' RSkittleBrewer, tidyquant, vapeplot, vapoRwave, wesanderson and yarrr.
+#' dutchmasters, ,DresdenColor, fishualize, ggsci, ggpomological, ggthemes,
+#' ggthemr, ghibli, grDevices, IslamicArt, jcolors, LaCroixColoR, lisa,
+#' NineteenEightyR, nord, ochRe, pals, Polychrome, miscpalettes, rcartocolor,
+#' RColorBrewer, Redmonder, RSkittleBrewer, tidyquant, vapeplot, vapoRwave,
+#' wesanderson and yarrr.
 #'
 #' data.frame of palette names can be found here \code{\link{palettes_d_names}}.
 #'
-#' @format A list of 31 lists.
+#' @format A list of 32 lists.
 "palettes_d"
 
 #' Names of all fixed discrete palettes
@@ -21,15 +22,15 @@
 #' of fixed lengths included in this package.
 #'
 #' Contains palettes names from the following packages: awtools, basetheme,
-#' dichromat, dutchmasters, fishualize, ggsci, ggpomological, ggthemes,
-#' ggthemr, ghibli, grDevices, IslamicArt, jcolors, LaCroixColoR, lisa,
-#' NineteenEightyR, nord, ochRe, pals, Polychrome, miscpalettes, rcartocolor,
-#' RColorBrewer, Redmonder, RSkittleBrewer, tidyquant, vapeplot, vapoRwave,
-#' wesanderson and yarrr.
+#' dichromat, dutchmasters, DresdenColor, fishualize, ggsci, ggpomological,
+#' ggthemes, ggthemr, ghibli, grDevices, IslamicArt, jcolors, LaCroixColoR,
+#' lisa, NineteenEightyR, nord, ochRe, pals, Polychrome, miscpalettes,
+#' rcartocolor, RColorBrewer, Redmonder, RSkittleBrewer, tidyquant, vapeplot,
+#' vapoRwave, wesanderson and yarrr.
 #'
 #' Full list of palette can be found here \code{\link{palettes_d}}.
 #'
-#' @format A data.frame of 1138 observations with 4 variables:
+#' @format A data.frame of 1156 observations with 4 variables:
 #' \describe{
 #'   \item{package}{character, name of package}
 #'   \item{palette}{character, name of palette}

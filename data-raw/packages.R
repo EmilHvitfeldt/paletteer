@@ -39,7 +39,8 @@ paletteer_packages <- tibble::tribble(
   "basetheme", "KKPMW/basetheme", "0.1.2", TRUE, "0.1.2",
   "vapeplot", "seasmith/vapeplot", "0.1.0", FALSE, NA,
   "ggthemr", "cttobin/ggthemr", "1.1.0", FALSE, NA,
-  "fishualize", "nschiett/fishualize", "0.2.999", TRUE, "0.1.0"
+  "fishualize", "nschiett/fishualize", "0.2.999", TRUE, "0.1.0",
+  "DresdenColor", "katiesaund/DresdenColor", "0.0.0.9000", FALSE, NA
 ) %>%
   arrange(Name)
 
