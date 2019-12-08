@@ -28,6 +28,19 @@ add instalation information to `data-raw/install_packages.R`.
 
 Include bullet in `NEWS.md` file.
 
+## Github issue template
+
+- [ ] Modify `data-raw/palettes_d.R`
+- [ ] run `data-raw/palettes_d_names.R` script
+- [ ] Modify `R/data.R` update the format for `palettes_d` and `palettes_d_names` with 
+`length(palettes_d)` and `nrow(palettes_d_names)` respectively.
+- [ ] run `devtools::document()`
+- [ ] Include license reference in `LICENSE` file.
+- [ ] Include package information in `data-raw/package`.
+- [ ] reknit readme.
+- [ ] add instalation information to `data-raw/install_packages.R`.
+- [ ] Include bullet in `NEWS.md` file.
+
 # Adding continuous palettes
 
 Make sure to only 
