@@ -229,6 +229,9 @@ names(MapPalettes_pals) <- MapPalettes:::names
 miscpalettes_pals <- c(miscpalettes::artistic,
                        miscpalettes::mschart)
 
+## PNWColors ------------------------------------------------------------------
+PNWColors_pals <- lapply(PNWColors::pnw_palettes, function(x) x[1, ])
+
 ## rcartocolor ----------------------------------------------------------------
 rcartocolors_pals <- lapply(rcartocolor::cartocolors$Name,
                             function(x) rcartocolor::carto_pal(name = x))
@@ -352,6 +355,7 @@ palettes_d <- list(
   Polychrome = Polychrome_pals,
   MapPalettes = MapPalettes_pals,
   miscpalettes = miscpalettes_pals,
+  PNWColors = PNWColors_pals,
   rcartocolor = rcartocolors_pals,
   RColorBrewer = rcolorbrewer_pals,
   Redmonder = redmonder_pals,

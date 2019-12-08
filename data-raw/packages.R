@@ -49,7 +49,8 @@ paletteer_packages <- tibble::tribble(
   "colorblindr", "clauswilke/colorblindr", "0.1.0", FALSE, NA,
   "colRoz", "jacintak/colRoz", "0.2.2", FALSE, NA,
   "unikn", "hneth/unikn", "0.2.0.9003", TRUE, "0.2.0",
-  "tvthemes", "Ryo-N7/tvthemes", "1.1.0", TRUE, "1.1.0"
+  "tvthemes", "Ryo-N7/tvthemes", "1.1.0", TRUE, "1.1.0",
+  "PNWColors", "jakelawlor/PNWColors", "0.1.0", FALSE, NA
 ) %>%
   arrange(Name)
 

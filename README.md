@@ -58,7 +58,7 @@ you need for a smooth transition of color:
 
 ![](man/figures/README-unnamed-chunk-4-1.png)<!-- -->
 
-This package includes 1591 from 48 different packages and information
+This package includes 1601 from 49 different packages and information
 about these can be found in the following data.frames:
 `palettes_c_names`, `palettes_d_names` and `palettes_dynamic_names`.
 Additionally this [github
@@ -163,6 +163,7 @@ packages:
 | palettetown        | [timcdlucas/palettetown - 0.1.1.90000](https://github.com/timcdlucas/palettetown)               | [0.1.1](https://CRAN.R-project.org/package=palettetown)   |
 | palr               | [AustralianAntarcticDivision/palr - 0.1.0](https://github.com/AustralianAntarcticDivision/palr) | [0.1.0](https://CRAN.R-project.org/package=palr)          |
 | pals               | [kwstat/pals - 1.6](https://github.com/kwstat/pals)                                             | [1.6](https://CRAN.R-project.org/package=pals)            |
+| PNWColors          | [jakelawlor/PNWColors - 0.1.0](https://github.com/jakelawlor/PNWColors)                         | \-                                                        |
 | Polychrome         | \-                                                                                              | [1.2.3](https://CRAN.R-project.org/package=Polychrome)    |
 | rcartocolor        | [Nowosad/rcartocolor - 2.0.0](https://github.com/Nowosad/rcartocolor)                           | [2.0.0](https://CRAN.R-project.org/package=rcartocolor)   |
 | RColorBrewer       | \-                                                                                              | [1.1-2](https://CRAN.R-project.org/package=RColorBrewer)  |

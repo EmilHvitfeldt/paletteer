@@ -9,12 +9,13 @@
 #' fishualize, ggsci, ggpomological, ggthemes, ggthemr, ghibli, grDevices,
 #' IslamicArt, jcolors, LaCroixColoR, lisa, nationalparkcolors,
 #' NineteenEightyR, nord, ochRe, pals, Polychrome, MapPalettes, miscpalettes,
-#' rcartocolor, RColorBrewer, Redmonder, RSkittleBrewer, tidyquant, trekcolors,
-#' tvthemes, unikn, vapeplot, vapoRwave, werpals, wesanderson and yarrr.
+#' PNWColors, rcartocolor, RColorBrewer, Redmonder, RSkittleBrewer, tidyquant,
+#' trekcolors, tvthemes, unikn, vapeplot, vapoRwave, werpals, wesanderson and
+#' yarrr.
 #'
 #' data.frame of palette names can be found here \code{\link{palettes_d_names}}.
 #'
-#' @format A list of 41 lists.
+#' @format A list of 42 lists.
 "palettes_d"
 
 #' Names of all fixed discrete palettes
@@ -27,12 +28,13 @@
 #' fishualize, ggsci, ggpomological, ggthemes, ggthemr, ghibli, grDevices,
 #' IslamicArt, jcolors, LaCroixColoR, lisa, nationalparkcolors,
 #' NineteenEightyR, nord, ochRe, pals, Polychrome, MapPalettes, miscpalettes,
-#' rcartocolor, RColorBrewer, Redmonder, RSkittleBrewer, tidyquant, trekcolors,
-#' tvthemes, unikn, vapeplot, vapoRwave, werpals, wesanderson and yarrr.
+#' PNWColors, rcartocolor, RColorBrewer, Redmonder, RSkittleBrewer, tidyquant,
+#' trekcolors, tvthemes, unikn, vapeplot, vapoRwave, werpals, wesanderson and
+#' yarrr.
 #'
 #' Full list of palette can be found here \code{\link{palettes_d}}.
 #'
-#' @format A data.frame of 1361 observations with 4 variables:
+#' @format A data.frame of 1371 observations with 4 variables:
 #' \describe{
 #'   \item{package}{character, name of package}
 #'   \item{palette}{character, name of palette}
