@@ -5,15 +5,16 @@
 #' package and the second level being the palettes available in that package.
 #'
 #' Contains palettes from the following packages: awtools, basetheme, dichromat,
-#' dutchmasters, ,DresdenColor, fishualize, ggsci, ggpomological, ggthemes,
+#' dutchmasters, DresdenColor, fishualize, ggsci, ggpomological, ggthemes,
 #' ggthemr, ghibli, grDevices, IslamicArt, jcolors, LaCroixColoR, lisa,
-#' NineteenEightyR, nord, ochRe, pals, Polychrome, miscpalettes, rcartocolor,
-#' RColorBrewer, Redmonder, RSkittleBrewer, tidyquant, vapeplot, vapoRwave,
+#' nationalparkcolors, NineteenEightyR, nord, ochRe, pals, Polychrome,
+#' MapPalettes, miscpalettes, rcartocolor, RColorBrewer, Redmonder,
+#' RSkittleBrewer, tidyquant, trekcolors, vapeplot, vapoRwave, werpals,
 #' wesanderson and yarrr.
 #'
 #' data.frame of palette names can be found here \code{\link{palettes_d_names}}.
 #'
-#' @format A list of 32 lists.
+#' @format A list of 36 lists.
 "palettes_d"
 
 #' Names of all fixed discrete palettes
@@ -24,13 +25,14 @@
 #' Contains palettes names from the following packages: awtools, basetheme,
 #' dichromat, dutchmasters, DresdenColor, fishualize, ggsci, ggpomological,
 #' ggthemes, ggthemr, ghibli, grDevices, IslamicArt, jcolors, LaCroixColoR,
-#' lisa, NineteenEightyR, nord, ochRe, pals, Polychrome, miscpalettes,
-#' rcartocolor, RColorBrewer, Redmonder, RSkittleBrewer, tidyquant, vapeplot,
-#' vapoRwave, wesanderson and yarrr.
+#' lisa, nationalparkcolors, NineteenEightyR, nord, ochRe, pals, Polychrome,
+#' MapPalettes, miscpalettes, rcartocolor, RColorBrewer, Redmonder,
+#' RSkittleBrewer, tidyquant, trekcolors, vapeplot, vapoRwave, werpals,
+#' wesanderson and yarrr.
 #'
 #' Full list of palette can be found here \code{\link{palettes_d}}.
 #'
-#' @format A data.frame of 1156 observations with 4 variables:
+#' @format A data.frame of 1240 observations with 4 variables:
 #' \describe{
 #'   \item{package}{character, name of package}
 #'   \item{palette}{character, name of palette}

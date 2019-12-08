@@ -10,6 +10,10 @@
 * 18 palettes have been added from the ggthemr package. (#47)
 * 84 palettes have been added from the fishualize package. (#52)
 * 18 palettes have been added from the DresdenColor package. (#54)
+* 35 palettes have been added from the trekcolors package. (#55)
+* 25 palettes have been added from the nationalparkcolors package. (#58)
+* 6 palettes have been added from the MapPalettes package. (#62)
+* 18 palettes have been added from the werpals package. (#63)
 
 # paletteer 0.2.1
 

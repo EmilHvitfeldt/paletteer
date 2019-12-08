@@ -132,7 +132,7 @@ paletteer_c("nord::frost")
 **paletteer** includes palettes from the following packages:
 
 ```{r, echo=FALSE}
-p_df <- paletteer_packages 
+p_df <- paletteer_packages
 p_df$Github <- ifelse(!is.na(paletteer_packages$Github),
                             paste0("[", paletteer_packages$Github, " - ", 
                             paletteer_packages$github_ver, "](https://github.com/", 

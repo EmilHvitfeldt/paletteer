@@ -153,6 +153,9 @@ LaCroixColoR_pals <- c(
 ## Lisa -----------------------------------------------------------------------
 lisa_pals <- lisa::lisa
 
+## nationalparkcolors ---------------------------------------------------------
+nationalparkcolors_pals <- nationalparkcolors::park_palettes
+
 ## NineteenEightyR ------------------------------------------------------------
 NineteenEightyR_pals <- list(
   cobra = NineteenEightyR::cobra(),
@@ -207,6 +210,11 @@ Polychrome_pals <- lapply(
   unname
 )
 
+## MapPalettes ----------------------------------------------------------------
+
+MapPalettes_pals <- lapply(MapPalettes:::names, MapPalettes::map_palette)
+names(MapPalettes_pals) <- MapPalettes:::names
+
 ## miscpalettes ---------------------------------------------------------------
 miscpalettes_pals <- c(miscpalettes::artistic,
                        miscpalettes::mschart)
@@ -242,6 +250,9 @@ tidyquant_pals <- list(
   tq_green = tidyquant::palette_green()
 )
 
+## trekcolors -----------------------------------------------------------------
+trekcolors_pals <- trekcolors::trekpals
+
 ## vapeplot ------------------------------------------------------------------
 
 vapeplot_pals <- vapeplot::vapeplot_palettes
@@ -263,6 +274,13 @@ vapoRwave_pals <- list(
   sunSet = vapoRwave:::sunSet_palette,
   vapoRwave = vapoRwave:::vapoRwave_palette
 )
+
+## werpals --------------------------------------------------------------------
+
+werpals_pals <- lapply(
+  c(werpals::disney_palettes[names(werpals::disney_palettes) != "main"],
+    werpals::nature_palettes[names(werpals::nature_palettes) != "main"]),
+  unname)
 
 ## wesanderson ----------------------------------------------------------------
 wesanderson_pals <- wesanderson::wes_palettes
@@ -290,20 +308,24 @@ palettes_d <- list(
   jcolors = jcolors_pals,
   LaCroixColoR = LaCroixColoR_pals,
   lisa = lisa_pals,
+  nationalparkcolors = nationalparkcolors_pals,
   NineteenEightyR = NineteenEightyR_pals,
   nord = nord_pals,
   ochRe = ochRe_pals,
   palettetown = palettetown_pals,
   pals = pals_pals,
   Polychrome = Polychrome_pals,
+  MapPalettes = MapPalettes_pals,
   miscpalettes = miscpalettes_pals,
   rcartocolor = rcartocolors_pals,
   RColorBrewer = rcolorbrewer_pals,
   Redmonder = redmonder_pals,
   RSkittleBrewer = RSkittleBrewer_pals,
   tidyquant = tidyquant_pals,
+  trekcolors = trekcolors_pals,
   vapeplot = vapeplot_pals,
   vapoRwave = vapoRwave_pals,
+  werpals = werpals_pals,
   wesanderson = wesanderson_pals,
   yarrr = yarrr_pals
 )
