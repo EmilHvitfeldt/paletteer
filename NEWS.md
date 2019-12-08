@@ -16,6 +16,7 @@
 * 18 palettes have been added from the werpals package. (#63)
 * 22 palettes have been added from the calecopal package. (#64)
 * 2 palettes have been adden from the colorblindr package. (#66)
+* 54 palettes have been added from the colRoz package. (#69)
 
 # paletteer 0.2.1
 

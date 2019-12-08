@@ -46,7 +46,8 @@ paletteer_packages <- tibble::tribble(
   "MapPalettes", "disarm-platform/MapPalettes", "0.0.2", FALSE, NA,
   "werpals", "sciencificity/werpals", "0.1.0", FALSE, NA,
   "calecopal", "an-bui/calecopal", "0.1.0", FALSE, NA,
-  "colorblindr", "clauswilke/colorblindr", "0.1.0", FALSE, NA
+  "colorblindr", "clauswilke/colorblindr", "0.1.0", FALSE, NA,
+  "colRoz", "jacintak/colRoz", "0.2.2", FALSE, NA
 ) %>%
   arrange(Name)
 

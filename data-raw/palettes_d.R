@@ -30,6 +30,9 @@ calecopal_pals <- calecopal::cal_palettes
 colorblindr_pals <- list(OkabeIto = colorblindr::palette_OkabeIto,
                          OkabeIto_black = colorblindr::palette_OkabeIto_black)
 
+## colRoz ---------------------------------------------------------------------
+colRoz_pals <- reduce(lapply(colRoz::oz_palettes, function(y) lapply(y, function(x) x[1, ])), c)
+
 ## dichromat ------------------------------------------------------------------
 dichromat_pals <- dichromat::colorschemes
 
@@ -303,6 +306,7 @@ palettes_d <- list(
   basetheme = basetheme_pals,
   calecopal = calecopal_pals,
   colorblindr = colorblindr_pals,
+  colRoz = colRoz_pals,
   dichromat = dichromat_pals,
   dutchmasters = dutchmasters_pals,
   DresdenColor = DresdenColor_pals,
