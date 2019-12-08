@@ -36,7 +36,7 @@ Include bullet in `NEWS.md` file.
 `length(palettes_d)` and `nrow(palettes_d_names)` respectively.
 - [ ] run `devtools::document()`
 - [ ] Include license reference in `LICENSE` file.
-- [ ] Include package information in `data-raw/package` and run.
+- [ ] Include package information in `data-raw/packages` and run.
 - [ ] reknit readme.
 - [ ] Include bullet in `NEWS.md` file.
 - [ ] run `vdiffr::manage_cases()`

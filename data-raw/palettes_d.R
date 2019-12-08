@@ -93,6 +93,9 @@ ghibli_pals <- ghibli::ghibli_palettes
 ## grDevices ------------------------------------------------------------------
 grDevices_pals <- list(blues9 = grDevices::blues9)
 
+## IslamicArt -----------------------------------------------------------------
+IslamicArt_pals <- IslamicArt::islamic_palettes
+
 ## jcolors --------------------------------------------------------------------
 jcolors_pals <- lapply(
   list(
@@ -248,6 +251,7 @@ palettes_d <- list(
   ggthemes = ggthemes_pals,
   ghibli = ghibli_pals,
   grDevices = grDevices_pals,
+  IslamicArt = IslamicArt_pals,
   jcolors = jcolors_pals,
   LaCroixColoR = LaCroixColoR_pals,
   lisa = lisa_pals,

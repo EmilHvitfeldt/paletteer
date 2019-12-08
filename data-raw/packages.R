@@ -34,7 +34,8 @@ paletteer_packages <- tibble::tribble(
   "vapoRwave", "moldach/vapoRwave", "0.0.0.9000", FALSE, NA,
   "wesanderson", "karthik/wesanderson", "0.3.6.9000", TRUE, "0.3.6",
   "yarrr", "ndphillips/yarrr", "0.1.6", TRUE, "0.1.5",
-  "lisa", "tyluRp/lisa", "0.1.1.9000", TRUE, "0.1.1"
+  "lisa", "tyluRp/lisa", "0.1.1.9000", TRUE, "0.1.1",
+  "IslamicArt", "lambdamoses/IslamicArt", "0.1.0", FALSE, NA
 ) %>%
   arrange(Name)
 
