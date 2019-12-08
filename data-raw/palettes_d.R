@@ -31,7 +31,7 @@ colorblindr_pals <- list(OkabeIto = colorblindr::palette_OkabeIto,
                          OkabeIto_black = colorblindr::palette_OkabeIto_black)
 
 ## colRoz ---------------------------------------------------------------------
-colRoz_pals <- reduce(lapply(colRoz::oz_palettes, function(y) lapply(y, function(x) x[1, ])), c)
+colRoz_pals <- purrr::reduce(lapply(colRoz::oz_palettes, function(y) lapply(y, function(x) x[1, ])), c)
 
 ## dichromat ------------------------------------------------------------------
 dichromat_pals <- dichromat::colorschemes
@@ -263,6 +263,11 @@ tidyquant_pals <- list(
 ## trekcolors -----------------------------------------------------------------
 trekcolors_pals <- trekcolors::trekpals
 
+## unikn ----------------------------------------------------------------------
+
+unikn_pals <- lapply(unikn:::all_palkn, function(x) unname(unlist(getFromNamespace(x, ns = "unikn"))))
+names(unikn_pals) <- unikn:::all_palkn
+
 ## vapeplot ------------------------------------------------------------------
 
 vapeplot_pals <- vapeplot::vapeplot_palettes
@@ -336,6 +341,7 @@ palettes_d <- list(
   RSkittleBrewer = RSkittleBrewer_pals,
   tidyquant = tidyquant_pals,
   trekcolors = trekcolors_pals,
+  unikn = unikn_pals,
   vapeplot = vapeplot_pals,
   vapoRwave = vapoRwave_pals,
   werpals = werpals_pals,

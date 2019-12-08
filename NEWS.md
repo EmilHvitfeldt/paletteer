@@ -17,6 +17,7 @@
 * 22 palettes have been added from the calecopal package. (#64)
 * 2 palettes have been adden from the colorblindr package. (#66)
 * 54 palettes have been added from the colRoz package. (#69)
+* 16 palettes have been added from the unikn package. (#72)
 
 # paletteer 0.2.1
 

@@ -58,7 +58,7 @@ you need for a smooth transition of color:
 
 ![](man/figures/README-unnamed-chunk-4-1.png)<!-- -->
 
-This package includes 1548 from 46 different packages and information
+This package includes 1564 from 47 different packages and information
 about these can be found in the following data.frames:
 `palettes_c_names`, `palettes_d_names` and `palettes_dynamic_names`.
 Additionally this [github
@@ -171,6 +171,7 @@ packages:
 | scico              | [thomasp85/scico - 1.1.0](https://github.com/thomasp85/scico)                                   | [1.1.0](https://CRAN.R-project.org/package=scico)         |
 | tidyquant          | [business-science/tidyquant - 0.5.8](https://github.com/business-science/tidyquant)             | [0.5.8](https://CRAN.R-project.org/package=tidyquant)     |
 | trekcolors         | [leonawicz/trekcolors - 0.1.2](https://github.com/leonawicz/trekcolors)                         | [0.1.1](https://CRAN.R-project.org/package=trekcolors)    |
+| unikn              | [hneth/unikn - 0.2.0.9003](https://github.com/hneth/unikn)                                      | [0.2.0](https://CRAN.R-project.org/package=unikn)         |
 | vapeplot           | [seasmith/vapeplot - 0.1.0](https://github.com/seasmith/vapeplot)                               | \-                                                        |
 | vapoRwave          | [moldach/vapoRwave - 0.0.0.9000](https://github.com/moldach/vapoRwave)                          | \-                                                        |
 | viridis            | [sjmgarnier/viridis - 0.5.1](https://github.com/sjmgarnier/viridis)                             | [0.5.1](https://CRAN.R-project.org/package=viridis)       |
