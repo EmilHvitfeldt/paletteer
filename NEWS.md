@@ -7,6 +7,7 @@
 * 16 palettes have been added from the IslamicArt package. (#36)
 * 9 palettes have been added from the basetheme package. (#41)
 * 8 palettes have been added from the vapeplot package. ($42)
+* 18 palettes have been added from the ggthemr package. (#47)
 
 # paletteer 0.2.1
 

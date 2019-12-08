@@ -100,6 +100,10 @@ ggthemes_pals <- c(
   ggthemes_economist_pals
 )
 
+## ggthemr --------------------------------------------------------------------
+
+ggthemr_pals <- lapply(ggthemr:::palettes, function(x) unclass(x$swatch))
+
 ## ghibli ---------------------------------------------------------------------
 ghibli_pals <- ghibli::ghibli_palettes
 
@@ -267,6 +271,7 @@ palettes_d <- list(
   ggsci = ggsci_pals,
   ggpomological = ggpomological_pals,
   ggthemes = ggthemes_pals,
+  ggthemr = ggthemr_pals,
   ghibli = ghibli_pals,
   grDevices = grDevices_pals,
   IslamicArt = IslamicArt_pals,

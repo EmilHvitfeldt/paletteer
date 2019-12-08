@@ -12,7 +12,7 @@
 #'
 #' data.frame of palette names can be found here \code{\link{palettes_d_names}}.
 #'
-#' @format A list of 29 lists.
+#' @format A list of 30 lists.
 "palettes_d"
 
 #' Names of all fixed discrete palettes
@@ -28,7 +28,7 @@
 #'
 #' Full list of palette can be found here \code{\link{palettes_d}}.
 #'
-#' @format A data.frame of 1036 observations with 4 variables:
+#' @format A data.frame of 1054 observations with 4 variables:
 #' \describe{
 #'   \item{package}{character, name of package}
 #'   \item{palette}{character, name of palette}

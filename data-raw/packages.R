@@ -37,7 +37,8 @@ paletteer_packages <- tibble::tribble(
   "lisa", "tyluRp/lisa", "0.1.1.9000", TRUE, "0.1.1",
   "IslamicArt", "lambdamoses/IslamicArt", "0.1.0", FALSE, NA,
   "basetheme", "KKPMW/basetheme", "0.1.2", TRUE, "0.1.2",
-  "vapeplot", "seasmith/vapeplot", "0.1.0", FALSE, NA
+  "vapeplot", "seasmith/vapeplot", "0.1.0", FALSE, NA,
+  "ggthemr", "cttobin/ggthemr", "1.1.0", FALSE, NA
 ) %>%
   arrange(Name)
 

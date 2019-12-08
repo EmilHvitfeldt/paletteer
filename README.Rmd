@@ -137,7 +137,7 @@ p_df$Github <- ifelse(!is.na(paletteer_packages$Github),
                             paste0("[", paletteer_packages$Github, " - ", 
                             paletteer_packages$github_ver, "](https://github.com/", 
                             paletteer_packages$Github, ")"),
-                            "-")  
+                            "-")
 
 p_df$CRAN <- ifelse(paletteer_packages$CRAN,
   paste0("[", paletteer_packages$CRAN_ver, "](https://CRAN.R-project.org/package=", paletteer_packages$Name, 
