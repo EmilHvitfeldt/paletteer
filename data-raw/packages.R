@@ -44,7 +44,9 @@ paletteer_packages <- tibble::tribble(
   "trekcolors", "leonawicz/trekcolors", "0.1.2", TRUE, "0.1.1",
   "nationalparkcolors", "katiejolly/nationalparkcolors", "0.1.0", FALSE, NA,
   "MapPalettes", "disarm-platform/MapPalettes", "0.0.2", FALSE, NA,
-  "werpals", "sciencificity/werpals", "0.1.0", FALSE, NA
+  "werpals", "sciencificity/werpals", "0.1.0", FALSE, NA,
+  "calecopal", "an-bui/calecopal", "0.1.0", FALSE, NA,
+  "colorblindr", "clauswilke/colorblindr", "0.1.0", FALSE, NA
 ) %>%
   arrange(Name)
 

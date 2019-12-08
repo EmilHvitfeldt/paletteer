@@ -23,6 +23,13 @@ basetheme_pals <- list(
   void = basetheme:::basetheme_void()$palette
 )
 
+## calecopal ------------------------------------------------------------------
+calecopal_pals <- calecopal::cal_palettes
+
+## colorblindr ----------------------------------------------------------------
+colorblindr_pals <- list(OkabeIto = colorblindr::palette_OkabeIto,
+                         OkabeIto_black = colorblindr::palette_OkabeIto_black)
+
 ## dichromat ------------------------------------------------------------------
 dichromat_pals <- dichromat::colorschemes
 
@@ -294,6 +301,8 @@ yarrr_pals <- mapply(yarrr::piratepal, yarrr_names) %>%
 palettes_d <- list(
   awtools = awtools_pals,
   basetheme = basetheme_pals,
+  calecopal = calecopal_pals,
+  colorblindr = colorblindr_pals,
   dichromat = dichromat_pals,
   dutchmasters = dutchmasters_pals,
   DresdenColor = DresdenColor_pals,

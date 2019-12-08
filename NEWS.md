@@ -14,6 +14,8 @@
 * 25 palettes have been added from the nationalparkcolors package. (#58)
 * 6 palettes have been added from the MapPalettes package. (#62)
 * 18 palettes have been added from the werpals package. (#63)
+* 22 palettes have been added from the calecopal package. (#64)
+* 2 palettes have been adden from the colorblindr package. (#66)
 
 # paletteer 0.2.1
 
