@@ -1,3 +1,4 @@
+library(dplyr)
 paletteer_packages <- tibble::tribble(
   ~Name,           ~Github,                ~github_ver, ~CRAN, ~CRAN_ver,
   "awtools",       "awhstin/awtools",         "0.2.1",   FALSE, NA,
@@ -32,7 +33,9 @@ paletteer_packages <- tibble::tribble(
   "visibly", "m-clark/visibly", "0.2.6", FALSE, NA,
   "vapoRwave", "moldach/vapoRwave", "0.0.0.9000", FALSE, NA,
   "wesanderson", "karthik/wesanderson", "0.3.6.9000", TRUE, "0.3.6",
-  "yarrr", "ndphillips/yarrr", "0.1.6", TRUE, "0.1.5"
-)
+  "yarrr", "ndphillips/yarrr", "0.1.6", TRUE, "0.1.5",
+  "lisa", "tyluRp/lisa", "0.1.1.9000", TRUE, "0.1.1"
+) %>%
+  arrange(Name)
 
 usethis::use_data(paletteer_packages, overwrite = TRUE)

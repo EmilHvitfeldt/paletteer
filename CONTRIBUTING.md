@@ -36,10 +36,10 @@ Include bullet in `NEWS.md` file.
 `length(palettes_d)` and `nrow(palettes_d_names)` respectively.
 - [ ] run `devtools::document()`
 - [ ] Include license reference in `LICENSE` file.
-- [ ] Include package information in `data-raw/package`.
+- [ ] Include package information in `data-raw/package` and run.
 - [ ] reknit readme.
-- [ ] add instalation information to `data-raw/install_packages.R`.
 - [ ] Include bullet in `NEWS.md` file.
+- [ ] run `vdiffr::manage_cases()`
 
 # Adding continuous palettes
 

@@ -4,7 +4,7 @@
 \name{palettes_d_names}
 \alias{palettes_d_names}
 \title{Names of all fixed discrete palettes}
-\format{A data.frame of 869 observations with 4 variables:
+\format{A data.frame of 1003 observations with 4 variables:
 \describe{
 \item{package}{character, name of package}
 \item{palette}{character, name of palette}
@@ -21,9 +21,9 @@ of fixed lengths included in this package.
 \details{
 Contains palettes names from the following packages: awtools, dichromat,
 dutchmasters, ggsci, ggpomological, ggthemes, ghibli, grDevices, jcolors,
-LaCroixColoR, NineteenEightyR, nord, ochRe, pals, Polychrome, miscpalettes,
-rcartocolor, RColorBrewer, Redmonder, RSkittleBrewer, tidyquant, vapoRwave,
-wesanderson and yarrr.
+LaCroixColoR, lisa, NineteenEightyR, nord, ochRe, pals, Polychrome,
+miscpalettes, rcartocolor, RColorBrewer, Redmonder, RSkittleBrewer,
+tidyquant, vapoRwave, wesanderson and yarrr.
 
 Full list of palette can be found here \code{\link{palettes_d}}.
 }

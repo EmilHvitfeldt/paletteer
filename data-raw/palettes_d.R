@@ -120,6 +120,9 @@ LaCroixColoR_pals <- c(
   list(paired = LaCroixColoR::lacroix_palettes$paired)
 )
 
+## Lisa -----------------------------------------------------------------------
+lisa_pals <- lisa::lisa
+
 ## NineteenEightyR ------------------------------------------------------------
 NineteenEightyR_pals <- list(
   cobra = NineteenEightyR::cobra(),
@@ -247,6 +250,7 @@ palettes_d <- list(
   grDevices = grDevices_pals,
   jcolors = jcolors_pals,
   LaCroixColoR = LaCroixColoR_pals,
+  lisa = lisa_pals,
   NineteenEightyR = NineteenEightyR_pals,
   nord = nord_pals,
   ochRe = ochRe_pals,

@@ -58,7 +58,7 @@ you need for a smooth transition of color:
 
 ![](man/figures/README-unnamed-chunk-4-1.png)<!-- -->
 
-This package includes 1099 from 32 different packages and information
+This package includes 1233 from 33 different packages and information
 about these can be found in the following data.frames:
 `palettes_c_names`, `palettes_d_names` and `palettes_dynamic_names`.
 Additionally this [github
@@ -135,7 +135,7 @@ packages:
 | cartography     | [riatelab/cartography - 2.2.1.1](https://github.com/riatelab/cartography)                       | [2.2.1](https://CRAN.R-project.org/package=cartography)   |
 | dichromat       | \-                                                                                              | [2.0-0](https://CRAN.R-project.org/package=dichromat)     |
 | dutchmasters    | [EdwinTh/dutchmasters - 0.1.0](https://github.com/EdwinTh/dutchmasters)                         | \-                                                        |
-| gameofthrones   | [aljrico/gameofthrone - 1.0.1](https://github.com/aljrico/gameofthrone)                         | [1.0.0](https://CRAN.R-project.org/package=gameofthrones) |
+| gameofthrones   | [aljrico/gameofthrones - 1.0.1](https://github.com/aljrico/gameofthrones)                       | [1.0.0](https://CRAN.R-project.org/package=gameofthrones) |
 | ggsci           | [road2stat/ggsci - 2.9](https://github.com/road2stat/ggsci)                                     | [2.9](https://CRAN.R-project.org/package=ggsci)           |
 | ggpomological   | [gadenbuie/ggpomological - 0.1.2](https://github.com/gadenbuie/ggpomological)                   | \-                                                        |
 | ggthemes        | [jrnold/ggthemes - 4.2.0](https://github.com/jrnold/ggthemes)                                   | [4.2.0](https://CRAN.R-project.org/package=ggthemes)      |
@@ -164,3 +164,4 @@ packages:
 | vapoRwave       | [moldach/vapoRwave - 0.0.0.9000](https://github.com/moldach/vapoRwave)                          | \-                                                        |
 | wesanderson     | [karthik/wesanderson - 0.3.6.9000](https://github.com/karthik/wesanderson)                      | [0.3.6](https://CRAN.R-project.org/package=wesanderson)   |
 | yarrr           | [ndphillips/yarrr - 0.1.6](https://github.com/ndphillips/yarrr)                                 | [0.1.5](https://CRAN.R-project.org/package=yarrr)         |
+| lisa            | [tyluRp/lisa - 0.1.1.9000](https://github.com/tyluRp/lisa)                                      | [0.1.1](https://CRAN.R-project.org/package=lisa)          |

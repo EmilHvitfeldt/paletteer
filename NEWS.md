@@ -3,6 +3,7 @@
 * All front facing functions now take a single `palette` argument of the format `package::palette` instead of the  previous two arguments package and palette.
 * `palette` argument must be supplied as a string.
 * The output from main functions now have the colors class from the prismatic package.
+* 128 palettes have been added from the lisa package.
 
 # paletteer 0.2.1
 
