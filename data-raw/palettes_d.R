@@ -300,6 +300,23 @@ werpals_pals <- lapply(
 ## wesanderson ----------------------------------------------------------------
 wesanderson_pals <- wesanderson::wes_palettes
 
+## tvthemes ------------------------------------------------------------------
+
+tvthemes_pals <- c(
+  attackOnTitan = list(tvthemes:::attackOnTitan_palette),
+  tvthemes:::theLastAirbender_palette,
+  bigHero6 = list(tvthemes:::bigHero6_palette),
+  tvthemes:::brooklyn99_palette,
+  gravityFalls = list(tvthemes:::gravityFalls_palette),
+  tvthemes:::hilda_palette,
+  kimPossible = list(tvthemes:::kimPossible_palette),
+  parksAndRec = list(tvthemes:::parksAndRec_palette),
+  rickAndMorty = list(tvthemes:::rickAndMorty_palette),
+  simpsons = list(tvthemes:::simpsons_palette),
+  spongeBob = list(tvthemes:::spongeBob_palette),
+  tvthemes:::westeros_palette
+)
+
 ## yarrr ----------------------------------------------------------------------
 yarrr_names <- yarrr::piratepal("names")
 yarrr_pals <- mapply(yarrr::piratepal, yarrr_names) %>%
@@ -341,6 +358,7 @@ palettes_d <- list(
   RSkittleBrewer = RSkittleBrewer_pals,
   tidyquant = tidyquant_pals,
   trekcolors = trekcolors_pals,
+  tvthemes = tvthemes_pals,
   unikn = unikn_pals,
   vapeplot = vapeplot_pals,
   vapoRwave = vapoRwave_pals,

@@ -18,6 +18,7 @@
 * 2 palettes have been adden from the colorblindr package. (#66)
 * 54 palettes have been added from the colRoz package. (#69)
 * 16 palettes have been added from the unikn package. (#72)
+* 27 palettes have been added from the tvthemes package. (#39)
 
 # paletteer 0.2.1
 
