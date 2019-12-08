@@ -1,3 +1,4 @@
+library(dplyr)
 paletteer_packages <- tibble::tribble(
   ~Name,           ~Github,                ~github_ver, ~CRAN, ~CRAN_ver,
   "awtools",       "awhstin/awtools",         "0.2.1",   FALSE, NA,
@@ -32,7 +33,24 @@ paletteer_packages <- tibble::tribble(
   "visibly", "m-clark/visibly", "0.2.6", FALSE, NA,
   "vapoRwave", "moldach/vapoRwave", "0.0.0.9000", FALSE, NA,
   "wesanderson", "karthik/wesanderson", "0.3.6.9000", TRUE, "0.3.6",
-  "yarrr", "ndphillips/yarrr", "0.1.6", TRUE, "0.1.5"
-)
+  "yarrr", "ndphillips/yarrr", "0.1.6", TRUE, "0.1.5",
+  "lisa", "tyluRp/lisa", "0.1.1.9000", TRUE, "0.1.1",
+  "IslamicArt", "lambdamoses/IslamicArt", "0.1.0", FALSE, NA,
+  "basetheme", "KKPMW/basetheme", "0.1.2", TRUE, "0.1.2",
+  "vapeplot", "seasmith/vapeplot", "0.1.0", FALSE, NA,
+  "ggthemr", "cttobin/ggthemr", "1.1.0", FALSE, NA,
+  "fishualize", "nschiett/fishualize", "0.2.999", TRUE, "0.1.0",
+  "DresdenColor", "katiesaund/DresdenColor", "0.0.0.9000", FALSE, NA,
+  "trekcolors", "leonawicz/trekcolors", "0.1.2", TRUE, "0.1.1",
+  "nationalparkcolors", "katiejolly/nationalparkcolors", "0.1.0", FALSE, NA,
+  "MapPalettes", "disarm-platform/MapPalettes", "0.0.2", FALSE, NA,
+  "werpals", "sciencificity/werpals", "0.1.0", FALSE, NA,
+  "calecopal", "an-bui/calecopal", "0.1.0", FALSE, NA,
+  "colorblindr", "clauswilke/colorblindr", "0.1.0", FALSE, NA,
+  "colRoz", "jacintak/colRoz", "0.2.2", FALSE, NA,
+  "unikn", "hneth/unikn", "0.2.0.9003", TRUE, "0.2.0",
+  "tvthemes", "Ryo-N7/tvthemes", "1.1.0", TRUE, "1.1.0"
+) %>%
+  arrange(Name)
 
 usethis::use_data(paletteer_packages, overwrite = TRUE)

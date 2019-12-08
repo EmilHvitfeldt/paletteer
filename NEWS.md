@@ -3,6 +3,22 @@
 * All front facing functions now take a single `palette` argument of the format `package::palette` instead of the  previous two arguments package and palette.
 * `palette` argument must be supplied as a string.
 * The output from main functions now have the colors class from the prismatic package.
+* 128 palettes have been added from the lisa package. (#35)
+* 16 palettes have been added from the IslamicArt package. (#36)
+* 9 palettes have been added from the basetheme package. (#41)
+* 8 palettes have been added from the vapeplot package. ($42)
+* 18 palettes have been added from the ggthemr package. (#47)
+* 84 palettes have been added from the fishualize package. (#52)
+* 18 palettes have been added from the DresdenColor package. (#54)
+* 35 palettes have been added from the trekcolors package. (#55)
+* 25 palettes have been added from the nationalparkcolors package. (#58)
+* 6 palettes have been added from the MapPalettes package. (#62)
+* 18 palettes have been added from the werpals package. (#63)
+* 22 palettes have been added from the calecopal package. (#64)
+* 2 palettes have been adden from the colorblindr package. (#66)
+* 54 palettes have been added from the colRoz package. (#69)
+* 16 palettes have been added from the unikn package. (#72)
+* 27 palettes have been added from the tvthemes package. (#39)
 
 # paletteer 0.2.1
 

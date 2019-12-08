@@ -10,11 +10,44 @@ awtools_pals <- list(
   spalette = awtools::spalette
 )
 
+## basetheme ------------------------------------------------------------------
+basetheme_pals <- list(
+  brutal = basetheme:::basetheme_brutal()$palette,
+  clean = basetheme:::basetheme_clean()$palette,
+  dark = basetheme:::basetheme_dark()$palette,
+  deepblue = basetheme:::basetheme_deepblue()$palette,
+  default = basetheme:::basetheme_default()$palette,
+  ink = basetheme:::basetheme_ink()$palette,
+  minimal = basetheme:::basetheme_minimal()$palette,
+  royal = basetheme:::basetheme_royal()$palette,
+  void = basetheme:::basetheme_void()$palette
+)
+
+## calecopal ------------------------------------------------------------------
+calecopal_pals <- calecopal::cal_palettes
+
+## colorblindr ----------------------------------------------------------------
+colorblindr_pals <- list(OkabeIto = colorblindr::palette_OkabeIto,
+                         OkabeIto_black = colorblindr::palette_OkabeIto_black)
+
+## colRoz ---------------------------------------------------------------------
+colRoz_pals <- purrr::reduce(lapply(colRoz::oz_palettes, function(y) lapply(y, function(x) x[1, ])), c)
+
 ## dichromat ------------------------------------------------------------------
 dichromat_pals <- dichromat::colorschemes
 
 ## dutchmasters ---------------------------------------------------------------
 dutchmasters_pals <- lapply(dutchmasters::dutchmasters, unname)
+
+## fishualize
+fishualize_pals <- split(as.character(fishualize::fishcolors$hex),
+                         fishualize::fishcolors$option)
+
+## DresdenColor ---------------------------------------------------------------
+
+DresdenColor_pals <- c(lapply(DresdenColor::dresden_palettes[names(DresdenColor::dresden_palettes) != "paired"],
+                            function(x) x[1, ]),
+                       paired = list(DresdenColor::dresden_palettes$paired))
 
 ## ggsci ----------------------------------------------------------------------
 ggsci_names <- mapply(function(x, y)
@@ -87,11 +120,18 @@ ggthemes_pals <- c(
   ggthemes_economist_pals
 )
 
+## ggthemr --------------------------------------------------------------------
+
+ggthemr_pals <- lapply(ggthemr:::palettes, function(x) unclass(x$swatch))
+
 ## ghibli ---------------------------------------------------------------------
 ghibli_pals <- ghibli::ghibli_palettes
 
 ## grDevices ------------------------------------------------------------------
 grDevices_pals <- list(blues9 = grDevices::blues9)
+
+## IslamicArt -----------------------------------------------------------------
+IslamicArt_pals <- IslamicArt::islamic_palettes
 
 ## jcolors --------------------------------------------------------------------
 jcolors_pals <- lapply(
@@ -119,6 +159,12 @@ LaCroixColoR_pals <- c(
     x[1,]),
   list(paired = LaCroixColoR::lacroix_palettes$paired)
 )
+
+## Lisa -----------------------------------------------------------------------
+lisa_pals <- lisa::lisa
+
+## nationalparkcolors ---------------------------------------------------------
+nationalparkcolors_pals <- nationalparkcolors::park_palettes
 
 ## NineteenEightyR ------------------------------------------------------------
 NineteenEightyR_pals <- list(
@@ -174,6 +220,11 @@ Polychrome_pals <- lapply(
   unname
 )
 
+## MapPalettes ----------------------------------------------------------------
+
+MapPalettes_pals <- lapply(MapPalettes:::names, MapPalettes::map_palette)
+names(MapPalettes_pals) <- MapPalettes:::names
+
 ## miscpalettes ---------------------------------------------------------------
 miscpalettes_pals <- c(miscpalettes::artistic,
                        miscpalettes::mschart)
@@ -209,6 +260,18 @@ tidyquant_pals <- list(
   tq_green = tidyquant::palette_green()
 )
 
+## trekcolors -----------------------------------------------------------------
+trekcolors_pals <- trekcolors::trekpals
+
+## unikn ----------------------------------------------------------------------
+
+unikn_pals <- lapply(unikn:::all_palkn, function(x) unname(unlist(getFromNamespace(x, ns = "unikn"))))
+names(unikn_pals) <- unikn:::all_palkn
+
+## vapeplot ------------------------------------------------------------------
+
+vapeplot_pals <- vapeplot::vapeplot_palettes
+
 ## vapoRwave -------------------------------------------------------------------
 vapoRwave_pals <- list(
   avanti = vapoRwave:::avanti_palette,
@@ -227,8 +290,32 @@ vapoRwave_pals <- list(
   vapoRwave = vapoRwave:::vapoRwave_palette
 )
 
+## werpals --------------------------------------------------------------------
+
+werpals_pals <- lapply(
+  c(werpals::disney_palettes[names(werpals::disney_palettes) != "main"],
+    werpals::nature_palettes[names(werpals::nature_palettes) != "main"]),
+  unname)
+
 ## wesanderson ----------------------------------------------------------------
 wesanderson_pals <- wesanderson::wes_palettes
+
+## tvthemes ------------------------------------------------------------------
+
+tvthemes_pals <- c(
+  attackOnTitan = list(tvthemes:::attackOnTitan_palette),
+  tvthemes:::theLastAirbender_palette,
+  bigHero6 = list(tvthemes:::bigHero6_palette),
+  tvthemes:::brooklyn99_palette,
+  gravityFalls = list(tvthemes:::gravityFalls_palette),
+  tvthemes:::hilda_palette,
+  kimPossible = list(tvthemes:::kimPossible_palette),
+  parksAndRec = list(tvthemes:::parksAndRec_palette),
+  rickAndMorty = list(tvthemes:::rickAndMorty_palette),
+  simpsons = list(tvthemes:::simpsons_palette),
+  spongeBob = list(tvthemes:::spongeBob_palette),
+  tvthemes:::westeros_palette
+)
 
 ## yarrr ----------------------------------------------------------------------
 yarrr_names <- yarrr::piratepal("names")
@@ -238,28 +325,44 @@ yarrr_pals <- mapply(yarrr::piratepal, yarrr_names) %>%
 # discrete fixed number of colors ---------------------------------------------
 palettes_d <- list(
   awtools = awtools_pals,
+  basetheme = basetheme_pals,
+  calecopal = calecopal_pals,
+  colorblindr = colorblindr_pals,
+  colRoz = colRoz_pals,
   dichromat = dichromat_pals,
   dutchmasters = dutchmasters_pals,
+  DresdenColor = DresdenColor_pals,
+  fishualize = fishualize_pals,
   ggsci = ggsci_pals,
   ggpomological = ggpomological_pals,
   ggthemes = ggthemes_pals,
+  ggthemr = ggthemr_pals,
   ghibli = ghibli_pals,
   grDevices = grDevices_pals,
+  IslamicArt = IslamicArt_pals,
   jcolors = jcolors_pals,
   LaCroixColoR = LaCroixColoR_pals,
+  lisa = lisa_pals,
+  nationalparkcolors = nationalparkcolors_pals,
   NineteenEightyR = NineteenEightyR_pals,
   nord = nord_pals,
   ochRe = ochRe_pals,
   palettetown = palettetown_pals,
   pals = pals_pals,
   Polychrome = Polychrome_pals,
+  MapPalettes = MapPalettes_pals,
   miscpalettes = miscpalettes_pals,
   rcartocolor = rcartocolors_pals,
   RColorBrewer = rcolorbrewer_pals,
   Redmonder = redmonder_pals,
   RSkittleBrewer = RSkittleBrewer_pals,
   tidyquant = tidyquant_pals,
+  trekcolors = trekcolors_pals,
+  tvthemes = tvthemes_pals,
+  unikn = unikn_pals,
+  vapeplot = vapeplot_pals,
   vapoRwave = vapoRwave_pals,
+  werpals = werpals_pals,
   wesanderson = wesanderson_pals,
   yarrr = yarrr_pals
 )

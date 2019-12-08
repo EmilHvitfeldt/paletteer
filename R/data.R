@@ -4,15 +4,17 @@
 #' package. Structured as a list of lists with the first level being each
 #' package and the second level being the palettes available in that package.
 #'
-#' Contains palettes from the following packages: awtools, dichromat,
-#' dutchmasters, ggsci, ggpomological, ggthemes, ghibli, grDevices, jcolors,
-#' LaCroixColoR, NineteenEightyR, nord, ochRe, pals, Polychrome, miscpalettes,
-#' rcartocolor, RColorBrewer, Redmonder, RSkittleBrewer, tidyquant, vapoRwave,
-#' wesanderson and yarrr.
+#' Contains palettes from the following packages: awtools, basetheme,
+#' calecopal, colorblindr, colRoz, dichromat, dutchmasters, DresdenColor,
+#' fishualize, ggsci, ggpomological, ggthemes, ggthemr, ghibli, grDevices,
+#' IslamicArt, jcolors, LaCroixColoR, lisa, nationalparkcolors,
+#' NineteenEightyR, nord, ochRe, pals, Polychrome, MapPalettes, miscpalettes,
+#' rcartocolor, RColorBrewer, Redmonder, RSkittleBrewer, tidyquant, trekcolors,
+#' tvthemes, unikn, vapeplot, vapoRwave, werpals, wesanderson and yarrr.
 #'
 #' data.frame of palette names can be found here \code{\link{palettes_d_names}}.
 #'
-#' @format A list of 25 lists.
+#' @format A list of 41 lists.
 "palettes_d"
 
 #' Names of all fixed discrete palettes
@@ -20,15 +22,17 @@
 #' A data.frame of the names and other characteristics of the discrete palettes
 #' of fixed lengths included in this package.
 #'
-#' Contains palettes names from the following packages: awtools, dichromat,
-#' dutchmasters, ggsci, ggpomological, ggthemes, ghibli, grDevices, jcolors,
-#' LaCroixColoR, NineteenEightyR, nord, ochRe, pals, Polychrome, miscpalettes,
-#' rcartocolor, RColorBrewer, Redmonder, RSkittleBrewer, tidyquant, vapoRwave,
-#' wesanderson and yarrr.
+#' Contains palettes names from the following packages: awtools, basetheme,
+#' calecopal, colorblindr, colRoz, dichromat, dutchmasters, DresdenColor,
+#' fishualize, ggsci, ggpomological, ggthemes, ggthemr, ghibli, grDevices,
+#' IslamicArt, jcolors, LaCroixColoR, lisa, nationalparkcolors,
+#' NineteenEightyR, nord, ochRe, pals, Polychrome, MapPalettes, miscpalettes,
+#' rcartocolor, RColorBrewer, Redmonder, RSkittleBrewer, tidyquant, trekcolors,
+#' tvthemes, unikn, vapeplot, vapoRwave, werpals, wesanderson and yarrr.
 #'
 #' Full list of palette can be found here \code{\link{palettes_d}}.
 #'
-#' @format A data.frame of 869 observations with 4 variables:
+#' @format A data.frame of 1361 observations with 4 variables:
 #' \describe{
 #'   \item{package}{character, name of package}
 #'   \item{palette}{character, name of palette}
