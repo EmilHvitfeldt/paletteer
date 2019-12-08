@@ -1,3 +1,5 @@
+Start by running `data-raw/install_packages.R` to install all needed packages.
+
 # Adding discrete palettes
 
 In `data-raw/palettes_d.R` add a function (ordered alphabetically) in the format:  
@@ -16,13 +18,19 @@ In the file `R/data.R` update the format for `palettes_d` and `palettes_d_names`
 
 run `devtools::document()`.  
 
-Include license reference in `LICENSE` file
+Include license reference in `LICENSE` file.
 
-Include reference in the end of README.Rmd and knit to finish.  
+Include package information in `data-raw/package`.
+
+reknit readme.
+
+add instalation information to `data-raw/install_packages.R`.
 
 Include bullet in `NEWS.md` file.
 
 # Adding continuous palettes
+
+Make sure to only 
 
 In `paletteer_c_wrappers.R` include a wrapper function in the format
 
@@ -46,6 +54,10 @@ Add the package to Imports in the `DESCRIPTION` file.
 
 Include license reference in `LICENSE` file  
 
-Include reference in the end of `README.Rmd` and knit.  
+Include package information in `data-raw/package`.
+
+reknit readme.
+
+add instalation information to `data-raw/install_packages.R`.
 
 Include bullet in `NEWS.md` file.

@@ -4,7 +4,7 @@ paletteer_packages <- tibble::tribble(
   "cartography",   "riatelab/cartography",    "2.2.1.1", TRUE,  "2.2.1",
   "dichromat",     NA,                        NA,        TRUE,  "2.0-0",
   "dutchmasters",  "EdwinTh/dutchmasters",    "0.1.0",   FALSE, NA,
-  "gameofthrones", "aljrico/gameofthrone",    "1.0.1",   TRUE,  "1.0.0",
+  "gameofthrones", "aljrico/gameofthrones",    "1.0.1",   TRUE,  "1.0.0",
   "ggsci",         "road2stat/ggsci",         "2.9",     TRUE,  "2.9",
   "ggpomological", "gadenbuie/ggpomological", "0.1.2",   FALSE, NA,
   "ggthemes",      "jrnold/ggthemes",         "4.2.0",   TRUE,  "4.2.0",
