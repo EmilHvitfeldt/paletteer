@@ -10,6 +10,19 @@ awtools_pals <- list(
   spalette = awtools::spalette
 )
 
+## basetheme ------------------------------------------------------------------
+basetheme_pals <- list(
+  brutal = basetheme:::basetheme_brutal()$palette,
+  clean = basetheme:::basetheme_clean()$palette,
+  dark = basetheme:::basetheme_dark()$palette,
+  deepblue = basetheme:::basetheme_deepblue()$palette,
+  default = basetheme:::basetheme_default()$palette,
+  ink = basetheme:::basetheme_ink()$palette,
+  minimal = basetheme:::basetheme_minimal()$palette,
+  royal = basetheme:::basetheme_royal()$palette,
+  void = basetheme:::basetheme_void()$palette
+)
+
 ## dichromat ------------------------------------------------------------------
 dichromat_pals <- dichromat::colorschemes
 
@@ -244,6 +257,7 @@ yarrr_pals <- mapply(yarrr::piratepal, yarrr_names) %>%
 # discrete fixed number of colors ---------------------------------------------
 palettes_d <- list(
   awtools = awtools_pals,
+  basetheme = basetheme_pals,
   dichromat = dichromat_pals,
   dutchmasters = dutchmasters_pals,
   ggsci = ggsci_pals,

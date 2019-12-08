@@ -58,7 +58,7 @@ you need for a smooth transition of color:
 
 ![](man/figures/README-unnamed-chunk-4-1.png)<!-- -->
 
-This package includes 1249 from 34 different packages and information
+This package includes 1258 from 35 different packages and information
 about these can be found in the following data.frames:
 `palettes_c_names`, `palettes_d_names` and `palettes_dynamic_names`.
 Additionally this [github
@@ -132,6 +132,7 @@ packages:
 | Name            | Github                                                                                          | CRAN                                                      |
 | :-------------- | :---------------------------------------------------------------------------------------------- | :-------------------------------------------------------- |
 | awtools         | [awhstin/awtools - 0.2.1](https://github.com/awhstin/awtools)                                   | \-                                                        |
+| basetheme       | [KKPMW/basetheme - 0.1.2](https://github.com/KKPMW/basetheme)                                   | [0.1.2](https://CRAN.R-project.org/package=basetheme)     |
 | cartography     | [riatelab/cartography - 2.2.1.1](https://github.com/riatelab/cartography)                       | [2.2.1](https://CRAN.R-project.org/package=cartography)   |
 | dichromat       | \-                                                                                              | [2.0-0](https://CRAN.R-project.org/package=dichromat)     |
 | dutchmasters    | [EdwinTh/dutchmasters - 0.1.0](https://github.com/EdwinTh/dutchmasters)                         | \-                                                        |

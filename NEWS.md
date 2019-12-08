@@ -5,6 +5,7 @@
 * The output from main functions now have the colors class from the prismatic package.
 * 128 palettes have been added from the lisa package. (#35)
 * 16 palettes have been added from the IslamicArt package. (#36)
+* 9 palettes have been added from the basetheme package. (#41)
 
 # paletteer 0.2.1
 
