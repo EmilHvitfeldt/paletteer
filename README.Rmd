@@ -143,6 +143,7 @@ p_df$CRAN <- ifelse(paletteer_packages$CRAN,
   paste0("[", paletteer_packages$CRAN_ver, "](https://CRAN.R-project.org/package=", paletteer_packages$Name, 
                     ")"),
   "-")
+p_df$CRAN[p_df$Name == "grDevices"] <- p_df$CRAN_ver[p_df$Name == "grDevices"]
 
 knitr::kable(p_df[c("Name", "Github", "CRAN")])
 ```

@@ -147,7 +147,7 @@ packages:
 | ggthemes           | [jrnold/ggthemes - 4.2.0](https://github.com/jrnold/ggthemes)                                   | [4.2.0](https://CRAN.R-project.org/package=ggthemes)      |
 | ggthemr            | [cttobin/ggthemr - 1.1.0](https://github.com/cttobin/ggthemr)                                   | \-                                                        |
 | ghibli             | [ewenme/ghibli - 0.3.0.9000](https://github.com/ewenme/ghibli)                                  | [0.3.0](https://CRAN.R-project.org/package=ghibli)        |
-| grDevices          | \-                                                                                              | [2.0-14](https://CRAN.R-project.org/package=grDevices)    |
+| grDevices          | \-                                                                                              | 2.0-14                                                    |
 | harrypotter        | [aljrico/harrypotter - 2.1.0](https://github.com/aljrico/harrypotter)                           | [2.1.0](https://CRAN.R-project.org/package=harrypotter)   |
 | IslamicArt         | [lambdamoses/IslamicArt - 0.1.0](https://github.com/lambdamoses/IslamicArt)                     | \-                                                        |
 | jcolors            | [jaredhuling/jcolors - 0.0.4](https://github.com/jaredhuling/jcolors)                           | [0.0.4](https://CRAN.R-project.org/package=jcolors)       |
