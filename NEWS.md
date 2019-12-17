@@ -23,7 +23,6 @@
 * 48 palettes have been added from the palettesForR package. (#25)
 * 110 palettes have been added from hcl.pals(). (#51)
 
-
 # paletteer 0.2.1
 
 * Fixed bug where ggthemes wasn't loaded properly. (#26)
