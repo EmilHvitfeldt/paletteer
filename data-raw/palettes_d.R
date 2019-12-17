@@ -36,6 +36,12 @@ colRoz_pals <- purrr::reduce(lapply(colRoz::oz_palettes, function(y) lapply(y, f
 ## dichromat ------------------------------------------------------------------
 dichromat_pals <- dichromat::colorschemes
 
+## DresdenColor ---------------------------------------------------------------
+
+DresdenColor_pals <- c(lapply(DresdenColor::dresden_palettes[names(DresdenColor::dresden_palettes) != "paired"],
+                            function(x) x[1, ]),
+                       paired = list(DresdenColor::dresden_palettes$paired))
+
 ## dutchmasters ---------------------------------------------------------------
 dutchmasters_pals <- lapply(dutchmasters::dutchmasters, unname)
 
@@ -43,11 +49,11 @@ dutchmasters_pals <- lapply(dutchmasters::dutchmasters, unname)
 fishualize_pals <- split(as.character(fishualize::fishcolors$hex),
                          fishualize::fishcolors$option)
 
-## DresdenColor ---------------------------------------------------------------
-
-DresdenColor_pals <- c(lapply(DresdenColor::dresden_palettes[names(DresdenColor::dresden_palettes) != "paired"],
-                            function(x) x[1, ]),
-                       paired = list(DresdenColor::dresden_palettes$paired))
+## ggpomological --------------------------------------------------------------
+ggpomological_pals <- list(
+  pomological_base = unname(unlist(ggpomological:::pomological_base)),
+  pomological_palette = unname(unlist(ggpomological:::pomological_palette))
+)
 
 ## ggsci ----------------------------------------------------------------------
 ggsci_names <- mapply(function(x, y)
@@ -58,12 +64,6 @@ ggsci_names <- mapply(function(x, y)
   unname()
 ggsci_pals <- lapply(purrr::flatten(ggsci:::ggsci_db), unname)
 names(ggsci_pals) <- ggsci_names
-
-## ggpomological --------------------------------------------------------------
-ggpomological_pals <- list(
-  pomological_base = unname(unlist(ggpomological:::pomological_base)),
-  pomological_palette = unname(unlist(ggpomological:::pomological_palette))
-)
 
 ## ggthemes -------------------------------------------------------------------
 
@@ -163,6 +163,15 @@ LaCroixColoR_pals <- c(
 ## Lisa -----------------------------------------------------------------------
 lisa_pals <- lisa::lisa
 
+## MapPalettes ----------------------------------------------------------------
+
+MapPalettes_pals <- lapply(MapPalettes:::names, MapPalettes::map_palette)
+names(MapPalettes_pals) <- MapPalettes:::names
+
+## miscpalettes ---------------------------------------------------------------
+miscpalettes_pals <- c(miscpalettes::artistic,
+                       miscpalettes::mschart)
+
 ## nationalparkcolors ---------------------------------------------------------
 nationalparkcolors_pals <- nationalparkcolors::park_palettes
 
@@ -188,6 +197,13 @@ nord_pals <- nord:::nord_palettes
 ## ochRe ----------------------------------------------------------------------
 ochRe_pals <- ochRe::ochre_palettes
 
+## palettesForR ---------------------------------------------------------------
+library(palettesForR)
+palettesForR_names <- ls(pos = "package:palettesForR", pattern = "_gpl")
+palettesForR_pals <- lapply(palettesForR_names, get, pos = "package:palettesForR")
+palettesForR_pals <- lapply(palettesForR_pals, unname)
+names(palettesForR_pals) <- stringr::str_remove(palettesForR_names, "_gpl")
+
 ## palettetown ----------------------------------------------------------------
 palettetown_pals <- palettetown:::pokeColours
 
@@ -206,6 +222,9 @@ pals_pals <- lapply(
   unname
 )
 
+## PNWColors ------------------------------------------------------------------
+PNWColors_pals <- lapply(PNWColors::pnw_palettes, function(x) x[1, ])
+
 ## Polychrome -----------------------------------------------------------------
 Polychrome_pals <- lapply(
   list(
@@ -219,25 +238,6 @@ Polychrome_pals <- lapply(
   ),
   unname
 )
-
-## MapPalettes ----------------------------------------------------------------
-
-MapPalettes_pals <- lapply(MapPalettes:::names, MapPalettes::map_palette)
-names(MapPalettes_pals) <- MapPalettes:::names
-
-## miscpalettes ---------------------------------------------------------------
-miscpalettes_pals <- c(miscpalettes::artistic,
-                       miscpalettes::mschart)
-
-## palettesForR ---------------------------------------------------------------
-library(palettesForR)
-palettesForR_names <- ls(pos = "package:palettesForR", pattern = "_gpl")
-palettesForR_pals <- lapply(palettesForR_names, get, pos = "package:palettesForR")
-palettesForR_pals <- lapply(palettesForR_pals, unname)
-names(palettesForR_pals) <- stringr::str_remove(palettesForR_names, "_gpl")
-
-## PNWColors ------------------------------------------------------------------
-PNWColors_pals <- lapply(PNWColors::pnw_palettes, function(x) x[1, ])
 
 ## rcartocolor ----------------------------------------------------------------
 rcartocolors_pals <- lapply(rcartocolor::cartocolors$Name,
@@ -273,13 +273,27 @@ tidyquant_pals <- list(
 ## trekcolors -----------------------------------------------------------------
 trekcolors_pals <- trekcolors::trekpals
 
-## unikn ----------------------------------------------------------------------
+## tvthemes ------------------------------------------------------------------
+tvthemes_pals <- c(
+  attackOnTitan = list(tvthemes:::attackOnTitan_palette),
+  tvthemes:::theLastAirbender_palette,
+  bigHero6 = list(tvthemes:::bigHero6_palette),
+  tvthemes:::brooklyn99_palette,
+  gravityFalls = list(tvthemes:::gravityFalls_palette),
+  tvthemes:::hilda_palette,
+  kimPossible = list(tvthemes:::kimPossible_palette),
+  parksAndRec = list(tvthemes:::parksAndRec_palette),
+  rickAndMorty = list(tvthemes:::rickAndMorty_palette),
+  simpsons = list(tvthemes:::simpsons_palette),
+  spongeBob = list(tvthemes:::spongeBob_palette),
+  tvthemes:::westeros_palette
+)
 
+## unikn ----------------------------------------------------------------------
 unikn_pals <- lapply(unikn:::all_palkn, function(x) unname(unlist(getFromNamespace(x, ns = "unikn"))))
 names(unikn_pals) <- unikn:::all_palkn
 
 ## vapeplot ------------------------------------------------------------------
-
 vapeplot_pals <- vapeplot::vapeplot_palettes
 
 ## vapoRwave -------------------------------------------------------------------
@@ -301,7 +315,6 @@ vapoRwave_pals <- list(
 )
 
 ## werpals --------------------------------------------------------------------
-
 werpals_pals <- lapply(
   c(werpals::disney_palettes[names(werpals::disney_palettes) != "main"],
     werpals::nature_palettes[names(werpals::nature_palettes) != "main"]),
@@ -309,23 +322,6 @@ werpals_pals <- lapply(
 
 ## wesanderson ----------------------------------------------------------------
 wesanderson_pals <- wesanderson::wes_palettes
-
-## tvthemes ------------------------------------------------------------------
-
-tvthemes_pals <- c(
-  attackOnTitan = list(tvthemes:::attackOnTitan_palette),
-  tvthemes:::theLastAirbender_palette,
-  bigHero6 = list(tvthemes:::bigHero6_palette),
-  tvthemes:::brooklyn99_palette,
-  gravityFalls = list(tvthemes:::gravityFalls_palette),
-  tvthemes:::hilda_palette,
-  kimPossible = list(tvthemes:::kimPossible_palette),
-  parksAndRec = list(tvthemes:::parksAndRec_palette),
-  rickAndMorty = list(tvthemes:::rickAndMorty_palette),
-  simpsons = list(tvthemes:::simpsons_palette),
-  spongeBob = list(tvthemes:::spongeBob_palette),
-  tvthemes:::westeros_palette
-)
 
 ## yarrr ----------------------------------------------------------------------
 yarrr_names <- yarrr::piratepal("names")
