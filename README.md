@@ -58,7 +58,7 @@ you need for a smooth transition of color:
 
 ![](man/figures/README-unnamed-chunk-4-1.png)<!-- -->
 
-This package includes 1601 from 49 different packages and information
+This package includes 1649 from 50 different packages and information
 about these can be found in the following data.frames:
 `palettes_c_names`, `palettes_d_names` and `palettes_dynamic_names`.
 Additionally this [github
@@ -160,6 +160,7 @@ packages:
 | nord               | [jkaupp/nord - 1.0.0](https://github.com/jkaupp/nord)                                           | [1.0.0](https://CRAN.R-project.org/package=nord)          |
 | ochRe              | [ropenscilabs/ochRe - 1.0.0](https://github.com/ropenscilabs/ochRe)                             | \-                                                        |
 | oompaBase          | \-                                                                                              | [3.2.9](https://CRAN.R-project.org/package=oompaBase)     |
+| palettesForR       | [frareb/palettesForR - 0.1.2](https://github.com/frareb/palettesForR)                           | [0.1.2](https://CRAN.R-project.org/package=palettesForR)  |
 | palettetown        | [timcdlucas/palettetown - 0.1.1.90000](https://github.com/timcdlucas/palettetown)               | [0.1.1](https://CRAN.R-project.org/package=palettetown)   |
 | palr               | [AustralianAntarcticDivision/palr - 0.1.0](https://github.com/AustralianAntarcticDivision/palr) | [0.1.0](https://CRAN.R-project.org/package=palr)          |
 | pals               | [kwstat/pals - 1.6](https://github.com/kwstat/pals)                                             | [1.6](https://CRAN.R-project.org/package=pals)            |

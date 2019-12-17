@@ -229,6 +229,13 @@ names(MapPalettes_pals) <- MapPalettes:::names
 miscpalettes_pals <- c(miscpalettes::artistic,
                        miscpalettes::mschart)
 
+## palettesForR ---------------------------------------------------------------
+library(palettesForR)
+palettesForR_names <- ls(pos = "package:palettesForR", pattern = "_gpl")
+palettesForR_pals <- lapply(palettesForR_names, get, pos = "package:palettesForR")
+palettesForR_pals <- lapply(palettesForR_pals, unname)
+names(palettesForR_pals) <- stringr::str_remove(palettesForR_names, "_gpl")
+
 ## PNWColors ------------------------------------------------------------------
 PNWColors_pals <- lapply(PNWColors::pnw_palettes, function(x) x[1, ])
 
@@ -355,6 +362,7 @@ palettes_d <- list(
   Polychrome = Polychrome_pals,
   MapPalettes = MapPalettes_pals,
   miscpalettes = miscpalettes_pals,
+  palettesForR = palettesForR_pals,
   PNWColors = PNWColors_pals,
   rcartocolor = rcartocolors_pals,
   RColorBrewer = rcolorbrewer_pals,

@@ -6,7 +6,7 @@
 * 128 palettes have been added from the lisa package. (#35)
 * 16 palettes have been added from the IslamicArt package. (#36)
 * 9 palettes have been added from the basetheme package. (#41)
-* 8 palettes have been added from the vapeplot package. ($42)
+* 8 palettes have been added from the vapeplot package. (#42)
 * 18 palettes have been added from the ggthemr package. (#47)
 * 84 palettes have been added from the fishualize package. (#52)
 * 18 palettes have been added from the DresdenColor package. (#54)
@@ -20,6 +20,7 @@
 * 16 palettes have been added from the unikn package. (#72)
 * 27 palettes have been added from the tvthemes package. (#39)
 * 10 palettes have been added from the PNWColors package. (#74)
+* 48 palettes have been added from the palettesForR package. (#25)
 
 # paletteer 0.2.1
 
