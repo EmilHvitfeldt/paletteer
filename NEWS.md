@@ -21,6 +21,8 @@
 * 27 palettes have been added from the tvthemes package. (#39)
 * 10 palettes have been added from the PNWColors package. (#74)
 * 48 palettes have been added from the palettesForR package. (#25)
+* 110 palettes have been added from hcl.pals(). (#51)
+
 
 # paletteer 0.2.1
 

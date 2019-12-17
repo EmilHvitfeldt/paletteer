@@ -13,7 +13,7 @@ test_that("paletteer_c_oompaBase return correct number of colors", {
 })
 
 test_that("paletteer_c_palr return correct number of colors", {
-  expect_length(paletteer_c_palr("sstPal", 10), 10)
+  expect_length(paletteer_c_palr("sst_pal", 10), 10)
 })
 
 test_that("paletteer_c_pals return correct number of colors", {

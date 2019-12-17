@@ -17,6 +17,7 @@ pals_df <- tibble(package = "pals",
        palette = names(pals:::syspals)) %>%
   dplyr::filter(!str_detect(palette, "^brewer"),
                 !str_detect(palette, "glasbey|kelly|stepped|tol|watlington"),
+                !str_detect(palette, "okabe|tableau20"),
                 !str_detect(palette, "viridis|inferno|magma|plasma|cividis")) %>%
   dplyr::mutate(type = c(rep("diverging", 2), rep("sequential", 19),
                          rep("diverging", 3), rep("sequential", 11),
@@ -46,16 +47,22 @@ other_df <- tribble(
   "oompaBase", "redgreen", "diverging",
   "oompaBase", "jetColors", "sequential",
   "oompaBase", "greyscale", "sequential",
-  "palr", "bathyDeepPal", "sequential",
-  "palr", "chlPal", "sequential",
-  "palr", "icePal", "sequential",
-  "palr", "sstPal", "sequential",
+  "palr", "bathy_deep_pal", "sequential",
+  "palr", "chl_pal", "sequential",
+  "palr", "ice_pal", "sequential",
+  "palr", "sst_pal", "sequential",
   "viridis", "viridis", "sequential",
   "viridis", "inferno", "sequential",
   "viridis", "magma", "sequential",
   "viridis", "plasma", "sequential",
   "viridis", "cividis", "sequential"
 ) %>% as.data.frame()
+
+hcl_df <- c("qualitative", "sequential", "diverging", "divergingx") %>%
+  purrr::map_dfr(~ tibble(package = "grDevices",
+                          palette = hcl.pals(.x),
+                          type = .x)) %>%
+  dplyr::mutate(type = dplyr::if_else(type == "divergingx", "diverging", type))
 
 harrypotter_df <- tibble(package = "harrypotter",
                          palette = unique(harrypotter::hp.map$option),
@@ -69,6 +76,7 @@ palettes_c_names <- dplyr::bind_rows(ggthemes_df,
                                      pals_df,
                                      scico_df,
                                      other_df,
+                                     hcl_df,
                                      harrypotter_df,
                                      gameofthrones_df) %>%
   dplyr::arrange(package) %>%

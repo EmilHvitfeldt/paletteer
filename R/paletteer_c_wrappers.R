@@ -52,9 +52,17 @@ paletteer_c_ggthemes <- function(name, n) {
 
 #' @rdname paleteer-c-wrapper
 paletteer_c_grDevices <- function(name, n) {
-  pal_gen <- getExportedValue("grDevices", name)
+  if (name %in% c("rainbow", "heat.colors", "terrain.colors",
+                  "topo.colors", "cm.colors")) {
+    pal_gen <- getExportedValue("grDevices", name)
 
-  pal_gen(n = n)
+    return(pal_gen(n = n))
+  } else {
+    pal_gen <- function(n) {
+      grDevices::hcl.colors(n = n, palette = name)
+    }
+    return(pal_gen(n = n))
+  }
 }
 
 #' @rdname paleteer-c-wrapper
