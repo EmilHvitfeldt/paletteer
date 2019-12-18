@@ -1,3 +1,5 @@
+# paletteer (development version)
+
 # paletteer 1.0.0
 
 * All front facing functions now take a single `palette` argument of the format `package::palette` instead of the  previous two arguments package and palette.
