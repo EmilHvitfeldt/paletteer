@@ -93,7 +93,7 @@ paletteer_d("nord::frost")
 paletteer_dynamic("cartography::green.pal", 5)
 ```
 
-All of the functions now also support tab completion to easily access the hundress of choicses
+All of the functions now also support tab completion to easily access the hundreds of choices
 
 ![](man/figures/paletteer-demo.gif)
 
