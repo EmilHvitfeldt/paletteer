@@ -35,7 +35,9 @@ Imports:
 Suggests: 
     covr,
     testthat (>= 2.1.0),
-    ggplot2,
+    ggplot2 (>= 3.3.0),
     knitr,
     rmarkdown,
     vdiffr
+Remotes:  
+    tidyverse/ggplot2

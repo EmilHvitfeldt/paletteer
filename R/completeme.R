@@ -110,7 +110,9 @@ find_the <- function(){
 paletteer_d_completer <- function(env) {
 
   c_funs <- c("paletteer_c", "scale_color_paletteer_c",
-              "scale_colour_paletteer_c",  "scale_fill_paletteer_c")
+              "scale_colour_paletteer_c",  "scale_fill_paletteer_c",
+              "scale_color_paletteer_binned",
+              "scale_colour_paletteer_binned",  "scale_fill_paletteer_binned")
   d_funs <- c("paletteer_d", "scale_color_paletteer_d",
               "scale_colour_paletteer_d", "scale_fill_paletteer_d")
 
