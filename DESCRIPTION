@@ -1,5 +1,5 @@
 Package: paletteer
-Version: 1.0.0.9000
+Version: 1.1.0
 Title: Comprehensive Collection of Color Palettes
 Description: The choices of color palettes in R can be quite overwhelming with 
     palettes spread over many packages with many different API's. This packages
@@ -28,7 +28,6 @@ Imports:
     scico,
     viridisLite,
     rlang,
-    glue,
     rematch2,
     rstudioapi,
     prismatic
@@ -39,5 +38,3 @@ Suggests:
     knitr,
     rmarkdown,
     vdiffr
-Remotes:  
-    tidyverse/ggplot2

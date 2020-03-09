@@ -92,6 +92,7 @@ paletteer_c_scico <- function(name, n) {
 }
 
 #' @rdname paleteer-c-wrapper
+#' @importFrom viridisLite viridis
 paletteer_c_viridis <- function(name, n) {
   pal_gen <- getExportedValue("viridisLite", name)
 

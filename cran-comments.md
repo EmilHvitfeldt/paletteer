@@ -9,5 +9,4 @@
 
 ## Reverse dependencies
 
-Checked all reverse dependencies. 
-Error for ggstatsplot is already fixed in the development version: https://github.com/IndrajeetPatil/ggstatsplot/issues/340.
+Checked all reverse dependencies. No issues.
