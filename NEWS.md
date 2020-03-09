@@ -1,6 +1,7 @@
 # paletteer (development version)
 
 * added `scale_color_paletteer_binned()` to support binned scales.
+* 20 palettes have been added from the futurevisions package. (82)
 
 # paletteer 1.0.0
 

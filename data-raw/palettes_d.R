@@ -45,9 +45,20 @@ DresdenColor_pals <- c(lapply(DresdenColor::dresden_palettes[names(DresdenColor:
 ## dutchmasters ---------------------------------------------------------------
 dutchmasters_pals <- lapply(dutchmasters::dutchmasters, unname)
 
-## fishualize
+## fishualize -----------------------------------------------------------------
 fishualize_pals <- split(as.character(fishualize::fishcolors$hex),
                          fishualize::fishcolors$option)
+
+## fishualize -----------------------------------------------------------------
+futurevisions_names <- c("venus", "earth", "mars", "jupiter", "ceres",
+                         "enceladus", "europa", "titan", "cancri", "hd",
+                         "kepler186", "kepler16b", "pegasi", "pso", "trappest",
+                         "grand_tour", "atomic_clock", "atomic_red",
+                         "atomic_blue", "atomic_orange")
+
+names(futurevisions_names) <- futurevisions_names
+
+futurevisions_pals <- lapply(futurevisions_names, futurevisions::futurevisions)
 
 ## ggpomological --------------------------------------------------------------
 ggpomological_pals <- list(
@@ -339,6 +350,7 @@ palettes_d <- list(
   dutchmasters = dutchmasters_pals,
   DresdenColor = DresdenColor_pals,
   fishualize = fishualize_pals,
+  futurevisions = futurevisions_pals,
   ggsci = ggsci_pals,
   ggpomological = ggpomological_pals,
   ggthemes = ggthemes_pals,

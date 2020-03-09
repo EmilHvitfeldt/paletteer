@@ -6,8 +6,8 @@
 #'
 #' Contains palettes from the following packages: awtools, basetheme,
 #' calecopal, colorblindr, colRoz, dichromat, dutchmasters, DresdenColor,
-#' fishualize, ggsci, ggpomological, ggthemes, ggthemr, ghibli, grDevices,
-#' IslamicArt, jcolors, LaCroixColoR, lisa, nationalparkcolors,
+#' fishualize, futurevisions, ggsci, ggpomological, ggthemes, ggthemr, ghibli,
+#' grDevices, IslamicArt, jcolors, LaCroixColoR, lisa, nationalparkcolors,
 #' NineteenEightyR, nord, ochRe, pals, palettesForR_pals, Polychrome,
 #' MapPalettes, miscpalettes, PNWColors, rcartocolor, RColorBrewer, Redmonder,
 #' RSkittleBrewer, tidyquant, trekcolors, tvthemes, unikn, vapeplot, vapoRwave,
@@ -15,7 +15,7 @@
 #'
 #' data.frame of palette names can be found here \code{\link{palettes_d_names}}.
 #'
-#' @format A list of 43 lists.
+#' @format A list of 44 lists.
 "palettes_d"
 
 #' Names of all fixed discrete palettes
@@ -25,8 +25,8 @@
 #'
 #' Contains palettes names from the following packages: awtools, basetheme,
 #' calecopal, colorblindr, colRoz, dichromat, dutchmasters, DresdenColor,
-#' fishualize, ggsci, ggpomological, ggthemes, ggthemr, ghibli, grDevices,
-#' IslamicArt, jcolors, LaCroixColoR, lisa, nationalparkcolors,
+#' fishualize, futurevisions, ggsci, ggpomological, ggthemes, ggthemr, ghibli,
+#' grDevices, IslamicArt, jcolors, LaCroixColoR, lisa, nationalparkcolors,
 #' NineteenEightyR, nord, ochRe, pals, palettesForR_pals, Polychrome,
 #' MapPalettes, miscpalettes, PNWColors, rcartocolor, RColorBrewer, Redmonder,
 #' RSkittleBrewer, tidyquant, trekcolors, tvthemes, unikn, vapeplot, vapoRwave,
@@ -34,7 +34,7 @@
 #'
 #' Full list of palette can be found here \code{\link{palettes_d}}.
 #'
-#' @format A data.frame of 1419 observations with 4 variables:
+#' @format A data.frame of 1431 observations with 4 variables:
 #' \describe{
 #'   \item{package}{character, name of package}
 #'   \item{palette}{character, name of palette}
