@@ -13,8 +13,8 @@
 <link rel="apple-touch-icon" type="image/png" sizes="76x76" href="apple-touch-icon-76x76.png">
 <link rel="apple-touch-icon" type="image/png" sizes="60x60" href="apple-touch-icon-60x60.png">
 <!-- jquery --><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script><!-- Bootstrap --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha256-916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w=" crossorigin="anonymous">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.1/css/all.min.css" integrity="sha256-nAmazAk6vS34Xqo0BSrTb+abbtFlgsFK7NKSi6o7Y78=" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.1/css/v4-shims.min.css" integrity="sha256-6qHlizsOWFskGlwVOKuns+D1nB6ssZrHQrNj1wGplHc=" crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.1/css/all.min.css" integrity="sha256-PbSmjxuVAzJ6FPvNYsrXygfGhNJYyZ2GktDbkMBqQZg=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.1/css/v4-shims.min.css" integrity="sha256-A6jcAdwFD48VMjlI3GDxUd+eCQa7/KWy6G9oe/ovaPA=" crossorigin="anonymous">
 <!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js" integrity="sha256-FiZwavyI2V6+EXO1U+xzLG3IKldpiTFf3153ea9zikQ=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.4/headroom.min.js" integrity="sha256-DJFC1kqIhelURkuza0AvYal5RxMtpzLjFhsnVIeuk+U=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.4/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- pkgdown --><link href="pkgdown.css" rel="stylesheet">
 <script src="pkgdown.js"></script><meta property="og:title" content="Comprehensive Collection of Color Palettes">
 <meta property="og:description" content="The choices of color palettes in R can be quite overwhelming with 
@@ -79,10 +79,11 @@
 
       </header><div class="row">
   <div class="contents col-md-9">
-<div id="paletteer" class="section level1">
+<div id="paletteer-" class="section level1">
 <div class="page-header"><h1 class="hasAnchor">
-<a href="#paletteer" class="anchor"></a>paletteer <img src="reference/figures/logo.png" align="right" height="139">
+<a href="#paletteer-" class="anchor"></a>paletteer <img src="reference/figures/logo.png" align="right" height="139">
 </h1></div>
+<!-- badges: start -->
 
 <p>The goal of <strong>paletteer</strong> is to be a comprehensive collection of color palettes in R using a common interface. Think of it as the “caret of palettes”.</p>
 <p><strong>Notice</strong> This version is not backwards compatible with versions &lt;= 0.2.1. Please refer to the end of the readme for breaking changes</p>
@@ -90,10 +91,10 @@
 <h2 class="hasAnchor">
 <a href="#installation" class="anchor"></a>Installation</h2>
 <p>You can install the released version of <strong>paletteer</strong> from <a href="https://CRAN.R-project.org">CRAN</a> with:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="kw"><a href="https://rdrr.io/r/utils/install.packages.html">install.packages</a></span>(<span class="st">"paletteer"</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="kw"><a href="https://rdrr.io/r/utils/install.packages.html">install.packages</a></span>(<span class="st">"paletteer"</span>)</span></code></pre></div>
 <p>If you want the development version instead then install directly from GitHub:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" data-line-number="1"><span class="co"># install.packages("devtools")</span></a>
-<a class="sourceLine" id="cb2-2" data-line-number="2">devtools<span class="op">::</span><span class="kw"><a href="https://rdrr.io/pkg/devtools/man/remote-reexports.html">install_github</a></span>(<span class="st">"EmilHvitfeldt/paletteer"</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a><span class="co"># install.packages("devtools")</span></span>
+<span id="cb2-2"><a href="#cb2-2"></a>devtools<span class="op">::</span><span class="kw"><a href="https://devtools.r-lib.org//reference/remote-reexports.html">install_github</a></span>(<span class="st">"EmilHvitfeldt/paletteer"</span>)</span></code></pre></div>
 </div>
 <div id="palettes" class="section level2">
 <h2 class="hasAnchor">
@@ -104,42 +105,42 @@
 <p><img src="reference/figures/README-unnamed-chunk-3-1.png"><!-- --></p>
 <p>Lastly we have the continuous palettes which provides as many colors as you need for a smooth transition of color:</p>
 <p><img src="reference/figures/README-unnamed-chunk-4-1.png"><!-- --></p>
-<p>This package includes 1759 from 50 different packages and information about these can be found in the following data.frames: <code>palettes_c_names</code>, <code>palettes_d_names</code> and <code>palettes_dynamic_names</code>. Additionally this <a href="https://github.com/EmilHvitfeldt/r-color-palettes">github repo</a> showcases all the palettes included in the package and more.</p>
+<p>This package includes 1771 from 50 different packages and information about these can be found in the following data.frames: <code>palettes_c_names</code>, <code>palettes_d_names</code> and <code>palettes_dynamic_names</code>. Additionally this <a href="https://github.com/EmilHvitfeldt/r-color-palettes">github repo</a> showcases all the palettes included in the package and more.</p>
 </div>
 <div id="examples" class="section level2">
 <h2 class="hasAnchor">
 <a href="#examples" class="anchor"></a>Examples</h2>
 <p>All the palettes can be accessed from the 3 functions <code><a href="reference/paletteer_c.html">paletteer_c()</a></code>, <code><a href="reference/paletteer_d.html">paletteer_d()</a></code> and <code><a href="reference/paletteer_dynamic.html">paletteer_dynamic()</a></code> using the by using the syntax packagename::palettename.</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" data-line-number="1"><span class="kw"><a href="reference/paletteer_c.html">paletteer_c</a></span>(<span class="st">"scico::berlin"</span>, <span class="dt">n =</span> <span class="dv">10</span>)</a>
-<a class="sourceLine" id="cb3-2" data-line-number="2"><span class="co">#&gt; &lt;colors&gt;</span></a>
-<a class="sourceLine" id="cb3-3" data-line-number="3"><span class="co">#&gt; #9EB0FFFF #5AA3DAFF #2D7597FF #194155FF #11181DFF #270C01FF #501802FF #8A3F2AFF #C37469FF #FFACACFF</span></a>
-<a class="sourceLine" id="cb3-4" data-line-number="4"><span class="kw"><a href="reference/paletteer_d.html">paletteer_d</a></span>(<span class="st">"nord::frost"</span>)</a>
-<a class="sourceLine" id="cb3-5" data-line-number="5"><span class="co">#&gt; &lt;colors&gt;</span></a>
-<a class="sourceLine" id="cb3-6" data-line-number="6"><span class="co">#&gt; #8FBCBBFF #88C0D0FF #81A1C1FF #5E81ACFF</span></a>
-<a class="sourceLine" id="cb3-7" data-line-number="7"><span class="kw"><a href="reference/paletteer_dynamic.html">paletteer_dynamic</a></span>(<span class="st">"cartography::green.pal"</span>, <span class="dv">5</span>)</a>
-<a class="sourceLine" id="cb3-8" data-line-number="8"><span class="co">#&gt; &lt;colors&gt;</span></a>
-<a class="sourceLine" id="cb3-9" data-line-number="9"><span class="co">#&gt; #B8D9A9FF #8DBC80FF #5D9D52FF #287A22FF #17692CFF</span></a></code></pre></div>
-<p>All of the functions now also support tab completion to easily access the hundress of choicses</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a><span class="kw"><a href="reference/paletteer_c.html">paletteer_c</a></span>(<span class="st">"scico::berlin"</span>, <span class="dt">n =</span> <span class="dv">10</span>)</span>
+<span id="cb3-2"><a href="#cb3-2"></a><span class="co">#&gt; &lt;colors&gt;</span></span>
+<span id="cb3-3"><a href="#cb3-3"></a><span class="co">#&gt; #9EB0FFFF #5AA3DAFF #2D7597FF #194155FF #11181DFF #270C01FF #501802FF #8A3F2AFF #C37469FF #FFACACFF</span></span>
+<span id="cb3-4"><a href="#cb3-4"></a><span class="kw"><a href="reference/paletteer_d.html">paletteer_d</a></span>(<span class="st">"nord::frost"</span>)</span>
+<span id="cb3-5"><a href="#cb3-5"></a><span class="co">#&gt; &lt;colors&gt;</span></span>
+<span id="cb3-6"><a href="#cb3-6"></a><span class="co">#&gt; #8FBCBBFF #88C0D0FF #81A1C1FF #5E81ACFF</span></span>
+<span id="cb3-7"><a href="#cb3-7"></a><span class="kw"><a href="reference/paletteer_dynamic.html">paletteer_dynamic</a></span>(<span class="st">"cartography::green.pal"</span>, <span class="dv">5</span>)</span>
+<span id="cb3-8"><a href="#cb3-8"></a><span class="co">#&gt; &lt;colors&gt;</span></span>
+<span id="cb3-9"><a href="#cb3-9"></a><span class="co">#&gt; #B8D9A9FF #8DBC80FF #5D9D52FF #287A22FF #17692CFF</span></span></code></pre></div>
+<p>All of the functions now also support tab completion to easily access the hundreds of choices</p>
 <p><img src="reference/figures/paletteer-demo.gif"></p>
 </div>
 <div id="ggplot2-scales" class="section level2">
 <h2 class="hasAnchor">
 <a href="#ggplot2-scales" class="anchor"></a>ggplot2 scales</h2>
 <p>Lastly the package also includes scales for <code>ggplot2</code> using the same standard interface</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb4-1" data-line-number="1"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span>(ggplot2)</a>
-<a class="sourceLine" id="cb4-2" data-line-number="2"></a>
-<a class="sourceLine" id="cb4-3" data-line-number="3"><span class="kw"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot</a></span>(iris, <span class="kw"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span>(Sepal.Length, Sepal.Width, <span class="dt">color =</span> Species)) <span class="op">+</span></a>
-<a class="sourceLine" id="cb4-4" data-line-number="4"><span class="st">  </span><span class="kw"><a href="https://ggplot2.tidyverse.org/reference/geom_point.html">geom_point</a></span>() <span class="op">+</span></a>
-<a class="sourceLine" id="cb4-5" data-line-number="5"><span class="st">  </span><span class="kw"><a href="reference/ggplot2-scales-discrete.html">scale_color_paletteer_d</a></span>(<span class="st">"nord::aurora"</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span>(ggplot2)</span>
+<span id="cb4-2"><a href="#cb4-2"></a></span>
+<span id="cb4-3"><a href="#cb4-3"></a><span class="kw"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot</a></span>(iris, <span class="kw"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span>(Sepal.Length, Sepal.Width, <span class="dt">color =</span> Species)) <span class="op">+</span></span>
+<span id="cb4-4"><a href="#cb4-4"></a><span class="st">  </span><span class="kw"><a href="https://ggplot2.tidyverse.org/reference/geom_point.html">geom_point</a></span>() <span class="op">+</span></span>
+<span id="cb4-5"><a href="#cb4-5"></a><span class="st">  </span><span class="kw"><a href="reference/ggplot2-scales-discrete.html">scale_color_paletteer_d</a></span>(<span class="st">"nord::aurora"</span>)</span></code></pre></div>
 <p><img src="reference/figures/README-unnamed-chunk-6-1.png"><!-- --></p>
 </div>
 <div id="breaking-changes" class="section level2">
 <h2 class="hasAnchor">
 <a href="#breaking-changes" class="anchor"></a>Breaking changes</h2>
 <p>In version &lt;= 0.2.1 a palatte was selected by specifying a <code>package</code> and <code>palette</code> argument like so</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb5-1" data-line-number="1"><span class="kw"><a href="reference/paletteer_c.html">paletteer_c</a></span>(<span class="dt">package =</span> <span class="st">"nord"</span>, <span class="dt">palette =</span> <span class="st">"frost"</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1"></a><span class="kw"><a href="reference/paletteer_c.html">paletteer_c</a></span>(<span class="dt">package =</span> <span class="st">"nord"</span>, <span class="dt">palette =</span> <span class="st">"frost"</span>)</span></code></pre></div>
 <p>After version 0.2.1 palettes are selected using the syntax <code>"packagename::palettename"</code> inside the palette functions.</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb6-1" data-line-number="1"><span class="kw"><a href="reference/paletteer_c.html">paletteer_c</a></span>(<span class="st">"nord::frost"</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1"></a><span class="kw"><a href="reference/paletteer_c.html">paletteer_c</a></span>(<span class="st">"nord::frost"</span>)</span></code></pre></div>
 </div>
 <div id="special-thanks" class="section level2">
 <h2 class="hasAnchor">
@@ -177,8 +178,8 @@
 </tr>
 <tr class="even">
 <td align="left">cartography</td>
-<td align="left"><a href="https://github.com/riatelab/cartography">riatelab/cartography - 2.2.1.1</a></td>
-<td align="left"><a href="https://CRAN.R-project.org/package=cartography">2.2.1</a></td>
+<td align="left"><a href="https://github.com/riatelab/cartography">riatelab/cartography - 2.3.1.0</a></td>
+<td align="left"><a href="https://CRAN.R-project.org/package=cartography">2.3.0</a></td>
 </tr>
 <tr class="odd">
 <td align="left">colorblindr</td>
@@ -211,206 +212,211 @@
 <td align="left"><a href="https://CRAN.R-project.org/package=fishualize">0.1.0</a></td>
 </tr>
 <tr class="odd">
-<td align="left">gameofthrones</td>
-<td align="left"><a href="https://github.com/aljrico/gameofthrones">aljrico/gameofthrones - 1.0.1</a></td>
-<td align="left"><a href="https://CRAN.R-project.org/package=gameofthrones">1.0.0</a></td>
+<td align="left">futurevisions</td>
+<td align="left"><a href="https://github.com/JoeyStanley/futurevisions">JoeyStanley/futurevisions - 0.1.0</a></td>
+<td align="left">-</td>
 </tr>
 <tr class="even">
+<td align="left">gameofthrones</td>
+<td align="left"><a href="https://github.com/aljrico/gameofthrones">aljrico/gameofthrones - 1.0.2</a></td>
+<td align="left"><a href="https://CRAN.R-project.org/package=gameofthrones">1.0.2</a></td>
+</tr>
+<tr class="odd">
 <td align="left">ggpomological</td>
 <td align="left"><a href="https://github.com/gadenbuie/ggpomological">gadenbuie/ggpomological - 0.1.2</a></td>
 <td align="left">-</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">ggsci</td>
 <td align="left"><a href="https://github.com/road2stat/ggsci">road2stat/ggsci - 2.9</a></td>
 <td align="left"><a href="https://CRAN.R-project.org/package=ggsci">2.9</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">ggthemes</td>
 <td align="left"><a href="https://github.com/jrnold/ggthemes">jrnold/ggthemes - 4.2.0</a></td>
 <td align="left"><a href="https://CRAN.R-project.org/package=ggthemes">4.2.0</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">ggthemr</td>
 <td align="left"><a href="https://github.com/cttobin/ggthemr">cttobin/ggthemr - 1.1.0</a></td>
 <td align="left">-</td>
 </tr>
-<tr class="even">
-<td align="left">ghibli</td>
-<td align="left"><a href="https://github.com/ewenme/ghibli">ewenme/ghibli - 0.3.0.9000</a></td>
-<td align="left"><a href="https://CRAN.R-project.org/package=ghibli">0.3.0</a></td>
-</tr>
 <tr class="odd">
+<td align="left">ghibli</td>
+<td align="left"><a href="https://github.com/ewenme/ghibli">ewenme/ghibli - 0.3.1.9000</a></td>
+<td align="left"><a href="https://CRAN.R-project.org/package=ghibli">0.3.1</a></td>
+</tr>
+<tr class="even">
 <td align="left">grDevices</td>
 <td align="left">-</td>
 <td align="left">2.0-14</td>
 </tr>
-<tr class="even">
-<td align="left">harrypotter</td>
-<td align="left"><a href="https://github.com/aljrico/harrypotter">aljrico/harrypotter - 2.1.0</a></td>
-<td align="left"><a href="https://CRAN.R-project.org/package=harrypotter">2.1.0</a></td>
-</tr>
 <tr class="odd">
+<td align="left">harrypotter</td>
+<td align="left"><a href="https://github.com/aljrico/harrypotter">aljrico/harrypotter - 2.1.1</a></td>
+<td align="left"><a href="https://CRAN.R-project.org/package=harrypotter">2.1.1</a></td>
+</tr>
+<tr class="even">
 <td align="left">IslamicArt</td>
 <td align="left"><a href="https://github.com/lambdamoses/IslamicArt">lambdamoses/IslamicArt - 0.1.0</a></td>
 <td align="left">-</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">jcolors</td>
 <td align="left"><a href="https://github.com/jaredhuling/jcolors">jaredhuling/jcolors - 0.0.4</a></td>
 <td align="left"><a href="https://CRAN.R-project.org/package=jcolors">0.0.4</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">LaCroixColoR</td>
 <td align="left"><a href="https://github.com/johannesbjork/LaCroixColoR">johannesbjork/LaCroixColoR - 0.1.0</a></td>
 <td align="left">-</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">lisa</td>
 <td align="left"><a href="https://github.com/tyluRp/lisa">tyluRp/lisa - 0.1.1.9000</a></td>
 <td align="left"><a href="https://CRAN.R-project.org/package=lisa">0.1.1</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">MapPalettes</td>
 <td align="left"><a href="https://github.com/disarm-platform/MapPalettes">disarm-platform/MapPalettes - 0.0.2</a></td>
 <td align="left">-</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">miscpalettes</td>
 <td align="left"><a href="https://github.com/EmilHvitfeldt/miscpalettes">EmilHvitfeldt/miscpalettes - 0.0.0.9000</a></td>
 <td align="left">-</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">nationalparkcolors</td>
 <td align="left"><a href="https://github.com/katiejolly/nationalparkcolors">katiejolly/nationalparkcolors - 0.1.0</a></td>
 <td align="left">-</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">NineteenEightyR</td>
 <td align="left"><a href="https://github.com/m-clark/NineteenEightyR">m-clark/NineteenEightyR - 0.1.0</a></td>
 <td align="left">-</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">nord</td>
 <td align="left"><a href="https://github.com/jkaupp/nord">jkaupp/nord - 1.0.0</a></td>
 <td align="left"><a href="https://CRAN.R-project.org/package=nord">1.0.0</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">ochRe</td>
 <td align="left"><a href="https://github.com/ropenscilabs/ochRe">ropenscilabs/ochRe - 1.0.0</a></td>
 <td align="left">-</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">oompaBase</td>
 <td align="left">-</td>
 <td align="left"><a href="https://CRAN.R-project.org/package=oompaBase">3.2.9</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">palettesForR</td>
 <td align="left"><a href="https://github.com/frareb/palettesForR">frareb/palettesForR - 0.1.2</a></td>
 <td align="left"><a href="https://CRAN.R-project.org/package=palettesForR">0.1.2</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">palettetown</td>
 <td align="left"><a href="https://github.com/timcdlucas/palettetown">timcdlucas/palettetown - 0.1.1.90000</a></td>
 <td align="left"><a href="https://CRAN.R-project.org/package=palettetown">0.1.1</a></td>
 </tr>
-<tr class="even">
-<td align="left">palr</td>
-<td align="left"><a href="https://github.com/AustralianAntarcticDivision/palr">AustralianAntarcticDivision/palr - 0.1.0</a></td>
-<td align="left"><a href="https://CRAN.R-project.org/package=palr">0.1.0</a></td>
-</tr>
 <tr class="odd">
+<td align="left">palr</td>
+<td align="left"><a href="https://github.com/AustralianAntarcticDivision/palr">AustralianAntarcticDivision/palr - 0.2.0</a></td>
+<td align="left"><a href="https://CRAN.R-project.org/package=palr">0.2.0</a></td>
+</tr>
+<tr class="even">
 <td align="left">pals</td>
 <td align="left"><a href="https://github.com/kwstat/pals">kwstat/pals - 1.6</a></td>
 <td align="left"><a href="https://CRAN.R-project.org/package=pals">1.6</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">PNWColors</td>
 <td align="left"><a href="https://github.com/jakelawlor/PNWColors">jakelawlor/PNWColors - 0.1.0</a></td>
 <td align="left">-</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">Polychrome</td>
 <td align="left">-</td>
-<td align="left"><a href="https://CRAN.R-project.org/package=Polychrome">1.2.3</a></td>
+<td align="left"><a href="https://CRAN.R-project.org/package=Polychrome">1.2.4</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">rcartocolor</td>
 <td align="left"><a href="https://github.com/Nowosad/rcartocolor">Nowosad/rcartocolor - 2.0.0</a></td>
 <td align="left"><a href="https://CRAN.R-project.org/package=rcartocolor">2.0.0</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">RColorBrewer</td>
 <td align="left">-</td>
 <td align="left"><a href="https://CRAN.R-project.org/package=RColorBrewer">1.1-2</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">Redmonder</td>
 <td align="left">-</td>
 <td align="left"><a href="https://CRAN.R-project.org/package=Redmonder">0.2.0</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">RSkittleBrewer</td>
 <td align="left"><a href="https://github.com/alyssafrazee/RSkittleBrewer">alyssafrazee/RSkittleBrewer - 1.1</a></td>
 <td align="left">-</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">scico</td>
 <td align="left"><a href="https://github.com/thomasp85/scico">thomasp85/scico - 1.1.0</a></td>
 <td align="left"><a href="https://CRAN.R-project.org/package=scico">1.1.0</a></td>
 </tr>
-<tr class="odd">
-<td align="left">tidyquant</td>
-<td align="left"><a href="https://github.com/business-science/tidyquant">business-science/tidyquant - 0.5.8</a></td>
-<td align="left"><a href="https://CRAN.R-project.org/package=tidyquant">0.5.8</a></td>
-</tr>
 <tr class="even">
+<td align="left">tidyquant</td>
+<td align="left"><a href="https://github.com/business-science/tidyquant">business-science/tidyquant - 1.0.0</a></td>
+<td align="left"><a href="https://CRAN.R-project.org/package=tidyquant">1.0.0</a></td>
+</tr>
+<tr class="odd">
 <td align="left">trekcolors</td>
 <td align="left"><a href="https://github.com/leonawicz/trekcolors">leonawicz/trekcolors - 0.1.2</a></td>
 <td align="left"><a href="https://CRAN.R-project.org/package=trekcolors">0.1.1</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">tvthemes</td>
 <td align="left"><a href="https://github.com/Ryo-N7/tvthemes">Ryo-N7/tvthemes - 1.1.0</a></td>
 <td align="left"><a href="https://CRAN.R-project.org/package=tvthemes">1.1.0</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">unikn</td>
 <td align="left"><a href="https://github.com/hneth/unikn">hneth/unikn - 0.2.0.9003</a></td>
 <td align="left"><a href="https://CRAN.R-project.org/package=unikn">0.2.0</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">vapeplot</td>
 <td align="left"><a href="https://github.com/seasmith/vapeplot">seasmith/vapeplot - 0.1.0</a></td>
 <td align="left">-</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">vapoRwave</td>
 <td align="left"><a href="https://github.com/moldach/vapoRwave">moldach/vapoRwave - 0.0.0.9000</a></td>
 <td align="left">-</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">viridis</td>
 <td align="left"><a href="https://github.com/sjmgarnier/viridis">sjmgarnier/viridis - 0.5.1</a></td>
 <td align="left"><a href="https://CRAN.R-project.org/package=viridis">0.5.1</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">visibly</td>
-<td align="left"><a href="https://github.com/m-clark/visibly">m-clark/visibly - 0.2.6</a></td>
+<td align="left"><a href="https://github.com/m-clark/visibly">m-clark/visibly - 0.2.7</a></td>
 <td align="left">-</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">werpals</td>
 <td align="left"><a href="https://github.com/sciencificity/werpals">sciencificity/werpals - 0.1.0</a></td>
 <td align="left">-</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">wesanderson</td>
 <td align="left"><a href="https://github.com/karthik/wesanderson">karthik/wesanderson - 0.3.6.9000</a></td>
 <td align="left"><a href="https://CRAN.R-project.org/package=wesanderson">0.3.6</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">yarrr</td>
 <td align="left"><a href="https://github.com/ndphillips/yarrr">ndphillips/yarrr - 0.1.6</a></td>
 <td align="left"><a href="https://CRAN.R-project.org/package=yarrr">0.1.5</a></td>
@@ -421,7 +427,7 @@
 </div>
   </div>
 
-  <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
+  <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <div class="links">
 <h2>Links</h2>
 <ul class="list-unstyled">
@@ -455,11 +461,11 @@
   <div class="dev-status">
 <h2>Dev status</h2>
 <ul class="list-unstyled">
-<li><a href="https://travis-ci.org/EmilHvitfeldt/paletteer"><img src="https://travis-ci.org/EmilHvitfeldt/paletteer.svg?branch=master" alt="Travis build status"></a></li>
-<li><a href="https://ci.appveyor.com/project/EmilHvitfeldt/paletteer"><img src="https://ci.appveyor.com/api/projects/status/github/EmilHvitfeldt/paletteer?branch=master&amp;svg=true" alt="AppVeyor build status"></a></li>
+<li><a href="https://github.com/EmilHvitfeldt/paletteer/actions"><img src="https://github.com/EmilHvitfeldt/paletteer/workflows/R-CMD-check/badge.svg" alt="R build status"></a></li>
 <li><a href="https://cran.r-project.org/package=paletteer"><img src="https://www.r-pkg.org/badges/version/paletteer" alt="CRAN status"></a></li>
 <li><a href="https://CRAN.R-project.org/package=paletteer"><img src="http://cranlogs.r-pkg.org/badges/paletteer" alt="CRAN_Download_Badge"></a></li>
-<li><a href="https://codecov.io/github/EmilHvitfeldt/paletteer?branch=master"><img src="https://codecov.io/gh/EmilHvitfeldt/paletteer/branch/master/graph/badge.svg" alt="Coverage status"></a></li>
+<li><a href="https://codecov.io/github/EmilHvitfeldt/paletteer?branch=master"><img src="https://codecov.io/gh/EmilHvitfeldt/paletteer/branch/master/graph/badge.svg" alt="Codecov test coverage"></a></li>
+<li><a href="https://www.tidyverse.org/lifecycle/#stable"><img src="https://img.shields.io/badge/lifecycle-stable-brightgreen.svg" alt="Lifecycle: stable"></a></li>
 </ul>
 </div>
 </div>
@@ -471,7 +477,7 @@
 </div>
 
 <div class="pkgdown">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.4.1.</p>
+  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.4.1.9000.</p>
 </div>
 
       </footer>
