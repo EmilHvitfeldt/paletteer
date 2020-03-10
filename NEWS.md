@@ -1,3 +1,5 @@
+# paletteer (development version)
+
 # paletteer 1.1.0
 
 * added `scale_color_paletteer_binned()` to support binned scales.
