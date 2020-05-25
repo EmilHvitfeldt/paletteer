@@ -4,7 +4,9 @@
 \name{palettes_dynamic}
 \alias{palettes_dynamic}
 \title{Complete list of dynamic palettes}
-\format{A list of 3 lists.}
+\format{
+A list of 3 lists.
+}
 \usage{
 palettes_dynamic
 }

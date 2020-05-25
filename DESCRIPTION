@@ -14,7 +14,7 @@ LazyData: true
 URL: https://github.com/EmilHvitfeldt/paletteer
 BugReports: https://github.com/EmilHvitfeldt/paletteer/issues
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.0.2
+RoxygenNote: 7.1.0.9000
 Depends:
     R (>= 2.10)
 Imports: 

@@ -4,14 +4,16 @@
 \name{paletteer_packages}
 \alias{paletteer_packages}
 \title{Names and version information for all packages included}
-\format{A data.frame with 3 variables:
+\format{
+A data.frame with 3 variables:
 \describe{
 \item{Names}{character, name of package}
 \item{Github}{character, name of Github repository}
 \item{github_ver}{character, version number on Github}
 \item{CRAN}{logical, is package available on CRAN}
 \item{CRAN_ver}{character, version number on CRAN}
-}}
+}
+}
 \usage{
 paletteer_packages
 }
