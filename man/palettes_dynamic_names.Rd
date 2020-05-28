@@ -4,14 +4,16 @@
 \name{palettes_dynamic_names}
 \alias{palettes_dynamic_names}
 \title{Names of all fixed discrete palettes}
-\format{A data.frame of 25 observations with 4 variables:
+\format{
+A data.frame of 25 observations with 4 variables:
 \describe{
 \item{package}{character, name of package}
 \item{palette}{character, name of palette}
 \item{length}{integer, maximal number of colors in palette}
 \item{type}{character, type of palette}
 
-}}
+}
+}
 \usage{
 palettes_dynamic_names
 }

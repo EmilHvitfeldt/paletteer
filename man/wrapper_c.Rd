@@ -4,7 +4,9 @@
 \name{wrapper_c}
 \alias{wrapper_c}
 \title{List of all wrapper functions used in paletteer_c}
-\format{Named list of all wrapper functions}
+\format{
+Named list of all wrapper functions
+}
 \usage{
 wrapper_c
 }
