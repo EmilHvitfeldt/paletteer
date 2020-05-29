@@ -1,39 +1,39 @@
 Package: paletteer
-Version: 1.1.0.9000
 Title: Comprehensive Collection of Color Palettes
-Description: The choices of color palettes in R can be quite overwhelming with 
-    palettes spread over many packages with many different API's. This packages
-    aims to collect all color palettes across the R ecosystem under the same
-    package with a streamlined API.
+Version: 1.1.0.9000
 Author: See AUTHORS file.
 Maintainer: Emil Hvitfeldt <emilhhvitfeldt@gmail.com>
+Description: The choices of color palettes in R can be quite
+    overwhelming with palettes spread over many packages with many
+    different API's. This packages aims to collect all color palettes
+    across the R ecosystem under the same package with a streamlined API.
 License: GPL-3
-Copyright: See LICENSE.note file.
-Encoding: UTF-8
-LazyData: true
 URL: https://github.com/EmilHvitfeldt/paletteer
 BugReports: https://github.com/EmilHvitfeldt/paletteer/issues
-Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.0.9000
 Depends:
     R (>= 2.10)
 Imports: 
-    rlang,
+    prismatic,
     rematch2,
-    rstudioapi,
-    prismatic
+    rlang,
+    rstudioapi
 Suggests: 
     covr,
-    testthat (>= 2.1.0),
-    harrypotter (>= 2.1.0),
     gameofthrones (>= 1.0.0),
-    ggthemes (>= 4.0.0),
     ggplot2 (>= 3.3.0),
+    ggthemes (>= 4.0.0),
+    harrypotter (>= 2.1.0),
     knitr,
     oompaBase,
-    rmarkdown,
-    viridisLite,
-    scico,
     palr,
     pals,
-    vdiffr
+    rmarkdown,
+    scico,
+    testthat (>= 2.1.0),
+    vdiffr,
+    viridisLite
+Copyright: See LICENSE.note file.
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0.9000
