@@ -18,7 +18,6 @@ RoxygenNote: 7.1.0.9000
 Depends:
     R (>= 2.10)
 Imports: 
-    jcolors,
     rlang,
     rematch2,
     rstudioapi,
