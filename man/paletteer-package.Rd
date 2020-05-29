@@ -8,17 +8,17 @@
 \description{
 \if{html}{\figure{logo.png}{options: align='right' alt='logo' width='120'}}
 
-The choices of color palettes in R can be quite overwhelming with 
-    palettes spread over many packages with many different API's. This packages
-    aims to collect all color palettes across the R ecosystem under the same
-    package with a streamlined API.
+The choices of color palettes in R can be quite
+    overwhelming with palettes spread over many packages with many
+    different API's. This packages aims to collect all color palettes
+    across the R ecosystem under the same package with a streamlined API.
 
 \if{html}{\figure{logo.png}{options: align='right' alt='logo' width='120'}}
 
-The choices of color palettes in R can be quite overwhelming with 
-    palettes spread over many packages with many different API's. This packages
-    aims to collect all color palettes across the R ecosystem under the same
-    package with a streamlined API.
+The choices of color palettes in R can be quite
+    overwhelming with palettes spread over many packages with many
+    different API's. This packages aims to collect all color palettes
+    across the R ecosystem under the same package with a streamlined API.
 }
 \seealso{
 Useful links:
