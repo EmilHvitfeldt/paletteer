@@ -1,9 +1,11 @@
 # paletteer (development version)
 
+* Packages that provide continious color paletttes have been moved from Imports to Suggests. (#93)
+
 # paletteer 1.1.0
 
 * added `scale_color_paletteer_binned()` to support binned scales.
-* 20 palettes have been added from the futurevisions package. (82)
+* 20 palettes have been added from the futurevisions package. (#82)
 
 # paletteer 1.0.0
 
