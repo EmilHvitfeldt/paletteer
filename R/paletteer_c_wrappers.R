@@ -12,6 +12,7 @@
 #' @name paleteer-c-wrapper
 #' @rdname paleteer-c-wrapper
 paletteer_c_ggthemes <- function(name, n) {
+  check_package("ggthemes")
 
   ggthemes_c_seq_names <- c("Blue-Green Sequential", "Blue Light", "Orange Light", "Blue", "Orange",
                             "Green", "Red", "Purple", "Brown", "Gray", "Gray Warm", "Blue-Teal",
@@ -67,6 +68,7 @@ paletteer_c_grDevices <- function(name, n) {
 
 #' @rdname paleteer-c-wrapper
 paletteer_c_oompaBase <- function(name, n) {
+  check_package("oompaBase")
   pal_gen <- getExportedValue("oompaBase", name)
 
   pal_gen(N = n)
@@ -74,6 +76,7 @@ paletteer_c_oompaBase <- function(name, n) {
 
 #' @rdname paleteer-c-wrapper
 paletteer_c_palr <- function(name, n) {
+  check_package("palr")
   pal_gen <- getExportedValue("palr", name)
 
   pal_gen(x = n)
@@ -81,6 +84,7 @@ paletteer_c_palr <- function(name, n) {
 
 #' @rdname paleteer-c-wrapper
 paletteer_c_pals <- function(name, n) {
+  check_package("pals")
   pal_gen <- getExportedValue("pals", name)
 
   pal_gen(n = n)
@@ -88,12 +92,13 @@ paletteer_c_pals <- function(name, n) {
 
 #' @rdname paleteer-c-wrapper
 paletteer_c_scico <- function(name, n) {
+  check_package("scico")
   scico::scico(n = n, palette = name)
 }
 
 #' @rdname paleteer-c-wrapper
-#' @importFrom viridisLite viridis
 paletteer_c_viridis <- function(name, n) {
+  check_package("viridisLite")
   pal_gen <- getExportedValue("viridisLite", name)
 
   pal_gen(n = n)
@@ -101,11 +106,13 @@ paletteer_c_viridis <- function(name, n) {
 
 #' @rdname paleteer-c-wrapper
 paletteer_c_harrypotter <- function(name, n) {
+  check_package("harrypotter")
   harrypotter::hp(n = n, option = name)
 }
 
 #' @rdname paleteer-c-wrapper
 paletteer_c_gameofthrones <- function(name, n) {
+  check_package("gameofthrones")
   gameofthrones::got(n = n, option = name)
 }
 

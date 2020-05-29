@@ -18,15 +18,7 @@ RoxygenNote: 7.1.0.9000
 Depends:
     R (>= 2.10)
 Imports: 
-    gameofthrones (>= 1.0.0),
-    ggthemes (>= 4.0.0),
     jcolors,
-    oompaBase,
-    harrypotter (>= 2.1.0),
-    palr,
-    pals,
-    scico,
-    viridisLite,
     rlang,
     rematch2,
     rstudioapi,
@@ -34,7 +26,15 @@ Imports:
 Suggests: 
     covr,
     testthat (>= 2.1.0),
+    harrypotter (>= 2.1.0),
+    gameofthrones (>= 1.0.0),
+    ggthemes (>= 4.0.0),
     ggplot2 (>= 3.3.0),
     knitr,
+    oompaBase,
     rmarkdown,
+    viridisLite,
+    scico,
+    palr,
+    pals,
     vdiffr
