@@ -61,7 +61,7 @@ you need for a smooth transition of color:
 
 ![](man/figures/README-unnamed-chunk-4-1.png)<!-- -->
 
-This package includes 2011 from 53 different packages and information
+This package includes 2017 from 54 different packages and information
 about these can be found in the following data.frames:
 `palettes_c_names`, `palettes_d_names` and `palettes_dynamic_names`.
 Additionally this [github
@@ -176,6 +176,7 @@ paletteer_c("nord::frost")
 | Redmonder          | \-                                                                                              | [0.2.0](https://CRAN.R-project.org/package=Redmonder)     |
 | RSkittleBrewer     | [alyssafrazee/RSkittleBrewer - 1.1](https://github.com/alyssafrazee/RSkittleBrewer)             | \-                                                        |
 | scico              | [thomasp85/scico - 1.1.0](https://github.com/thomasp85/scico)                                   | [1.1.0](https://CRAN.R-project.org/package=scico)         |
+| suffrager          | [alburezg/suffrage - 0.1.0](https://github.com/alburezg/suffrage)                               | \-                                                        |
 | tidyquant          | [business-science/tidyquant - 1.0.0](https://github.com/business-science/tidyquant)             | [1.0.0](https://CRAN.R-project.org/package=tidyquant)     |
 | trekcolors         | [leonawicz/trekcolors - 0.1.2](https://github.com/leonawicz/trekcolors)                         | [0.1.1](https://CRAN.R-project.org/package=trekcolors)    |
 | tvthemes           | [Ryo-N7/tvthemes - 1.1.0](https://github.com/Ryo-N7/tvthemes)                                   | [1.1.0](https://CRAN.R-project.org/package=tvthemes)      |

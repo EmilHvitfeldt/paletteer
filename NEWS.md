@@ -3,6 +3,7 @@
 * Packages that provide continious color paletttes have been moved from Imports to Suggests. (#93)
 * 17 palettes have been added from the khroma package. (#88)
 * 130 palettes have been added from the beyonce package. (#87)
+* 6 palettes have been added from the suffrager package. (#86)
 
 # paletteer 1.1.0
 

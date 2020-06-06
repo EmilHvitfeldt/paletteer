@@ -281,6 +281,9 @@ RSkittleBrewer_pals <- lapply(mapply(RSkittleBrewer::RSkittleBrewer,
                                      flavor = RSkittleBrewer_name),
                               unname)
 
+## suffrager ------------------------------------------------------------------
+suffrager_pals <- suffrager::suf_palettes
+
 ## tidyquant ------------------------------------------------------------------
 tidyquant_pals <- list(
   tq_light = tidyquant::palette_light(),
@@ -385,6 +388,7 @@ palettes_d <- list(
   RColorBrewer = rcolorbrewer_pals,
   Redmonder = redmonder_pals,
   RSkittleBrewer = RSkittleBrewer_pals,
+  suffrager = suffrager_pals,
   tidyquant = tidyquant_pals,
   trekcolors = trekcolors_pals,
   tvthemes = tvthemes_pals,
