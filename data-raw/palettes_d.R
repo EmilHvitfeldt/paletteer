@@ -13,15 +13,14 @@ awtools_pals <- list(
 
 ## basetheme ------------------------------------------------------------------
 basetheme_pals <- list(
-  brutal = basetheme:::basetheme_brutal()$palette,
-  clean = basetheme:::basetheme_clean()$palette,
-  dark = basetheme:::basetheme_dark()$palette,
-  deepblue = basetheme:::basetheme_deepblue()$palette,
-  default = basetheme:::basetheme_default()$palette,
-  ink = basetheme:::basetheme_ink()$palette,
-  minimal = basetheme:::basetheme_minimal()$palette,
-  royal = basetheme:::basetheme_royal()$palette,
-  void = basetheme:::basetheme_void()$palette
+  brutal = basetheme:::basetheme_brutal()$palette.labels,
+  clean = basetheme:::basetheme_clean()$palette.labels,
+  dark = basetheme:::basetheme_dark()$palette.labels,
+  deepblue = basetheme:::basetheme_deepblue()$palette.labels,
+  ink = basetheme:::basetheme_ink()$palette.labels,
+  minimal = basetheme:::basetheme_minimal()$palette.labels,
+  royal = basetheme:::basetheme_royal()$palette.labels,
+  void = basetheme:::basetheme_void()$palette.labels
 )
 
 ## beyonce --------------------------------------------------------------------
