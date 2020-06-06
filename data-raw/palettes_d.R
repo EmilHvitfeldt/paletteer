@@ -164,6 +164,9 @@ jcolors_pals <- lapply(
   unname
 )
 
+## khroma ---------------------------------------------------------------------
+khroma_pals <- lapply(khroma:::.schemes, function(x) unname(x$colours))
+
 ## LaCroixColoR ---------------------------------------------------------------
 LaCroixColoR_pals <- c(
   lapply(LaCroixColoR::lacroix_palettes[1:20], function(x)
@@ -358,6 +361,7 @@ palettes_d <- list(
   ghibli = ghibli_pals,
   grDevices = grDevices_pals,
   IslamicArt = IslamicArt_pals,
+  khroma = khroma_pals,
   jcolors = jcolors_pals,
   LaCroixColoR = LaCroixColoR_pals,
   lisa = lisa_pals,

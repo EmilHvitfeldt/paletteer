@@ -1,6 +1,7 @@
 # paletteer (development version)
 
 * Packages that provide continious color paletttes have been moved from Imports to Suggests. (#93)
+* 17 palettes have been added from the khroma package. (#88)
 
 # paletteer 1.1.0
 
