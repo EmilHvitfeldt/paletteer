@@ -30,6 +30,29 @@ beyonce_pals <- setNames(beyonce::beyonce_palettes,
 ## calecopal ------------------------------------------------------------------
 calecopal_pals <- calecopal::cal_palettes
 
+## colorBlindness -------------------------------------------------------------
+colorBlindness_pals <- list(
+  paletteMartin = colorBlindness::paletteMartin,
+  Blue2DarkOrange12Steps = colorBlindness::Blue2DarkOrange12Steps,
+  Blue2DarkOrange18Steps = colorBlindness::Blue2DarkOrange18Steps,
+  Blue2DarkRed12Steps = colorBlindness::Blue2DarkRed12Steps,
+  Blue2DarkRed18Steps = colorBlindness::Blue2DarkRed18Steps,
+  Blue2Gray8Steps = colorBlindness::Blue2Gray8Steps,
+  Blue2Green14Steps = colorBlindness::Blue2Green14Steps,
+  Blue2Orange10Steps = colorBlindness::Blue2Orange10Steps,
+  Blue2Orange12Steps = colorBlindness::Blue2Orange12Steps,
+  Blue2Orange8Steps = colorBlindness::Blue2Orange8Steps,
+  Blue2OrangeRed14Steps = colorBlindness::Blue2OrangeRed14Steps,
+  Brown2Blue10Steps = colorBlindness::Brown2Blue10Steps,
+  Brown2Blue12Steps = colorBlindness::Brown2Blue12Steps,
+  Green2Magenta16Steps = colorBlindness::Green2Magenta16Steps,
+  LightBlue2DarkBlue10Steps = colorBlindness::LightBlue2DarkBlue10Steps,
+  LightBlue2DarkBlue7Steps = colorBlindness::LightBlue2DarkBlue7Steps,
+  ModifiedSpectralScheme11Steps = colorBlindness::ModifiedSpectralScheme11Steps,
+  PairedColor12Steps = colorBlindness::PairedColor12Steps,
+  SteppedSequential5Steps = colorBlindness::SteppedSequential5Steps
+)
+
 ## colorblindr ----------------------------------------------------------------
 colorblindr_pals <- list(OkabeIto = colorblindr::palette_OkabeIto,
                          OkabeIto_black = colorblindr::palette_OkabeIto_black)
@@ -355,6 +378,7 @@ palettes_d <- list(
   basetheme = basetheme_pals,
   beyonce = beyonce_pals,
   calecopal = calecopal_pals,
+  colorBlindness = colorBlindness_pals,
   colorblindr = colorblindr_pals,
   colRoz = colRoz_pals,
   dichromat = dichromat_pals,

@@ -4,6 +4,7 @@
 * 17 palettes have been added from the khroma package. (#88)
 * 130 palettes have been added from the beyonce package. (#87)
 * 6 palettes have been added from the suffrager package. (#86)
+* 19 palettes have been added from the colorBlindness package. (#85)
 
 # paletteer 1.1.0
 

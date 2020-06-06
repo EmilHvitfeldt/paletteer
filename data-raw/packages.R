@@ -6,6 +6,7 @@ paletteer_packages <- tibble::tribble(
   "beyonce",            "dill/beyonce",                     "0.1",         FALSE, NA,
   "calecopal",          "an-bui/calecopal",                 "0.1.0",       FALSE, NA,
   "cartography",        "riatelab/cartography",             "2.3.1.0",     TRUE,  "2.3.0",
+  "colorBlindness",     NA,                                 NA,            TRUE,  "0.1.6",
   "colorblindr",        "clauswilke/colorblindr",           "0.1.0",       FALSE, NA,
   "colRoz",             "jacintak/colRoz",                  "0.2.2",       FALSE, NA,
   "dichromat",          NA,                                 NA,            TRUE,  "2.0-0",
