@@ -13,9 +13,6 @@ Where <package>_pals should be a single level named list of palettes. Add the li
 
 run script `data-raw/palettes_d_names.R`.
 
-In the file `R/data.R` update the format for `palettes_d` and `palettes_d_names` with 
-`length(palettes_d)` and `nrow(palettes_d_names)` respectively.  
-
 run `devtools::document()`.  
 
 Include license reference in `LICENSE` file.

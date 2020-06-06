@@ -4,18 +4,12 @@
 #' package. Structured as a list of lists with the first level being each
 #' package and the second level being the palettes available in that package.
 #'
-#' Contains palettes from the following packages: awtools, basetheme,
-#' calecopal, colorblindr, colRoz, dichromat, dutchmasters, DresdenColor,
-#' fishualize, futurevisions, ggsci, ggpomological, ggthemes, ggthemr, ghibli,
-#' grDevices, IslamicArt, jcolors, LaCroixColoR, lisa, nationalparkcolors,
-#' NineteenEightyR, nord, ochRe, pals, palettesForR_pals, Polychrome,
-#' MapPalettes, miscpalettes, PNWColors, rcartocolor, RColorBrewer, Redmonder,
-#' RSkittleBrewer, tidyquant, trekcolors, tvthemes, unikn, vapeplot, vapoRwave,
-#' werpals, wesanderson and yarrr.
+#' Contains palettes from the following packages:
+#' `r paste(sort(names(palettes_d)), collapse = ", ")`.
 #'
 #' data.frame of palette names can be found here \code{\link{palettes_d_names}}.
 #'
-#' @format A list of 44 lists.
+#' @format A list of `r length(palettes_d)` lists.
 "palettes_d"
 
 #' Names of all fixed discrete palettes
@@ -23,18 +17,13 @@
 #' A data.frame of the names and other characteristics of the discrete palettes
 #' of fixed lengths included in this package.
 #'
-#' Contains palettes names from the following packages: awtools, basetheme,
-#' calecopal, colorblindr, colRoz, dichromat, dutchmasters, DresdenColor,
-#' fishualize, futurevisions, ggsci, ggpomological, ggthemes, ggthemr, ghibli,
-#' grDevices, IslamicArt, jcolors, LaCroixColoR, lisa, nationalparkcolors,
-#' NineteenEightyR, nord, ochRe, pals, palettesForR_pals, Polychrome,
-#' MapPalettes, miscpalettes, PNWColors, rcartocolor, RColorBrewer, Redmonder,
-#' RSkittleBrewer, tidyquant, trekcolors, tvthemes, unikn, vapeplot, vapoRwave,
-#' werpals, wesanderson and yarrr.
+#' Contains palettes names from the following packages:
+#' `r paste(sort(unique(palettes_d_names$package)), collapse = ", ")`.
 #'
 #' Full list of palette can be found here \code{\link{palettes_d}}.
 #'
-#' @format A data.frame of 1431 observations with 4 variables:
+#' @format A data.frame of `r nrow(palettes_d_names)` observations with 4
+#'     variables:
 #' \describe{
 #'   \item{package}{character, name of package}
 #'   \item{palette}{character, name of palette}
@@ -66,7 +55,8 @@
 #'
 #' Full list of palette can be found here \code{\link{palettes_dynamic}}.
 #'
-#' @format A data.frame of 25 observations with 4 variables:
+#' @format A data.frame of `r nrow(palettes_dynamic_names)` observations with
+#'     4 variables:
 #' \describe{
 #'   \item{package}{character, name of package}
 #'   \item{palette}{character, name of palette}
@@ -81,11 +71,11 @@
 #' A data.frame of the names and other characteristics of the continuous
 #' palettes included in this package.
 #'
-#' Contains palettes names from the following packages: gameofthrones,
-#' ggthemes, grDevices, harrypotter, oompaBase, palr, pals,
-#' scico and viridis.
+#' Contains palettes names from the following packages:
+#' `r paste(sort(unique(palettes_c_names$package)), collapse = ", ")`.
 #'
-#' @format A data.frame of 315 observations with 3 variables:
+#' @format A data.frame of `r nrow(palettes_c_names)` observations with 3
+#'     variables:
 #' \describe{
 #'   \item{package}{character, name of package}
 #'   \item{palette}{character, name of palette}

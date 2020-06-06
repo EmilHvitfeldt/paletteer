@@ -16,14 +16,8 @@ package. Structured as a list of lists with the first level being each
 package and the second level being the palettes available in that package.
 }
 \details{
-Contains palettes from the following packages: awtools, basetheme,
-calecopal, colorblindr, colRoz, dichromat, dutchmasters, DresdenColor,
-fishualize, futurevisions, ggsci, ggpomological, ggthemes, ggthemr, ghibli,
-grDevices, IslamicArt, jcolors, LaCroixColoR, lisa, nationalparkcolors,
-NineteenEightyR, nord, ochRe, pals, palettesForR_pals, Polychrome,
-MapPalettes, miscpalettes, PNWColors, rcartocolor, RColorBrewer, Redmonder,
-RSkittleBrewer, tidyquant, trekcolors, tvthemes, unikn, vapeplot, vapoRwave,
-werpals, wesanderson and yarrr.
+Contains palettes from the following packages:
+awtools, basetheme, calecopal, colorblindr, colRoz, dichromat, DresdenColor, dutchmasters, fishualize, futurevisions, ggpomological, ggsci, ggthemes, ggthemr, ghibli, grDevices, IslamicArt, jcolors, LaCroixColoR, lisa, MapPalettes, miscpalettes, nationalparkcolors, NineteenEightyR, nord, ochRe, palettesForR, palettetown, pals, PNWColors, Polychrome, rcartocolor, RColorBrewer, Redmonder, RSkittleBrewer, tidyquant, trekcolors, tvthemes, unikn, vapeplot, vapoRwave, werpals, wesanderson, yarrr.
 
 data.frame of palette names can be found here \code{\link{palettes_d_names}}.
 }
