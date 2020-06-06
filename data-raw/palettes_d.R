@@ -4,6 +4,7 @@ library(magrittr)
 ## awtools --------------------------------------------------------------------
 awtools_pals <- list(
   a_palette = awtools::a_palette,
+  ppalette = awtools::ppalette,
   bpalette = awtools::bpalette,
   gpalette = awtools::gpalette,
   mpalette = awtools::mpalette,
