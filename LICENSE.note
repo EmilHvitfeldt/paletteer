@@ -356,3 +356,10 @@ colorBlindness palettes
 By: Jianhong Ou
 License: GPL-2 | GPL-3 [expanded from: GPL (≥ 2)]
 https://cran.r-project.org/web/licenses/GPL-2
+
+---
+
+rtist palettes
+By: Tomas Okal
+License: MIT
+https://github.com/tomasokal/rtist/blob/master/LICENSE.md

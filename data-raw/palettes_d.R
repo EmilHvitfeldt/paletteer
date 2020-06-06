@@ -304,6 +304,9 @@ RSkittleBrewer_pals <- lapply(mapply(RSkittleBrewer::RSkittleBrewer,
                                      flavor = RSkittleBrewer_name),
                               unname)
 
+## rtist ----------------------------------------------------------------------
+rtist_pals <- rtist::rtist_palettes
+
 ## suffrager ------------------------------------------------------------------
 suffrager_pals <- suffrager::suf_palettes
 
@@ -412,6 +415,7 @@ palettes_d <- list(
   RColorBrewer = rcolorbrewer_pals,
   Redmonder = redmonder_pals,
   RSkittleBrewer = RSkittleBrewer_pals,
+  rtist = rtist_pals,
   suffrager = suffrager_pals,
   tidyquant = tidyquant_pals,
   trekcolors = trekcolors_pals,

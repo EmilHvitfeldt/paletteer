@@ -44,6 +44,7 @@ paletteer_packages <- tibble::tribble(
   "RColorBrewer",       NA,                                 NA,            TRUE,  "1.1-2",
   "Redmonder",          NA,                                 NA,            TRUE,  "0.2.0",
   "RSkittleBrewer",     "alyssafrazee/RSkittleBrewer",      "1.1",         FALSE, NA,
+  "rtist",              "tomasokal/rtist",                  "1.0.0",       TRUE,  "1.0.0",
   "scico",              "thomasp85/scico",                  "1.1.0",       TRUE,  "1.1.0",
   "suffrager",          "alburezg/suffrage",                "0.1.0",       FALSE, NA,
   "tidyquant",          "business-science/tidyquant",       "1.0.0",       TRUE,  "1.0.0",

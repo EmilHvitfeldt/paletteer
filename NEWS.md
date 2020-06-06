@@ -5,6 +5,7 @@
 * 130 palettes have been added from the beyonce package. (#87)
 * 6 palettes have been added from the suffrager package. (#86)
 * 19 palettes have been added from the colorBlindness package. (#85)
+* 15 palettes have been added from the rtist package. (#84)
 
 # paletteer 1.1.0
 
