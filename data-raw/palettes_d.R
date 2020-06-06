@@ -428,4 +428,11 @@ palettes_d <- list(
   yarrr = yarrr_pals
 )
 
+remove_non_ascii_names <- function(x) {
+  names(x) <- janitor::make_clean_names(names(x), case = "none")
+  lapply(x, as.character)
+}
+
+palettes_d <- lapply(palettes_d, remove_non_ascii_names)
+
 usethis::use_data(palettes_d, overwrite = TRUE)
