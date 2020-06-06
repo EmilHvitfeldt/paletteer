@@ -23,6 +23,10 @@ basetheme_pals <- list(
   void = basetheme:::basetheme_void()$palette
 )
 
+## beyonce --------------------------------------------------------------------
+beyonce_pals <- setNames(beyonce::beyonce_palettes,
+                         seq_along(beyonce::beyonce_palettes))
+
 ## calecopal ------------------------------------------------------------------
 calecopal_pals <- calecopal::cal_palettes
 
@@ -346,6 +350,7 @@ yarrr_pals <- mapply(yarrr::piratepal, yarrr_names) %>%
 palettes_d <- list(
   awtools = awtools_pals,
   basetheme = basetheme_pals,
+  beyonce = beyonce_pals,
   calecopal = calecopal_pals,
   colorblindr = colorblindr_pals,
   colRoz = colRoz_pals,

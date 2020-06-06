@@ -3,6 +3,7 @@ paletteer_packages <- tibble::tribble(
   ~Name,                ~Github,                            ~github_ver,   ~CRAN, ~CRAN_ver,
   "awtools",            "awhstin/awtools",                  "0.2.1",       FALSE, NA,
   "basetheme",          "KKPMW/basetheme",                  "0.1.2",       TRUE,  "0.1.2",
+  "beyonce",            "dill/beyonce",                     "0.1",         FALSE, NA,
   "calecopal",          "an-bui/calecopal",                 "0.1.0",       FALSE, NA,
   "cartography",        "riatelab/cartography",             "2.3.1.0",     TRUE,  "2.3.0",
   "colorblindr",        "clauswilke/colorblindr",           "0.1.0",       FALSE, NA,

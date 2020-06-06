@@ -61,7 +61,7 @@ you need for a smooth transition of color:
 
 ![](man/figures/README-unnamed-chunk-4-1.png)<!-- -->
 
-This package includes 1881 from 52 different packages and information
+This package includes 2011 from 53 different packages and information
 about these can be found in the following data.frames:
 `palettes_c_names`, `palettes_d_names` and `palettes_dynamic_names`.
 Additionally this [github
@@ -135,6 +135,7 @@ paletteer_c("nord::frost")
 | :----------------- | :---------------------------------------------------------------------------------------------- | :-------------------------------------------------------- |
 | awtools            | [awhstin/awtools - 0.2.1](https://github.com/awhstin/awtools)                                   | \-                                                        |
 | basetheme          | [KKPMW/basetheme - 0.1.2](https://github.com/KKPMW/basetheme)                                   | [0.1.2](https://CRAN.R-project.org/package=basetheme)     |
+| beyonce            | [dill/beyonce - 0.1](https://github.com/dill/beyonce)                                           | \-                                                        |
 | calecopal          | [an-bui/calecopal - 0.1.0](https://github.com/an-bui/calecopal)                                 | \-                                                        |
 | cartography        | [riatelab/cartography - 2.3.1.0](https://github.com/riatelab/cartography)                       | [2.3.0](https://CRAN.R-project.org/package=cartography)   |
 | colorblindr        | [clauswilke/colorblindr - 0.1.0](https://github.com/clauswilke/colorblindr)                     | \-                                                        |
@@ -142,7 +143,7 @@ paletteer_c("nord::frost")
 | dichromat          | \-                                                                                              | [2.0-0](https://CRAN.R-project.org/package=dichromat)     |
 | DresdenColor       | [katiesaund/DresdenColor - 0.0.0.9000](https://github.com/katiesaund/DresdenColor)              | \-                                                        |
 | dutchmasters       | [EdwinTh/dutchmasters - 0.1.0](https://github.com/EdwinTh/dutchmasters)                         | \-                                                        |
-| fishualize         | [nschiett/fishualize - 0.2.999](https://github.com/nschiett/fishualize)                         | [0.1.0](https://CRAN.R-project.org/package=fishualize)    |
+| fishualize         | [nschiett/fishualize - 0.2.0](https://github.com/nschiett/fishualize)                           | [0.2.0](https://CRAN.R-project.org/package=fishualize)    |
 | futurevisions      | [JoeyStanley/futurevisions - 0.1.0](https://github.com/JoeyStanley/futurevisions)               | \-                                                        |
 | gameofthrones      | [aljrico/gameofthrones - 1.0.2](https://github.com/aljrico/gameofthrones)                       | [1.0.2](https://CRAN.R-project.org/package=gameofthrones) |
 | ggpomological      | [gadenbuie/ggpomological - 0.1.2](https://github.com/gadenbuie/ggpomological)                   | \-                                                        |
