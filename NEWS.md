@@ -1,3 +1,5 @@
+# paletteer (development version)
+
 # paletteer 1.2.0
 
 * Packages that provide continious color paletttes have been moved from Imports to Suggests. (#93)
