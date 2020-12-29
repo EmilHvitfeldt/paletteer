@@ -204,8 +204,10 @@ LaCroixColoR_pals <- c(
 ## Lisa -----------------------------------------------------------------------
 lisa_pals <- lisa::lisa
 
-## MapPalettes ----------------------------------------------------------------
+## Manu -----------------------------------------------------------------------
+Manu_pals <- Manu::manu_palettes
 
+## MapPalettes ----------------------------------------------------------------
 MapPalettes_pals <- lapply(MapPalettes:::names, MapPalettes::map_palette)
 names(MapPalettes_pals) <- MapPalettes:::names
 
@@ -413,6 +415,7 @@ palettes_d <- list(
   palettetown = palettetown_pals,
   pals = pals_pals,
   Polychrome = Polychrome_pals,
+  Manu = Manu_pals,
   MapPalettes = MapPalettes_pals,
   miscpalettes = miscpalettes_pals,
   palettesForR = palettesForR_pals,

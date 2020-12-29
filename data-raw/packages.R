@@ -27,6 +27,7 @@ paletteer_packages <- tibble::tribble(
   "jcolors",            "jaredhuling/jcolors",              "0.0.4",       TRUE,  "0.0.4",
   "LaCroixColoR",       "johannesbjork/LaCroixColoR",       "0.1.0",       FALSE, NA,
   "lisa",               "tyluRp/lisa",                      "0.1.1.9000",  TRUE,  "0.1.1",
+  "Manu",               "G-Thomson/Manu",                   "0.0.1",       FALSE, NA,
   "MapPalettes",        "disarm-platform/MapPalettes",      "0.0.2",       FALSE, NA,
   "miscpalettes",       "EmilHvitfeldt/miscpalettes",       "0.0.0.9000",  FALSE, NA,
   "nationalparkcolors", "katiejolly/nationalparkcolors",    "0.1.0",       FALSE, NA,

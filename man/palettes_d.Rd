@@ -5,7 +5,7 @@
 \alias{palettes_d}
 \title{Complete list of fixed discrete palettes}
 \format{
-A list of 51 lists.
+A list of 52 lists.
 }
 \usage{
 palettes_d
@@ -17,7 +17,7 @@ package and the second level being the palettes available in that package.
 }
 \details{
 Contains palettes from the following packages:
-DresdenColor, IslamicArt, LaCroixColoR, MapPalettes, NineteenEightyR, PNWColors, Polychrome, RColorBrewer, RSkittleBrewer, Redmonder, awtools, basetheme, beyonce, calecopal, colRoz, colorBlindness, colorblindr, dichromat, dutchmasters, fishualize, futurevisions, ggpomological, ggsci, ggthemes, ggthemr, ghibli, grDevices, jcolors, khroma, lisa, miscpalettes, nationalparkcolors, nord, ochRe, palettesForR, palettetown, pals, rcartocolor, rockthemes, rtist, soilpalettes, suffrager, tidyquant, trekcolors, tvthemes, unikn, vapeplot, vapoRwave, werpals, wesanderson, yarrr.
+awtools, basetheme, beyonce, calecopal, colorBlindness, colorblindr, colRoz, dichromat, DresdenColor, dutchmasters, fishualize, futurevisions, ggpomological, ggsci, ggthemes, ggthemr, ghibli, grDevices, IslamicArt, jcolors, khroma, LaCroixColoR, lisa, Manu, MapPalettes, miscpalettes, nationalparkcolors, NineteenEightyR, nord, ochRe, palettesForR, palettetown, pals, PNWColors, Polychrome, rcartocolor, RColorBrewer, Redmonder, rockthemes, RSkittleBrewer, rtist, soilpalettes, suffrager, tidyquant, trekcolors, tvthemes, unikn, vapeplot, vapoRwave, werpals, wesanderson, yarrr.
 
 data.frame of palette names can be found here \code{\link{palettes_d_names}}.
 }
