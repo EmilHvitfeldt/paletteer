@@ -1,6 +1,7 @@
 # paletteer (development version)
 
 * 14 palettes have been added from the soilpaletttes package. (#95)
+* 20 palettes have been added from the rockthemes package. (#97)
 
 # paletteer 1.2.0
 

@@ -61,7 +61,7 @@ you need for a smooth transition of color:
 
 ![](man/figures/README-unnamed-chunk-4-1.png)<!-- -->
 
-This package includes 2089 from 57 different packages and information
+This package includes 2109 from 58 different packages and information
 about these can be found in the following data.frames:
 `palettes_c_names`, `palettes_d_names` and `palettes_dynamic_names`.
 Additionally this [github
@@ -175,6 +175,7 @@ paletteer_c("nord::frost")
 | rcartocolor        | [Nowosad/rcartocolor - 2.0.0](https://github.com/Nowosad/rcartocolor)                           | [2.0.0](https://CRAN.R-project.org/package=rcartocolor)    |
 | RColorBrewer       | \-                                                                                              | [1.1-2](https://CRAN.R-project.org/package=RColorBrewer)   |
 | Redmonder          | \-                                                                                              | [0.2.0](https://CRAN.R-project.org/package=Redmonder)      |
+| rockthemes         | [johnmackintosh/rockthemes - 0.0.0.9000](https://github.com/johnmackintosh/rockthemes)          | \-                                                         |
 | RSkittleBrewer     | [alyssafrazee/RSkittleBrewer - 1.1](https://github.com/alyssafrazee/RSkittleBrewer)             | \-                                                         |
 | rtist              | [tomasokal/rtist - 1.0.0](https://github.com/tomasokal/rtist)                                   | [1.0.0](https://CRAN.R-project.org/package=rtist)          |
 | scico              | [thomasp85/scico - 1.2.0](https://github.com/thomasp85/scico)                                   | [1.2.0](https://CRAN.R-project.org/package=scico)          |

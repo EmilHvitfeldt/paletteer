@@ -298,6 +298,9 @@ redmonder_ncolor <- Redmonder::redmonder.pal.info$maxcolors
 redmonder_pals <- mapply(Redmonder::redmonder.pal, n = redmonder_ncolor, name = redmonder_name)
 names(redmonder_pals) <- redmonder_name
 
+## rockthemes -----------------------------------------------------------------
+rockthemes_pals <- rockthemes:::rock_palettes
+
 ## RSkittleBrewer -------------------------------------------------------------
 RSkittleBrewer_name <- c("original", "tropical", "wildberry", "M&M", "smarties")
 RSkittleBrewer_pals <- lapply(mapply(RSkittleBrewer::RSkittleBrewer,
@@ -417,6 +420,7 @@ palettes_d <- list(
   rcartocolor = rcartocolors_pals,
   RColorBrewer = rcolorbrewer_pals,
   Redmonder = redmonder_pals,
+  rockthemes = rockthemes_pals,
   RSkittleBrewer = RSkittleBrewer_pals,
   rtist = rtist_pals,
   soilpalettes = soilpalettes_pals,

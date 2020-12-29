@@ -43,6 +43,7 @@ paletteer_packages <- tibble::tribble(
   "rcartocolor",        "Nowosad/rcartocolor",              "2.0.0",       TRUE,  "2.0.0",
   "RColorBrewer",       NA,                                 NA,            TRUE,  "1.1-2",
   "Redmonder",          NA,                                 NA,            TRUE,  "0.2.0",
+  "rockthemes",         "johnmackintosh/rockthemes",        "0.0.0.9000",  FALSE, NA,
   "RSkittleBrewer",     "alyssafrazee/RSkittleBrewer",      "1.1",         FALSE, NA,
   "rtist",              "tomasokal/rtist",                  "1.0.0",       TRUE,  "1.0.0",
   "scico",              "thomasp85/scico",                  "1.2.0",       TRUE,  "1.2.0",
