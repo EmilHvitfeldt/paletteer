@@ -27,10 +27,11 @@ pals_df <- tibble(package = "pals",
 scico_df <- tibble(package = "scico",
                    palette = names(scico:::palettes)) %>%
   dplyr::mutate(type = c("sequential", "sequential", "sequential", "diverging", "sequential",
-                         "diverging", "sequential", "diverging", "sequential", "sequential",
+                         "diverging", "diverging", "sequential", "diverging", "diverging",
                          "sequential", "sequential", "sequential", "sequential", "sequential",
-                         "diverging", "diverging", "sequential", "sequential", "diverging",
-                         "diverging", "sequential", "sequential", "diverging"))
+                         "sequential", "sequential", "diverging", "sequential", "sequential",
+                         "sequential", "diverging", "diverging", "diverging", "sequential",
+                         "sequential", "diverging", "diverging"))
 
 other_df <- tribble(
   ~package, ~palette, ~type,
