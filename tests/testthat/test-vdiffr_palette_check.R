@@ -85,9 +85,14 @@ all_package_names <- unique(
 )
 
 
+expect_doppelganger <- function(title, fig, path = NULL, ...) {
+  testthat::skip_if_not_installed("vdiffr")
+  vdiffr::expect_doppelganger(title, fig, path = path, ...)
+}
+
 test_that("colors show up correctly", {
 
   for (package in all_package_names) {
-    vdiffr::expect_doppelganger(package, plot_in_one(package))
+    expect_doppelganger(package, plot_in_one(package))
   }
 })
