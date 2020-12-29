@@ -46,6 +46,7 @@ paletteer_packages <- tibble::tribble(
   "RSkittleBrewer",     "alyssafrazee/RSkittleBrewer",      "1.1",         FALSE, NA,
   "rtist",              "tomasokal/rtist",                  "1.0.0",       TRUE,  "1.0.0",
   "scico",              "thomasp85/scico",                  "1.2.0",       TRUE,  "1.2.0",
+  "soilpalettes",       "kaizadp/soilpalettes",             "0.1.0",       FALSE, NA,
   "suffrager",          "alburezg/suffrage",                "0.1.0",       FALSE, NA,
   "tidyquant",          "business-science/tidyquant",       "1.0.0",       TRUE,  "1.0.0",
   "trekcolors",         "leonawicz/trekcolors",             "0.1.2",       TRUE,  "0.1.1",

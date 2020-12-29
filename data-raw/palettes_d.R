@@ -307,6 +307,9 @@ RSkittleBrewer_pals <- lapply(mapply(RSkittleBrewer::RSkittleBrewer,
 ## rtist ----------------------------------------------------------------------
 rtist_pals <- rtist::rtist_palettes
 
+## soilpalettes ---------------------------------------------------------------
+soilpalettes_pals <- lapply(soilpalettes::soil_palettes, function(x) x[1,])
+
 ## suffrager ------------------------------------------------------------------
 suffrager_pals <- suffrager::suf_palettes
 
@@ -416,6 +419,7 @@ palettes_d <- list(
   Redmonder = redmonder_pals,
   RSkittleBrewer = RSkittleBrewer_pals,
   rtist = rtist_pals,
+  soilpalettes = soilpalettes_pals,
   suffrager = suffrager_pals,
   tidyquant = tidyquant_pals,
   trekcolors = trekcolors_pals,

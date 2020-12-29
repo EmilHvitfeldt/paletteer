@@ -61,7 +61,7 @@ you need for a smooth transition of color:
 
 ![](man/figures/README-unnamed-chunk-4-1.png)<!-- -->
 
-This package includes 2075 from 56 different packages and information
+This package includes 2089 from 57 different packages and information
 about these can be found in the following data.frames:
 `palettes_c_names`, `palettes_d_names` and `palettes_dynamic_names`.
 Additionally this [github
@@ -178,6 +178,7 @@ paletteer_c("nord::frost")
 | RSkittleBrewer     | [alyssafrazee/RSkittleBrewer - 1.1](https://github.com/alyssafrazee/RSkittleBrewer)             | \-                                                         |
 | rtist              | [tomasokal/rtist - 1.0.0](https://github.com/tomasokal/rtist)                                   | [1.0.0](https://CRAN.R-project.org/package=rtist)          |
 | scico              | [thomasp85/scico - 1.2.0](https://github.com/thomasp85/scico)                                   | [1.2.0](https://CRAN.R-project.org/package=scico)          |
+| soilpalettes       | [kaizadp/soilpalettes - 0.1.0](https://github.com/kaizadp/soilpalettes)                         | \-                                                         |
 | suffrager          | [alburezg/suffrage - 0.1.0](https://github.com/alburezg/suffrage)                               | \-                                                         |
 | tidyquant          | [business-science/tidyquant - 1.0.0](https://github.com/business-science/tidyquant)             | [1.0.0](https://CRAN.R-project.org/package=tidyquant)      |
 | trekcolors         | [leonawicz/trekcolors - 0.1.2](https://github.com/leonawicz/trekcolors)                         | [0.1.1](https://CRAN.R-project.org/package=trekcolors)     |
