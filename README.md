@@ -20,7 +20,7 @@ The goal of **paletteer** is to be a comprehensive collection of color
 palettes in R using a common interface. Think of it as the “caret of
 palettes”.
 
-**Notice** This version is not backwards compatible with versions \<=
+**Notice** This version is not backwards compatible with versions &lt;=
 0.2.1. Please refer to the end of the readme for breaking changes
 
 ## Installation
@@ -61,7 +61,7 @@ you need for a smooth transition of color:
 
 ![](man/figures/README-unnamed-chunk-4-1.png)<!-- -->
 
-This package includes 2109 from 58 different packages and information
+This package includes 2128 from 59 different packages and information
 about these can be found in the following data.frames:
 `palettes_c_names`, `palettes_d_names` and `palettes_dynamic_names`.
 Additionally this [github
@@ -108,7 +108,7 @@ ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +
 
 ## Breaking changes
 
-In version \<= 0.2.1 a palatte was selected by specifying a `package`
+In version &lt;= 0.2.1 a palatte was selected by specifying a `package`
 and `palette` argument like so
 
 ``` r
@@ -124,7 +124,7 @@ paletteer_c("nord::frost")
 
 ## Special thanks
 
-  - [Hadley Wickham](https://github.com/hadley) For helpful code
+-   [Hadley Wickham](https://github.com/hadley) For helpful code
     improvements.
 
 ## Included packages
@@ -132,7 +132,7 @@ paletteer_c("nord::frost")
 **paletteer** includes palettes from the following packages:
 
 | Name               | Github                                                                                          | CRAN                                                       |
-| :----------------- | :---------------------------------------------------------------------------------------------- | :--------------------------------------------------------- |
+|:-------------------|:------------------------------------------------------------------------------------------------|:-----------------------------------------------------------|
 | awtools            | [awhstin/awtools - 0.2.1](https://github.com/awhstin/awtools)                                   | \-                                                         |
 | basetheme          | [KKPMW/basetheme - 0.1.2](https://github.com/KKPMW/basetheme)                                   | [0.1.2](https://CRAN.R-project.org/package=basetheme)      |
 | beyonce            | [dill/beyonce - 0.1](https://github.com/dill/beyonce)                                           | \-                                                         |
@@ -159,6 +159,7 @@ paletteer_c("nord::frost")
 | khroma             | [nfrerebeau/khroma - 1.3.0.9000](https://github.com/nfrerebeau/khroma)                          | [1.3.0](https://CRAN.R-project.org/package=khroma)         |
 | LaCroixColoR       | [johannesbjork/LaCroixColoR - 0.1.0](https://github.com/johannesbjork/LaCroixColoR)             | \-                                                         |
 | lisa               | [tyluRp/lisa - 0.1.1.9000](https://github.com/tyluRp/lisa)                                      | [0.1.1](https://CRAN.R-project.org/package=lisa)           |
+| Manu               | [G-Thomson/Manu - 0.0.1](https://github.com/G-Thomson/Manu)                                     | \-                                                         |
 | MapPalettes        | [disarm-platform/MapPalettes - 0.0.2](https://github.com/disarm-platform/MapPalettes)           | \-                                                         |
 | miscpalettes       | [EmilHvitfeldt/miscpalettes - 0.0.0.9000](https://github.com/EmilHvitfeldt/miscpalettes)        | \-                                                         |
 | nationalparkcolors | [katiejolly/nationalparkcolors - 0.1.0](https://github.com/katiejolly/nationalparkcolors)       | \-                                                         |
