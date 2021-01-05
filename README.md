@@ -134,7 +134,7 @@ paletteer_c("nord::frost")
 | Name               | Github                                                                                          | CRAN                                                       |
 |:-------------------|:------------------------------------------------------------------------------------------------|:-----------------------------------------------------------|
 | awtools            | [awhstin/awtools - 0.2.1](https://github.com/awhstin/awtools)                                   | \-                                                         |
-| basetheme          | [KKPMW/basetheme - 0.1.2](https://github.com/KKPMW/basetheme)                                   | [0.1.2](https://CRAN.R-project.org/package=basetheme)      |
+| basetheme          | [karoliskoncevicius/basetheme - 0.1.2](https://github.com/karoliskoncevicius/basetheme)         | [0.1.2](https://CRAN.R-project.org/package=basetheme)      |
 | beyonce            | [dill/beyonce - 0.1](https://github.com/dill/beyonce)                                           | \-                                                         |
 | calecopal          | [an-bui/calecopal - 0.1.0](https://github.com/an-bui/calecopal)                                 | \-                                                         |
 | cartography        | [riatelab/cartography - 2.4.2](https://github.com/riatelab/cartography)                         | [2.4.2](https://CRAN.R-project.org/package=cartography)    |
@@ -148,9 +148,9 @@ paletteer_c("nord::frost")
 | futurevisions      | [JoeyStanley/futurevisions - 0.1.1](https://github.com/JoeyStanley/futurevisions)               | \-                                                         |
 | gameofthrones      | [aljrico/gameofthrones - 1.0.2](https://github.com/aljrico/gameofthrones)                       | [1.0.2](https://CRAN.R-project.org/package=gameofthrones)  |
 | ggpomological      | [gadenbuie/ggpomological - 0.1.2](https://github.com/gadenbuie/ggpomological)                   | \-                                                         |
-| ggsci              | [road2stat/ggsci - 2.9](https://github.com/road2stat/ggsci)                                     | [2.9](https://CRAN.R-project.org/package=ggsci)            |
+| ggsci              | [nanxstats/ggsci - 2.9](https://github.com/nanxstats/ggsci)                                     | [2.9](https://CRAN.R-project.org/package=ggsci)            |
 | ggthemes           | [jrnold/ggthemes - 4.2.0](https://github.com/jrnold/ggthemes)                                   | [4.2.0](https://CRAN.R-project.org/package=ggthemes)       |
-| ggthemr            | [cttobin/ggthemr - 1.1.0](https://github.com/cttobin/ggthemr)                                   | \-                                                         |
+| ggthemr            | [Mikata-Project/ggthemr - 1.1.0](https://github.com/Mikata-Project/ggthemr)                     | \-                                                         |
 | ghibli             | [ewenme/ghibli - 0.3.2.9000](https://github.com/ewenme/ghibli)                                  | [0.3.2](https://CRAN.R-project.org/package=ghibli)         |
 | grDevices          | \-                                                                                              | 4.0.2                                                      |
 | harrypotter        | [aljrico/harrypotter - 2.1.1](https://github.com/aljrico/harrypotter)                           | [2.1.1](https://CRAN.R-project.org/package=harrypotter)    |
@@ -181,7 +181,7 @@ paletteer_c("nord::frost")
 | rtist              | [tomasokal/rtist - 1.0.0](https://github.com/tomasokal/rtist)                                   | [1.0.0](https://CRAN.R-project.org/package=rtist)          |
 | scico              | [thomasp85/scico - 1.2.0](https://github.com/thomasp85/scico)                                   | [1.2.0](https://CRAN.R-project.org/package=scico)          |
 | soilpalettes       | [kaizadp/soilpalettes - 0.1.0](https://github.com/kaizadp/soilpalettes)                         | \-                                                         |
-| suffrager          | [alburezg/suffrage - 0.1.0](https://github.com/alburezg/suffrage)                               | \-                                                         |
+| suffrager          | [alburezg/suffrager - 0.1.0](https://github.com/alburezg/suffrager)                             | \-                                                         |
 | tidyquant          | [business-science/tidyquant - 1.0.0](https://github.com/business-science/tidyquant)             | [1.0.0](https://CRAN.R-project.org/package=tidyquant)      |
 | trekcolors         | [leonawicz/trekcolors - 0.1.2](https://github.com/leonawicz/trekcolors)                         | [0.1.1](https://CRAN.R-project.org/package=trekcolors)     |
 | tvthemes           | [Ryo-N7/tvthemes - 1.1.0](https://github.com/Ryo-N7/tvthemes)                                   | [1.1.0](https://CRAN.R-project.org/package=tvthemes)       |
