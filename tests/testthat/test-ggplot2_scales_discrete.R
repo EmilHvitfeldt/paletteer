@@ -76,4 +76,3 @@ test_that("scale_*_paletteer_d correctly used direction", {
   expect_equal(layer_data(p5)$colour, c("#222B4CFF", "#306489FF", "#4F93B8FF"))
   expect_equal(layer_data(p6)$fill, c("#222B4CFF", "#306489FF", "#4F93B8FF"))
 })
-

@@ -17,22 +17,22 @@
 #'
 #' @examples
 #'
-#' if (require('ggplot2')) {
-#'
+#' if (require("ggplot2")) {
 #'   ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, colour = Petal.Length)) +
 #'     geom_point() +
 #'     scale_colour_paletteer_binned("scico::tokyo")
 #' }
-#'
 #' @export
 scale_colour_paletteer_binned <- function(palette, direction = 1, ...) {
   if (!requireNamespace("ggplot2", quietly = TRUE)) {
-    stop('ggplot2 is required for this functionality', call. = FALSE)
+    stop("ggplot2 is required for this functionality", call. = FALSE)
   }
 
-  ggplot2::scale_colour_stepsn(colours = paletteer_c(palette = {{palette}},
-                                                     direction = direction,
-                                                     256), ...)
+  ggplot2::scale_colour_stepsn(colours = paletteer_c(
+    palette = {{ palette }},
+    direction = direction,
+    256
+  ), ...)
 }
 #' @rdname ggplot2-scales-binned
 #' @export
@@ -43,10 +43,12 @@ scale_color_paletteer_binned <- scale_colour_paletteer_binned
 #'
 scale_fill_paletteer_binned <- function(palette, direction = 1, ...) {
   if (!requireNamespace("ggplot2", quietly = TRUE)) {
-    stop('ggplot2 is required for this functionality', call. = FALSE)
+    stop("ggplot2 is required for this functionality", call. = FALSE)
   }
 
-  ggplot2::scale_fill_stepsn(colours = paletteer_c(palette = {{palette}},
-                                                   direction = direction,
-                                                   256), ...)
+  ggplot2::scale_fill_stepsn(colours = paletteer_c(
+    palette = {{ palette }},
+    direction = direction,
+    256
+  ), ...)
 }
