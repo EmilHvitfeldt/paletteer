@@ -132,12 +132,12 @@ paletteer_c_gameofthrones <- function(name, n) {
 "wrapper_c"
 wrapper_c <- list(
   gameofthrones = paletteer_c_gameofthrones,
-  ggthemes = paletteer_c_ggthemes,
-  grDevices = paletteer_c_grDevices,
-  harrypotter = paletteer_c_harrypotter,
-  oompaBase = paletteer_c_oompaBase,
-  palr = paletteer_c_palr,
-  pals = paletteer_c_pals,
-  scico = paletteer_c_scico,
-  viridis = paletteer_c_viridis
+  ggthemes      = paletteer_c_ggthemes,
+  grDevices     = paletteer_c_grDevices,
+  harrypotter   = paletteer_c_harrypotter,
+  oompaBase     = paletteer_c_oompaBase,
+  palr          = paletteer_c_palr,
+  pals          = paletteer_c_pals,
+  scico         = paletteer_c_scico,
+  viridis       = paletteer_c_viridis
 )
