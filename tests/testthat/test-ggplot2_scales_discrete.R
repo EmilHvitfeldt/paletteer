@@ -1,4 +1,4 @@
-context("test-discrete-ggplot2-scales")
+
 
 df <- data.frame(
   x = 1:3,

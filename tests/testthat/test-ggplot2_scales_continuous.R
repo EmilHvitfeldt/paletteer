@@ -1,4 +1,3 @@
-context("test-continuous-ggplot2-scales")
 
 
 df <- data.frame(

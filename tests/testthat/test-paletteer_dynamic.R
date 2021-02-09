@@ -1,4 +1,4 @@
-context("test-paletteer_dynamic")
+
 
 test_that("paletteer_dynamic return correct number of colors", {
   expect_length(paletteer_dynamic("ggthemes_solarized::green", 1), 1)

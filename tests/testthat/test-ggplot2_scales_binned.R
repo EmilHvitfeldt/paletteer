@@ -1,4 +1,4 @@
-context("test-binned-ggplot2-scales")
+
 
 df <- data.frame(
   x = 1:3,

@@ -1,4 +1,4 @@
-context("test-paletteer_c")
+
 
 test_that("paletteer_c return correct number of colors", {
   expect_length(paletteer_c("grDevices::rainbow", 3), 3)

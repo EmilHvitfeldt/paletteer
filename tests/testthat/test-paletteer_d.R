@@ -1,4 +1,4 @@
-context("test-paletteer_d")
+
 
 test_that("paletteer_d return correct number of colors", {
   expect_length(paletteer_d("wesanderson::Royal1", 3), 3)

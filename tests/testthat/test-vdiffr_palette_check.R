@@ -1,4 +1,3 @@
-context("vdiffrcheck")
 
 library(paletteer)
 
@@ -70,7 +69,8 @@ all_names <- function(package, type = NULL) {
   if (length(names_dynamic) > 0) {
     color_list_dynamic <- mapply(paletteer_dynamic,
       palette = paste0(package, "::", names_dynamic),
-      n = length_dynamic, SIMPLIFY = FALSE
+      n = length_dynamic,
+      SIMPLIFY = FALSE
     )
   }
 
@@ -98,7 +98,7 @@ all_package_names <- unique(
 
 
 expect_doppelganger <- function(title, fig, path = NULL, ...) {
-  testthat::skip_if_not_installed("vdiffr")
+  skip_if_not_installed("vdiffr")
   vdiffr::expect_doppelganger(title, fig, path = path, ...)
 }
 
