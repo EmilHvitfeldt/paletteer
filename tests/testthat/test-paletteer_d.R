@@ -35,3 +35,21 @@ test_that("direction works correctly in paletteer_d", {
 test_that("all ggthemes palettes are of length two or longer", {
   expect_true(all(sapply(palettes_d$ggthemes, length) > 1))
 })
+
+test_that("paletteer_d works with quoted palettes", {
+  expect_equal(
+    paletteer_d(`"wesanderson::Royal1"`, 3),
+    paletteer_d("wesanderson::Royal1", 3)
+  )
+})
+
+test_that("paletteer_d works when called from another function", {
+  new_function <- function(x) {
+    paletteer_d(x, 4)
+  }
+
+  expect_equal(
+    new_function("wesanderson::Royal1"),
+    paletteer_d("wesanderson::Royal1", 4)
+  )
+})

@@ -58,3 +58,83 @@ test_that("scale_*_paletteer_binned correctly used direction", {
   expect_equal(layer_data(p5)$colour, c("#CC7D72", "#4B1501", "#65A6E1"))
   expect_equal(layer_data(p6)$fill, c("#CC7D72", "#4B1501", "#65A6E1"))
 })
+
+test_that("scale_*_paletteer_binned works with quoted palettes", {
+  expect_equal(
+    ggplot(df, aes(x, y, colour = color)) +
+      geom_point() +
+      scale_colour_paletteer_binned(`"scico::berlin"`),
+    ggplot(df, aes(x, y, colour = color)) +
+      geom_point() +
+      scale_colour_paletteer_binned("scico::berlin")
+  )
+
+  expect_equal(
+    ggplot(df, aes(x, y, color = color)) +
+      geom_point() +
+      scale_color_paletteer_binned(`"scico::berlin"`),
+    ggplot(df, aes(x, y, color = color)) +
+      geom_point() +
+      scale_color_paletteer_binned("scico::berlin")
+  )
+
+  expect_equal(
+    ggplot(df, aes(x, y, fill = color)) +
+      geom_raster() +
+      scale_fill_paletteer_binned(`"scico::berlin"`),
+    ggplot(df, aes(x, y, fill = color)) +
+      geom_raster() +
+      scale_fill_paletteer_binned("scico::berlin")
+  )
+})
+
+test_that("scale_*_paletteer_binned works when called from another function", {
+  colour_fun <- function(pal) {
+    ggplot(df, aes(x, y, colour = color)) +
+      geom_point() +
+      scale_colour_paletteer_binned(pal)
+  }
+
+  color_fun <- function(pal) {
+    ggplot(df, aes(x, y, color = color)) +
+      geom_point() +
+      scale_color_paletteer_binned(pal)
+  }
+
+  fill_fun <- function(pal) {
+    ggplot(df, aes(x, y, fill = color)) +
+      geom_raster() +
+      scale_fill_paletteer_binned(pal)
+  }
+
+  gg_colour_real <- ggplot(df, aes(x, y, colour = color)) +
+    geom_point() +
+    scale_colour_paletteer_binned("scico::berlin")
+
+  gg_color_real <- ggplot(df, aes(x, y, color = color)) +
+    geom_point() +
+    scale_color_paletteer_binned("scico::berlin")
+
+  gg_fill_real <- ggplot(df, aes(x, y, fill = color)) +
+    geom_raster() +
+    scale_fill_paletteer_binned("scico::berlin")
+
+  gg_colour_fun <- colour_fun("scico::berlin")
+  gg_color_fun <- color_fun("scico::berlin")
+  gg_fill_fun <- fill_fun("scico::berlin")
+
+  expect_equal(
+    layer_data(gg_colour_real)$colour,
+    layer_data(gg_colour_fun)$colour
+  )
+
+  expect_equal(
+    layer_data(gg_color_real)$colour,
+    layer_data(gg_color_fun)$colour
+  )
+
+  expect_equal(
+    layer_data(gg_fill_real)$fill,
+    layer_data(gg_fill_fun)$fill
+  )
+})

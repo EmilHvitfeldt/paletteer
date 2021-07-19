@@ -25,3 +25,21 @@ test_that("direction works correctly in paletteer_dynamic", {
                prismatic::color(c("#268bd2", "#dc322f", "#859900")))
   expect_error(paletteer_dynamic("ggthemes_solarized::green", 3, direction = 10))
 })
+
+test_that("paletteer_dynamic works with quoted palettes", {
+  expect_equal(
+    paletteer_dynamic(`"ggthemes_solarized::green"`, 3),
+    paletteer_dynamic("ggthemes_solarized::green", 3)
+  )
+})
+
+test_that("paletteer_dynamic works when called from another function", {
+  new_function <- function(x) {
+    paletteer_dynamic(x, 4)
+  }
+
+  expect_equal(
+    new_function("ggthemes_solarized::green"),
+    paletteer_dynamic("ggthemes_solarized::green", 4)
+  )
+})

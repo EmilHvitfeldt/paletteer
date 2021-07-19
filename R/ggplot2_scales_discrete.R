@@ -1,14 +1,21 @@
 
 pal_pal <- function(palette, direction, dynamic) {
 
+  palette <- try(palette, silent = TRUE)
+  if (inherits(palette, "try-error")) {
+    palette <- attr(palette, "condition")$message
+    palette <- sub("^.*?\"", "", palette)
+    palette <- sub("\".*$", "", palette)
+  }
+
   if (dynamic) {
     function(n) {
-      paletteer_dynamic(palette = {{palette}}, n = n,
+      paletteer_dynamic(palette = palette, n = n,
                         direction = direction)
     }
   } else {
     function(n) {
-      paletteer_d(palette = {{palette}}, direction = direction)
+      paletteer_d(palette = palette, direction = direction)
     }
   }
 }
@@ -42,9 +49,7 @@ pal_pal <- function(palette, direction, dynamic) {
 scale_colour_paletteer_d <- function(palette, direction = 1,
                                      dynamic = FALSE, ...) {
 
-  palette_name <- rlang::quo_name(rlang::enquo(palette))
-
-  ggplot2::discrete_scale("colour", palette_name,
+  ggplot2::discrete_scale("colour", "palette_name",
                  pal_pal(palette = {{palette}},
                          dynamic = dynamic, direction = direction), ...)
 
@@ -61,9 +66,7 @@ scale_color_paletteer_d <- scale_colour_paletteer_d
 scale_fill_paletteer_d <- function(palette, direction = 1,
                                    dynamic = FALSE, ...) {
 
-  palette_name <- rlang::quo_name(rlang::enquo(palette))
-
-  ggplot2::discrete_scale("fill", palette_name,
+  ggplot2::discrete_scale("fill", "palette_name",
                  pal_pal(palette = {{palette}},
                          dynamic = dynamic, direction = direction), ...)
 

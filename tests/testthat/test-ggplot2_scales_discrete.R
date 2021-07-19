@@ -77,3 +77,82 @@ test_that("scale_*_paletteer_d correctly used direction", {
   expect_equal(layer_data(p6)$fill, c("#222B4CFF", "#306489FF", "#4F93B8FF"))
 })
 
+test_that("scale_*_paletteer_d works with quoted palettes", {
+  expect_equal(
+    ggplot(df, aes(x, y, colour = color)) +
+      geom_point() +
+      scale_colour_paletteer_d(`"nord::lumina"`),
+    ggplot(df, aes(x, y, colour = color)) +
+      geom_point() +
+      scale_colour_paletteer_d("nord::lumina")
+  )
+
+  expect_equal(
+    ggplot(df, aes(x, y, color = color)) +
+      geom_point() +
+      scale_color_paletteer_d(palette = `"nord::lumina"`),
+    ggplot(df, aes(x, y, color = color)) +
+      geom_point() +
+      scale_color_paletteer_d("nord::lumina")
+  )
+
+  expect_equal(
+    ggplot(df, aes(x, y, fill = color)) +
+      geom_raster() +
+      scale_fill_paletteer_d(`"nord::lumina"`),
+    ggplot(df, aes(x, y, fill = color)) +
+      geom_raster() +
+      scale_fill_paletteer_d("nord::lumina")
+  )
+})
+
+test_that("scale_*_paletteer_d works when called from another function", {
+  colour_fun <- function(pal) {
+    ggplot(df, aes(x, y, colour = color)) +
+      geom_point() +
+      scale_colour_paletteer_d(pal)
+  }
+
+  color_fun <- function(pal) {
+    ggplot(df, aes(x, y, color = color)) +
+      geom_point() +
+      scale_color_paletteer_d(pal)
+  }
+
+  fill_fun <- function(pal) {
+    ggplot(df, aes(x, y, fill = color)) +
+      geom_raster() +
+      scale_fill_paletteer_d(pal)
+  }
+
+  gg_colour_real <- ggplot(df, aes(x, y, colour = color)) +
+    geom_point() +
+    scale_colour_paletteer_d("nord::lumina")
+
+  gg_color_real <- ggplot(df, aes(x, y, color = color)) +
+    geom_point() +
+    scale_color_paletteer_d("nord::lumina")
+
+  gg_fill_real <- ggplot(df, aes(x, y, fill = color)) +
+    geom_raster() +
+    scale_fill_paletteer_d("nord::lumina")
+
+  gg_colour_fun <- colour_fun("nord::lumina")
+  gg_color_fun <- color_fun("nord::lumina")
+  gg_fill_fun <- fill_fun("nord::lumina")
+
+  expect_equal(
+    layer_data(gg_colour_real)$colour,
+    layer_data(gg_colour_fun)$colour
+  )
+
+  expect_equal(
+    layer_data(gg_color_real)$colour,
+    layer_data(gg_color_fun)$colour
+  )
+
+  expect_equal(
+    layer_data(gg_fill_real)$fill,
+    layer_data(gg_fill_fun)$fill
+  )
+})
