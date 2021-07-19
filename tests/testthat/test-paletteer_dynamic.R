@@ -19,10 +19,14 @@ test_that("paletteer_dynamic throws an error when n is specified too high", {
 })
 
 test_that("direction works correctly in paletteer_dynamic", {
-  expect_equal(paletteer_dynamic("ggthemes_solarized::green", 3, direction = 1),
-               prismatic::color(c("#859900", "#dc322f", "#268bd2")))
-  expect_equal(paletteer_dynamic("ggthemes_solarized::green", 3, direction = -1),
-               prismatic::color(c("#268bd2", "#dc322f", "#859900")))
+  expect_equal(
+    paletteer_dynamic("ggthemes_solarized::green", 3, direction = 1),
+    prismatic::color(c("#859900", "#dc322f", "#268bd2"))
+  )
+  expect_equal(
+    paletteer_dynamic("ggthemes_solarized::green", 3, direction = -1),
+    prismatic::color(c("#268bd2", "#dc322f", "#859900"))
+  )
   expect_error(paletteer_dynamic("ggthemes_solarized::green", 3, direction = 10))
 })
 

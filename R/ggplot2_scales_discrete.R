@@ -10,8 +10,11 @@ pal_pal <- function(palette, direction, dynamic) {
 
   if (dynamic) {
     function(n) {
-      paletteer_dynamic(palette = palette, n = n,
-                        direction = direction)
+      paletteer_dynamic(
+        palette = palette,
+        n = n,
+        direction = direction
+      )
     }
   } else {
     function(n) {
@@ -38,13 +41,11 @@ pal_pal <- function(palette, direction, dynamic) {
 #'
 #' @examples
 #'
-#' if (require('ggplot2')) {
-#'
+#' if (require("ggplot2")) {
 #'   ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, colour = Species)) +
 #'     geom_point() +
 #'     scale_colour_paletteer_d("nord::frost")
 #' }
-#'
 #' @export
 scale_colour_paletteer_d <- function(palette, direction = 1,
                                      dynamic = FALSE, ...) {
@@ -69,5 +70,4 @@ scale_fill_paletteer_d <- function(palette, direction = 1,
   ggplot2::discrete_scale("fill", "palette_name",
                  pal_pal(palette = {{palette}},
                          dynamic = dynamic, direction = direction), ...)
-
 }

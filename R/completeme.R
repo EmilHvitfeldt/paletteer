@@ -1,4 +1,4 @@
-#borrowed main bits from https://github.com/jimhester/completeme (when it is put on CRAN will import directly from it)
+# borrowed main bits from https://github.com/jimhester/completeme (when it is put on CRAN will import directly from it)
 
 the <- new.env(parent = emptyenv())
 the$completions <- list()
@@ -72,52 +72,53 @@ is_first_argument <- function(env) {
 }
 
 
-populate <- function(env){
-
+populate <- function(env) {
   fun <- current_function(env)
 
   this_ns <- find_the()
 
-  this_fn <- lapply(this_ns,function(x) ls(envir = asNamespace(x), pattern = 'opts$'))
+  this_fn <- lapply(this_ns, function(x) ls(envir = asNamespace(x), pattern = "opts$"))
 
-  nms <- lapply(this_fn,function(x) names(get(x)$get()))
+  nms <- lapply(this_fn, function(x) names(get(x)$get()))
 
   comp <- NULL
 
-  if(length(fun) > 0){
-    for(i in seq_along(this_ns)){
-      if(fun %in% build_fields(ns = this_ns[i],fn = this_fn[[i]])){
+  if (length(fun) > 0) {
+    for (i in seq_along(this_ns)) {
+      if (fun %in% build_fields(ns = this_ns[i], fn = this_fn[[i]])) {
         comp <- nms[[i]]
       }
     }
   }
 
   return(comp)
-
 }
 
-build_fields <- function(fields = c('set','append'),ns='ns',fn='fn'){
+build_fields <- function(fields = c("set", "append"), ns = "ns", fn = "fn") {
   c(
-    sprintf('%s::%s$%s',ns,fn,fields),
-    sprintf('%s$%s',fn,fields)
+    sprintf("%s::%s$%s", ns, fn, fields),
+    sprintf("%s$%s", fn, fields)
   )
 }
 
-find_the <- function(){
-  names(which(sapply(loadedNamespaces(),function(x) any(grepl('^the$',ls(envir = asNamespace(x)))))))
+find_the <- function() {
+  names(which(sapply(loadedNamespaces(), function(x) any(grepl("^the$", ls(envir = asNamespace(x)))))))
 }
 
 paletteer_d_completer <- function(env) {
-
-  c_funs <- c("paletteer_c", "scale_color_paletteer_c",
-              "scale_colour_paletteer_c",  "scale_fill_paletteer_c",
-              "scale_color_paletteer_binned",
-              "scale_colour_paletteer_binned",  "scale_fill_paletteer_binned")
-  d_funs <- c("paletteer_d", "scale_color_paletteer_d",
-              "scale_colour_paletteer_d", "scale_fill_paletteer_d")
+  c_funs <- c(
+    "paletteer_c", "scale_color_paletteer_c",
+    "scale_colour_paletteer_c", "scale_fill_paletteer_c",
+    "scale_color_paletteer_binned",
+    "scale_colour_paletteer_binned", "scale_fill_paletteer_binned"
+  )
+  d_funs <- c(
+    "paletteer_d", "scale_color_paletteer_d",
+    "scale_colour_paletteer_d", "scale_fill_paletteer_d"
+  )
 
   if (!(current_function(env) %in% c(c_funs, d_funs, "paletteer_dynamic") &&
-                  is_first_argument(env))) {
+    is_first_argument(env))) {
     return(NULL)
   }
 
@@ -136,4 +137,3 @@ paletteer_d_completer <- function(env) {
   rc.options(custom.completer = completeme)
   register_completion(paletteer = paletteer_d_completer)
 }
-

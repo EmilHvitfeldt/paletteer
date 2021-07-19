@@ -12,7 +12,6 @@
 #' paletteer_c("scico::berlin", 100)
 #' @export
 paletteer_c <- function(palette, n, direction = 1) {
-
   if (abs(direction) != 1) {
     stop("direction must be 1 or -1")
   }
@@ -25,8 +24,10 @@ paletteer_c <- function(palette, n, direction = 1) {
   }
 
   if (!(palette %in% c_names)) {
-    stop('Palette not found. Make sure both package and palette ',
-         'name are spelled correct in the format "package::palette"')
+    stop(
+      "Palette not found. Make sure both package and palette ",
+      'name are spelled correct in the format "package::palette"'
+    )
   }
 
   palette <- unlist(strsplit(palette, "::"))

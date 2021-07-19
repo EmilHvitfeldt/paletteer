@@ -3,11 +3,11 @@ check_package <- function(package) {
     rlang::abort(
       paste0(
         "Package '",
-        package ,
+        package,
         "' needed. Please install it by running `install.packages('",
         package,
         "')`."
-        )
       )
+    )
   }
 }

@@ -12,8 +12,7 @@
 #' paletteer_dynamic("ggthemes_solarized::green", 8)
 #' paletteer_dynamic("cartography::sand.pal", 20)
 #' @export
-paletteer_dynamic <- function (palette, n, direction = 1) {
-
+paletteer_dynamic <- function(palette, n, direction = 1) {
   if (abs(direction) != 1) {
     stop("direction must be 1 or -1")
   }
@@ -32,13 +31,18 @@ paletteer_dynamic <- function (palette, n, direction = 1) {
   }
 
   pal <- paletteer::palettes_dynamic[[palette]]
-  if (is.null(pal))
-    stop('Palette not found. Make sure both package and palette ',
-         'name are spelled correct in the format "package::palette"')
+  if (is.null(pal)) {
+    stop(
+      "Palette not found. Make sure both package and palette ",
+      'name are spelled correct in the format "package::palette"'
+    )
+  }
 
   if (n > length(pal)) {
     stop(paste("Number of requested colors greater than this palette can offer which is ",
-               length(pal), ".", sep = ""))
+      length(pal), ".",
+      sep = ""
+    ))
   }
 
   if (direction == -1) {
