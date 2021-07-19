@@ -35,11 +35,9 @@ Available package/palette combinations are available in the data.frame
 }
 \examples{
 
-if (require('ggplot2')) {
-
+if (require("ggplot2")) {
   ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, colour = Species)) +
     geom_point() +
     scale_colour_paletteer_d("nord::frost")
 }
-
 }
