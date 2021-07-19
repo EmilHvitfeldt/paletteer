@@ -17,6 +17,13 @@ paletteer_c <- function(palette, n, direction = 1) {
     stop("direction must be 1 or -1")
   }
 
+  palette <- try(palette, silent = TRUE)
+  if (inherits(palette, "try-error")) {
+    palette <- attr(palette, "condition")$message
+    palette <- sub("^.*?\"", "", palette)
+    palette <- sub("\".*$", "", palette)
+  }
+
   if (!(palette %in% c_names)) {
     stop('Palette not found. Make sure both package and palette ',
          'name are spelled correct in the format "package::palette"')

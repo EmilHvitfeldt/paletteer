@@ -24,6 +24,13 @@ paletteer_d <- function (palette, n, direction = 1,
 
   type <- match.arg(type)
 
+  palette <- try(palette, silent = TRUE)
+  if (inherits(palette, "try-error")) {
+    palette <- attr(palette, "condition")$message
+    palette <- sub("^.*?\"", "", palette)
+    palette <- sub("\".*$", "", palette)
+  }
+
   palette <- unlist(strsplit(palette, "::"))
 
   pal <- paletteer::palettes_d[[palette]]
