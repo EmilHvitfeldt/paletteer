@@ -175,6 +175,7 @@ paletteer_c("nord::frost")
 | pals               | [kwstat/pals - 1.7](https://github.com/kwstat/pals)                                             | [1.7](https://CRAN.R-project.org/package=pals)             |
 | PNWColors          | [jakelawlor/PNWColors - 0.1.0](https://github.com/jakelawlor/PNWColors)                         | \-                                                         |
 | Polychrome         | \-                                                                                              | [1.3.1](https://CRAN.R-project.org/package=Polychrome)     |
+| popthemes          | [johnmackintosh/popthemes - 0.0.0.9000](https://github.com/johnmackintosh/popthemes)            | \-                                                         |
 | rcartocolor        | [Nowosad/rcartocolor - 2.0.0](https://github.com/Nowosad/rcartocolor)                           | [2.0.0](https://CRAN.R-project.org/package=rcartocolor)    |
 | RColorBrewer       | \-                                                                                              | [1.1-2](https://CRAN.R-project.org/package=RColorBrewer)   |
 | Redmonder          | \-                                                                                              | [0.2.0](https://CRAN.R-project.org/package=Redmonder)      |

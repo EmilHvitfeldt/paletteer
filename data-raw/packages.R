@@ -43,6 +43,7 @@ paletteer_packages <- tibble::tribble(
   "pals",               "kwstat/pals",                      "1.7",         TRUE,  "1.7",
   "PNWColors",          "jakelawlor/PNWColors",             "0.1.0",       FALSE, NA,
   "Polychrome",         NA,                                 NA,            TRUE,  "1.3.1",
+  "popthemes",          "johnmackintosh/popthemes",         "0.0.0.9000",  FALSE, NA,
   "rcartocolor",        "Nowosad/rcartocolor",              "2.0.0",       TRUE,  "2.0.0",
   "RColorBrewer",       NA,                                 NA,            TRUE,  "1.1-2",
   "Redmonder",          NA,                                 NA,            TRUE,  "0.2.0",

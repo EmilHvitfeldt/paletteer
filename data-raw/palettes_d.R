@@ -311,6 +311,9 @@ Polychrome_pals <- lapply(
   unname
 )
 
+## popthemes ------------------------------------------------------------------
+popthemes_pals <- popthemes:::pop_palettes
+
 ## rcartocolor ----------------------------------------------------------------
 rcartocolors_pals <- lapply(
   rcartocolor::cartocolors$Name,
