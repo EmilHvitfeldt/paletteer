@@ -70,7 +70,8 @@ other_df <- tribble(
   "viridis", "plasma", "sequential",
   "viridis", "cividis", "sequential",
   "viridis", "rocket", "sequential",
-  "viridis", "turbo", "sequential"
+  "viridis", "turbo", "sequential",
+  "viridis", "mako", "sequential"
 ) %>% as.data.frame()
 
 hcl_df <- c("qualitative", "sequential", "diverging", "divergingx") %>%
@@ -89,7 +90,7 @@ harrypotter_df <- tibble(
 
 gameofthrones_df <- tibble(
   package = "gameofthrones",
-  palette = unique(gameofthrones::got.map$house),
+  palette = names(gameofthrones::got_palettes),
   type = "sequential"
 )
 
