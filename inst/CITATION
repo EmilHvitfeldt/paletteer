@@ -1,0 +1,14 @@
+citHeader("To cite paletteer in publications use:")
+
+citEntry(
+  entry    = "manual",
+  title    = "paletteer: Comprehensive Collection of Color Palettes",
+  author   = "Emil Hvitfeldt",
+  year     = "2021",
+  note     = "R package version 1.3.0",
+  url      = "https://github.com/EmilHvitfeldt/paletteer",
+  textVersion = paste("Hvitfeldt E. (2021).",
+        "paletteer: Comprehensive Collection of Color Palettes.",
+        "version 1.3.0.",
+        "https://github.com/EmilHvitfeldt/paletteer")
+)
