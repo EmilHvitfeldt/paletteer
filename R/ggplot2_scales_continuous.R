@@ -24,9 +24,7 @@
 #' }
 #' @export
 scale_colour_paletteer_c <- function(palette, direction = 1, ...) {
-  if (!requireNamespace("ggplot2", quietly = TRUE)) {
-    stop("ggplot2 is required for this functionality", call. = FALSE)
-  }
+  check_installed("ggplot2")
 
   ggplot2::scale_colour_gradientn(colours = paletteer_c(
     palette = {{ palette }},
@@ -42,9 +40,7 @@ scale_color_paletteer_c <- scale_colour_paletteer_c
 #' @export
 #'
 scale_fill_paletteer_c <- function(palette, direction = 1, ...) {
-  if (!requireNamespace("ggplot2", quietly = TRUE)) {
-    stop("ggplot2 is required for this functionality", call. = FALSE)
-  }
+  check_installed("ggplot2")
 
   ggplot2::scale_fill_gradientn(colours = paletteer_c(
     palette = {{ palette }},
