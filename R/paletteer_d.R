@@ -18,7 +18,7 @@
 paletteer_d <- function(palette, n, direction = 1,
                         type = c("discrete", "continuous")) {
   if (abs(direction) != 1) {
-    stop("direction must be 1 or -1")
+    abort("direction must be 1 or -1")
   }
 
   type <- match.arg(type)
@@ -40,7 +40,7 @@ paletteer_d <- function(palette, n, direction = 1,
     n <- length(pal)
   }
   if (type == "discrete" && n > length(pal)) {
-    stop(paste("Number of requested colors greater than this palette can offer which is ",
+    abort(paste("Number of requested colors greater than this palette can offer which is ",
       length(pal), ".",
       sep = ""
     ))
