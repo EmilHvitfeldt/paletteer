@@ -30,15 +30,12 @@ paletteer_d <- function(palette, n, direction = 1,
     palette <- sub("\".*$", "", palette)
   }
 
+  check_palette(palette, d_names)
+
   palette <- unlist(strsplit(palette, "::"))
 
   pal <- paletteer::palettes_d[[palette]]
-  if (is.null(pal)) {
-    stop(
-      "Palette not found. Make sure both package and palette ",
-      'name are spelled correct in the format "package::palette"'
-    )
-  }
+
   if (missing(n)) {
     n <- length(pal)
   }

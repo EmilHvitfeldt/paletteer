@@ -23,12 +23,7 @@ paletteer_c <- function(palette, n, direction = 1) {
     palette <- sub("\".*$", "", palette)
   }
 
-  if (!(palette %in% c_names)) {
-    stop(
-      "Palette not found. Make sure both package and palette ",
-      'name are spelled correct in the format "package::palette"'
-    )
-  }
+  check_palette(palette, c_names)
 
   palette <- unlist(strsplit(palette, "::"))
 
