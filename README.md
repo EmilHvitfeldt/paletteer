@@ -13,7 +13,7 @@ status](https://www.r-pkg.org/badges/version/paletteer)](https://cran.r-project.
 [![Codecov test
 coverage](https://codecov.io/gh/EmilHvitfeldt/paletteer/branch/master/graph/badge.svg)](https://codecov.io/github/EmilHvitfeldt/paletteer?branch=master)
 [![Lifecycle:
-stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
+stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html)
 <!-- badges: end -->
 
 The goal of **paletteer** is to be a comprehensive collection of color
@@ -157,7 +157,7 @@ paletteer_c("nord::frost")
 | harrypotter        | [aljrico/harrypotter - 2.1.1](https://github.com/aljrico/harrypotter)                           | [2.1.1](https://CRAN.R-project.org/package=harrypotter)    |
 | IslamicArt         | [lambdamoses/IslamicArt - 0.1.0](https://github.com/lambdamoses/IslamicArt)                     | \-                                                         |
 | jcolors            | [jaredhuling/jcolors - 0.0.4](https://github.com/jaredhuling/jcolors)                           | [0.0.4](https://CRAN.R-project.org/package=jcolors)        |
-| khroma             | [nfrerebeau/khroma - 1.6.0.9000](https://github.com/nfrerebeau/khroma)                          | [1.6.0](https://CRAN.R-project.org/package=khroma)         |
+| khroma             | [tesselle/khroma - 1.6.0.9000](https://github.com/tesselle/khroma)                              | [1.6.0](https://CRAN.R-project.org/package=khroma)         |
 | LaCroixColoR       | [johannesbjork/LaCroixColoR - 0.1.0](https://github.com/johannesbjork/LaCroixColoR)             | \-                                                         |
 | lisa               | [tyluRp/lisa - 0.1.1.9000](https://github.com/tyluRp/lisa)                                      | [0.1.1](https://CRAN.R-project.org/package=lisa)           |
 | Manu               | [G-Thomson/Manu - 0.0.1](https://github.com/G-Thomson/Manu)                                     | \-                                                         |
@@ -167,7 +167,7 @@ paletteer_c("nord::frost")
 | nbapalettes        | [murrayjw/nbapalettes - 0.1.0.9000](https://github.com/murrayjw/nbapalettes)                    | [0.1.0](https://CRAN.R-project.org/package=nbapalettes)    |
 | NineteenEightyR    | [m-clark/NineteenEightyR - 0.1.0](https://github.com/m-clark/NineteenEightyR)                   | \-                                                         |
 | nord               | [jkaupp/nord - 1.0.0](https://github.com/jkaupp/nord)                                           | [1.0.0](https://CRAN.R-project.org/package=nord)           |
-| ochRe              | [ropenscilabs/ochRe - 1.0.0](https://github.com/ropenscilabs/ochRe)                             | \-                                                         |
+| ochRe              | [hollylkirk/ochRe - 1.0.0](https://github.com/hollylkirk/ochRe)                                 | \-                                                         |
 | oompaBase          | \-                                                                                              | [3.2.9](https://CRAN.R-project.org/package=oompaBase)      |
 | palettesForR       | [frareb/palettesForR - 0.1.2](https://github.com/frareb/palettesForR)                           | [0.1.2](https://CRAN.R-project.org/package=palettesForR)   |
 | palettetown        | [timcdlucas/palettetown - 0.1.1.90000](https://github.com/timcdlucas/palettetown)               | [0.1.1](https://CRAN.R-project.org/package=palettetown)    |

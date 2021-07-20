@@ -19,7 +19,7 @@ knitr::opts_chunk$set(
 [![CRAN status](https://www.r-pkg.org/badges/version/paletteer)](https://cran.r-project.org/package=paletteer)
 [![CRAN_Download_Badge](http://cranlogs.r-pkg.org/badges/paletteer)](https://CRAN.R-project.org/package=paletteer)
 [![Codecov test coverage](https://codecov.io/gh/EmilHvitfeldt/paletteer/branch/master/graph/badge.svg)](https://codecov.io/github/EmilHvitfeldt/paletteer?branch=master)
-[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
+[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html)
 <!-- badges: end -->
 
 The goal of **paletteer** is to be a comprehensive collection of color palettes in R using a common interface. Think of it as the "caret of palettes".

@@ -1,5 +1,6 @@
 # paletteer (development version)
 
+* `palettes_c_names` and `palettes_d_names` have been enhanced with more information.
 * 10 palettes have been added from the tayloRswift package. (#111)
 * 12 palettes have been added from the popthemes package. (#107)
 * 65 palettes have been added from the ggprism package. (#102)
