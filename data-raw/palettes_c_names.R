@@ -23,7 +23,7 @@ pals_df <- tibble(
     !str_detect(palette, "^brewer"),
     !str_detect(palette, "glasbey|kelly|stepped|tol|watlington"),
     !str_detect(palette, "okabe|tableau20"),
-    !str_detect(palette, "viridis|inferno|magma|plasma|cividis")
+    !str_detect(palette, "viridis|inferno|magma|plasma|cividis|turbo")
   ) %>%
   dplyr::mutate(type = c(
     rep("diverging", 2), rep("sequential", 19),
@@ -68,7 +68,9 @@ other_df <- tribble(
   "viridis", "inferno", "sequential",
   "viridis", "magma", "sequential",
   "viridis", "plasma", "sequential",
-  "viridis", "cividis", "sequential"
+  "viridis", "cividis", "sequential",
+  "viridis", "rocket", "sequential",
+  "viridis", "turbo", "sequential"
 ) %>% as.data.frame()
 
 hcl_df <- c("qualitative", "sequential", "diverging", "divergingx") %>%
