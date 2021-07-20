@@ -104,6 +104,9 @@ ggpomological_pals <- list(
   pomological_palette = unname(unlist(ggpomological:::pomological_palette))
 )
 
+## ggprism --------------------------------------------------------------------
+ggprism_pals <- ggprism::ggprism_data$colour_palettes
+
 ## ggsci ----------------------------------------------------------------------
 ggsci_names <- mapply(
   function(x, y) {
@@ -435,6 +438,7 @@ palettes_d <- list(
   futurevisions = futurevisions_pals,
   ggsci = ggsci_pals,
   ggpomological = ggpomological_pals,
+  ggprism = ggprism_pals,
   ggthemes = ggthemes_pals,
   ggthemr = ggthemr_pals,
   ghibli = ghibli_pals,

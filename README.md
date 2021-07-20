@@ -61,7 +61,7 @@ you need for a smooth transition of color:
 
 ![](man/figures/README-unnamed-chunk-4-1.png)<!-- -->
 
-This package includes 2317 palettes from 60 different packages and
+This package includes 2382 palettes from 61 different packages and
 information about these can be found in the following data.frames:
 `palettes_c_names`, `palettes_d_names` and `palettes_dynamic_names`.
 Additionally this [github
@@ -148,6 +148,7 @@ paletteer_c("nord::frost")
 | futurevisions      | [JoeyStanley/futurevisions - 0.1.1](https://github.com/JoeyStanley/futurevisions)               | \-                                                         |
 | gameofthrones      | [aljrico/gameofthrones - 1.0.2](https://github.com/aljrico/gameofthrones)                       | [1.0.2](https://CRAN.R-project.org/package=gameofthrones)  |
 | ggpomological      | [gadenbuie/ggpomological - 0.1.2](https://github.com/gadenbuie/ggpomological)                   | \-                                                         |
+| ggprism            | [csdaw/ggprism - 1.0.3.9000](https://github.com/csdaw/ggprism)                                  | [1.0.3](https://CRAN.R-project.org/package=ggprism)        |
 | ggsci              | [nanxstats/ggsci - 2.9](https://github.com/nanxstats/ggsci)                                     | [2.9](https://CRAN.R-project.org/package=ggsci)            |
 | ggthemes           | [jrnold/ggthemes - 4.2.0](https://github.com/jrnold/ggthemes)                                   | [4.2.0](https://CRAN.R-project.org/package=ggthemes)       |
 | ggthemr            | [Mikata-Project/ggthemr - 1.1.0](https://github.com/Mikata-Project/ggthemr)                     | \-                                                         |

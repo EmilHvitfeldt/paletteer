@@ -1,6 +1,7 @@
 # paletteer (development version)
 
-* 129 palettes have beenn added from the nbapalettes package. (#102)
+* 65 palettes have been added from the ggprism package. (#102)
+* 129 palettes have been added from the nbapalettes package. (#102)
 
 # paletteer 1.3.0
 
