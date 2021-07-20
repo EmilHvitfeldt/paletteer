@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' class='svglite' data-engine-version='2.0' width='720.00pt' height='576.00pt' viewBox='0 0 720.00 576.00'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
+<defs>
+  <clipPath id='cpMC4wMHw3MjAuMDB8MC4wMHw1NzYuMDA='>
+    <rect x='0.00' y='0.00' width='720.00' height='576.00' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHw3MjAuMDB8MC4wMHw1NzYuMDA=)'>
+<text x='360.00' y='44.64' text-anchor='middle' style='font-size: 14.40px; font-weight: bold; font-family: sans;' textLength='80.06px' lengthAdjust='spacingAndGlyphs'>MapPalettes</text>
+</g>
+<defs>
+  <clipPath id='cpMS40NHw3MTguNTZ8MS40NHw1NzQuNTY='>
+    <rect x='1.44' y='1.44' width='717.12' height='573.12' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMS40NHw3MTguNTZ8MS40NHw1NzQuNTY=)'>
+<text x='35.20' y='101.23' style='font-size: 12.00px; font-family: sans;' textLength='82.74px' lengthAdjust='spacingAndGlyphs'>green_machine</text>
+<rect x='28.00' y='109.85' width='132.80' height='49.28' style='stroke-width: 0.75; stroke: none; fill: #1D3141;' />
+<rect x='160.80' y='109.85' width='132.80' height='49.28' style='stroke-width: 0.75; stroke: none; fill: #096168;' />
+<rect x='293.60' y='109.85' width='132.80' height='49.28' style='stroke-width: 0.75; stroke: none; fill: #209478;' />
+<rect x='426.40' y='109.85' width='132.80' height='49.28' style='stroke-width: 0.75; stroke: none; fill: #75C56E;' />
+<rect x='559.20' y='109.85' width='132.80' height='49.28' style='stroke-width: 0.75; stroke: none; fill: #E2EE5E;' />
+<text x='35.20' y='177.04' style='font-size: 12.00px; font-family: sans;' textLength='36.68px' lengthAdjust='spacingAndGlyphs'>bruiser</text>
+<rect x='28.00' y='185.66' width='132.80' height='49.28' style='stroke-width: 0.75; stroke: none; fill: #1E313E;' />
+<rect x='160.80' y='185.66' width='132.80' height='49.28' style='stroke-width: 0.75; stroke: none; fill: #4E475F;' />
+<rect x='293.60' y='185.66' width='132.80' height='49.28' style='stroke-width: 0.75; stroke: none; fill: #8B5975;' />
+<rect x='426.40' y='185.66' width='132.80' height='49.28' style='stroke-width: 0.75; stroke: none; fill: #C86C7C;' />
+<rect x='559.20' y='185.66' width='132.80' height='49.28' style='stroke-width: 0.75; stroke: none; fill: #FA8975;' />
+<text x='35.20' y='252.85' style='font-size: 12.00px; font-family: sans;' textLength='69.38px' lengthAdjust='spacingAndGlyphs'>tealberry_pie</text>
+<rect x='28.00' y='261.47' width='132.80' height='49.28' style='stroke-width: 0.75; stroke: none; fill: #00778A;' />
+<rect x='160.80' y='261.47' width='132.80' height='49.28' style='stroke-width: 0.75; stroke: none; fill: #82A2BF;' />
+<rect x='293.60' y='261.47' width='132.80' height='49.28' style='stroke-width: 0.75; stroke: none; fill: #D4D2E5;' />
+<rect x='426.40' y='261.47' width='132.80' height='49.28' style='stroke-width: 0.75; stroke: none; fill: #B77DAF;' />
+<rect x='559.20' y='261.47' width='132.80' height='49.28' style='stroke-width: 0.75; stroke: none; fill: #A30248;' />
+<text x='35.20' y='328.66' style='font-size: 12.00px; font-family: sans;' textLength='49.37px' lengthAdjust='spacingAndGlyphs'>the_joker</text>
+<rect x='28.00' y='337.28' width='132.80' height='49.28' style='stroke-width: 0.75; stroke: none; fill: #488F31;' />
+<rect x='160.80' y='337.28' width='132.80' height='49.28' style='stroke-width: 0.75; stroke: none; fill: #8CBCAC;' />
+<rect x='293.60' y='337.28' width='132.80' height='49.28' style='stroke-width: 0.75; stroke: none; fill: #F1F1F1;' />
+<rect x='426.40' y='337.28' width='132.80' height='49.28' style='stroke-width: 0.75; stroke: none; fill: #B896D6;' />
+<rect x='559.20' y='337.28' width='132.80' height='49.28' style='stroke-width: 0.75; stroke: none; fill: #783DBA;' />
+<text x='35.20' y='404.47' style='font-size: 12.00px; font-family: sans;' textLength='35.37px' lengthAdjust='spacingAndGlyphs'>sunset</text>
+<rect x='28.00' y='413.09' width='132.80' height='49.28' style='stroke-width: 0.75; stroke: none; fill: #F09000;' />
+<rect x='160.80' y='413.09' width='132.80' height='49.28' style='stroke-width: 0.75; stroke: none; fill: #FEC289;' />
+<rect x='293.60' y='413.09' width='132.80' height='49.28' style='stroke-width: 0.75; stroke: none; fill: #F6F6F6;' />
+<rect x='426.40' y='413.09' width='132.80' height='49.28' style='stroke-width: 0.75; stroke: none; fill: #9DC7E4;' />
+<rect x='559.20' y='413.09' width='132.80' height='49.28' style='stroke-width: 0.75; stroke: none; fill: #0099D1;' />
+<text x='35.20' y='480.28' style='font-size: 12.00px; font-family: sans;' textLength='48.02px' lengthAdjust='spacingAndGlyphs'>irish_flag</text>
+<rect x='28.00' y='488.90' width='132.80' height='49.28' style='stroke-width: 0.75; stroke: none; fill: #2A8F27;' />
+<rect x='160.80' y='488.90' width='132.80' height='49.28' style='stroke-width: 0.75; stroke: none; fill: #95C08B;' />
+<rect x='293.60' y='488.90' width='132.80' height='49.28' style='stroke-width: 0.75; stroke: none; fill: #F1F1F1;' />
+<rect x='426.40' y='488.90' width='132.80' height='49.28' style='stroke-width: 0.75; stroke: none; fill: #FFBEFE;' />
+<rect x='559.20' y='488.90' width='132.80' height='49.28' style='stroke-width: 0.75; stroke: none; fill: #FF8B26;' />
+</g>
+</svg>
