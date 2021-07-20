@@ -34,7 +34,6 @@ Include bullet in `NEWS.md` file.
 - [ ] Include package information in `data-raw/packages` and run.
 - [ ] reknit readme.
 - [ ] Include bullet in `NEWS.md` file.
-- [ ] run `vdiffr::manage_cases()`
 - [ ] run `data-raw/palette_names.R` 
 
 # Adding continuous palettes
