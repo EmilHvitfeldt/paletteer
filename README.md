@@ -61,7 +61,7 @@ you need for a smooth transition of color:
 
 ![](man/figures/README-unnamed-chunk-4-1.png)<!-- -->
 
-This package includes 2382 palettes from 61 different packages and
+This package includes 2392 palettes from 62 different packages and
 information about these can be found in the following data.frames:
 `palettes_c_names`, `palettes_d_names` and `palettes_dynamic_names`.
 Additionally this [github
@@ -185,6 +185,7 @@ paletteer_c("nord::frost")
 | scico              | [thomasp85/scico - 1.2.0](https://github.com/thomasp85/scico)                                   | [1.2.0](https://CRAN.R-project.org/package=scico)          |
 | soilpalettes       | [kaizadp/soilpalettes - 0.1.0](https://github.com/kaizadp/soilpalettes)                         | \-                                                         |
 | suffrager          | [alburezg/suffrager - 0.1.0](https://github.com/alburezg/suffrager)                             | \-                                                         |
+| tayloRswift        | [asteves/tayloRswift - 0.1.0](https://github.com/asteves/tayloRswift)                           | \-                                                         |
 | tidyquant          | [business-science/tidyquant - 1.0.3](https://github.com/business-science/tidyquant)             | [1.0.3](https://CRAN.R-project.org/package=tidyquant)      |
 | trekcolors         | [leonawicz/trekcolors - 0.1.3](https://github.com/leonawicz/trekcolors)                         | [0.1.3](https://CRAN.R-project.org/package=trekcolors)     |
 | tvthemes           | [Ryo-N7/tvthemes - 1.1.0](https://github.com/Ryo-N7/tvthemes)                                   | [1.1.0](https://CRAN.R-project.org/package=tvthemes)       |

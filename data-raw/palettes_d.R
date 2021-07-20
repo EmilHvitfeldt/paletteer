@@ -357,6 +357,9 @@ soilpalettes_pals <- lapply(soilpalettes::soil_palettes, function(x) x[1, ])
 ## suffrager ------------------------------------------------------------------
 suffrager_pals <- suffrager::suf_palettes
 
+## tayloRswift ----------------------------------------------------------------
+tayloRswift_pals <- tayloRswift::swift_palettes
+
 ## tidyquant ------------------------------------------------------------------
 tidyquant_pals <- list(
   tq_light = tidyquant::palette_light(),
@@ -472,6 +475,7 @@ palettes_d <- list(
   rtist = rtist_pals,
   soilpalettes = soilpalettes_pals,
   suffrager = suffrager_pals,
+  taylor = tayloRswift_pals,
   tidyquant = tidyquant_pals,
   trekcolors = trekcolors_pals,
   tvthemes = tvthemes_pals,

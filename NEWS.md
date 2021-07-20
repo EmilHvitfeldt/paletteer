@@ -1,5 +1,6 @@
 # paletteer (development version)
 
+* 10 palettes have been added from the tayloRswift package. (#111)
 * 12 palettes have been added from the popthemes package. (#107)
 * 65 palettes have been added from the ggprism package. (#102)
 * 129 palettes have been added from the nbapalettes package. (#102)
