@@ -31,6 +31,7 @@ paletteer_packages <- tibble::tribble(
   "MapPalettes",        "disarm-platform/MapPalettes",      "0.0.2",       FALSE, NA,
   "miscpalettes",       "EmilHvitfeldt/miscpalettes",       "0.0.0.9000",  FALSE, NA,
   "nationalparkcolors", "katiejolly/nationalparkcolors",    "0.1.0",       FALSE, NA,
+  "nbapalettes",        "murrayjw/nbapalettes",             "0.1.0.9000",  TRUE,  "0.1.0",
   "NineteenEightyR",    "m-clark/NineteenEightyR",          "0.1.0",       FALSE, NA,
   "nord",               "jkaupp/nord",                      "1.0.0",       TRUE,  "1.0.0",
   "ochRe",              "ropenscilabs/ochRe",               "1.0.0",       FALSE, NA,

@@ -1,5 +1,7 @@
 # paletteer (development version)
 
+* 129 palettes have beenn added from the nbapalettes package. (#102)
+
 # paletteer 1.3.0
 
 * 14 palettes have been added from the soilpaletttes package. (#95)

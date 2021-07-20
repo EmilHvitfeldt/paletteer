@@ -241,6 +241,9 @@ miscpalettes_pals <- c(
 ## nationalparkcolors ---------------------------------------------------------
 nationalparkcolors_pals <- nationalparkcolors::park_palettes
 
+## nbapalettes ----------------------------------------------------------------
+nbapalettes_pals <- nbapalettes::nba_palettes
+
 ## NineteenEightyR ------------------------------------------------------------
 NineteenEightyR_pals <- list(
   cobra = NineteenEightyR::cobra(),
@@ -442,6 +445,7 @@ palettes_d <- list(
   LaCroixColoR = LaCroixColoR_pals,
   lisa = lisa_pals,
   nationalparkcolors = nationalparkcolors_pals,
+  nbapalettes = nbapalettes_pals,
   NineteenEightyR = NineteenEightyR_pals,
   nord = nord_pals,
   ochRe = ochRe_pals,
