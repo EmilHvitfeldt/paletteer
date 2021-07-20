@@ -1,4 +1,4 @@
-# paletteer (development version)
+# paletteer 1.4.0
 
 * `palettes_c_names` and `palettes_d_names` have been enhanced with more information.
 * 10 palettes have been added from the tayloRswift package. (#111)
