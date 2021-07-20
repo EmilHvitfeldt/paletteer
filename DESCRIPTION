@@ -1,6 +1,6 @@
 Package: paletteer
 Title: Comprehensive Collection of Color Palettes
-Version: 1.4.0
+Version: 1.4.0.9000
 Author: See AUTHORS file.
 Maintainer: Emil Hvitfeldt <emilhhvitfeldt@gmail.com>
 Description: The choices of color palettes in R can be quite
