@@ -9030,9 +9030,7 @@
 <rect x='502.29' y='377.92' width='94.86' height='6.39' style='stroke-width: 0.75; stroke: none; fill: #AA3377;' />
 <rect x='597.14' y='377.92' width='94.86' height='6.39' style='stroke-width: 0.75; stroke: none; fill: #BBBBBB;' />
 <text x='35.20' y='389.02' style='font-size: 12.00px; font-family: sans;' textLength='42.70px' lengthAdjust='spacingAndGlyphs'>contrast</text>
-<rect x='28.00' y='387.75' width='221.33' height='6.39' style='stroke-width: 0.75; stroke: none; fill: #004488;' />
-<rect x='249.33' y='387.75' width='221.33' height='6.39' style='stroke-width: 0.75; stroke: none; fill: #DDAA33;' />
-<rect x='470.67' y='387.75' width='221.33' height='6.39' style='stroke-width: 0.75; stroke: none; fill: #BB5566;' />
+<rect x='28.00' y='387.75' width='0.00' height='6.39' style='stroke-width: 0.75; stroke: none;' />
 <text x='35.20' y='398.85' style='font-size: 12.00px; font-family: sans;' textLength='36.02px' lengthAdjust='spacingAndGlyphs'>vibrant</text>
 <rect x='28.00' y='397.57' width='94.86' height='6.39' style='stroke-width: 0.75; stroke: none; fill: #EE7733;' />
 <rect x='122.86' y='397.57' width='94.86' height='6.39' style='stroke-width: 0.75; stroke: none; fill: #0077BB;' />

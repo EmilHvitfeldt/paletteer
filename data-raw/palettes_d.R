@@ -475,7 +475,7 @@ palettes_d <- list(
   rtist = rtist_pals,
   soilpalettes = soilpalettes_pals,
   suffrager = suffrager_pals,
-  taylor = tayloRswift_pals,
+  tayloRswift = tayloRswift_pals,
   tidyquant = tidyquant_pals,
   trekcolors = trekcolors_pals,
   tvthemes = tvthemes_pals,
