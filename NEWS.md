@@ -1,3 +1,5 @@
+# paletteer (development version)
+
 # paletteer 1.4.1
 
 * Fixed documentation to be HTML5 friendly.
