@@ -4,7 +4,11 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="The choices of color palettes in R can be quite
+    overwhelming with palettes spread over many packages with many
+    different API's. This packages aims to collect all color palettes
+    across the R ecosystem under the same package with a streamlined API.">
 <title>Comprehensive Collection of Color Palettes • paletteer</title>
 <!-- favicons --><link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
@@ -12,12 +16,11 @@
 <link rel="apple-touch-icon" type="image/png" sizes="120x120" href="apple-touch-icon-120x120.png">
 <link rel="apple-touch-icon" type="image/png" sizes="76x76" href="apple-touch-icon-76x76.png">
 <link rel="apple-touch-icon" type="image/png" sizes="60x60" href="apple-touch-icon-60x60.png">
-<!-- jquery --><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script><!-- Bootstrap --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha256-bZLfwXAP04zRMK2BjiO8iu9pf4FbLqX6zitd+tIvLhE=" crossorigin="anonymous">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha256-nuL8/2cJ5NDSSwnKD8VqreErSWHtnEP9E7AySL+1ev4=" crossorigin="anonymous"></script><!-- bootstrap-toc --><link rel="stylesheet" href="bootstrap-toc.css">
-<script src="bootstrap-toc.js"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
+<script src="deps/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="deps/bootstrap-5.1.3/bootstrap.min.css" rel="stylesheet">
+<script src="deps/bootstrap-5.1.3/bootstrap.bundle.min.js"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous">
-<!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- pkgdown --><link href="pkgdown.css" rel="stylesheet">
-<script src="pkgdown.js"></script><meta property="og:title" content="Comprehensive Collection of Color Palettes">
+<!-- bootstrap-toc --><script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- search --><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- pkgdown --><script src="pkgdown.js"></script><meta property="og:title" content="Comprehensive Collection of Color Palettes">
 <meta property="og:description" content="The choices of color palettes in R can be quite
     overwhelming with palettes spread over many packages with many
     different API's. This packages aims to collect all color palettes
@@ -28,75 +31,70 @@
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 </head>
-<body data-spy="scroll" data-target="#toc">
+<body>
+    <a href="#main" class="visually-hidden-focusable">Skip to contents</a>
     
 
-    <div class="container template-home">
-      <header><div class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <span class="navbar-brand">
-        <a class="navbar-link" href="index.html">paletteer</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">1.4.0.9000</span>
-      </span>
-    </div>
+    <nav class="navbar fixed-top navbar-light navbar-expand-lg bg-light"><div class="container">
+    
+    <a class="navbar-brand me-2" href="index.html">paletteer</a>
 
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-<li>
-  <a href="reference/index.html">Reference</a>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">1.4.1</small>
+
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div id="navbar" class="collapse navbar-collapse ms-3">
+      <ul class="navbar-nav me-auto">
+<li class="nav-item">
+  <a class="nav-link" href="reference/index.html">Reference</a>
 </li>
-<li>
-  <a href="news/index.html">Changelog</a>
+<li class="nav-item">
+  <a class="nav-link" href="news/index.html">Changelog</a>
 </li>
       </ul>
-<ul class="nav navbar-nav navbar-right">
-<li>
-  <a href="https://github.com/EmilHvitfeldt/paletteer/">
-    <span class="fab fa-github fa-lg"></span>
+<form class="form-inline my-2 my-lg-0" role="search">
+        <input type="search" class="form-control me-sm-2" aria-label="Toggle navigation" name="search-input" data-search-index="search.json" id="search-input" placeholder="Search for" autocomplete="off">
+</form>
+
+      <ul class="navbar-nav">
+<li class="nav-item">
+  <a class="external-link nav-link" href="https://github.com/EmilHvitfeldt/paletteer/" aria-label="github">
+    <span class="fab fa fab fa-github fa-lg"></span>
      
   </a>
 </li>
       </ul>
 </div>
-<!--/.nav-collapse -->
+
+    
   </div>
-<!--/.container -->
+</nav><div class="container template-home">
+<div class="row">
+  <main id="main" class="col-md-9"><div class="section level1">
+<div class="page-header">
+<img src="logo.png" class="logo" alt=""><h1 id="paletteer-">paletteer <a class="anchor" aria-label="anchor" href="#paletteer-"></a>
+</h1>
 </div>
-<!--/.navbar -->
-
-      
-
-      </header><div class="row">
-  <div class="contents col-md-9">
-<div id="paletteer-" class="section level1">
-<div class="page-header"><h1 class="hasAnchor">
-<a href="#paletteer-" class="anchor" aria-hidden="true"></a>paletteer <img src="reference/figures/logo.png" align="right" height="139">
-</h1></div>
 <!-- badges: start -->
-
 <p>The goal of <strong>paletteer</strong> is to be a comprehensive collection of color palettes in R using a common interface. Think of it as the “caret of palettes”.</p>
 <p><strong>Notice</strong> This version is not backwards compatible with versions &lt;= 0.2.1. Please refer to the end of the readme for breaking changes</p>
-<div id="installation" class="section level2">
-<h2 class="hasAnchor">
-<a href="#installation" class="anchor" aria-hidden="true"></a>Installation</h2>
+<div class="section level2">
+<h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
+</h2>
 <p>You can install the released version of <strong>paletteer</strong> from <a href="https://CRAN.R-project.org" class="external-link">CRAN</a> with:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"paletteer"</span><span class="op">)</span></code></pre></div>
+<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"paletteer"</span><span class="op">)</span></span></code></pre></div>
 <p>If you want the development version instead then install directly from GitHub:</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="co"># install.packages("devtools")</span>
-<span class="fu">devtools</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"EmilHvitfeldt/paletteer"</span><span class="op">)</span></code></pre></div>
+<code class="sourceCode R"><span><span class="co"># install.packages("devtools")</span></span>
+<span><span class="fu">devtools</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"EmilHvitfeldt/paletteer"</span><span class="op">)</span></span></code></pre></div>
 </div>
-<div id="palettes" class="section level2">
-<h2 class="hasAnchor">
-<a href="#palettes" class="anchor" aria-hidden="true"></a>Palettes</h2>
+<div class="section level2">
+<h2 id="palettes">Palettes<a class="anchor" aria-label="anchor" href="#palettes"></a>
+</h2>
 <p>The palettes are divided into 2 groups; <em>discrete</em> and <em>continuous</em>. For discrete palette you have the choice between the <em>fixed width palettes</em> and <em>dynamic palettes</em>. Most common of the two are the fixed width palettes which have a set amount of colors which doesn’t change when the number of colors requested vary like the following palettes:</p>
 <p><img src="reference/figures/README-unnamed-chunk-2-1.png"><!-- --></p>
 <p>on the other hand we have the dynamic palettes where the colors of the palette depend on the number of colors you need like the <code>green.pal</code> palette from the <code>cartography</code> package:</p>
@@ -105,56 +103,54 @@
 <p><img src="reference/figures/README-unnamed-chunk-4-1.png"><!-- --></p>
 <p>This package includes 2392 palettes from 62 different packages and information about these can be found in the following data.frames: <code>palettes_c_names</code>, <code>palettes_d_names</code> and <code>palettes_dynamic_names</code>. Additionally this <a href="https://github.com/EmilHvitfeldt/r-color-palettes" class="external-link">github repo</a> showcases all the palettes included in the package and more.</p>
 </div>
-<div id="examples" class="section level2">
-<h2 class="hasAnchor">
-<a href="#examples" class="anchor" aria-hidden="true"></a>Examples</h2>
+<div class="section level2">
+<h2 id="examples">Examples<a class="anchor" aria-label="anchor" href="#examples"></a>
+</h2>
 <p>All the palettes can be accessed from the 3 functions <code><a href="reference/paletteer_c.html">paletteer_c()</a></code>, <code><a href="reference/paletteer_d.html">paletteer_d()</a></code> and <code><a href="reference/paletteer_dynamic.html">paletteer_dynamic()</a></code> using the by using the syntax packagename::palettename.</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu"><a href="reference/paletteer_c.html">paletteer_c</a></span><span class="op">(</span><span class="st">"scico::berlin"</span>, n <span class="op">=</span> <span class="fl">10</span><span class="op">)</span>
-<span class="co">#&gt; &lt;colors&gt;</span>
-<span class="co">#&gt; #9EB0FFFF #5AA3DAFF #2D7597FF #194155FF #11181DFF #270C01FF #501802FF #8A3F2AFF #C37469FF #FFACACFF</span>
-<span class="fu"><a href="reference/paletteer_d.html">paletteer_d</a></span><span class="op">(</span><span class="st">"nord::frost"</span><span class="op">)</span>
-<span class="co">#&gt; &lt;colors&gt;</span>
-<span class="co">#&gt; #8FBCBBFF #88C0D0FF #81A1C1FF #5E81ACFF</span>
-<span class="fu"><a href="reference/paletteer_dynamic.html">paletteer_dynamic</a></span><span class="op">(</span><span class="st">"cartography::green.pal"</span>, <span class="fl">5</span><span class="op">)</span>
-<span class="co">#&gt; &lt;colors&gt;</span>
-<span class="co">#&gt; #B8D9A9FF #8DBC80FF #5D9D52FF #287A22FF #17692CFF</span></code></pre></div>
+<code class="sourceCode R"><span><span class="fu"><a href="reference/paletteer_c.html">paletteer_c</a></span><span class="op">(</span><span class="st">"scico::berlin"</span>, n <span class="op">=</span> <span class="fl">10</span><span class="op">)</span></span>
+<span><span class="co">#&gt; &lt;colors&gt;</span></span>
+<span><span class="co">#&gt; #9EB0FFFF #5AA3DAFF #2D7597FF #194155FF #11181DFF #270C01FF #501802FF #8A3F2AFF #C37469FF #FFACACFF</span></span>
+<span><span class="fu"><a href="reference/paletteer_d.html">paletteer_d</a></span><span class="op">(</span><span class="st">"nord::frost"</span><span class="op">)</span></span>
+<span><span class="co">#&gt; &lt;colors&gt;</span></span>
+<span><span class="co">#&gt; #8FBCBBFF #88C0D0FF #81A1C1FF #5E81ACFF</span></span>
+<span><span class="fu"><a href="reference/paletteer_dynamic.html">paletteer_dynamic</a></span><span class="op">(</span><span class="st">"cartography::green.pal"</span>, <span class="fl">5</span><span class="op">)</span></span>
+<span><span class="co">#&gt; &lt;colors&gt;</span></span>
+<span><span class="co">#&gt; #B8D9A9FF #8DBC80FF #5D9D52FF #287A22FF #17692CFF</span></span></code></pre></div>
 <p>All of the functions now also support tab completion to easily access the hundreds of choices</p>
 <p><img src="reference/figures/paletteer-demo.gif"></p>
 </div>
-<div id="ggplot2-scales" class="section level2">
-<h2 class="hasAnchor">
-<a href="#ggplot2-scales" class="anchor" aria-hidden="true"></a>ggplot2 scales</h2>
+<div class="section level2">
+<h2 id="ggplot2-scales">ggplot2 scales<a class="anchor" aria-label="anchor" href="#ggplot2-scales"></a>
+</h2>
 <p>Lastly the package also includes scales for <code>ggplot2</code> using the same standard interface</p>
 <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://ggplot2.tidyverse.org" class="external-link">ggplot2</a></span><span class="op">)</span>
-
-<span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html" class="external-link">ggplot</a></span><span class="op">(</span><span class="va">iris</span>, <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html" class="external-link">aes</a></span><span class="op">(</span><span class="va">Sepal.Length</span>, <span class="va">Sepal.Width</span>, color <span class="op">=</span> <span class="va">Species</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span>
-  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_point.html" class="external-link">geom_point</a></span><span class="op">(</span><span class="op">)</span> <span class="op">+</span>
-  <span class="fu"><a href="reference/ggplot2-scales-discrete.html">scale_color_paletteer_d</a></span><span class="op">(</span><span class="st">"nord::aurora"</span><span class="op">)</span></code></pre></div>
+<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://ggplot2.tidyverse.org" class="external-link">ggplot2</a></span><span class="op">)</span></span>
+<span></span>
+<span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html" class="external-link">ggplot</a></span><span class="op">(</span><span class="va">iris</span>, <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html" class="external-link">aes</a></span><span class="op">(</span><span class="va">Sepal.Length</span>, <span class="va">Sepal.Width</span>, color <span class="op">=</span> <span class="va">Species</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
+<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_point.html" class="external-link">geom_point</a></span><span class="op">(</span><span class="op">)</span> <span class="op">+</span></span>
+<span>  <span class="fu"><a href="reference/ggplot2-scales-discrete.html">scale_color_paletteer_d</a></span><span class="op">(</span><span class="st">"nord::aurora"</span><span class="op">)</span></span></code></pre></div>
 <p><img src="reference/figures/README-unnamed-chunk-6-1.png"><!-- --></p>
 </div>
-<div id="breaking-changes" class="section level2">
-<h2 class="hasAnchor">
-<a href="#breaking-changes" class="anchor" aria-hidden="true"></a>Breaking changes</h2>
+<div class="section level2">
+<h2 id="breaking-changes">Breaking changes<a class="anchor" aria-label="anchor" href="#breaking-changes"></a>
+</h2>
 <p>In version &lt;= 0.2.1 a palatte was selected by specifying a <code>package</code> and <code>palette</code> argument like so</p>
 <div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu"><a href="reference/paletteer_c.html">paletteer_c</a></span><span class="op">(</span>package <span class="op">=</span> <span class="st">"nord"</span>, palette <span class="op">=</span> <span class="st">"frost"</span><span class="op">)</span></code></pre></div>
+<code class="sourceCode R"><span><span class="fu"><a href="reference/paletteer_c.html">paletteer_c</a></span><span class="op">(</span>package <span class="op">=</span> <span class="st">"nord"</span>, palette <span class="op">=</span> <span class="st">"frost"</span><span class="op">)</span></span></code></pre></div>
 <p>After version 0.2.1 palettes are selected using the syntax <code>"packagename::palettename"</code> inside the palette functions.</p>
 <div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu"><a href="reference/paletteer_c.html">paletteer_c</a></span><span class="op">(</span><span class="st">"nord::frost"</span><span class="op">)</span></code></pre></div>
+<code class="sourceCode R"><span><span class="fu"><a href="reference/paletteer_c.html">paletteer_c</a></span><span class="op">(</span><span class="st">"nord::frost"</span><span class="op">)</span></span></code></pre></div>
 </div>
-<div id="special-thanks" class="section level2">
-<h2 class="hasAnchor">
-<a href="#special-thanks" class="anchor" aria-hidden="true"></a>Special thanks</h2>
-<ul>
-<li>
-<a href="https://github.com/hadley" class="external-link">Hadley Wickham</a> For helpful code improvements.</li>
-</ul>
+<div class="section level2">
+<h2 id="special-thanks">Special thanks<a class="anchor" aria-label="anchor" href="#special-thanks"></a>
+</h2>
+<ul><li>
+<a href="https://github.com/hadley" class="external-link">Hadley Wickham</a> For helpful code improvements.</li></ul>
 </div>
-<div id="included-packages" class="section level2">
-<h2 class="hasAnchor">
-<a href="#included-packages" class="anchor" aria-hidden="true"></a>Included packages</h2>
+<div class="section level2">
+<h2 id="included-packages">Included packages<a class="anchor" aria-label="anchor" href="#included-packages"></a>
+</h2>
 <p><strong>paletteer</strong> includes palettes from the following packages:</p>
 <table class="table">
 <thead><tr class="header">
@@ -487,25 +483,19 @@
 </table>
 </div>
 </div>
-  </div>
-
-  <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
-    <div class="links">
+  </main><aside class="col-md-3"><div class="links">
 <h2 data-toc-skip>Links</h2>
 <ul class="list-unstyled">
-<li>Download from CRAN at <br><a href="https://cloud.r-project.org/package=paletteer">https://​cloud.r-project.org/​package=paletteer</a>
-</li>
-<li>Browse source code at <br><a href="https://github.com/EmilHvitfeldt/paletteer/">https://​github.com/​EmilHvitfeldt/​paletteer/​</a>
-</li>
-<li>Report a bug at <br><a href="https://github.com/EmilHvitfeldt/paletteer/issues">https://​github.com/​EmilHvitfeldt/​paletteer/​issues</a>
-</li>
+<li><a href="https://cloud.r-project.org/package=paletteer" class="external-link">View on CRAN</a></li>
+<li><a href="https://github.com/EmilHvitfeldt/paletteer/" class="external-link">Browse source code</a></li>
+<li><a href="https://github.com/EmilHvitfeldt/paletteer/issues" class="external-link">Report a bug</a></li>
 </ul>
 </div>
 
 <div class="license">
 <h2 data-toc-skip>License</h2>
 <ul class="list-unstyled">
-<li><a href="https://www.r-project.org/Licenses/GPL-3">GPL-3</a></li>
+<li><a href="https://www.r-project.org/Licenses/GPL-3" class="external-link">GPL-3</a></li>
 </ul>
 </div>
 
@@ -519,7 +509,7 @@
 <div class="citation">
 <h2 data-toc-skip>Citation</h2>
 <ul class="list-unstyled">
-<li><a href="authors.html">Citing paletteer</a></li>
+<li><a href="authors.html#citation">Citing paletteer</a></li>
 </ul>
 </div>
 
@@ -530,36 +520,26 @@
 </ul>
 </div>
 
-<div class="dev-status">
-<h2 data-toc-skip>Dev status</h2>
-<ul class="list-unstyled">
-<li><a href="https://github.com/EmilHvitfeldt/paletteer/actions" class="external-link"><img src="https://github.com/EmilHvitfeldt/paletteer/workflows/R-CMD-check/badge.svg" alt="R build status"></a></li>
-<li><a href="https://cran.r-project.org/package=paletteer" class="external-link"><img src="https://www.r-pkg.org/badges/version/paletteer" alt="CRAN status"></a></li>
-<li><a href="https://CRAN.R-project.org/package=paletteer" class="external-link"><img src="http://cranlogs.r-pkg.org/badges/paletteer" alt="CRAN_Download_Badge"></a></li>
-<li><a href="https://codecov.io/github/EmilHvitfeldt/paletteer?branch=master" class="external-link"><img src="https://codecov.io/gh/EmilHvitfeldt/paletteer/branch/master/graph/badge.svg" alt="Codecov test coverage"></a></li>
-<li><a href="https://lifecycle.r-lib.org/articles/stages.html" class="external-link"><img src="https://img.shields.io/badge/lifecycle-stable-brightgreen.svg" alt="Lifecycle: stable"></a></li>
-</ul>
-</div>
 
-  </div>
+
+  </aside>
 </div>
 
 
-      <footer><div class="copyright">
+    <footer><div class="pkgdown-footer-left">
   <p></p>
 <p>Developed by Emil Hvitfeldt.</p>
 </div>
 
-<div class="pkgdown">
+<div class="pkgdown-footer-right">
   <p></p>
-<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 1.6.1.9001.</p>
+<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.6.</p>
 </div>
 
-      </footer>
+    </footer>
 </div>
 
   
-
 
   
 
