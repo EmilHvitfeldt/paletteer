@@ -37,7 +37,7 @@ paletteer_c_ggthemes <- function(name, n) {
 
   name <- try(match.arg(name, c(ggthemes_c_seq_names, ggthemes_c_div_names)), silent = T)
 
-  if (class(name) == "try-error") {
+  if (inherits(name, "try-error")) {
     ggthemes_list <- paste(c(
       ggthemes_c_seq_names,
       ggthemes_c_div_names
