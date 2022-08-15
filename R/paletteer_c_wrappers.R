@@ -129,7 +129,10 @@ paletteer_c_gameofthrones <- function(name, n) {
 #' List of all wrapper functions used in paletteer_c
 #'
 #' @format Named list of all wrapper functions
-"wrapper_c"
+#' @name wrapper_c
+#' @noRd
+NULL
+
 wrapper_c <- list(
   gameofthrones = paletteer_c_gameofthrones,
   ggthemes      = paletteer_c_ggthemes,

@@ -1,5 +1,7 @@
 # paletteer (development version)
 
+* Fixed documentation to be HTML5 friendly.
+
 # paletteer 1.4.0
 
 * `palettes_c_names` and `palettes_d_names` have been enhanced with more information.

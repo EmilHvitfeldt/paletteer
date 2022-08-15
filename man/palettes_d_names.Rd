@@ -23,7 +23,7 @@ of fixed lengths included in this package.
 }
 \details{
 Contains palettes names from the following packages:
-awtools, basetheme, beyonce, calecopal, colorBlindness, colorblindr, colRoz, dichromat, DresdenColor, dutchmasters, fishualize, futurevisions, ggpomological, ggprism, ggsci, ggthemes, ggthemr, ghibli, grDevices, IslamicArt, jcolors, khroma, LaCroixColoR, lisa, Manu, MapPalettes, miscpalettes, nationalparkcolors, nbapalettes, NineteenEightyR, nord, ochRe, palettesForR, palettetown, pals, PNWColors, Polychrome, rcartocolor, RColorBrewer, Redmonder, rockthemes, RSkittleBrewer, rtist, soilpalettes, suffrager, tayloRswift, tidyquant, trekcolors, tvthemes, unikn, vapeplot, vapoRwave, werpals, wesanderson, yarrr.
+DresdenColor, IslamicArt, LaCroixColoR, Manu, MapPalettes, NineteenEightyR, PNWColors, Polychrome, RColorBrewer, RSkittleBrewer, Redmonder, awtools, basetheme, beyonce, calecopal, colRoz, colorBlindness, colorblindr, dichromat, dutchmasters, fishualize, futurevisions, ggpomological, ggprism, ggsci, ggthemes, ggthemr, ghibli, grDevices, jcolors, khroma, lisa, miscpalettes, nationalparkcolors, nbapalettes, nord, ochRe, palettesForR, palettetown, pals, rcartocolor, rockthemes, rtist, soilpalettes, suffrager, tayloRswift, tidyquant, trekcolors, tvthemes, unikn, vapeplot, vapoRwave, werpals, wesanderson, yarrr.
 
 Full list of palette can be found here \code{\link{palettes_d}}.
 }
