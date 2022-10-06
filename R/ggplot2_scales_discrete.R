@@ -39,13 +39,11 @@ pal_pal <- function(palette, direction, dynamic) {
 #'     palettes. Defaults to FALSE which indicates discrete palettes.
 #' @inheritParams paletteer_d
 #'
-#' @examples
-#'
-#' if (require("ggplot2")) {
-#'   ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, colour = Species)) +
-#'     geom_point() +
-#'     scale_colour_paletteer_d("nord::frost")
-#' }
+#' @examplesIf rlang::is_installed("ggplot2")
+#' library(ggplot2)
+#' ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, colour = Species)) +
+#'   geom_point() +
+#'   scale_colour_paletteer_d("nord::frost")
 #' @export
 scale_colour_paletteer_d <- function(palette, direction = 1,
                                      dynamic = FALSE, ...) {

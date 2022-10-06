@@ -22,5 +22,7 @@ Available package/palette combinations are available in the data.frame
 \code{\link[paletteer]{palettes_c_names}}.
 }
 \examples{
+\dontshow{if (rlang::is_installed("scico")) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
 paletteer_c("scico::berlin", 100)
+\dontshow{\}) # examplesIf}
 }
