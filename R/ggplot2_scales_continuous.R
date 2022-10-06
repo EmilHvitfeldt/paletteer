@@ -15,13 +15,11 @@
 #' @name ggplot2-scales-continuous
 #' @rdname ggplot2-scales-continuous
 #'
-#' @examples
-#'
-#' if (require("ggplot2")) {
-#'   ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, colour = Petal.Length)) +
-#'     geom_point() +
-#'     scale_colour_paletteer_c("scico::tokyo")
-#' }
+#' @examplesIf rlang::is_installed(c("scico", "ggplot2"))
+#' library(ggplot2)
+#' ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, colour = Petal.Length)) +
+#'   geom_point() +
+#'   scale_colour_paletteer_c("scico::tokyo")
 #' @export
 scale_colour_paletteer_c <- function(palette, direction = 1, ...) {
   check_installed("ggplot2")

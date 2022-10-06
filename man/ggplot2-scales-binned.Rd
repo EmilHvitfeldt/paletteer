@@ -34,10 +34,10 @@ Available package/palette combinations are available in the data.frame
 \code{\link[paletteer]{palettes_c_names}}.
 }
 \examples{
-
-if (require("ggplot2")) {
-  ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, colour = Petal.Length)) +
-    geom_point() +
-    scale_colour_paletteer_binned("scico::tokyo")
-}
+\dontshow{if (rlang::is_installed(c("scico", "ggplot2"))) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
+library(ggplot2)
+ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, colour = Petal.Length)) +
+  geom_point() +
+  scale_colour_paletteer_binned("scico::tokyo")
+\dontshow{\}) # examplesIf}
 }

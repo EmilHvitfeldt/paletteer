@@ -8,7 +8,7 @@
 #' @param n Number of colors desired. Must be supplied.
 #' @param direction Either `1` or `-1`. If `-1` the palette will be reversed.
 #' @return A vector of colors.
-#' @examples
+#' @examplesIf rlang::is_installed("scico")
 #' paletteer_c("scico::berlin", 100)
 #' @export
 paletteer_c <- function(palette, n, direction = 1) {

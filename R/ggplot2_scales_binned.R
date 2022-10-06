@@ -15,13 +15,11 @@
 #' @name ggplot2-scales-binned
 #' @rdname ggplot2-scales-binned
 #'
-#' @examples
-#'
-#' if (require("ggplot2")) {
-#'   ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, colour = Petal.Length)) +
-#'     geom_point() +
-#'     scale_colour_paletteer_binned("scico::tokyo")
-#' }
+#' @examplesIf rlang::is_installed(c("scico", "ggplot2"))
+#' library(ggplot2)
+#' ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, colour = Petal.Length)) +
+#'   geom_point() +
+#'   scale_colour_paletteer_binned("scico::tokyo")
 #' @export
 scale_colour_paletteer_binned <- function(palette, direction = 1, ...) {
   check_installed("ggplot2")
