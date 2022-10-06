@@ -10,6 +10,7 @@ df <- data.frame(
 library(ggplot2)
 
 test_that("scale_*_paletteer_c correctly assigns colors", {
+  testthat::skip_if_not_installed("ggplot2")
   p1 <- ggplot(df, aes(x, y, color = color)) +
     geom_point() +
     scale_colour_paletteer_c("scico::berlin")
@@ -28,6 +29,7 @@ test_that("scale_*_paletteer_c correctly assigns colors", {
 })
 
 test_that("scale_*_paletteer_c correctly used direction", {
+  testthat::skip_if_not_installed("ggplot2")
   p1 <- ggplot(df, aes(x, y, colour = color)) +
     geom_point() +
     scale_colour_paletteer_c("scico::berlin", direction = 1)
@@ -61,6 +63,7 @@ test_that("scale_*_paletteer_c correctly used direction", {
 })
 
 test_that("scale_*_paletteer_c works with quoted palettes", {
+  testthat::skip_if_not_installed("ggplot2")
   expect_equal(
     ggplot(df, aes(x, y, colour = color)) +
       geom_point() +
@@ -90,6 +93,7 @@ test_that("scale_*_paletteer_c works with quoted palettes", {
 })
 
 test_that("scale_*_paletteer_c works when called from another function", {
+  testthat::skip_if_not_installed("ggplot2")
   colour_fun <- function(pal) {
     ggplot(df, aes(x, y, colour = color)) +
       geom_point() +
