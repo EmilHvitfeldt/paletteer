@@ -1,6 +1,6 @@
-context("vdiffrcheck")
-
 library(paletteer)
+
+testthat::skip_if_not_installed("ggplot2")
 
 list_plotter <- function(color_list, names, package_name) {
   par(mar = c(0, 0, 0, 0) + 0.1)
@@ -87,7 +87,6 @@ plot_in_one <- function(name) {
   }
 }
 
-
 all_package_names <- unique(
   c(
     palettes_c_names$package,
@@ -96,14 +95,73 @@ all_package_names <- unique(
   )
 )
 
+all_package_names <- setdiff(
+  all_package_names,
+  c("gameofthrones",
+    "ggthemes",
+    "harrypotter",
+    "oompaBase",
+    "palr",
+    "pals",
+    "scico",
+    "viridisLite")
+)
 
-expect_doppelganger <- function(title, fig, path = NULL, ...) {
+expect_doppelganger <- function(title, fig, ...) {
   testthat::skip_if_not_installed("vdiffr")
-  vdiffr::expect_doppelganger(title, fig, path = path, ...)
+  vdiffr::expect_doppelganger(title, fig, ...)
 }
 
 test_that("colors show up correctly", {
   for (package in all_package_names) {
     expect_doppelganger(package, plot_in_one(package))
   }
+})
+
+test_that("colors show up correctly for gameofthrones", {
+  testthat::skip_if_not_installed("vdiffr")
+  testthat::skip_if_not_installed("gameofthrones")
+  vdiffr::expect_doppelganger("gameofthrones", plot_in_one("gameofthrones")())
+})
+
+test_that("colors show up correctly for ggthemes", {
+  testthat::skip_if_not_installed("vdiffr")
+  testthat::skip_if_not_installed("ggthemes")
+  vdiffr::expect_doppelganger("ggthemes", plot_in_one("ggthemes")())
+})
+
+test_that("colors show up correctly for harrypotter", {
+  testthat::skip_if_not_installed("vdiffr")
+  testthat::skip_if_not_installed("harrypotter")
+  vdiffr::expect_doppelganger("harrypotter", plot_in_one("harrypotter")())
+})
+
+test_that("colors show up correctly for oompaBase", {
+  testthat::skip_if_not_installed("vdiffr")
+  testthat::skip_if_not_installed("oompaBase")
+  vdiffr::expect_doppelganger("oompaBase", plot_in_one("oompaBase")())
+})
+
+test_that("colors show up correctly for palr", {
+  testthat::skip_if_not_installed("vdiffr")
+  testthat::skip_if_not_installed("palr")
+  vdiffr::expect_doppelganger("palr", plot_in_one("palr")())
+})
+
+test_that("colors show up correctly for pals", {
+  testthat::skip_if_not_installed("vdiffr")
+  testthat::skip_if_not_installed("pals")
+  vdiffr::expect_doppelganger("pals", plot_in_one("pals")())
+})
+
+test_that("colors show up correctly for scico", {
+  testthat::skip_if_not_installed("vdiffr")
+  testthat::skip_if_not_installed("scico")
+  vdiffr::expect_doppelganger("scico", plot_in_one("scico")())
+})
+
+test_that("colors show up correctly for viridisLite", {
+  testthat::skip_if_not_installed("vdiffr")
+  testthat::skip_if_not_installed("viridisLite")
+  vdiffr::expect_doppelganger("viridisLite", plot_in_one("viridisLite")())
 })
