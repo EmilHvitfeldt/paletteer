@@ -1605,6 +1605,7 @@ palettes_d_names <- tibble::tribble(
   "Polychrome",                          "kelly",     22L, "qualitative", FALSE,
   "Polychrome",                          "light",     24L, "qualitative", FALSE,
   "Polychrome",                      "palette36",     36L, "qualitative", FALSE,
+  "Polychrome",                            "sky",     24L, "qualitative", FALSE,
   "Manu",                           "Hihi",      5L, "qualitative", TRUE,
   "Manu",                          "Hoiho",      6L, "qualitative", TRUE,
   "Manu",                           "Kaka",      5L, "qualitative", TRUE,

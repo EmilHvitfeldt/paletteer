@@ -305,7 +305,8 @@ Polychrome_pals <- lapply(
     green.armytage = Polychrome::green.armytage.colors(),
     kelly = Polychrome::kelly.colors(),
     light = Polychrome::light.colors(),
-    palette36 = Polychrome::palette36.colors()
+    palette36 = Polychrome::palette36.colors(),
+    sky = Polychrome::sky.colors()
   ),
   unname
 )

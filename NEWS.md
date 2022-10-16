@@ -1,5 +1,7 @@
 # paletteer (development version)
 
+* Added sky palette from khroma package.
+
 # paletteer 1.4.1
 
 * Fixed documentation to be HTML5 friendly.
