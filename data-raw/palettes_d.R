@@ -1,6 +1,5 @@
 library(magrittr)
 
-
 ## awtools --------------------------------------------------------------------
 awtools_pals <- list(
   a_palette = awtools::a_palette,
@@ -85,7 +84,7 @@ fishualize_pals <- split(
   fishualize::fishcolors$option
 )
 
-## fishualize -----------------------------------------------------------------
+## futurevisions --------------------------------------------------------------
 futurevisions_names <- c(
   "venus", "earth", "mars", "jupiter", "ceres",
   "enceladus", "europa", "titan", "cancri", "hd",

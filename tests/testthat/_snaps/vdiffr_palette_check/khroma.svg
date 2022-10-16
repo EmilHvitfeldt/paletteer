@@ -9139,7 +9139,7 @@
 <rect x='605.39' y='486.02' width='28.87' height='6.39' style='stroke-width: 0.75; stroke: none; fill: #805770;' />
 <rect x='634.26' y='486.02' width='28.87' height='6.39' style='stroke-width: 0.75; stroke: none; fill: #684957;' />
 <rect x='663.13' y='486.02' width='28.87' height='6.39' style='stroke-width: 0.75; stroke: none; fill: #46353A;' />
-<text x='35.20' y='497.12' style='font-size: 12.00px; font-family: sans;' textLength='90.73px' lengthAdjust='spacingAndGlyphs'>discrete_rainbow</text>
+<text x='35.20' y='497.12' style='font-size: 12.00px; font-family: sans;' textLength='84.05px' lengthAdjust='spacingAndGlyphs'>discreterainbow</text>
 <rect x='28.00' y='495.84' width='22.90' height='6.39' style='stroke-width: 0.75; stroke: none; fill: #E8ECFB;' />
 <rect x='50.90' y='495.84' width='22.90' height='6.39' style='stroke-width: 0.75; stroke: none; fill: #D9CCE3;' />
 <rect x='73.79' y='495.84' width='22.90' height='6.39' style='stroke-width: 0.75; stroke: none; fill: #D1BBD7;' />
@@ -9169,7 +9169,7 @@
 <rect x='623.31' y='495.84' width='22.90' height='6.39' style='stroke-width: 0.75; stroke: none; fill: #A5170E;' />
 <rect x='646.21' y='495.84' width='22.90' height='6.39' style='stroke-width: 0.75; stroke: none; fill: #72190E;' />
 <rect x='669.10' y='495.84' width='22.90' height='6.39' style='stroke-width: 0.75; stroke: none; fill: #42150A;' />
-<text x='35.20' y='506.95' style='font-size: 12.00px; font-family: sans;' textLength='88.06px' lengthAdjust='spacingAndGlyphs'>smooth_rainbow</text>
+<text x='35.20' y='506.95' style='font-size: 12.00px; font-family: sans;' textLength='81.39px' lengthAdjust='spacingAndGlyphs'>smoothrainbow</text>
 <rect x='28.00' y='505.67' width='19.53' height='6.39' style='stroke-width: 0.75; stroke: none; fill: #E8ECFB;' />
 <rect x='47.53' y='505.67' width='19.53' height='6.39' style='stroke-width: 0.75; stroke: none; fill: #DDD8EF;' />
 <rect x='67.06' y='505.67' width='19.53' height='6.39' style='stroke-width: 0.75; stroke: none; fill: #D1C1E1;' />
@@ -9204,7 +9204,7 @@
 <rect x='633.41' y='505.67' width='19.53' height='6.39' style='stroke-width: 0.75; stroke: none; fill: #95211B;' />
 <rect x='652.94' y='505.67' width='19.53' height='6.39' style='stroke-width: 0.75; stroke: none; fill: #721E17;' />
 <rect x='672.47' y='505.67' width='19.53' height='6.39' style='stroke-width: 0.75; stroke: none; fill: #521A13;' />
-<text x='35.20' y='516.78' style='font-size: 12.00px; font-family: sans;' textLength='52.05px' lengthAdjust='spacingAndGlyphs'>okabe_ito</text>
+<text x='35.20' y='516.78' style='font-size: 12.00px; font-family: sans;' textLength='45.37px' lengthAdjust='spacingAndGlyphs'>okabeito</text>
 <rect x='28.00' y='515.50' width='83.00' height='6.39' style='stroke-width: 0.75; stroke: none; fill: #000000;' />
 <rect x='111.00' y='515.50' width='83.00' height='6.39' style='stroke-width: 0.75; stroke: none; fill: #E69F00;' />
 <rect x='194.00' y='515.50' width='83.00' height='6.39' style='stroke-width: 0.75; stroke: none; fill: #56B4E9;' />
