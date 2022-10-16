@@ -1,6 +1,7 @@
 # paletteer (development version)
 
 * Added sky palette from khroma package.
+* Added 31 Steven Universe palettes from tvthemes package.
 
 # paletteer 1.4.1
 

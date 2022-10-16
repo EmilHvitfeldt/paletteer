@@ -383,7 +383,8 @@ tvthemes_pals <- c(
   rickAndMorty = list(tvthemes:::rickAndMorty_palette),
   simpsons = list(tvthemes:::simpsons_palette),
   spongeBob = list(tvthemes:::spongeBob_palette),
-  tvthemes:::westeros_palette
+  tvthemes:::westeros_palette,
+  tvthemes:::stevenUniverse_palette
 )
 
 ## unikn ----------------------------------------------------------------------
