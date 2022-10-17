@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' class='svglite' data-engine-version='2.0' width='720.00pt' height='576.00pt' viewBox='0 0 720.00 576.00'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
+<defs>
+  <clipPath id='cpMC4wMHw3MjAuMDB8MC4wMHw1NzYuMDA='>
+    <rect x='0.00' y='0.00' width='720.00' height='576.00' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHw3MjAuMDB8MC4wMHw1NzYuMDA=)'>
+<text x='360.00' y='44.64' text-anchor='middle' style='font-size: 14.40px; font-weight: bold; font-family: sans;' textLength='111.27px' lengthAdjust='spacingAndGlyphs'>NatParksPalettes</text>
+</g>
+<defs>
+  <clipPath id='cpMS40NHw3MTguNTZ8MS40NHw1NzQuNTY='>
+    <rect x='1.44' y='1.44' width='717.12' height='573.12' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMS40NHw3MTguNTZ8MS40NHw1NzQuNTY=)'>
+<text x='35.20' y='42.54' style='font-size: 12.00px; font-family: sans;' textLength='36.70px' lengthAdjust='spacingAndGlyphs'>Acadia</text>
+<rect x='28.00' y='42.35' width='73.78' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #212E52;' />
+<rect x='101.78' y='42.35' width='73.78' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #444E7E;' />
+<rect x='175.56' y='42.35' width='73.78' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #8087AA;' />
+<rect x='249.33' y='42.35' width='73.78' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #B7ABBC;' />
+<rect x='323.11' y='42.35' width='73.78' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #F9ECE8;' />
+<rect x='396.89' y='42.35' width='73.78' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #FCC893;' />
+<rect x='470.67' y='42.35' width='73.78' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #FEB424;' />
+<rect x='544.44' y='42.35' width='73.78' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #FD8700;' />
+<rect x='618.22' y='42.35' width='73.78' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #D8511D;' />
+<text x='35.20' y='59.66' style='font-size: 12.00px; font-family: sans;' textLength='37.36px' lengthAdjust='spacingAndGlyphs'>Arches</text>
+<rect x='28.00' y='59.47' width='73.78' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #1A3D82;' />
+<rect x='101.78' y='59.47' width='73.78' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #0C62AF;' />
+<rect x='175.56' y='59.47' width='73.78' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #4499F5;' />
+<rect x='249.33' y='59.47' width='73.78' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #8FCAFD;' />
+<rect x='323.11' y='59.47' width='73.78' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #F2F2F2;' />
+<rect x='396.89' y='59.47' width='73.78' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #F0AC7D;' />
+<rect x='470.67' y='59.47' width='73.78' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #CD622E;' />
+<rect x='544.44' y='59.47' width='73.78' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #B14311;' />
+<rect x='618.22' y='59.47' width='73.78' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #832B0F;' />
+<text x='35.20' y='76.77' style='font-size: 12.00px; font-family: sans;' textLength='44.04px' lengthAdjust='spacingAndGlyphs'>Arches2</text>
+<rect x='28.00' y='76.59' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #3A1F46;' />
+<rect x='160.80' y='76.59' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #7F4B89;' />
+<rect x='293.60' y='76.59' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #B46DB3;' />
+<rect x='426.40' y='76.59' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #E3A5D6;' />
+<rect x='559.20' y='76.59' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #F3DAE4;' />
+<text x='35.20' y='93.89' style='font-size: 12.00px; font-family: sans;' textLength='28.02px' lengthAdjust='spacingAndGlyphs'>Banff</text>
+<rect x='28.00' y='93.71' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #006475;' />
+<rect x='122.86' y='93.71' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #00A1B7;' />
+<rect x='217.71' y='93.71' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #55CFD8;' />
+<rect x='312.57' y='93.71' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #586028;' />
+<rect x='407.43' y='93.71' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #898928;' />
+<rect x='502.29' y='93.71' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #616571;' />
+<rect x='597.14' y='93.71' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #9DA7BF;' />
+<text x='35.20' y='111.01' style='font-size: 12.00px; font-family: sans;' textLength='72.06px' lengthAdjust='spacingAndGlyphs'>BryceCanyon</text>
+<rect x='28.00' y='110.83' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #882314;' />
+<rect x='122.86' y='110.83' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #C0532B;' />
+<rect x='217.71' y='110.83' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #CF932C;' />
+<rect x='312.57' y='110.83' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #674D53;' />
+<rect x='407.43' y='110.83' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #8C86A0;' />
+<rect x='502.29' y='110.83' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #724438;' />
+<rect x='597.14' y='110.83' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #D5AB85;' />
+<text x='35.20' y='128.13' style='font-size: 12.00px; font-family: sans;' textLength='62.70px' lengthAdjust='spacingAndGlyphs'>CapitolReef</text>
+<rect x='28.00' y='127.94' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #291919;' />
+<rect x='138.67' y='127.94' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #532A34;' />
+<rect x='249.33' y='127.94' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #7C5467;' />
+<rect x='360.00' y='127.94' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #878195;' />
+<rect x='470.67' y='127.94' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #AEB2B7;' />
+<rect x='581.33' y='127.94' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #D4D9DD;' />
+<text x='35.20' y='145.25' style='font-size: 12.00px; font-family: sans;' textLength='58.03px' lengthAdjust='spacingAndGlyphs'>Charmonix</text>
+<rect x='28.00' y='145.06' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #008FF8;' />
+<rect x='138.67' y='145.06' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #B6AA0D;' />
+<rect x='249.33' y='145.06' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #E2C2A2;' />
+<rect x='360.00' y='145.06' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #E23B0E;' />
+<rect x='470.67' y='145.06' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #F2C621;' />
+<rect x='581.33' y='145.06' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #196689;' />
+<text x='35.20' y='162.37' style='font-size: 12.00px; font-family: sans;' textLength='59.37px' lengthAdjust='spacingAndGlyphs'>CraterLake</text>
+<rect x='28.00' y='162.18' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #1D4A79;' />
+<rect x='122.86' y='162.18' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #794C23;' />
+<rect x='217.71' y='162.18' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #6B7444;' />
+<rect x='312.57' y='162.18' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #6089B5;' />
+<rect x='407.43' y='162.18' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #BF9785;' />
+<rect x='502.29' y='162.18' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #275E4D;' />
+<rect x='597.14' y='162.18' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #807B7F;' />
+<text x='35.20' y='179.48' style='font-size: 12.00px; font-family: sans;' textLength='54.72px' lengthAdjust='spacingAndGlyphs'>Cuyahoga</text>
+<rect x='28.00' y='179.30' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #E07529;' />
+<rect x='138.67' y='179.30' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #FAAE32;' />
+<rect x='249.33' y='179.30' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #7F7991;' />
+<rect x='360.00' y='179.30' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #A84A00;' />
+<rect x='470.67' y='179.30' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #5D4F36;' />
+<rect x='581.33' y='179.30' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #B39085;' />
+<text x='35.20' y='196.60' style='font-size: 12.00px; font-family: sans;' textLength='64.71px' lengthAdjust='spacingAndGlyphs'>DeathValley</text>
+<rect x='28.00' y='196.42' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #8C2B0E;' />
+<rect x='122.86' y='196.42' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #C5692D;' />
+<rect x='217.71' y='196.42' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #FEB359;' />
+<rect x='312.57' y='196.42' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #132F5B;' />
+<rect x='407.43' y='196.42' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #435F90;' />
+<rect x='502.29' y='196.42' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #68434E;' />
+<rect x='597.14' y='196.42' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #B47E83;' />
+<text x='35.20' y='213.72' style='font-size: 12.00px; font-family: sans;' textLength='34.02px' lengthAdjust='spacingAndGlyphs'>Denali</text>
+<rect x='28.00' y='213.54' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #20223E;' />
+<rect x='138.67' y='213.54' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #3F3F7B;' />
+<rect x='249.33' y='213.54' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #278192;' />
+<rect x='360.00' y='213.54' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #00B089;' />
+<rect x='470.67' y='213.54' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #2EEA8C;' />
+<rect x='581.33' y='213.54' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #8FF7BD;' />
+<text x='35.20' y='230.84' style='font-size: 12.00px; font-family: sans;' textLength='60.05px' lengthAdjust='spacingAndGlyphs'>Everglades</text>
+<rect x='28.00' y='230.65' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #345023;' />
+<rect x='138.67' y='230.65' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #596C0B;' />
+<rect x='249.33' y='230.65' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #83A102;' />
+<rect x='360.00' y='230.65' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #003B68;' />
+<rect x='470.67' y='230.65' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #426F86;' />
+<rect x='581.33' y='230.65' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #7A712F;' />
+<text x='35.20' y='247.96' style='font-size: 12.00px; font-family: sans;' textLength='38.02px' lengthAdjust='spacingAndGlyphs'>Glacier</text>
+<rect x='28.00' y='247.77' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #01353D;' />
+<rect x='160.80' y='247.77' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #088096;' />
+<rect x='293.60' y='247.77' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #58B3C7;' />
+<rect x='426.40' y='247.77' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #7AD4E4;' />
+<rect x='559.20' y='247.77' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #B8FCFC;' />
+<text x='35.20' y='265.08' style='font-size: 12.00px; font-family: sans;' textLength='74.73px' lengthAdjust='spacingAndGlyphs'>GrandCanyon</text>
+<rect x='28.00' y='264.89' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #521E0F;' />
+<rect x='122.86' y='264.89' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #9C593E;' />
+<rect x='217.71' y='264.89' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #DDA569;' />
+<rect x='312.57' y='264.89' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #3F4330;' />
+<rect x='407.43' y='264.89' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #8E7E3C;' />
+<rect x='502.29' y='264.89' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #2A4866;' />
+<rect x='597.14' y='264.89' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #6592B0;' />
+<text x='35.20' y='282.19' style='font-size: 12.00px; font-family: sans;' textLength='46.70px' lengthAdjust='spacingAndGlyphs'>Halekala</text>
+<rect x='28.00' y='282.01' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #722710;' />
+<rect x='160.80' y='282.01' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #A3844D;' />
+<rect x='293.60' y='282.01' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #675243;' />
+<rect x='426.40' y='282.01' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #A85017;' />
+<rect x='559.20' y='282.01' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #838BAA;' />
+<text x='35.20' y='299.31' style='font-size: 12.00px; font-family: sans;' textLength='61.37px' lengthAdjust='spacingAndGlyphs'>IguazuFalls</text>
+<rect x='28.00' y='299.13' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #415521;' />
+<rect x='138.67' y='299.13' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #97AD3D;' />
+<rect x='249.33' y='299.13' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #4C3425;' />
+<rect x='360.00' y='299.13' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #7F6552;' />
+<rect x='470.67' y='299.13' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #5A8093;' />
+<rect x='581.33' y='299.13' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #9FBAD3;' />
+<text x='35.20' y='316.43' style='font-size: 12.00px; font-family: sans;' textLength='71.40px' lengthAdjust='spacingAndGlyphs'>KingsCanyon</text>
+<rect x='28.00' y='316.25' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #613921;' />
+<rect x='138.67' y='316.25' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #A77652;' />
+<rect x='249.33' y='316.25' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #F2C27B;' />
+<rect x='360.00' y='316.25' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #AAC9ED;' />
+<rect x='470.67' y='316.25' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #44637D;' />
+<rect x='581.33' y='316.25' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #8E949F;' />
+<text x='35.20' y='333.55' style='font-size: 12.00px; font-family: sans;' textLength='64.72px' lengthAdjust='spacingAndGlyphs'>LakeNakuru</text>
+<rect x='28.00' y='333.36' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #D76E9A;' />
+<rect x='138.67' y='333.36' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #A1ACC8;' />
+<rect x='249.33' y='333.36' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #AD3C36;' />
+<rect x='360.00' y='333.36' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #332627;' />
+<rect x='470.67' y='333.36' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #EACACF;' />
+<rect x='581.33' y='333.36' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #AA6B77;' />
+<text x='35.20' y='350.67' style='font-size: 12.00px; font-family: sans;' textLength='43.35px' lengthAdjust='spacingAndGlyphs'>Olympic</text>
+<rect x='28.00' y='350.48' width='73.78' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #3A4330;' />
+<rect x='101.78' y='350.48' width='73.78' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #426737;' />
+<rect x='175.56' y='350.48' width='73.78' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #75871B;' />
+<rect x='249.33' y='350.48' width='73.78' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #BAB97D;' />
+<rect x='323.11' y='350.48' width='73.78' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #FAF3CE;' />
+<rect x='396.89' y='350.48' width='73.78' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #FDE16A;' />
+<rect x='470.67' y='350.48' width='73.78' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #F9B40E;' />
+<rect x='544.44' y='350.48' width='73.78' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #E88C23;' />
+<rect x='618.22' y='350.48' width='73.78' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #A25933;' />
+<text x='35.20' y='367.78' style='font-size: 12.00px; font-family: sans;' textLength='50.71px' lengthAdjust='spacingAndGlyphs'>Redwood</text>
+<rect x='28.00' y='367.60' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #5E3B49;' />
+<rect x='138.67' y='367.60' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #9B5F6B;' />
+<rect x='249.33' y='367.60' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #BA817D;' />
+<rect x='360.00' y='367.60' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #325731;' />
+<rect x='470.67' y='367.60' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #6A9741;' />
+<rect x='581.33' y='367.60' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #5F4E2F;' />
+<text x='35.20' y='384.90' style='font-size: 12.00px; font-family: sans;' textLength='53.37px' lengthAdjust='spacingAndGlyphs'>RockyMtn</text>
+<rect x='28.00' y='384.72' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #274C31;' />
+<rect x='122.86' y='384.72' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #A3AEB5;' />
+<rect x='217.71' y='384.72' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #2F4B6A;' />
+<rect x='312.57' y='384.72' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #8F8081;' />
+<rect x='407.43' y='384.72' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #3F7156;' />
+<rect x='502.29' y='384.72' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #6F89A7;' />
+<rect x='597.14' y='384.72' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #5B5443;' />
+<text x='35.20' y='402.02' style='font-size: 12.00px; font-family: sans;' textLength='45.37px' lengthAdjust='spacingAndGlyphs'>Saguaro</text>
+<rect x='28.00' y='401.84' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #127088;' />
+<rect x='138.67' y='401.84' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #C85729;' />
+<rect x='249.33' y='401.84' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #92874B;' />
+<rect x='360.00' y='401.84' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #CD8A39;' />
+<rect x='470.67' y='401.84' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #AC3414;' />
+<rect x='581.33' y='401.84' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #57643C;' />
+<text x='35.20' y='419.14' style='font-size: 12.00px; font-family: sans;' textLength='62.70px' lengthAdjust='spacingAndGlyphs'>SmokyMtns</text>
+<rect x='28.00' y='418.95' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #42511A;' />
+<rect x='122.86' y='418.95' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #889D35;' />
+<rect x='217.71' y='418.95' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #D3D175;' />
+<rect x='312.57' y='418.95' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #B50200;' />
+<rect x='407.43' y='418.95' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #DA6C41;' />
+<rect x='502.29' y='418.95' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #7C6E66;' />
+<rect x='597.14' y='418.95' width='94.86' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #BCAFA6;' />
+<text x='35.20' y='436.26' style='font-size: 12.00px; font-family: sans;' textLength='68.05px' lengthAdjust='spacingAndGlyphs'>SouthDowns</text>
+<rect x='28.00' y='436.07' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #948D2A;' />
+<rect x='138.67' y='436.07' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #D5B44D;' />
+<rect x='249.33' y='436.07' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #89A4BF;' />
+<rect x='360.00' y='436.07' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #F1D6B6;' />
+<rect x='470.67' y='436.07' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #9B8358;' />
+<rect x='581.33' y='436.07' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #577291;' />
+<text x='35.20' y='453.38' style='font-size: 12.00px; font-family: sans;' textLength='34.68px' lengthAdjust='spacingAndGlyphs'>Torres</text>
+<rect x='28.00' y='453.19' width='66.40' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #2F397A;' />
+<rect x='94.40' y='453.19' width='66.40' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #7391BD;' />
+<rect x='160.80' y='453.19' width='66.40' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #894846;' />
+<rect x='227.20' y='453.19' width='66.40' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #E9988C;' />
+<rect x='293.60' y='453.19' width='66.40' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #535260;' />
+<rect x='360.00' y='453.19' width='66.40' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #B7A7A6;' />
+<rect x='426.40' y='453.19' width='66.40' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #785838;' />
+<rect x='492.80' y='453.19' width='66.40' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #C68D61;' />
+<rect x='559.20' y='453.19' width='66.40' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #4F6008;' />
+<rect x='625.60' y='453.19' width='66.40' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #93995C;' />
+<text x='35.20' y='470.49' style='font-size: 12.00px; font-family: sans;' textLength='36.01px' lengthAdjust='spacingAndGlyphs'>Triglav</text>
+<rect x='28.00' y='470.31' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #386EC2;' />
+<rect x='138.67' y='470.31' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #B5B5B2;' />
+<rect x='249.33' y='470.31' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #990006;' />
+<rect x='360.00' y='470.31' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #625D0A;' />
+<rect x='470.67' y='470.31' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #B9741F;' />
+<rect x='581.33' y='470.31' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #213958;' />
+<text x='35.20' y='487.61' style='font-size: 12.00px; font-family: sans;' textLength='55.36px' lengthAdjust='spacingAndGlyphs'>WindCave</text>
+<rect x='28.00' y='487.43' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #2F100E;' />
+<rect x='160.80' y='487.43' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #6C3322;' />
+<rect x='293.60' y='487.43' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #B07159;' />
+<rect x='426.40' y='487.43' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #C9A197;' />
+<rect x='559.20' y='487.43' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #E0CDCD;' />
+<text x='35.20' y='504.73' style='font-size: 12.00px; font-family: sans;' textLength='56.05px' lengthAdjust='spacingAndGlyphs'>Volcanoes</text>
+<rect x='28.00' y='504.55' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #082544;' />
+<rect x='160.80' y='504.55' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #1E547D;' />
+<rect x='293.60' y='504.55' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #79668C;' />
+<rect x='426.40' y='504.55' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #DE3C37;' />
+<rect x='559.20' y='504.55' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #F2DC7E;' />
+<text x='35.20' y='521.85' style='font-size: 12.00px; font-family: sans;' textLength='64.71px' lengthAdjust='spacingAndGlyphs'>Yellowstone</text>
+<rect x='28.00' y='521.66' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #0067A2;' />
+<rect x='138.67' y='521.66' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #DFCB91;' />
+<rect x='249.33' y='521.66' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #CB7223;' />
+<rect x='360.00' y='521.66' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #289A84;' />
+<rect x='470.67' y='521.66' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #7FA4C2;' />
+<rect x='581.33' y='521.66' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #AF7E56;' />
+<text x='35.20' y='538.97' style='font-size: 12.00px; font-family: sans;' textLength='50.03px' lengthAdjust='spacingAndGlyphs'>Yosemite</text>
+<rect x='28.00' y='538.78' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #293633;' />
+<rect x='138.67' y='538.78' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #3D5051;' />
+<rect x='249.33' y='538.78' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #6B7F7F;' />
+<rect x='360.00' y='538.78' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #87A1C7;' />
+<rect x='470.67' y='538.78' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #516B95;' />
+<rect x='581.33' y='538.78' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #304F7D;' />
+</g>
+</svg>

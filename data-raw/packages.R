@@ -35,6 +35,7 @@ paletteer_packages <- tibble::tribble(
   "musculusColors",     "dawnbarlow/musculusColors",        "0.1.0",       FALSE, NA,
   "miscpalettes",       "EmilHvitfeldt/miscpalettes",       "0.0.0.9000",  FALSE, NA,
   "nationalparkcolors", "katiejolly/nationalparkcolors",    "0.1.0",       FALSE, NA,
+  "NatParksPalettes",   "kevinsblake/NatParksPalettes",     "0.2.0",       TRUE,  "0.2.0",
   "nbapalettes",        "murrayjw/nbapalettes",             "0.1.0.9000",  TRUE,  "0.1.0",
   "NineteenEightyR",    "m-clark/NineteenEightyR",          "0.1.0",       FALSE, NA,
   "nord",               "jkaupp/nord",                      "1.0.0",       TRUE,  "1.0.0",

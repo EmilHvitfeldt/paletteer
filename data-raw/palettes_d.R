@@ -253,6 +253,9 @@ musculusColors_pals <- lapply(musculusColors::Bm_palettes, function(x) x[1, ])
 ## nationalparkcolors ---------------------------------------------------------
 nationalparkcolors_pals <- nationalparkcolors::park_palettes
 
+## NatParksPalettes -----------------------------------------------------------
+NatParksPalettes_pals <- lapply(NatParksPalettes::NatParksPalettes, function(x) x[[1]])
+
 ## nbapalettes ----------------------------------------------------------------
 nbapalettes_pals <- nbapalettes::nba_palettes
 
@@ -470,6 +473,7 @@ palettes_d <- list(
   LaCroixColoR = LaCroixColoR_pals,
   lisa = lisa_pals,
   nationalparkcolors = nationalparkcolors_pals,
+  NatParksPalettes = NatParksPalettes_pals,
   nbapalettes = nbapalettes_pals,
   NineteenEightyR = NineteenEightyR_pals,
   nord = nord_pals,
