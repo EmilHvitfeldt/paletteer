@@ -29,6 +29,7 @@ paletteer_packages <- tibble::tribble(
   "khroma",             "tesselle/khroma",                  "1.9.0.9000",  TRUE,  "1.9.0",
   "LaCroixColoR",       "johannesbjork/LaCroixColoR",       "0.1.0",       FALSE, NA,
   "lisa",               "tyluRp/lisa",                      "0.1.2.9000",  TRUE,  "0.1.2",
+  "MetBrewer",          "BlakeRMills/MetBrewer",            "0.2.0",       TRUE,  "0.2.0",
   "Manu",               "G-Thomson/Manu",                   "0.0.2",       FALSE, NA,
   "MapPalettes",        "disarm-platform/MapPalettes",      "0.0.2",       FALSE, NA,
   "miscpalettes",       "EmilHvitfeldt/miscpalettes",       "0.0.0.9000",  FALSE, NA,

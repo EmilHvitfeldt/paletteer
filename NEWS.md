@@ -3,6 +3,7 @@
 * Added sky palette from khroma package.
 * Added 31 Steven Universe palettes from tvthemes package.
 * 11 palettes have been added from the feathers package. (#116)
+* 56 palettes have been added from the MetBrewer package. (#119)
 # paletteer 1.4.1
 
 * Fixed documentation to be HTML5 friendly.

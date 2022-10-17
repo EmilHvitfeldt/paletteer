@@ -238,6 +238,9 @@ Manu_pals <- Manu::manu_palettes
 MapPalettes_pals <- lapply(MapPalettes:::names, MapPalettes::map_palette)
 names(MapPalettes_pals) <- MapPalettes:::names
 
+## MetBrewer ---------------------------------------------------------------
+MetBrewer_pals <- lapply(MetBrewer::MetPalettes, function(x) x[[1]])
+
 ## miscpalettes ---------------------------------------------------------------
 miscpalettes_pals <- c(
   miscpalettes::artistic,
@@ -470,6 +473,7 @@ palettes_d <- list(
   Polychrome = Polychrome_pals,
   Manu = Manu_pals,
   MapPalettes = MapPalettes_pals,
+  MetBrewer = MetBrewer_pals,
   miscpalettes = miscpalettes_pals,
   palettesForR = palettesForR_pals,
   PNWColors = PNWColors_pals,

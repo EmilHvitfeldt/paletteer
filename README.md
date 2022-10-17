@@ -61,7 +61,7 @@ you need for a smooth transition of color:
 
 ![](man/figures/README-unnamed-chunk-4-1.png)<!-- -->
 
-This package includes 2442 palettes from 63 different packages and
+This package includes 2498 palettes from 64 different packages and
 information about these can be found in the following data.frames:
 `palettes_c_names`, `palettes_d_names` and `palettes_dynamic_names`.
 Additionally this [github
@@ -163,6 +163,7 @@ paletteer_c("nord::frost")
 | lisa               | [tyluRp/lisa - 0.1.2.9000](https://github.com/tyluRp/lisa)                                      | [0.1.2](https://CRAN.R-project.org/package=lisa)           |
 | Manu               | [G-Thomson/Manu - 0.0.2](https://github.com/G-Thomson/Manu)                                     | \-                                                         |
 | MapPalettes        | [disarm-platform/MapPalettes - 0.0.2](https://github.com/disarm-platform/MapPalettes)           | \-                                                         |
+| MetBrewer          | [BlakeRMills/MetBrewer - 0.2.0](https://github.com/BlakeRMills/MetBrewer)                       | [0.2.0](https://CRAN.R-project.org/package=MetBrewer)      |
 | miscpalettes       | [EmilHvitfeldt/miscpalettes - 0.0.0.9000](https://github.com/EmilHvitfeldt/miscpalettes)        | \-                                                         |
 | nationalparkcolors | [katiejolly/nationalparkcolors - 0.1.0](https://github.com/katiejolly/nationalparkcolors)       | \-                                                         |
 | nbapalettes        | [murrayjw/nbapalettes - 0.1.0.9000](https://github.com/murrayjw/nbapalettes)                    | [0.1.0](https://CRAN.R-project.org/package=nbapalettes)    |
