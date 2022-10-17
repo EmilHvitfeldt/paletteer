@@ -238,7 +238,7 @@ Manu_pals <- Manu::manu_palettes
 MapPalettes_pals <- lapply(MapPalettes:::names, MapPalettes::map_palette)
 names(MapPalettes_pals) <- MapPalettes:::names
 
-## MetBrewer ---------------------------------------------------------------
+## MetBrewer ------------------------------------------------------------------
 MetBrewer_pals <- lapply(MetBrewer::MetPalettes, function(x) x[[1]])
 
 ## miscpalettes ---------------------------------------------------------------
@@ -246,6 +246,9 @@ miscpalettes_pals <- c(
   miscpalettes::artistic,
   miscpalettes::mschart
 )
+
+## musculusColors -------------------------------------------------------------
+musculusColors_pals <- lapply(musculusColors::Bm_palettes, function(x) x[1, ])
 
 ## nationalparkcolors ---------------------------------------------------------
 nationalparkcolors_pals <- nationalparkcolors::park_palettes
@@ -475,6 +478,7 @@ palettes_d <- list(
   MapPalettes = MapPalettes_pals,
   MetBrewer = MetBrewer_pals,
   miscpalettes = miscpalettes_pals,
+  musculusColors = musculusColors_pals,
   palettesForR = palettesForR_pals,
   PNWColors = PNWColors_pals,
   rcartocolor = rcartocolors_pals,
