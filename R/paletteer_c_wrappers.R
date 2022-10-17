@@ -120,11 +120,10 @@ paletteer_c_harrypotter <- function(name, n) {
   harrypotter::hp(n = n, option = name)
 }
 
-#' @rdname paleteer-c-wrapper
-paletteer_c_gameofthrones <- function(name, n) {
-  check_installed("gameofthrones")
-  gameofthrones::got(n = n, option = name)
-}
+#' paletteer_c_gameofthrones <- function(name, n) {
+#'   check_installed("gameofthrones")
+#'   gameofthrones::got(n = n, option = name)
+#' }
 
 #' List of all wrapper functions used in paletteer_c
 #'
@@ -134,7 +133,7 @@ paletteer_c_gameofthrones <- function(name, n) {
 NULL
 
 wrapper_c <- list(
-  gameofthrones = paletteer_c_gameofthrones,
+  # gameofthrones = paletteer_c_gameofthrones,
   ggthemes      = paletteer_c_ggthemes,
   grDevices     = paletteer_c_grDevices,
   harrypotter   = paletteer_c_harrypotter,

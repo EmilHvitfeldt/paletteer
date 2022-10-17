@@ -19,7 +19,6 @@ Imports:
     rstudioapi
 Suggests: 
     covr,
-    gameofthrones (>= 1.0.0),
     ggplot2 (>= 3.3.0),
     ggthemes (>= 4.0.0),
     harrypotter (>= 2.1.0),

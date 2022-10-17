@@ -5,7 +5,7 @@
 \alias{palettes_c_names}
 \title{Names of all continuous palettes}
 \format{
-A data.frame of 337 observations with 3
+A data.frame of 319 observations with 3
 variables:
 \describe{
 \item{package}{character, name of package}
@@ -22,6 +22,6 @@ palettes included in this package.
 }
 \details{
 Contains palettes names from the following packages:
-gameofthrones, ggthemes, grDevices, harrypotter, oompaBase, palr, pals, scico, viridis.
+ggthemes, grDevices, harrypotter, oompaBase, palr, pals, scico, viridis.
 }
 \keyword{datasets}

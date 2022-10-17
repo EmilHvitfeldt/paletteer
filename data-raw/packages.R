@@ -15,7 +15,7 @@ paletteer_packages <- tibble::tribble(
   "feathers",           "shandiya/feathers",                "0.0.0.9000",  FALSE, NA,
   "fishualize",         "nschiett/fishualize",              "0.2.3",       TRUE,  "0.2.3",
   "futurevisions",      "JoeyStanley/futurevisions",        "0.1.1",       FALSE, NA,
-  "gameofthrones",      "aljrico/gameofthrones",            "1.0.2",       TRUE,  "1.0.2",
+  # "gameofthrones",      "aljrico/gameofthrones",            "1.0.2",       TRUE,  "1.0.2",
   "ggpomological",      "gadenbuie/ggpomological",          "0.1.2",       FALSE, NA,
   "ggprism",            "csdaw/ggprism",                    "1.0.3.9000",  TRUE,  "1.0.3",
   "ggsci",              "nanxstats/ggsci",                  "2.9",         TRUE,  "2.9",

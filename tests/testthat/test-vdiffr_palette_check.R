@@ -97,7 +97,8 @@ all_package_names <- unique(
 
 all_package_names <- setdiff(
   all_package_names,
-  c("gameofthrones",
+  c(
+    # "gameofthrones",
     "ggthemes",
     "harrypotter",
     "oompaBase",
@@ -118,11 +119,11 @@ test_that("colors show up correctly", {
   }
 })
 
-test_that("colors show up correctly for gameofthrones", {
-  testthat::skip_if_not_installed("vdiffr")
-  testthat::skip_if_not_installed("gameofthrones")
-  vdiffr::expect_doppelganger("gameofthrones", plot_in_one("gameofthrones")())
-})
+# test_that("colors show up correctly for gameofthrones", {
+#   testthat::skip_if_not_installed("vdiffr")
+#   testthat::skip_if_not_installed("gameofthrones")
+#   vdiffr::expect_doppelganger("gameofthrones", plot_in_one("gameofthrones")())
+# })
 
 test_that("colors show up correctly for ggthemes", {
   testthat::skip_if_not_installed("vdiffr")
