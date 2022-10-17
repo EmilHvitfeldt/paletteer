@@ -78,6 +78,10 @@ paired = list(DresdenColor::dresden_palettes$paired)
 ## dutchmasters ---------------------------------------------------------------
 dutchmasters_pals <- lapply(dutchmasters::dutchmasters, unname)
 
+
+## feathers -------------------------------------------------------------------
+feathers_pals <- feathers::feathers_palettes
+
 ## fishualize -----------------------------------------------------------------
 fishualize_pals <- split(
   as.character(fishualize::fishcolors$hex),
@@ -441,6 +445,7 @@ palettes_d <- list(
   dichromat = dichromat_pals,
   dutchmasters = dutchmasters_pals,
   DresdenColor = DresdenColor_pals,
+  feathers = feathers_pals,
   fishualize = fishualize_pals,
   futurevisions = futurevisions_pals,
   ggsci = ggsci_pals,

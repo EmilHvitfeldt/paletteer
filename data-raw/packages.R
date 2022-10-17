@@ -12,6 +12,7 @@ paletteer_packages <- tibble::tribble(
   "dichromat",          NA,                                 NA,            TRUE,  "2.0-0.1",
   "DresdenColor",       "katiesaund/DresdenColor",          "0.0.0.9000",  FALSE, NA,
   "dutchmasters",       "EdwinTh/dutchmasters",             "0.1.0",       FALSE, NA,
+  "feathers",           "shandiya/feathers",                "0.0.0.9000",  FALSE, NA,
   "fishualize",         "nschiett/fishualize",              "0.2.3",       TRUE,  "0.2.3",
   "futurevisions",      "JoeyStanley/futurevisions",        "0.1.1",       FALSE, NA,
   "gameofthrones",      "aljrico/gameofthrones",            "1.0.2",       TRUE,  "1.0.2",

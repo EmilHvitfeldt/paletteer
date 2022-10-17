@@ -61,7 +61,7 @@ you need for a smooth transition of color:
 
 ![](man/figures/README-unnamed-chunk-4-1.png)<!-- -->
 
-This package includes 2424 palettes from 62 different packages and
+This package includes 2442 palettes from 63 different packages and
 information about these can be found in the following data.frames:
 `palettes_c_names`, `palettes_d_names` and `palettes_dynamic_names`.
 Additionally this [github
@@ -144,6 +144,7 @@ paletteer_c("nord::frost")
 | dichromat          | \-                                                                                              | [2.0-0.1](https://CRAN.R-project.org/package=dichromat)    |
 | DresdenColor       | [katiesaund/DresdenColor - 0.0.0.9000](https://github.com/katiesaund/DresdenColor)              | \-                                                         |
 | dutchmasters       | [EdwinTh/dutchmasters - 0.1.0](https://github.com/EdwinTh/dutchmasters)                         | \-                                                         |
+| feathers           | [shandiya/feathers - 0.0.0.9000](https://github.com/shandiya/feathers)                          | \-                                                         |
 | fishualize         | [nschiett/fishualize - 0.2.3](https://github.com/nschiett/fishualize)                           | [0.2.3](https://CRAN.R-project.org/package=fishualize)     |
 | futurevisions      | [JoeyStanley/futurevisions - 0.1.1](https://github.com/JoeyStanley/futurevisions)               | \-                                                         |
 | gameofthrones      | [aljrico/gameofthrones - 1.0.2](https://github.com/aljrico/gameofthrones)                       | [1.0.2](https://CRAN.R-project.org/package=gameofthrones)  |
