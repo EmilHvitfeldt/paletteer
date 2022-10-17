@@ -376,6 +376,9 @@ RSkittleBrewer_pals <- lapply(
 ## rtist ----------------------------------------------------------------------
 rtist_pals <- rtist::rtist_palettes
 
+## severance ------------------------------------------------------------------
+severance_pals <- severance::severance_palettes
+
 ## soilpalettes ---------------------------------------------------------------
 soilpalettes_pals <- lapply(soilpalettes::soil_palettes, function(x) x[1, ])
 
@@ -505,6 +508,7 @@ palettes_d <- list(
   rockthemes = rockthemes_pals,
   RSkittleBrewer = RSkittleBrewer_pals,
   rtist = rtist_pals,
+  severance = severance_pals,
   soilpalettes = soilpalettes_pals,
   suffrager = suffrager_pals,
   tayloRswift = tayloRswift_pals,

@@ -61,7 +61,7 @@ you need for a smooth transition of color:
 
 ![](man/figures/README-unnamed-chunk-4-1.png)<!-- -->
 
-This package includes 2580 palettes from 68 different packages and
+This package includes 2587 palettes from 69 different packages and
 information about these can be found in the following data.frames:
 `palettes_c_names`, `palettes_d_names` and `palettes_dynamic_names`.
 Additionally this [github
@@ -189,6 +189,7 @@ paletteer_c("nord::frost")
 | RSkittleBrewer       | [alyssafrazee/RSkittleBrewer - 1.1](https://github.com/alyssafrazee/RSkittleBrewer)             | \-                                                             |
 | rtist                | [tomasokal/rtist - 1.0.0](https://github.com/tomasokal/rtist)                                   | [1.0.0](https://CRAN.R-project.org/package=rtist)              |
 | scico                | [thomasp85/scico - 1.3.1.9000](https://github.com/thomasp85/scico)                              | [1.3.1](https://CRAN.R-project.org/package=scico)              |
+| severance            | [ivelasq/severance - 0.0.0.9000](https://github.com/ivelasq/severance)                          | \-                                                             |
 | soilpalettes         | [kaizadp/soilpalettes - 0.1.0](https://github.com/kaizadp/soilpalettes)                         | \-                                                             |
 | suffrager            | [alburezg/suffrager - 0.1.0](https://github.com/alburezg/suffrager)                             | \-                                                             |
 | tayloRswift          | [asteves/tayloRswift - 0.1.0](https://github.com/asteves/tayloRswift)                           | \-                                                             |
