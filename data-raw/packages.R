@@ -25,6 +25,7 @@ paletteer_packages <- tibble::tribble(
   "grDevices",          NA,                                 NA,            TRUE,  "4.2.1",
   "harrypotter",        "aljrico/harrypotter",              "2.1.1",       TRUE,  "2.1.1",
   "IslamicArt",         "lambdamoses/IslamicArt",           "0.1.0",       FALSE, NA,
+  "impressionist.colors", NA,                               NA,            TRUE,  "1.0",
   "jcolors",            "jaredhuling/jcolors",              "0.0.4",       TRUE,  "0.0.4",
   "khroma",             "tesselle/khroma",                  "1.9.0.9000",  TRUE,  "1.9.0",
   "LaCroixColoR",       "johannesbjork/LaCroixColoR",       "0.1.0",       FALSE, NA,

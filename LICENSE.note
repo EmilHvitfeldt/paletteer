@@ -447,3 +447,10 @@ NatParksPalettes palettes
 By: Kevin Blake
 License: MIT + file LICENSE
 https://github.com/kevinsblake/NatParksPalettes/blob/main/LICENSE
+
+---
+
+impressionist.colors palettes
+By: Federico Casale
+License: GPL-3
+https://cran.r-project.org/web/packages/impressionist.colors/index.html

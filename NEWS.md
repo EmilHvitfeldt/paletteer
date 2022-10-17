@@ -7,6 +7,7 @@
 * 7 palettes have been added from the musculusColors package. (#120)
 * 21 palettes have been added from the peRReo package. (#122)
 * 30 palettes have been added from the NatParksPalettes package. (#123)
+* 24 palettes have been added from the impressionist.colors package. (#125)
 
 # paletteer 1.4.1
 

@@ -197,6 +197,15 @@ grDevices_pals <- list(blues9 = grDevices::blues9)
 ## IslamicArt -----------------------------------------------------------------
 IslamicArt_pals <- IslamicArt::islamic_palettes
 
+## impressionist.colors -------------------------------------------------------
+impressionist.colors_pals <- impressionist.colors::palette.list %>%
+  purrr::flatten() %>%
+  purrr::map("colors")
+
+names(impressionist.colors_pals) <- janitor::make_clean_names(
+  names(impressionist.colors_pals)
+)
+
 ## jcolors --------------------------------------------------------------------
 jcolors_pals <- lapply(
   list(
@@ -468,6 +477,7 @@ palettes_d <- list(
   ghibli = ghibli_pals,
   grDevices = grDevices_pals,
   IslamicArt = IslamicArt_pals,
+  impressionist.colors = impressionist.colors_pals,
   khroma = khroma_pals,
   jcolors = jcolors_pals,
   LaCroixColoR = LaCroixColoR_pals,
