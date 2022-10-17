@@ -61,7 +61,7 @@ you need for a smooth transition of color:
 
 ![](man/figures/README-unnamed-chunk-4-1.png)<!-- -->
 
-This package includes 2505 palettes from 65 different packages and
+This package includes 2526 palettes from 66 different packages and
 information about these can be found in the following data.frames:
 `palettes_c_names`, `palettes_d_names` and `palettes_dynamic_names`.
 Additionally this [github
@@ -176,6 +176,7 @@ paletteer_c("nord::frost")
 | palettetown        | [timcdlucas/palettetown - 0.1.1.90000](https://github.com/timcdlucas/palettetown)               | [0.1.1](https://CRAN.R-project.org/package=palettetown)    |
 | palr               | [AustralianAntarcticDivision/palr - 0.3.0](https://github.com/AustralianAntarcticDivision/palr) | [0.3.0](https://CRAN.R-project.org/package=palr)           |
 | pals               | [kwstat/pals - 1.7](https://github.com/kwstat/pals)                                             | [1.7](https://CRAN.R-project.org/package=pals)             |
+| peRReo             | [jbgb13/peRReo - 0.1.0](https://github.com/jbgb13/peRReo)                                       | \-                                                         |
 | PNWColors          | [jakelawlor/PNWColors - 0.1.0](https://github.com/jakelawlor/PNWColors)                         | \-                                                         |
 | Polychrome         | \-                                                                                              | [1.5.1](https://CRAN.R-project.org/package=Polychrome)     |
 | popthemes          | [johnmackintosh/popthemes - 0.0.0.9000](https://github.com/johnmackintosh/popthemes)            | \-                                                         |

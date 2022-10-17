@@ -5,7 +5,7 @@
 \alias{palettes_d}
 \title{Complete list of fixed discrete palettes}
 \format{
-A list of 58 lists.
+A list of 59 lists.
 }
 \usage{
 palettes_d
@@ -17,7 +17,7 @@ package and the second level being the palettes available in that package.
 }
 \details{
 Contains palettes from the following packages:
-DresdenColor, IslamicArt, LaCroixColoR, Manu, MapPalettes, MetBrewer, NineteenEightyR, PNWColors, Polychrome, RColorBrewer, RSkittleBrewer, Redmonder, awtools, basetheme, beyonce, calecopal, colRoz, colorBlindness, colorblindr, dichromat, dutchmasters, feathers, fishualize, futurevisions, ggpomological, ggprism, ggsci, ggthemes, ggthemr, ghibli, grDevices, jcolors, khroma, lisa, miscpalettes, musculusColors, nationalparkcolors, nbapalettes, nord, ochRe, palettesForR, palettetown, pals, rcartocolor, rockthemes, rtist, soilpalettes, suffrager, tayloRswift, tidyquant, trekcolors, tvthemes, unikn, vapeplot, vapoRwave, werpals, wesanderson, yarrr.
+DresdenColor, IslamicArt, LaCroixColoR, Manu, MapPalettes, MetBrewer, NineteenEightyR, PNWColors, Polychrome, RColorBrewer, RSkittleBrewer, Redmonder, awtools, basetheme, beyonce, calecopal, colRoz, colorBlindness, colorblindr, dichromat, dutchmasters, feathers, fishualize, futurevisions, ggpomological, ggprism, ggsci, ggthemes, ggthemr, ghibli, grDevices, jcolors, khroma, lisa, miscpalettes, musculusColors, nationalparkcolors, nbapalettes, nord, ochRe, palettesForR, palettetown, pals, peRReo, rcartocolor, rockthemes, rtist, soilpalettes, suffrager, tayloRswift, tidyquant, trekcolors, tvthemes, unikn, vapeplot, vapoRwave, werpals, wesanderson, yarrr.
 
 data.frame of palette names can be found here \code{\link{palettes_d_names}}.
 }

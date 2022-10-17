@@ -1722,6 +1722,27 @@ palettes_d_names <- tibble::tribble(
   "miscpalettes",                           "fire",     10L, "qualitative", TRUE,
   "miscpalettes",                       "seaGreen",     10L, "qualitative", TRUE,
   "miscpalettes",                   "brightPastel",     15L, "qualitative", TRUE,
+  "peRReo",                             "aventura",      9L, "qualitative", TRUE,
+  "peRReo",                            "badbunny1",      9L, "qualitative", TRUE,
+  "peRReo",                            "badbunny2",      9L, "qualitative", TRUE,
+  "peRReo",                              "badgyal",      9L, "qualitative", TRUE,
+  "peRReo",                               "beckyg",      9L, "qualitative", TRUE,
+  "peRReo",                           "buenavista",      9L, "qualitative", TRUE,
+  "peRReo",                              "calle13",      9L, "qualitative", TRUE,
+  "peRReo",                               "daddy1",      9L, "qualitative", TRUE,
+  "peRReo",                               "daddy2",      9L, "qualitative", TRUE,
+  "peRReo",                                  "don",      9L, "qualitative", TRUE,
+  "peRReo",                               "eminem",      9L, "qualitative", TRUE,
+  "peRReo",                             "ivyqueen",      9L, "qualitative", TRUE,
+  "peRReo",                               "karolg",      9L, "qualitative", TRUE,
+  "peRReo",                                "natti",      9L, "qualitative", TRUE,
+  "peRReo",                                "nicky",      9L, "qualitative", TRUE,
+  "peRReo",                                "ozuna",      9L, "qualitative", TRUE,
+  "peRReo",                                "planb",      9L, "qualitative", TRUE,
+  "peRReo",                                 "rauw",      9L, "qualitative", TRUE,
+  "peRReo",                              "rosalia",      9L, "qualitative", TRUE,
+  "peRReo",                              "shakira",      9L, "qualitative", TRUE,
+  "peRReo",                                  "wyy",      9L, "qualitative", TRUE,
   "palettesForR",                        "Android",     15L, "qualitative", TRUE,
   "palettesForR",                          "Bears",    256L, "qualitative", TRUE,
   "palettesForR",                          "Bgold",    256L, "qualitative", TRUE,
@@ -2160,3 +2181,4 @@ palettes_d_names <- tibble::tribble(
 )
 
 usethis::use_data(palettes_d_names, overwrite = TRUE)
+

@@ -303,6 +303,9 @@ pals_pals <- lapply(
   unname
 )
 
+## peRReo ---------------------------------------------------------------------
+peRReo_pals <- peRReo::latin_palettes
+
 ## PNWColors ------------------------------------------------------------------
 PNWColors_pals <- lapply(PNWColors::pnw_palettes, function(x) x[1, ])
 
@@ -480,6 +483,7 @@ palettes_d <- list(
   miscpalettes = miscpalettes_pals,
   musculusColors = musculusColors_pals,
   palettesForR = palettesForR_pals,
+  peRReo = peRReo_pals,
   PNWColors = PNWColors_pals,
   rcartocolor = rcartocolors_pals,
   RColorBrewer = rcolorbrewer_pals,

@@ -44,6 +44,7 @@ paletteer_packages <- tibble::tribble(
   "palettetown",        "timcdlucas/palettetown",           "0.1.1.90000", TRUE,  "0.1.1",
   "palr",               "AustralianAntarcticDivision/palr", "0.3.0",       TRUE,  "0.3.0",
   "pals",               "kwstat/pals",                      "1.7",         TRUE,  "1.7",
+  "peRReo",             "jbgb13/peRReo",                    "0.1.0",       FALSE, NA,
   "PNWColors",          "jakelawlor/PNWColors",             "0.1.0",       FALSE, NA,
   "Polychrome",         NA,                                 NA,            TRUE,  "1.5.1",
   "popthemes",          "johnmackintosh/popthemes",         "0.0.0.9000",  FALSE, NA,
