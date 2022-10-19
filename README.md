@@ -61,7 +61,7 @@ you need for a smooth transition of color:
 
 ![](man/figures/README-unnamed-chunk-4-1.png)<!-- -->
 
-This package includes 2587 palettes from 69 different packages and
+This package includes 2569 palettes from 68 different packages and
 information about these can be found in the following data.frames:
 `palettes_c_names`, `palettes_d_names` and `palettes_dynamic_names`.
 Additionally this [github
@@ -147,7 +147,6 @@ paletteer_c("nord::frost")
 | feathers             | [shandiya/feathers - 0.0.0.9000](https://github.com/shandiya/feathers)                          | \-                                                             |
 | fishualize           | [nschiett/fishualize - 0.2.3](https://github.com/nschiett/fishualize)                           | [0.2.3](https://CRAN.R-project.org/package=fishualize)         |
 | futurevisions        | [JoeyStanley/futurevisions - 0.1.1](https://github.com/JoeyStanley/futurevisions)               | \-                                                             |
-| gameofthrones        | [aljrico/gameofthrones - 1.0.2](https://github.com/aljrico/gameofthrones)                       | [1.0.2](https://CRAN.R-project.org/package=gameofthrones)      |
 | ggpomological        | [gadenbuie/ggpomological - 0.1.2](https://github.com/gadenbuie/ggpomological)                   | \-                                                             |
 | ggprism              | [csdaw/ggprism - 1.0.3.9000](https://github.com/csdaw/ggprism)                                  | [1.0.3](https://CRAN.R-project.org/package=ggprism)            |
 | ggsci                | [nanxstats/ggsci - 2.9](https://github.com/nanxstats/ggsci)                                     | [2.9](https://CRAN.R-project.org/package=ggsci)                |

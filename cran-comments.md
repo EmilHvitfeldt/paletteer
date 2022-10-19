@@ -1,7 +1,6 @@
-## Test environments
-* local R installation, R 4.1.0
-* ubuntu 16.04 (on travis-ci), R 4.1.0
-* win-builder (devel)
+## Release Summary
+
+Package have been updated to properly insure that it handled it when noSuggest errors come up.
 
 ## R CMD check results
 
@@ -9,6 +8,4 @@
 
 ## Reverse dependencies
 
-vdiff is set to be used conditionally adhere with M1 Macs issues.
-
-Checked all 6 reverse dependencies. No issues.
+Checked all 11 reverse dependencies. No issues.
