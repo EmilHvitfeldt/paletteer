@@ -1,3 +1,5 @@
+# paletteer (development version)
+
 # paletteer 1.5.0
 
 * Added sky palette from khroma package.
