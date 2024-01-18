@@ -18,9 +18,15 @@ test_that("scale_*_paletteer_binned correctly assigns colors", {
     ggplot2::geom_raster() +
     scale_fill_paletteer_binned("scico::berlin")
 
-  expect_equal(ggplot2::layer_data(p1)$colour, c("#65A6E1", "#183E4F", "#CC7D72"))
-  expect_equal(ggplot2::layer_data(p2)$colour, c("#65A6E1", "#183E4F", "#CC7D72"))
-  expect_equal(ggplot2::layer_data(p3)$fill, c("#65A6E1", "#183E4F", "#CC7D72"))
+  colours <- if (utils::packageVersion("ggplot2") < "3.5.0") {
+    c("#65A6E1", "#183E4F", "#CC7D72")
+  } else {
+    c("#519FD2", "#13313E", "#BB6C60")
+  }
+
+  expect_equal(ggplot2::layer_data(p1)$colour, colours)
+  expect_equal(ggplot2::layer_data(p2)$colour, colours)
+  expect_equal(ggplot2::layer_data(p3)$fill, colours)
 })
 
 test_that("scale_*_paletteer_binned correctly used direction", {
@@ -49,12 +55,25 @@ test_that("scale_*_paletteer_binned correctly used direction", {
     ggplot2::geom_raster() +
     scale_fill_paletteer_binned("scico::berlin", direction = -1)
 
-  expect_equal(ggplot2::layer_data(p1)$colour, c("#65A6E1", "#183E4F", "#CC7D72"))
-  expect_equal(ggplot2::layer_data(p2)$colour, c("#65A6E1", "#183E4F", "#CC7D72"))
-  expect_equal(ggplot2::layer_data(p3)$fill, c("#65A6E1", "#183E4F", "#CC7D72"))
-  expect_equal(ggplot2::layer_data(p4)$colour, c("#CC7D72", "#4B1501", "#65A6E1"))
-  expect_equal(ggplot2::layer_data(p5)$colour, c("#CC7D72", "#4B1501", "#65A6E1"))
-  expect_equal(ggplot2::layer_data(p6)$fill, c("#CC7D72", "#4B1501", "#65A6E1"))
+  colours <- if (utils::packageVersion("ggplot2") < "3.5.0") {
+    c("#65A6E1", "#183E4F", "#CC7D72")
+  } else {
+    c("#519FD2", "#13313E", "#BB6C60")
+  }
+
+  expect_equal(ggplot2::layer_data(p1)$colour, colours)
+  expect_equal(ggplot2::layer_data(p2)$colour, colours)
+  expect_equal(ggplot2::layer_data(p3)$fill, colours)
+
+  colours <- if (utils::packageVersion("ggplot2") < "3.5.0") {
+    c("#CC7D72", "#4B1501", "#65A6E1")
+  } else {
+    c("#BB6C60", "#3F1200", "#519FD2")
+  }
+
+  expect_equal(ggplot2::layer_data(p4)$colour, colours)
+  expect_equal(ggplot2::layer_data(p5)$colour, colours)
+  expect_equal(ggplot2::layer_data(p6)$fill, colours)
 })
 
 test_that("scale_*_paletteer_binned works with quoted palettes", {
