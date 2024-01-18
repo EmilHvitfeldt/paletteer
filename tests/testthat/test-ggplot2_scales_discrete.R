@@ -78,31 +78,27 @@ test_that("scale_*_paletteer_d correctly used direction", {
 
 test_that("scale_*_paletteer_d works with quoted palettes", {
   testthat::skip_if_not_installed("ggplot2")
-  expect_equal(
-    ggplot2::ggplot(df, ggplot2::aes(x, y, colour = color)) +
-      ggplot2::geom_point() +
-      scale_colour_paletteer_d(`"nord::lumina"`),
-    ggplot2::ggplot(df, ggplot2::aes(x, y, colour = color)) +
-      ggplot2::geom_point() +
-      scale_colour_paletteer_d("nord::lumina")
+
+  expect_equal_scales <- function(x, y, ...) {
+    x <- as.list(x)
+    y <- as.list(y)
+    x$call <- y$call <- NULL # the calls are different between quoted/unquoted
+    expect_equal(x, y, ...)
+  }
+
+  expect_equal_scales(
+    scale_colour_paletteer_d(`"nord::lumina"`),
+    scale_colour_paletteer_d("nord::lumina")
   )
 
-  expect_equal(
-    ggplot2::ggplot(df, ggplot2::aes(x, y, color = color)) +
-      ggplot2::geom_point() +
-      scale_color_paletteer_d(palette = `"nord::lumina"`),
-    ggplot2::ggplot(df, ggplot2::aes(x, y, color = color)) +
-      ggplot2::geom_point() +
-      scale_color_paletteer_d("nord::lumina")
+  expect_equal_scales(
+    scale_color_paletteer_d(palette = `"nord::lumina"`),
+    scale_color_paletteer_d("nord::lumina")
   )
 
-  expect_equal(
-    ggplot2::ggplot(df, ggplot2::aes(x, y, fill = color)) +
-      ggplot2::geom_raster() +
-      scale_fill_paletteer_d(`"nord::lumina"`),
-    ggplot2::ggplot(df, ggplot2::aes(x, y, fill = color)) +
-      ggplot2::geom_raster() +
-      scale_fill_paletteer_d("nord::lumina")
+  expect_equal_scales(
+    scale_fill_paletteer_d(`"nord::lumina"`),
+    scale_fill_paletteer_d("nord::lumina")
   )
 })
 
