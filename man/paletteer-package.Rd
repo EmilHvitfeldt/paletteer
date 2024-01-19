@@ -2,7 +2,6 @@
 % Please edit documentation in R/paletteer-package.R, R/paletteer.R
 \docType{package}
 \name{paletteer-package}
-\alias{paletteer}
 \alias{paletteer-package}
 \title{paletteer: Comprehensive Collection of Color Palettes}
 \description{

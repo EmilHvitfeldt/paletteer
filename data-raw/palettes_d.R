@@ -244,8 +244,15 @@ lisa_pals <- lisa::lisa
 Manu_pals <- Manu::manu_palettes
 
 ## MapPalettes ----------------------------------------------------------------
-MapPalettes_pals <- lapply(MapPalettes:::names, MapPalettes::map_palette)
-names(MapPalettes_pals) <- MapPalettes:::names
+# https://github.com/disarm-platform/MapPalettes/blob/e0bcbb69a85b75bd48c754dfc8ff18ba7b71a7ad/R/mappalettes_function.R#L12-L41
+MapPalettes_pals <- list(
+  green_machine = c("#1D3141", "#096168", "#209478", "#75C56E", "#E2EE5E"),
+  bruiser = c("#1E313E", "#4E475F", "#8B5975", "#C86C7C", "#FA8975"),
+  tealberry_pie = c("#00778A", "#82A2BF", "#D4D2E5", "#B77DAF", "#A30248"),
+  the_joker = c("#488F31", "#8CBCAC", "#F1F1F1", "#B896D6", "#783DBA"),
+  sunset = c("#F09000", "#FEC289", "#F6F6F6", "#9DC7E4", "#0099D1"),
+  irish_flag = c("#2A8F27", "#95C08B", "#F1F1F1", "#FFBEFE", "#FF8B26")
+)
 
 ## MetBrewer ------------------------------------------------------------------
 MetBrewer_pals <- lapply(MetBrewer::MetPalettes, function(x) x[[1]])
