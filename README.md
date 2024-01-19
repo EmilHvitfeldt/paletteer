@@ -5,13 +5,12 @@
 
 <!-- badges: start -->
 
-[![R build
-status](https://github.com/EmilHvitfeldt/paletteer/workflows/R-CMD-check/badge.svg)](https://github.com/EmilHvitfeldt/paletteer/actions)
+[![R-CMD-check](https://github.com/tidymodels/recipes/workflows/R-CMD-check/badge.svg)](https://github.com/tidymodels/recipes/actions)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/paletteer)](https://cran.r-project.org/package=paletteer)
 [![CRAN_Download_Badge](http://cranlogs.r-pkg.org/badges/paletteer)](https://CRAN.R-project.org/package=paletteer)
 [![Codecov test
-coverage](https://codecov.io/gh/EmilHvitfeldt/paletteer/branch/main/graph/badge.svg)](https://codecov.io/github/EmilHvitfeldt/paletteer?branch=main)
+coverage](https://codecov.io/gh/tidymodels/recipes/branch/main/graph/badge.svg)](https://app.codecov.io/gh/tidymodels/recipes?branch=main)
 [![Lifecycle:
 stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html)
 <!-- badges: end -->
