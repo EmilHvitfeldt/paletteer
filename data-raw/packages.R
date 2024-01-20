@@ -65,6 +65,7 @@ paletteer_packages <- tibble::tribble(
   "trekcolors",         "leonawicz/trekcolors",             "0.1.3",       TRUE,  "0.1.3",
   "tvthemes",           "Ryo-N7/tvthemes",                  "1.3.2",       TRUE,  "1.3.2",
   "unikn",              "hneth/unikn",                      "0.9.0.9008",  TRUE,  "0.9.0",
+  "vangogh",            "cherylisabella/vangogh",           "0.1.1",       TRUE,  "0.1.1",
   "vapeplot",           "seasmith/vapeplot",                "0.1.0",       FALSE, NA,
   "vapoRwave",          "moldach/vapoRwave",                "0.3.0",       FALSE, NA,
   "viridis",            "sjmgarnier/viridis",               "0.6.4",       TRUE,  "0.6.4",

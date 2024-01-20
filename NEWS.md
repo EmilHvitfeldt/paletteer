@@ -1,5 +1,7 @@
 # paletteer (development version)
 
+* 15 palettes have been added from vangogh package. (#133)
+
 # paletteer 1.5.0
 
 * Added sky palette from khroma package.

@@ -426,6 +426,9 @@ tvthemes_pals <- c(
 unikn_pals <- lapply(unikn:::all_palkn, function(x) unname(unlist(getFromNamespace(x, ns = "unikn"))))
 names(unikn_pals) <- unikn:::all_palkn
 
+## vangogh ---------------------------------------------------------------------
+vangogh_pals <- vangogh::vangogh_palettes
+
 ## vapeplot ------------------------------------------------------------------
 vapeplot_pals <- vapeplot::vapeplot_palettes
 
@@ -523,6 +526,7 @@ palettes_d <- list(
   trekcolors = trekcolors_pals,
   tvthemes = tvthemes_pals,
   unikn = unikn_pals,
+  vangogh = vangogh_pals,
   vapeplot = vapeplot_pals,
   vapoRwave = vapoRwave_pals,
   werpals = werpals_pals,

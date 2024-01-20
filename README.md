@@ -60,7 +60,7 @@ you need for a smooth transition of color:
 
 ![](man/figures/README-unnamed-chunk-4-1.png)<!-- -->
 
-This package includes 2569 palettes from 68 different packages and
+This package includes 2605 palettes from 69 different packages and
 information about these can be found in the following data.frames:
 `palettes_c_names`, `palettes_d_names` and `palettes_dynamic_names`.
 Additionally this [github
@@ -195,6 +195,7 @@ paletteer_c("nord::frost")
 | trekcolors           | [leonawicz/trekcolors - 0.1.3](https://github.com/leonawicz/trekcolors)                         | [0.1.3](https://CRAN.R-project.org/package=trekcolors)         |
 | tvthemes             | [Ryo-N7/tvthemes - 1.3.2](https://github.com/Ryo-N7/tvthemes)                                   | [1.3.2](https://CRAN.R-project.org/package=tvthemes)           |
 | unikn                | [hneth/unikn - 0.9.0.9008](https://github.com/hneth/unikn)                                      | [0.9.0](https://CRAN.R-project.org/package=unikn)              |
+| vangogh              | [cherylisabella/vangogh - 0.1.1](https://github.com/cherylisabella/vangogh)                     | [0.1.1](https://CRAN.R-project.org/package=vangogh)            |
 | vapeplot             | [seasmith/vapeplot - 0.1.0](https://github.com/seasmith/vapeplot)                               | \-                                                             |
 | vapoRwave            | [moldach/vapoRwave - 0.3.0](https://github.com/moldach/vapoRwave)                               | \-                                                             |
 | viridis              | [sjmgarnier/viridis - 0.6.4](https://github.com/sjmgarnier/viridis)                             | [0.6.4](https://CRAN.R-project.org/package=viridis)            |
