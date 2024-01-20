@@ -11,7 +11,7 @@ In `data-raw/palettes_d.R` add a function (ordered alphabetically) in the format
 
 Where <package>_pals should be a single level named list of palettes. Add the list to the `palettes_d` list in the end of the document and run the full script.  
 
-run script `data-raw/palettes_d_names.R`.
+Modify and run script `data-raw/palettes_d_names.R`.
 
 run `devtools::document()`.  
 
@@ -28,7 +28,7 @@ Include bullet in `NEWS.md` file.
 ## Github issue template
 
 - [ ] Modify `data-raw/palettes_d.R`
-- [ ] run `data-raw/palettes_d_names.R` script
+- [ ] Modify and Run `data-raw/palettes_d_names.R` script
 - [ ] run `devtools::document()`
 - [ ] Include license reference in `LICENSE` file.
 - [ ] Include package information in `data-raw/packages` and run.
