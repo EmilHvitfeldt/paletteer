@@ -57,3 +57,12 @@ test_that("paletteer_d works when called from another function", {
     paletteer_d("wesanderson::Royal1", 4)
   )
 })
+
+
+test_that("palettes_d_names has the right number of rows", {
+
+  expect_identical(
+    length(unlist(lapply(palettes_d, names))),
+    nrow(palettes_d_names)
+  )
+})
