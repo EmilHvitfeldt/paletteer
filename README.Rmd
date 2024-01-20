@@ -15,10 +15,10 @@ knitr::opts_chunk$set(
 # paletteer <img src='man/figures/logo.png' style="float:right" height="139" />
 
 <!-- badges: start -->
-[![R-CMD-check](https://github.com/tidymodels/recipes/workflows/R-CMD-check/badge.svg)](https://github.com/tidymodels/recipes/actions)
+[![R-CMD-check](https://github.com/emilhvitfeldt/paletteer/workflows/R-CMD-check/badge.svg)](https://github.com/emilhvitfeldt/paletteer/actions)
 [![CRAN status](https://www.r-pkg.org/badges/version/paletteer)](https://cran.r-project.org/package=paletteer)
 [![CRAN_Download_Badge](http://cranlogs.r-pkg.org/badges/paletteer)](https://CRAN.R-project.org/package=paletteer)
-[![Codecov test coverage](https://codecov.io/gh/tidymodels/recipes/branch/main/graph/badge.svg)](https://app.codecov.io/gh/tidymodels/recipes?branch=main)
+[![Codecov test coverage](https://codecov.io/gh/emilhvitfeldt/paletteer/branch/main/graph/badge.svg)](https://app.codecov.io/gh/emilhvitfeldt/paletteer?branch=main)
 [![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html)
 <!-- badges: end -->
 
