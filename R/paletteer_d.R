@@ -18,7 +18,7 @@
 paletteer_d <- function(palette, n, direction = 1,
                         type = c("discrete", "continuous")) {
   if (abs(direction) != 1) {
-    abort("direction must be 1 or -1")
+    abort("`direction` must be 1 or -1.")
   }
 
   type <- match.arg(type)

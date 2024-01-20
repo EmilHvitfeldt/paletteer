@@ -13,7 +13,7 @@
 #' @export
 paletteer_c <- function(palette, n, direction = 1) {
   if (abs(direction) != 1) {
-    abort("direction must be 1 or -1")
+    abort("`direction` must be 1 or -1.")
   }
 
   palette <- try(palette, silent = TRUE)
