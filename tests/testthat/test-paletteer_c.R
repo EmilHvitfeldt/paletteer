@@ -1,5 +1,3 @@
-context("test-paletteer_c")
-
 test_that("paletteer_c return correct number of colors", {
   expect_length(paletteer_c("grDevices::rainbow", 3), 3)
   expect_length(paletteer_c("grDevices::rainbow", 9), 9)
@@ -42,3 +40,24 @@ test_that("paletteer_c works when called from another function", {
     paletteer_c("grDevices::rainbow", 4)
   )
 })
+
+test_that("paletteer_c works with ggthemes", {
+  expect_identical(
+    length(paletteer_c("ggthemes::Blue", n = 4)),
+    4L
+  )
+
+  expect_identical(
+    length(paletteer_c("ggthemes::Orange-Blue Diverging", n = 5)),
+    5L
+  )
+})
+
+test_that("paletteer_c works with harrypotter", {
+  expect_identical(
+    length(paletteer_c("harrypotter::always", n = 4)),
+    4L
+  )
+})
+
+

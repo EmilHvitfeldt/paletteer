@@ -1,5 +1,3 @@
-context("test-paletteer_c-wrappers")
-
 test_that("paletteer_c_ggthemes return correct number of colors", {
   testthat::skip_if_not_installed("ggthemes")
   expect_length(paletteer_c_ggthemes("Blue", 10), 10)

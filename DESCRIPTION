@@ -32,6 +32,7 @@ Suggests:
     vdiffr,
     viridisLite
 Copyright: See LICENSE.note file.
+Config/testthat/edition: 3
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)

@@ -1,5 +1,3 @@
-context("test-paletteer_d")
-
 test_that("paletteer_d return correct number of colors", {
   expect_length(paletteer_d("wesanderson::Royal1", 3), 3)
   expect_length(paletteer_d("grDevices::blues9", 9), 9)
@@ -66,3 +64,11 @@ test_that("palettes_d_names has the right number of rows", {
     nrow(palettes_d_names)
   )
 })
+
+test_that("paletteer_d errors with wrong names", {
+  expect_snapshot(
+    error = TRUE,
+    paletteer_d("paletteer::notreal")
+  )
+})
+

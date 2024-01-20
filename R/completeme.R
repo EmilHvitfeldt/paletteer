@@ -1,5 +1,5 @@
 # borrowed main bits from https://github.com/jimhester/completeme (when it is put on CRAN will import directly from it)
-
+# nocov start
 the <- new.env(parent = emptyenv())
 the$completions <- list()
 complete_token <- get(".completeToken", asNamespace("utils"))
@@ -137,3 +137,4 @@ paletteer_d_completer <- function(env) {
   rc.options(custom.completer = completeme)
   register_completion(paletteer = paletteer_d_completer)
 }
+# nocov end

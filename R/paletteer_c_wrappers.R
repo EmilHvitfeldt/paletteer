@@ -37,19 +37,6 @@ paletteer_c_ggthemes <- function(name, n) {
 
   name <- try(match.arg(name, c(ggthemes_c_seq_names, ggthemes_c_div_names)), silent = T)
 
-  if (inherits(name, "try-error")) {
-    ggthemes_list <- paste(c(
-      ggthemes_c_seq_names,
-      ggthemes_c_div_names
-    ),
-    collapse = "\n"
-    )
-    stop(sprintf(
-      'Error in match.arg, "arg" should be one of: \n%s',
-      ggthemes_list
-    ))
-  }
-
   if (name %in% ggthemes_c_seq_names) {
     pal_gen <- ggthemes::tableau_seq_gradient_pal(palette = name)
   } else {
