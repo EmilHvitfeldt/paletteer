@@ -42,6 +42,8 @@ test_that("paletteer_c works when called from another function", {
 })
 
 test_that("paletteer_c works with ggthemes", {
+  testthat::skip_if_not_installed("ggthemes")
+
   expect_identical(
     length(paletteer_c("ggthemes::Blue", n = 4)),
     4L
@@ -54,6 +56,8 @@ test_that("paletteer_c works with ggthemes", {
 })
 
 test_that("paletteer_c works with harrypotter", {
+  testthat::skip_if_not_installed("harrypotter")
+
   expect_identical(
     length(paletteer_c("harrypotter::always", n = 4)),
     4L
