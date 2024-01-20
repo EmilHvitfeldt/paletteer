@@ -4,6 +4,7 @@ paletteer_packages <- tibble::tribble(
   "awtools",            "awhstin/awtools",                  "0.2.1",       FALSE, NA,
   "basetheme",          "karoliskoncevicius/basetheme",     "0.1.3",       TRUE,  "0.1.3",
   "beyonce",            "dill/beyonce",                     "0.1",         FALSE, NA,
+  "ButterflyColors",    "junqueiragaabi/ButterflyColors",   "0.0.0.9000",  FALSE, NA,
   "calecopal",          "an-bui/calecopal",                 "0.1.0",       FALSE, NA,
   "cartography",        "riatelab/cartography",             "3.1.5",       TRUE,  "3.1.4",
   "colorBlindness",     NA,                                 NA,            TRUE,  "0.1.9",

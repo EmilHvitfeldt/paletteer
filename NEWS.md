@@ -1,6 +1,7 @@
 # paletteer (development version)
 
 * 15 palettes have been added from vangogh package. (#133)
+* 30 palettes have been added from ButterflyColors package. (#136)
 
 # paletteer 1.5.0
 

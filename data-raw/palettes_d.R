@@ -28,6 +28,9 @@ beyonce_pals <- setNames(
   seq_along(beyonce::beyonce_palettes)
 )
 
+## ButterflyColors ------------------------------------------------------------------
+ButterflyColors_pals <- ButterflyColors::butterfly_species
+
 ## calecopal ------------------------------------------------------------------
 calecopal_pals <- calecopal::cal_palettes
 
@@ -472,6 +475,7 @@ palettes_d <- list(
   awtools = awtools_pals,
   basetheme = basetheme_pals,
   beyonce = beyonce_pals,
+  ButterflyColors = ButterflyColors_pals,
   calecopal = calecopal_pals,
   colorBlindness = colorBlindness_pals,
   colorblindr = colorblindr_pals,
