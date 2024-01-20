@@ -2,6 +2,7 @@
 
 * 15 palettes have been added from vangogh package. (#133)
 * 30 palettes have been added from ButterflyColors package. (#136)
+* 35 palettes have been added from MoMAColors package. (#142)
 
 # paletteer 1.5.0
 

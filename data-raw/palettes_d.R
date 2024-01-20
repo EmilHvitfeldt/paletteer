@@ -266,6 +266,9 @@ miscpalettes_pals <- c(
   miscpalettes::mschart
 )
 
+## MoMAColors -------------------------------------------------------------
+MoMAColors_pals <- lapply(MoMAColors::MoMAPalettes, function(x) x[[1]])
+
 ## musculusColors -------------------------------------------------------------
 musculusColors_pals <- lapply(musculusColors::Bm_palettes, function(x) x[1, ])
 
@@ -512,6 +515,7 @@ palettes_d <- list(
   MapPalettes = MapPalettes_pals,
   MetBrewer = MetBrewer_pals,
   miscpalettes = miscpalettes_pals,
+  MoMAColors = MoMAColors_pals,
   musculusColors = musculusColors_pals,
   palettesForR = palettesForR_pals,
   peRReo = peRReo_pals,
