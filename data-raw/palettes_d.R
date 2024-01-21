@@ -468,6 +468,9 @@ werpals_pals <- lapply(
   unname
 )
 
+## waRhol ----------------------------------------------------------------------
+waRhol_pals <- waRhol::warhol_palettes
+
 ## wesanderson ----------------------------------------------------------------
 wesanderson_pals <- wesanderson::wes_palettes
 
@@ -541,6 +544,7 @@ palettes_d <- list(
   vangogh = vangogh_pals,
   vapeplot = vapeplot_pals,
   vapoRwave = vapoRwave_pals,
+  waRhol = waRhol_pals,
   werpals = werpals_pals,
   wesanderson = wesanderson_pals,
   yarrr = yarrr_pals

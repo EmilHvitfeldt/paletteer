@@ -60,7 +60,7 @@ you need for a smooth transition of color:
 
 ![](man/figures/README-unnamed-chunk-4-1.png)<!-- -->
 
-This package includes 2702 palettes from 72 different packages and
+This package includes 2717 palettes from 73 different packages and
 information about these can be found in the following data.frames:
 `palettes_c_names`, `palettes_d_names` and `palettes_dynamic_names`.
 Additionally this [github
@@ -203,6 +203,7 @@ paletteer_c("nord::frost")
 | vapoRwave            | [moldach/vapoRwave - 0.3.0](https://github.com/moldach/vapoRwave)                                | \-                                                             |
 | viridis              | [sjmgarnier/viridis - 0.6.4](https://github.com/sjmgarnier/viridis)                              | [0.6.4](https://CRAN.R-project.org/package=viridis)            |
 | visibly              | [m-clark/visibly - 0.2.9](https://github.com/m-clark/visibly)                                    | \-                                                             |
+| waRhol               | [alexskeels/waRhol - 0.1.0](https://github.com/alexskeels/waRhol)                                | \-                                                             |
 | werpals              | [sciencificity/werpals - 0.1.0](https://github.com/sciencificity/werpals)                        | \-                                                             |
 | wesanderson          | [karthik/wesanderson - 0.3.7](https://github.com/karthik/wesanderson)                            | [0.3.7](https://CRAN.R-project.org/package=wesanderson)        |
 | yarrr                | [ndphillips/yarrr - 0.1.6](https://github.com/ndphillips/yarrr)                                  | [NA](https://CRAN.R-project.org/package=yarrr)                 |

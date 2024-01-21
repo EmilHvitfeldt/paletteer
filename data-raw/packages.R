@@ -73,6 +73,7 @@ paletteer_packages <- tibble::tribble(
   "vapoRwave",          "moldach/vapoRwave",                "0.3.0",       FALSE, NA,
   "viridis",            "sjmgarnier/viridis",               "0.6.4",       TRUE,  "0.6.4",
   "visibly",            "m-clark/visibly",                  "0.2.9",       FALSE, NA,
+  "waRhol",             "alexskeels/waRhol",                "0.1.0",       FALSE, NA,
   "werpals",            "sciencificity/werpals",            "0.1.0",       FALSE, NA,
   "wesanderson",        "karthik/wesanderson",              "0.3.7",       TRUE,  "0.3.7",
   "yarrr",              "ndphillips/yarrr",                 "0.1.6",       TRUE,  NA
