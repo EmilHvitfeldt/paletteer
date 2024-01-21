@@ -5,7 +5,7 @@
 \alias{palettes_d_names}
 \title{Names of all fixed discrete palettes}
 \format{
-A data.frame of 2326 observations with 4
+A data.frame of 2358 observations with 4
 variables:
 \describe{
 \item{package}{character, name of package}
@@ -23,7 +23,7 @@ of fixed lengths included in this package.
 }
 \details{
 Contains palettes names from the following packages:
-ButterflyColors, DresdenColor, IslamicArt, LaCroixColoR, Manu, MapPalettes, MetBrewer, MoMAColors, NatParksPalettes, NineteenEightyR, PNWColors, Polychrome, RColorBrewer, RSkittleBrewer, Redmonder, awtools, basetheme, beyonce, calecopal, colRoz, colorBlindness, colorblindr, dichromat, dutchmasters, feathers, fishualize, futurevisions, ggpomological, ggprism, ggsci, ggthemes, ggthemr, ghibli, grDevices, impressionist.colors, jcolors, khroma, lisa, miscpalettes, musculusColors, nationalparkcolors, nbapalettes, nord, ochRe, palettesForR, palettetown, pals, peRReo, rcartocolor, rockthemes, rtist, severance, soilpalettes, suffrager, tayloRswift, tidyquant, trekcolors, tvthemes, unikn, vangogh, vapeplot, vapoRwave, werpals, wesanderson, yarrr.
+ButterflyColors, DresdenColor, IslamicArt, LaCroixColoR, Manu, MapPalettes, MetBrewer, MoMAColors, NatParksPalettes, NineteenEightyR, PNWColors, Polychrome, PrettyCols, RColorBrewer, RSkittleBrewer, Redmonder, awtools, basetheme, beyonce, calecopal, colRoz, colorBlindness, colorblindr, dichromat, dutchmasters, feathers, fishualize, futurevisions, ggpomological, ggprism, ggsci, ggthemes, ggthemr, ghibli, grDevices, impressionist.colors, jcolors, khroma, lisa, miscpalettes, musculusColors, nationalparkcolors, nbapalettes, nord, ochRe, palettesForR, palettetown, pals, peRReo, rcartocolor, rockthemes, rtist, severance, soilpalettes, suffrager, tayloRswift, tidyquant, trekcolors, tvthemes, unikn, vangogh, vapeplot, vapoRwave, werpals, wesanderson, yarrr.
 
 Full list of palette can be found here \code{\link{palettes_d}}.
 }

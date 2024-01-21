@@ -60,7 +60,7 @@ you need for a smooth transition of color:
 
 ![](man/figures/README-unnamed-chunk-4-1.png)<!-- -->
 
-This package includes 2670 palettes from 71 different packages and
+This package includes 2702 palettes from 72 different packages and
 information about these can be found in the following data.frames:
 `palettes_c_names`, `palettes_d_names` and `palettes_dynamic_names`.
 Additionally this [github
@@ -144,6 +144,7 @@ paletteer_c("nord::frost")
 | NineteenEightyR      | [m-clark/NineteenEightyR - 0.1.0](https://github.com/m-clark/NineteenEightyR)                    | \-                                                             |
 | PNWColors            | [jakelawlor/PNWColors - 0.1.0](https://github.com/jakelawlor/PNWColors)                          | \-                                                             |
 | Polychrome           | \-                                                                                               | [1.5.1](https://CRAN.R-project.org/package=Polychrome)         |
+| PrettyCols           | [nrennie/PrettyCols - 1.0.1.9001](https://github.com/nrennie/PrettyCols)                         | [1.0.1](https://CRAN.R-project.org/package=PrettyCols)         |
 | RColorBrewer         | \-                                                                                               | [1.1.3](https://CRAN.R-project.org/package=RColorBrewer)       |
 | RSkittleBrewer       | [alyssafrazee/RSkittleBrewer - 1.1](https://github.com/alyssafrazee/RSkittleBrewer)              | \-                                                             |
 | Redmonder            | \-                                                                                               | [0.2.0](https://CRAN.R-project.org/package=Redmonder)          |

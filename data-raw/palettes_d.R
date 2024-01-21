@@ -352,6 +352,9 @@ Polychrome_pals <- lapply(
 ## popthemes ------------------------------------------------------------------
 popthemes_pals <- popthemes:::pop_palettes
 
+## PrettyCols -----------------------------------------------------------------
+PrettyCols_pals <- lapply(PrettyCols::PrettyColsPalettes, function(x) x[[1]])
+
 ## rcartocolor ----------------------------------------------------------------
 rcartocolors_pals <- lapply(
   rcartocolor::cartocolors$Name,
@@ -520,6 +523,7 @@ palettes_d <- list(
   palettesForR = palettesForR_pals,
   peRReo = peRReo_pals,
   PNWColors = PNWColors_pals,
+  PrettyCols = PrettyCols_pals,
   rcartocolor = rcartocolors_pals,
   RColorBrewer = rcolorbrewer_pals,
   Redmonder = redmonder_pals,

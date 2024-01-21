@@ -52,6 +52,7 @@ paletteer_packages <- tibble::tribble(
   "PNWColors",          "jakelawlor/PNWColors",             "0.1.0",       FALSE, NA,
   "Polychrome",         NA,                                 NA,            TRUE,  "1.5.1",
   "popthemes",          "johnmackintosh/popthemes",         "0.0.0.9000",  FALSE, NA,
+  "PrettyCols",         "nrennie/PrettyCols",               "1.0.1.9001",  TRUE,  "1.0.1",
   "rcartocolor",        "Nowosad/rcartocolor",              "2.1.1",       TRUE,  "2.1.1",
   "RColorBrewer",       NA,                                 NA,            TRUE,  "1.1.3",
   "Redmonder",          NA,                                 NA,            TRUE,  "0.2.0",
