@@ -1,7 +1,7 @@
 citHeader("To cite paletteer in publications use:")
 
 bibentry(
-  entry    = "manual",
+  bibtype  = "manual",
   title    = "paletteer: Comprehensive Collection of Color Palettes",
   author   = "Emil Hvitfeldt",
   year     = "2021",
