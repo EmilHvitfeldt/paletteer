@@ -30,7 +30,7 @@ paletteer_packages <- tibble::tribble(
   "jcolors",            "jaredhuling/jcolors",              "0.0.5",       FALSE, NA,
   "khroma",             "tesselle/khroma",                  "1.12.0.9000", TRUE,  "1.12.0",
   "LaCroixColoR",       "johannesbjork/LaCroixColoR",       "0.1.0",       FALSE, NA,
-  "lisa",               "tyluRp/lisa",                      "0.1.2.9000",  TRUE,  "0.1.2",
+  "lisa",               "tylerlittlefield/lisa",            "0.1.2.9000",  TRUE,  "0.1.2",
   "ltc",                "loukesio/ltc_palettes",            "0.2.0",       FALSE, NA,
   "MetBrewer",          "BlakeRMills/MetBrewer",            "0.3.0",       TRUE,  "0.2.0",
   "MexBrewer",          "paezha/MexBrewer",                 "0.0.2",       FALSE, "0.0.2",

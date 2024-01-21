@@ -1,6 +1,6 @@
 ## Release Summary
 
-Package have been updated to properly insure that it handled it when noSuggest errors come up.
+New palettes have been added.
 
 ## R CMD check results
 
@@ -8,4 +8,4 @@ Package have been updated to properly insure that it handled it when noSuggest e
 
 ## Reverse dependencies
 
-Checked all 11 reverse dependencies. No issues.
+Checked all 14 reverse dependencies. No issues.
