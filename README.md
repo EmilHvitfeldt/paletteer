@@ -60,7 +60,7 @@ you need for a smooth transition of color:
 
 ![](man/figures/README-unnamed-chunk-4-1.png)<!-- -->
 
-This package includes 2735 palettes from 74 different packages and
+This package includes 2759 palettes from 75 different packages and
 information about these can be found in the following data.frames:
 `palettes_c_names`, `palettes_d_names` and `palettes_dynamic_names`.
 Additionally this [github
@@ -174,6 +174,7 @@ paletteer_c("nord::frost")
 | jcolors              | [jaredhuling/jcolors - 0.0.5](https://github.com/jaredhuling/jcolors)                            | \-                                                             |
 | khroma               | [tesselle/khroma - 1.12.0.9000](https://github.com/tesselle/khroma)                              | [1.12.0](https://CRAN.R-project.org/package=khroma)            |
 | lisa                 | [tyluRp/lisa - 0.1.2.9000](https://github.com/tyluRp/lisa)                                       | [0.1.2](https://CRAN.R-project.org/package=lisa)               |
+| ltc                  | [loukesio/ltc_palettes - 0.2.0](https://github.com/loukesio/ltc_palettes)                        | \-                                                             |
 | miscpalettes         | [EmilHvitfeldt/miscpalettes - 0.0.0.9000](https://github.com/EmilHvitfeldt/miscpalettes)         | \-                                                             |
 | musculusColors       | [dawnbarlow/musculusColors - 0.1.0](https://github.com/dawnbarlow/musculusColors)                | \-                                                             |
 | nationalparkcolors   | [katiejolly/nationalparkcolors - 0.1.0](https://github.com/katiejolly/nationalparkcolors)        | \-                                                             |

@@ -243,6 +243,9 @@ LaCroixColoR_pals <- c(
 ## Lisa -----------------------------------------------------------------------
 lisa_pals <- lisa::lisa
 
+## ltc ------------------------------------------------------------------------
+ltc_pals <- ltc::palettes
+
 ## Manu -----------------------------------------------------------------------
 Manu_pals <- Manu::manu_palettes
 
@@ -511,6 +514,7 @@ palettes_d <- list(
   jcolors = jcolors_pals,
   LaCroixColoR = LaCroixColoR_pals,
   lisa = lisa_pals,
+  ltc = ltc_pals,
   nationalparkcolors = nationalparkcolors_pals,
   NatParksPalettes = NatParksPalettes_pals,
   nbapalettes = nbapalettes_pals,
