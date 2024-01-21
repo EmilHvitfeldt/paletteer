@@ -565,4 +565,9 @@ remove_non_ascii_names <- function(x) {
 
 palettes_d <- lapply(palettes_d, remove_non_ascii_names)
 
+writeLines(
+  yyjsonr::write_json_str(palettes_d, pretty = TRUE),
+  "data-raw/palettes_d.json"
+)
+
 usethis::use_data(palettes_d, overwrite = TRUE)

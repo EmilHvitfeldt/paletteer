@@ -349,4 +349,5 @@ palettes_c_names <- tibble::tribble(
   "viridis",                                     "mako",  "sequential"
 )
 
+readr::write_csv(palettes_c_names, "data-raw/palettes_c_names.csv")
 usethis::use_data(palettes_c_names, overwrite = TRUE)

@@ -82,4 +82,5 @@ paletteer_packages <- tibble::tribble(
 ) %>%
   arrange(Name)
 
+readr::write_csv(paletteer_packages, "data-raw/paletteer_packages.csv")
 usethis::use_data(paletteer_packages, overwrite = TRUE)

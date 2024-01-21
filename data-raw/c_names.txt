@@ -1,0 +1,319 @@
+ggthemes::Blue-Green Sequential
+ggthemes::Blue Light
+ggthemes::Orange Light
+ggthemes::Blue
+ggthemes::Orange
+ggthemes::Green
+ggthemes::Red
+ggthemes::Purple
+ggthemes::Brown
+ggthemes::Gray
+ggthemes::Gray Warm
+ggthemes::Blue-Teal
+ggthemes::Orange-Gold
+ggthemes::Green-Gold
+ggthemes::Red-Gold
+ggthemes::Classic Green
+ggthemes::Classic Gray
+ggthemes::Classic Blue
+ggthemes::Classic Red
+ggthemes::Classic Orange
+ggthemes::Classic Area Red
+ggthemes::Classic Area Green
+ggthemes::Classic Area-Brown
+ggthemes::Orange-Blue Diverging
+ggthemes::Red-Green Diverging
+ggthemes::Green-Blue Diverging
+ggthemes::Red-Blue Diverging
+ggthemes::Red-Black Diverging
+ggthemes::Gold-Purple Diverging
+ggthemes::Red-Green-Gold Diverging
+ggthemes::Sunset-Sunrise Diverging
+ggthemes::Orange-Blue-White Diverging
+ggthemes::Red-Green-White Diverging
+ggthemes::Green-Blue-White Diverging
+ggthemes::Red-Blue-White Diverging
+ggthemes::Red-Black-White Diverging
+ggthemes::Orange-Blue Light Diverging
+ggthemes::Temperature Diverging
+ggthemes::Classic Red-Green
+ggthemes::Classic Red-Blue
+ggthemes::Classic Red-Black
+ggthemes::Classic Area Red-Green
+ggthemes::Classic Orange-Blue
+ggthemes::Classic Green-Blue
+ggthemes::Classic Red-White-Green
+ggthemes::Classic Red-White-Black
+ggthemes::Classic Orange-White-Blue
+ggthemes::Classic Red-White-Black Light
+ggthemes::Classic Orange-White-Blue Light
+ggthemes::Classic Red-White-Green Light
+ggthemes::Classic Red-Green Light
+grDevices::rainbow
+grDevices::heat.colors
+grDevices::terrain.colors
+grDevices::topo.colors
+grDevices::cm.colors
+grDevices::Pastel 1
+grDevices::Dark 2
+grDevices::Dark 3
+grDevices::Set 2
+grDevices::Set 3
+grDevices::Warm
+grDevices::Cold
+grDevices::Harmonic
+grDevices::Dynamic
+grDevices::Grays
+grDevices::Light Grays
+grDevices::Blues 2
+grDevices::Blues 3
+grDevices::Purples 2
+grDevices::Purples 3
+grDevices::Reds 2
+grDevices::Reds 3
+grDevices::Greens 2
+grDevices::Greens 3
+grDevices::Oslo
+grDevices::Purple-Blue
+grDevices::Red-Purple
+grDevices::Red-Blue
+grDevices::Purple-Orange
+grDevices::Purple-Yellow
+grDevices::Blue-Yellow
+grDevices::Green-Yellow
+grDevices::Red-Yellow
+grDevices::Heat
+grDevices::Heat 2
+grDevices::Terrain
+grDevices::Terrain 2
+grDevices::Viridis
+grDevices::Plasma
+grDevices::Inferno
+grDevices::Rocket
+grDevices::Mako
+grDevices::Dark Mint
+grDevices::Mint
+grDevices::BluGrn
+grDevices::Teal
+grDevices::TealGrn
+grDevices::Emrld
+grDevices::BluYl
+grDevices::ag_GrnYl
+grDevices::Peach
+grDevices::PinkYl
+grDevices::Burg
+grDevices::BurgYl
+grDevices::RedOr
+grDevices::OrYel
+grDevices::Purp
+grDevices::PurpOr
+grDevices::Sunset
+grDevices::Magenta
+grDevices::SunsetDark
+grDevices::ag_Sunset
+grDevices::BrwnYl
+grDevices::YlOrRd
+grDevices::YlOrBr
+grDevices::OrRd
+grDevices::Oranges
+grDevices::YlGn
+grDevices::YlGnBu
+grDevices::Reds
+grDevices::RdPu
+grDevices::PuRd
+grDevices::Purples
+grDevices::PuBuGn
+grDevices::PuBu
+grDevices::Greens
+grDevices::BuGn
+grDevices::GnBu
+grDevices::BuPu
+grDevices::Blues
+grDevices::Lajolla
+grDevices::Turku
+grDevices::Hawaii
+grDevices::Batlow
+grDevices::Blue-Red
+grDevices::Blue-Red 2
+grDevices::Blue-Red 3
+grDevices::Red-Green
+grDevices::Purple-Green
+grDevices::Purple-Brown
+grDevices::Green-Brown
+grDevices::Blue-Yellow 2
+grDevices::Blue-Yellow 3
+grDevices::Green-Orange
+grDevices::Cyan-Magenta
+grDevices::Tropic
+grDevices::Broc
+grDevices::Cork
+grDevices::Vik
+grDevices::Berlin
+grDevices::Lisbon
+grDevices::Tofino
+grDevices::ArmyRose
+grDevices::Earth
+grDevices::Fall
+grDevices::Geyser
+grDevices::TealRose
+grDevices::Temps
+grDevices::PuOr
+grDevices::RdBu
+grDevices::RdGy
+grDevices::PiYG
+grDevices::PRGn
+grDevices::BrBG
+grDevices::RdYlBu
+grDevices::RdYlGn
+grDevices::Spectral
+grDevices::Zissou 1
+grDevices::Cividis
+grDevices::Roma
+harrypotter::slytherin
+harrypotter::gryffindor
+harrypotter::gryffindor2
+harrypotter::hufflepuff
+harrypotter::ravenclaw2
+harrypotter::lunalovegood
+harrypotter::hermionegranger
+harrypotter::mischief
+harrypotter::sprout
+harrypotter::always
+harrypotter::ravenclaw
+harrypotter::harrypotter
+harrypotter::dracomalfoy
+harrypotter::newtscamander
+harrypotter::ronweasley
+harrypotter::ronweasley2
+oompaBase::redscale
+oompaBase::greenscale
+oompaBase::bluescale
+oompaBase::blueyellow
+oompaBase::cyanyellow
+oompaBase::redgreen
+oompaBase::jetColors
+oompaBase::greyscale
+palr::bathy_deep_pal
+palr::chl_pal
+palr::ice_pal
+palr::sst_pal
+pals::coolwarm
+pals::warmcool
+pals::jet
+pals::parula
+pals::cubicyf
+pals::isol
+pals::cubicl
+pals::linearl
+pals::linearlhot
+pals::ocean.algae
+pals::ocean.deep
+pals::ocean.dense
+pals::ocean.gray
+pals::ocean.haline
+pals::ocean.ice
+pals::ocean.matter
+pals::ocean.oxy
+pals::ocean.phase
+pals::ocean.solar
+pals::ocean.thermal
+pals::ocean.turbid
+pals::ocean.balance
+pals::ocean.curl
+pals::ocean.delta
+pals::ocean.amp
+pals::ocean.speed
+pals::ocean.tempo
+pals::kovesi.cyclic_grey_15_85_c0
+pals::kovesi.cyclic_grey_15_85_c0_s25
+pals::kovesi.cyclic_mrybm_35_75_c68
+pals::kovesi.cyclic_mrybm_35_75_c68_s25
+pals::kovesi.cyclic_mygbm_30_95_c78
+pals::kovesi.cyclic_mygbm_30_95_c78_s25
+pals::kovesi.cyclic_wrwbw_40_90_c42
+pals::kovesi.cyclic_wrwbw_40_90_c42_s25
+pals::kovesi.diverging_isoluminant_cjm_75_c23
+pals::kovesi.diverging_isoluminant_cjm_75_c24
+pals::kovesi.diverging_isoluminant_cjo_70_c25
+pals::kovesi.diverging_linear_bjr_30_55_c53
+pals::kovesi.diverging_linear_bjy_30_90_c45
+pals::kovesi.diverging_rainbow_bgymr_45_85_c67
+pals::kovesi.diverging_bkr_55_10_c35
+pals::kovesi.diverging_bky_60_10_c30
+pals::kovesi.diverging_bwr_40_95_c42
+pals::kovesi.diverging_bwr_55_98_c37
+pals::kovesi.diverging_cwm_80_100_c22
+pals::kovesi.diverging_gkr_60_10_c40
+pals::kovesi.diverging_gwr_55_95_c38
+pals::kovesi.diverging_gwv_55_95_c39
+pals::kovesi.isoluminant_cgo_70_c39
+pals::kovesi.isoluminant_cgo_80_c38
+pals::kovesi.isoluminant_cm_70_c39
+pals::kovesi.linear_bgy_10_95_c74
+pals::kovesi.linear_bgyw_15_100_c67
+pals::kovesi.linear_bgyw_15_100_c68
+pals::kovesi.linear_blue_5_95_c73
+pals::kovesi.linear_blue_95_50_c20
+pals::kovesi.linear_bmw_5_95_c86
+pals::kovesi.linear_bmw_5_95_c89
+pals::kovesi.linear_bmy_10_95_c71
+pals::kovesi.linear_bmy_10_95_c78
+pals::kovesi.linear_gow_60_85_c27
+pals::kovesi.linear_gow_65_90_c35
+pals::kovesi.linear_green_5_95_c69
+pals::kovesi.linear_grey_0_100_c0
+pals::kovesi.linear_grey_10_95_c0
+pals::kovesi.linear_kry_5_95_c72
+pals::kovesi.linear_kry_5_98_c75
+pals::kovesi.linear_kryw_5_100_c64
+pals::kovesi.linear_kryw_5_100_c67
+pals::kovesi.linear_ternary_blue_0_44_c57
+pals::kovesi.linear_ternary_green_0_46_c42
+pals::kovesi.linear_ternary_red_0_50_c52
+pals::kovesi.rainbow_bgyr_35_85_c72
+pals::kovesi.rainbow_bgyr_35_85_c73
+pals::kovesi.rainbow_bgyrm_35_85_c69
+pals::kovesi.rainbow_bgyrm_35_85_c71
+scico::acton
+scico::bamako
+scico::batlow
+scico::berlin
+scico::bilbao
+scico::broc
+scico::brocO
+scico::buda
+scico::cork
+scico::corkO
+scico::davos
+scico::devon
+scico::grayC
+scico::hawaii
+scico::imola
+scico::lajolla
+scico::lapaz
+scico::lisbon
+scico::nuuk
+scico::oleron
+scico::oslo
+scico::roma
+scico::romaO
+scico::tofino
+scico::tokyo
+scico::turku
+scico::vik
+scico::vikO
+scico::bam
+scico::bamO
+scico::batlowK
+scico::batlowW
+scico::bukavu
+scico::fes
+scico::vanimo
+viridis::viridis
+viridis::inferno
+viridis::magma
+viridis::plasma
+viridis::cividis
+viridis::rocket
+viridis::turbo
+viridis::mako

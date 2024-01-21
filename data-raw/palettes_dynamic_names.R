@@ -19,4 +19,6 @@ palettes_dynamic_names <- purrr::imap_dfr(
     TRUE ~ "qualitative"
   ))
 
+readr::write_csv(palettes_dynamic_names, "data-raw/palettes_dynamic_names.csv")
 usethis::use_data(palettes_dynamic_names, overwrite = TRUE)
+

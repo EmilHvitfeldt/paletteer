@@ -2431,4 +2431,5 @@ palettes_d_names <- tibble::tribble(
   "yarrr",                          "info2",     14L, "qualitative", TRUE,
 )
 
+readr::write_csv(palettes_d_names, "data-raw/palettes_d_names.csv")
 usethis::use_data(palettes_d_names, overwrite = TRUE)

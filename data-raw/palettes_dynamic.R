@@ -14,4 +14,9 @@ palettes_dynamic <- list(
   ggthemes_solarized = ggthemes_solarized_pals
 )
 
+writeLines(
+  yyjsonr::write_json_str(palettes_dynamic, pretty = TRUE),
+  "data-raw/palettes_dynamic.json"
+)
+
 usethis::use_data(palettes_dynamic, overwrite = TRUE)
