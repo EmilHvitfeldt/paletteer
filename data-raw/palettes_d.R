@@ -260,6 +260,9 @@ MapPalettes_pals <- list(
 ## MetBrewer ------------------------------------------------------------------
 MetBrewer_pals <- lapply(MetBrewer::MetPalettes, function(x) x[[1]])
 
+## MexBrewer ------------------------------------------------------------------
+MexBrewer_pals <- lapply(MexBrewer::MexPalettes, function(x) x[[1]])
+
 ## miscpalettes ---------------------------------------------------------------
 miscpalettes_pals <- c(
   miscpalettes::artistic,
@@ -520,6 +523,7 @@ palettes_d <- list(
   Manu = Manu_pals,
   MapPalettes = MapPalettes_pals,
   MetBrewer = MetBrewer_pals,
+  MexBrewer = MexBrewer_pals,
   miscpalettes = miscpalettes_pals,
   MoMAColors = MoMAColors_pals,
   musculusColors = musculusColors_pals,

@@ -60,7 +60,7 @@ you need for a smooth transition of color:
 
 ![](man/figures/README-unnamed-chunk-4-1.png)<!-- -->
 
-This package includes 2717 palettes from 73 different packages and
+This package includes 2735 palettes from 74 different packages and
 information about these can be found in the following data.frames:
 `palettes_c_names`, `palettes_d_names` and `palettes_dynamic_names`.
 Additionally this [github
@@ -139,6 +139,7 @@ paletteer_c("nord::frost")
 | Manu                 | [G-Thomson/Manu - 0.0.2](https://github.com/G-Thomson/Manu)                                      | \-                                                             |
 | MapPalettes          | [disarm-platform/MapPalettes - 0.0.2](https://github.com/disarm-platform/MapPalettes)            | \-                                                             |
 | MetBrewer            | [BlakeRMills/MetBrewer - 0.3.0](https://github.com/BlakeRMills/MetBrewer)                        | [0.2.0](https://CRAN.R-project.org/package=MetBrewer)          |
+| MexBrewer            | [paezha/MexBrewer - 0.0.2](https://github.com/paezha/MexBrewer)                                  | \-                                                             |
 | MoMAColors           | [BlakeRMills/MoMAColors - 0.0.0.9000](https://github.com/BlakeRMills/MoMAColors)                 | \-                                                             |
 | NatParksPalettes     | [kevinsblake/NatParksPalettes - 0.2.0](https://github.com/kevinsblake/NatParksPalettes)          | [0.2.0](https://CRAN.R-project.org/package=NatParksPalettes)   |
 | NineteenEightyR      | [m-clark/NineteenEightyR - 0.1.0](https://github.com/m-clark/NineteenEightyR)                    | \-                                                             |

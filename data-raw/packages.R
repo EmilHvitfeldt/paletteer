@@ -32,6 +32,7 @@ paletteer_packages <- tibble::tribble(
   "LaCroixColoR",       "johannesbjork/LaCroixColoR",       "0.1.0",       FALSE, NA,
   "lisa",               "tyluRp/lisa",                      "0.1.2.9000",  TRUE,  "0.1.2",
   "MetBrewer",          "BlakeRMills/MetBrewer",            "0.3.0",       TRUE,  "0.2.0",
+  "MexBrewer",          "paezha/MexBrewer",                 "0.0.2",       FALSE, "0.0.2",
   "Manu",               "G-Thomson/Manu",                   "0.0.2",       FALSE, NA,
   "MapPalettes",        "disarm-platform/MapPalettes",      "0.0.2",       FALSE, NA,
   "musculusColors",     "dawnbarlow/musculusColors",        "0.1.0",       FALSE, NA,
