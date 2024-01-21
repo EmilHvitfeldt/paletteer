@@ -1,6 +1,6 @@
 citHeader("To cite paletteer in publications use:")
 
-citEntry(
+bibentry(
   entry    = "manual",
   title    = "paletteer: Comprehensive Collection of Color Palettes",
   author   = "Emil Hvitfeldt",
