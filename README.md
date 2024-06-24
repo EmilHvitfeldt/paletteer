@@ -105,6 +105,13 @@ ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +
 
 ![](man/figures/README-unnamed-chunk-6-1.png)<!-- -->
 
+## Palette explorer
+
+A [web application](https://r-graph-gallery.com/color-palette-finder) is
+available to quickly explore the available palettes.
+
+![](https://r-graph-gallery.com/img/other/colorPaletteFinder.gif)
+
 ## Breaking changes
 
 In version \<= 0.2.1 a palatte was selected by specifying a `package`
