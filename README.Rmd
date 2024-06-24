@@ -111,6 +111,14 @@ ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +
   scale_color_paletteer_d("nord::aurora")
 ```
 
+
+## Palette explorer
+
+A [web application](https://r-graph-gallery.com/color-palette-finder) is available to quickly explore the available palettes.
+
+[![](man/figures/colorPaletteFinder.gif)](https://r-graph-gallery.com/color-palette-finder)
+
+
 ## Breaking changes
 
 In version <= 0.2.1 a palatte was selected by specifying a `package` and `palette` argument like so
