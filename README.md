@@ -110,7 +110,7 @@ ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +
 A [web application](https://r-graph-gallery.com/color-palette-finder) is
 available to quickly explore the available palettes.
 
-![](https://r-graph-gallery.com/img/other/colorPaletteFinder.gif)
+[![](man/figures/colorPaletteFinder.gif)](https://r-graph-gallery.com/color-palette-finder)
 
 ## Breaking changes
 
