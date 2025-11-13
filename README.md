@@ -1,4 +1,3 @@
-
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # paletteer <img src='man/figures/logo.png' style="float:right" height="139" />
@@ -16,8 +15,8 @@ stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://
 <!-- badges: end -->
 
 The goal of **paletteer** is to be a comprehensive collection of color
-palettes in R using a common interface. Think of it as the “caret of
-palettes”.
+palettes in R using a common interface. Think of it as the "caret of
+palettes".
 
 **Notice** This version is not backwards compatible with versions \<=
 0.2.1. Please refer to the end of the readme for breaking changes
@@ -44,7 +43,7 @@ devtools::install_github("EmilHvitfeldt/paletteer")
 The palettes are divided into 2 groups; *discrete* and *continuous*. For
 discrete palette you have the choice between the *fixed width palettes*
 and *dynamic palettes*. Most common of the two are the fixed width
-palettes which have a set amount of colors which doesn’t change when the
+palettes which have a set amount of colors which doesn't change when the
 number of colors requested vary like the following palettes:
 
 ![](man/figures/README-unnamed-chunk-2-1.png)<!-- -->
@@ -104,6 +103,35 @@ ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +
 ```
 
 ![](man/figures/README-unnamed-chunk-6-1.png)<!-- -->
+
+## QGIS Integration
+
+Paletteer color palettes are now available for QGIS users! XML versions of all palettes have been created to bring these beautiful color schemes into GIS mapping and spatial visualization workflows.
+
+### Available QGIS XML Files
+
+Three XML files are available, corresponding to the palette types in paletteer:
+
+- **Paletteer_continuous_colors.xml** - Continuous palettes for smooth color transitions
+- **Paletteer_dynamic_colors.xml** - Dynamic palettes that adapt to your data
+- **Paletteer_discrete_colors.xml** - Fixed discrete palettes
+
+### How to Use in QGIS
+
+To use these palettes in QGIS:
+
+1. Download the XML files below
+   - [Paletter_continuous_colors.xml](https://github.com/user-attachments/files/22950118/Paletter_continuous_colors.xml)
+   - [Paletteer_dynamic_colors.xml](https://github.com/user-attachments/files/22950116/Paletteer_dynamic_colors.xml)
+   - [Paletteer_discrete_colors.xml](https://github.com/user-attachments/files/22950117/Paletteer_discrete_colors.xml)
+3. In QGIS, go to **Settings** → **Style Manager**
+4. Click the **Import/Export** button and select **Import Items**
+5. Navigate to and select the downloaded XML file(s)
+6. The palettes will now be available in QGIS color ramps
+
+A video demonstration of the installation and usage process is available in the GitHub issue linked above.
+
+This integration enables cartographers and GIS professionals to leverage paletteer's extensive collection of color palettes in their spatial projects, bridging R color design with geospatial visualization.
 
 ## Palette explorer
 
