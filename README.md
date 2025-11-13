@@ -129,10 +129,6 @@ To use these palettes in QGIS:
 4. Navigate to and select the downloaded XML file(s)
 5. The palettes will now be available in QGIS color ramps
 
-**Video Tutorial:** A demonstration of the installation and usage process is available below.
-
-<video src="https://github.com/user-attachments/assets/d575344b-09b9-4e08-a2c0-69f1be4bfbc9" width="600" controls></video>
-
 This integration enables cartographers and GIS professionals to leverage paletteer's extensive collection of color palettes in their spatial projects, bridging R color design with geospatial visualization.
 
 ## Palette explorer
