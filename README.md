@@ -124,14 +124,14 @@ To use these palettes in QGIS:
    - [Paletter_continuous_colors.xml](https://github.com/user-attachments/files/22950118/Paletter_continuous_colors.xml)
    - [Paletteer_dynamic_colors.xml](https://github.com/user-attachments/files/22950116/Paletteer_dynamic_colors.xml)
    - [Paletteer_discrete_colors.xml](https://github.com/user-attachments/files/22950117/Paletteer_discrete_colors.xml)
-3. In QGIS, go to **Settings** → **Style Manager**
-4. Click the **Import/Export** button and select **Import Items**
-5. Navigate to and select the downloaded XML file(s)
-6. The palettes will now be available in QGIS color ramps
+2. In QGIS, go to **Settings** ? **Style Manager**
+3. Click the **Import/Export** button and select **Import Items**
+4. Navigate to and select the downloaded XML file(s)
+5. The palettes will now be available in QGIS color ramps
 
-A video demonstration of the installation and usage process is available below.
+**Video Tutorial:** A demonstration of the installation and usage process is available below.
 
-https://github.com/user-attachments/assets/d575344b-09b9-4e08-a2c0-69f1be4bfbc9
+<video src="https://github.com/user-attachments/assets/d575344b-09b9-4e08-a2c0-69f1be4bfbc9" width="600" controls></video>
 
 This integration enables cartographers and GIS professionals to leverage paletteer's extensive collection of color palettes in their spatial projects, bridging R color design with geospatial visualization.
 
