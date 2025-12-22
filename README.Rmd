@@ -4,7 +4,9 @@ output: github_document
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-```{r setup, include = FALSE}
+```{r}
+#| label: setup
+#| include: false
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
@@ -36,7 +38,8 @@ install.packages("paletteer")
 
 If you want the development version instead then install directly from GitHub:
 
-```{r, eval=FALSE}
+```{r}
+#| eval: false
 # install.packages("devtools")
 devtools::install_github("EmilHvitfeldt/paletteer")
 ```
@@ -45,7 +48,8 @@ devtools::install_github("EmilHvitfeldt/paletteer")
 
 The palettes are divided into 2 groups; *discrete* and *continuous*. For discrete palette you have the choice between the *fixed width palettes* and *dynamic palettes*. Most common of the two are the fixed width palettes which have a set amount of colors which doesn't change when the number of colors requested vary like the following palettes:
 
-```{r echo=FALSE}
+```{r}
+#| echo: false
 library(paletteer)
 pals::pal.bands(
   paletteer_d("nord::frost"),
@@ -58,7 +62,8 @@ pals::pal.bands(
 
 on the other hand we have the dynamic palettes where the colors of the palette depend on the number of colors you need like the `green.pal` palette from the `cartography` package:
 
-```{r echo=FALSE}
+```{r}
+#| echo: false
 pals::pal.bands(
   paletteer_dynamic("cartography::green.pal", 2),
   paletteer_dynamic("cartography::green.pal", 5),
@@ -72,7 +77,8 @@ pals::pal.bands(
 
 Lastly we have the continuous palettes which provides as many colors as you need for a smooth transition of color:
 
-```{r echo=FALSE}
+```{r}
+#| echo: false
 library(paletteer)
 pals::pal.bands(
   paletteer_c("viridis::inferno", 256),
@@ -123,13 +129,15 @@ A [web application](https://r-graph-gallery.com/color-palette-finder) is availab
 
 In version <= 0.2.1 a palatte was selected by specifying a `package` and `palette` argument like so
 
-```{r, eval=FALSE}
+```{r}
+#| eval: false
 paletteer_c(package = "nord", palette = "frost")
 ```
 
 After version 0.2.1 palettes are selected using the syntax `"packagename::palettename"` inside the palette functions.
 
-```{r, eval=FALSE}
+```{r}
+#| eval: false
 paletteer_c("nord::frost")
 ```
 
@@ -141,7 +149,8 @@ paletteer_c("nord::frost")
 
 **paletteer** includes palettes from the following packages:
 
-```{r, echo=FALSE}
+```{r}
+#| echo: false
 p_df <- paletteer_packages
 p_df$Github <- ifelse(!is.na(paletteer_packages$Github),
                             paste0("[", paletteer_packages$Github, " - ", 
