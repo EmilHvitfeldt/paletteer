@@ -12,7 +12,7 @@
       paletteer_dynamic("ggthemes_solarized::green", 100)
     Condition
       Error in `paletteer_dynamic()`:
-      ! Number of requested colors greater than this palette can offer which is 8.
+      ! Number of requested colors (100) greater than this palette can offer (8).
 
 # direction works correctly in paletteer_dynamic
 
@@ -20,5 +20,5 @@
       paletteer_dynamic("ggthemes_solarized::green", 3, direction = 10)
     Condition
       Error in `paletteer_dynamic()`:
-      ! `direction` must be 1 or -1.
+      ! `direction` must be 1 or -1, not 10.
 

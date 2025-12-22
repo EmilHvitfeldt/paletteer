@@ -4,7 +4,7 @@
       paletteer_d("wesanderson::Royal1", 100)
     Condition
       Error in `paletteer_d()`:
-      ! Number of requested colors greater than this palette can offer which is 4.
+      ! Number of requested colors (100) greater than this palette can offer (4).
 
 # direction works correctly in paletteer_d
 
@@ -12,7 +12,7 @@
       paletteer_d("wesanderson::Royal1", 3, direction = 10)
     Condition
       Error in `paletteer_d()`:
-      ! `direction` must be 1 or -1.
+      ! `direction` must be 1 or -1, not 10.
 
 # paletteer_d errors with wrong names
 
