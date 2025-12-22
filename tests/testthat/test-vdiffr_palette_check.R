@@ -1,5 +1,5 @@
 library(paletteer)
-
+?testthat::skip_on_ci()
 testthat::skip_if_not_installed("ggplot2")
 
 list_plotter <- function(color_list, names, package_name) {
