@@ -22,7 +22,7 @@ paletteer_d <- function(
   type = c("discrete", "continuous")
 ) {
   if (abs(direction) != 1) {
-    abort("`direction` must be 1 or -1.")
+    cli::cli_abort("{.arg direction} must be 1 or -1, not {direction}.")
   }
 
   type <- match.arg(type)
@@ -44,12 +44,10 @@ paletteer_d <- function(
     n <- length(pal)
   }
   if (type == "discrete" && n > length(pal)) {
-    abort(paste(
-      "Number of requested colors greater than this palette can offer which is ",
-      length(pal),
-      ".",
-      sep = ""
-    ))
+    cli::cli_abort(
+      "Number of requested colors ({n}) greater than this palette can offer 
+      ({length(pal)})."
+    )
   }
   out <- switch(
     type,

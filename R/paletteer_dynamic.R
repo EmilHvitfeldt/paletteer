@@ -14,12 +14,12 @@
 #' @export
 paletteer_dynamic <- function(palette, n, direction = 1) {
   if (abs(direction) != 1) {
-    abort("`direction` must be 1 or -1.")
+    cli::cli_abort("{.arg direction} must be 1 or -1, not {direction}.")
   }
 
   if (missing(n)) {
-    abort(
-      "`n` not found. Please supply the number of colors you want returned."
+    cli::cli_abort(
+      "{.arg n} not found. Please supply the number of colors you want returned."
     )
   }
 
@@ -37,12 +37,10 @@ paletteer_dynamic <- function(palette, n, direction = 1) {
   pal <- paletteer::palettes_dynamic[[palette]]
 
   if (n > length(pal)) {
-    abort(paste(
-      "Number of requested colors greater than this palette can offer which is ",
-      length(pal),
-      ".",
-      sep = ""
-    ))
+    cli::cli_abort(
+      "Number of requested colors ({n}) greater than this palette can offer 
+      ({length(pal)})."
+    )
   }
 
   if (direction == -1) {

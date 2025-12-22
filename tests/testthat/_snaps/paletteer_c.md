@@ -12,5 +12,5 @@
       paletteer_c("grDevices::rainbow", 3, direction = 10)
     Condition
       Error in `paletteer_c()`:
-      ! `direction` must be 1 or -1.
+      ! `direction` must be 1 or -1, not 10.
 
