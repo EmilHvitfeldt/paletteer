@@ -16,6 +16,7 @@ The choices of color palettes in R can be quite overwhelming with palettes sprea
 \seealso{
 Useful links:
 \itemize{
+  \item \url{https://emilhvitfeldt.github.io/paletteer/}
   \item \url{https://github.com/EmilHvitfeldt/paletteer}
   \item Report bugs at \url{https://github.com/EmilHvitfeldt/paletteer/issues}
 }
@@ -23,6 +24,7 @@ Useful links:
 
 Useful links:
 \itemize{
+  \item \url{https://emilhvitfeldt.github.io/paletteer/}
   \item \url{https://github.com/EmilHvitfeldt/paletteer}
   \item Report bugs at \url{https://github.com/EmilHvitfeldt/paletteer/issues}
 }

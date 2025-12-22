@@ -34,7 +34,7 @@ Available package/palette combinations are available in the data.frame
 \code{\link[paletteer]{palettes_dynamic_names}}.
 }
 \examples{
-\dontshow{if (rlang::is_installed("ggplot2")) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
+\dontshow{if (rlang::is_installed("ggplot2")) withAutoprint(\{ # examplesIf}
 library(ggplot2)
 ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, colour = Species)) +
   geom_point() +
