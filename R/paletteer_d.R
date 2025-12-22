@@ -15,8 +15,12 @@
 #' paletteer_d("wesanderson::Royal1", 3)
 #' paletteer_d("Redmonder::dPBIPuOr", 14, type = "continuous")
 #' @export
-paletteer_d <- function(palette, n, direction = 1,
-                        type = c("discrete", "continuous")) {
+paletteer_d <- function(
+  palette,
+  n,
+  direction = 1,
+  type = c("discrete", "continuous")
+) {
   if (abs(direction) != 1) {
     abort("`direction` must be 1 or -1.")
   }
@@ -40,12 +44,15 @@ paletteer_d <- function(palette, n, direction = 1,
     n <- length(pal)
   }
   if (type == "discrete" && n > length(pal)) {
-    abort(paste("Number of requested colors greater than this palette can offer which is ",
-      length(pal), ".",
+    abort(paste(
+      "Number of requested colors greater than this palette can offer which is ",
+      length(pal),
+      ".",
       sep = ""
     ))
   }
-  out <- switch(type,
+  out <- switch(
+    type,
     continuous = (grDevices::colorRampPalette(pal))(n),
     discrete = pal[1:n]
   )

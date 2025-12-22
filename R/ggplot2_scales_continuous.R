@@ -24,11 +24,14 @@
 scale_colour_paletteer_c <- function(palette, direction = 1, ...) {
   check_installed("ggplot2")
 
-  ggplot2::scale_colour_gradientn(colours = paletteer_c(
-    palette = {{ palette }},
-    direction = direction,
-    256
-  ), ...)
+  ggplot2::scale_colour_gradientn(
+    colours = paletteer_c(
+      palette = {{ palette }},
+      direction = direction,
+      256
+    ),
+    ...
+  )
 }
 #' @rdname ggplot2-scales-continuous
 #' @export
@@ -40,9 +43,12 @@ scale_color_paletteer_c <- scale_colour_paletteer_c
 scale_fill_paletteer_c <- function(palette, direction = 1, ...) {
   check_installed("ggplot2")
 
-  ggplot2::scale_fill_gradientn(colours = paletteer_c(
-    palette = {{ palette }},
-    direction = direction,
-    256
-  ), ...)
+  ggplot2::scale_fill_gradientn(
+    colours = paletteer_c(
+      palette = {{ palette }},
+      direction = direction,
+      256
+    ),
+    ...
+  )
 }

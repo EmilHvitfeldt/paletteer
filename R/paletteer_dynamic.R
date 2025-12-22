@@ -18,7 +18,9 @@ paletteer_dynamic <- function(palette, n, direction = 1) {
   }
 
   if (missing(n)) {
-    abort("`n` not found. Please supply the number of colors you want returned.")
+    abort(
+      "`n` not found. Please supply the number of colors you want returned."
+    )
   }
 
   palette <- try(palette, silent = TRUE)
@@ -35,8 +37,10 @@ paletteer_dynamic <- function(palette, n, direction = 1) {
   pal <- paletteer::palettes_dynamic[[palette]]
 
   if (n > length(pal)) {
-    abort(paste("Number of requested colors greater than this palette can offer which is ",
-      length(pal), ".",
+    abort(paste(
+      "Number of requested colors greater than this palette can offer which is ",
+      length(pal),
+      ".",
       sep = ""
     ))
   }

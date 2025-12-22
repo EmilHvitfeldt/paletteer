@@ -15,3 +15,5 @@
 ^pkgdown$
 ^revdep$
 ^CRAN-SUBMISSION$
+^[.]?air[.]toml$
+^\.vscode$

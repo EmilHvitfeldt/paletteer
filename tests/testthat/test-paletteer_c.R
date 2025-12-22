@@ -8,7 +8,7 @@ test_that("paletteer_c returns characters", {
 })
 
 test_that("paletteer_c throws an error when n is unspecified", {
-  expect_error(paletteer_c("grDevices::rainbow"))
+  expect_snapshot(error = TRUE, paletteer_c("grDevices::rainbow"))
 })
 
 test_that("direction works correctly in paletteer_c", {
@@ -20,7 +20,10 @@ test_that("direction works correctly in paletteer_c", {
     paletteer_c("grDevices::rainbow", 3, direction = -1),
     prismatic::color(c("#0000FFFF", "#00FF00FF", "#FF0000FF"))
   )
-  expect_error(paletteer_c("grDevices::rainbow", 3, direction = 10))
+  expect_snapshot(
+    error = TRUE,
+    paletteer_c("grDevices::rainbow", 3, direction = 10)
+  )
 })
 
 test_that("paletteer_c works with quoted palettes", {
@@ -63,5 +66,3 @@ test_that("paletteer_c works with harrypotter", {
     4L
   )
 })
-
-
