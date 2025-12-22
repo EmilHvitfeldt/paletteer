@@ -3,12 +3,13 @@ Title: Comprehensive Collection of Color Palettes
 Version: 1.6.0.9000
 Author: See AUTHORS file.
 Maintainer: Emil Hvitfeldt <emilhhvitfeldt@gmail.com>
-Description: The choices of color palettes in R can be quite
-    overwhelming with palettes spread over many packages with many
-    different API's. This packages aims to collect all color palettes
-    across the R ecosystem under the same package with a streamlined API.
+Description: The choices of color palettes in R can be quite overwhelming
+    with palettes spread over many packages with many different API's.
+    This packages aims to collect all color palettes across the R
+    ecosystem under the same package with a streamlined API.
 License: GPL-3
-URL: https://emilhvitfeldt.github.io/paletteer/, https://github.com/EmilHvitfeldt/paletteer
+URL: https://emilhvitfeldt.github.io/paletteer/,
+    https://github.com/EmilHvitfeldt/paletteer
 BugReports: https://github.com/EmilHvitfeldt/paletteer/issues
 Depends:
     R (>= 4.1)
@@ -31,8 +32,8 @@ Suggests:
     testthat (>= 3.0.0),
     vdiffr,
     viridisLite
-Copyright: See LICENSE.note file.
 Config/testthat/edition: 3
+Copyright: See LICENSE.note file.
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
