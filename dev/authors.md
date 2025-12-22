@@ -1,0 +1,96 @@
+# Authors and Citation
+
+## Authors
+
+- **Emil Hvitfeldt**. Maintainer.
+
+## Citation
+
+Source:
+[`inst/CITATION`](https://github.com/EmilHvitfeldt/paletteer/blob/main/inst/CITATION)
+
+Hvitfeldt E. (2021). paletteer: Comprehensive Collection of Color
+Palettes. version 1.3.0. https://github.com/EmilHvitfeldt/paletteer
+
+    @Manual{,
+      title = {paletteer: Comprehensive Collection of Color Palettes},
+      author = {Emil Hvitfeldt},
+      year = {2021},
+      note = {R package version 1.3.0},
+      url = {https://github.com/EmilHvitfeldt/paletteer},
+    }
+
+## Additional details
+
+    The main authors of paletteer
+    -----------------------------
+
+    Emil Hvitfeldt <emilhhvitfeldt@gmail.com>
+
+
+    Other authors of paletteer
+    --------------------------
+
+    The following authors contributed data which is used in the creation of the
+    palettes_d and palettes_dynamic objects.
+
+    Austin Wehrwein <shinylearnr@gmail.com>
+              palettes from awtools package
+    Timothée Giraud <timothee.giraud@cnrs.fr>
+    Nicolas Lambert <nicolas.lambert@cnrs.fr>
+    Ian Fellows
+              palettes from cartography package
+    Thomas Lumley <tlumley at u.washington.edu>
+              palettes from dichromat package
+    Edwin Thoen <edwinthoen@gmail.com>
+              palettes from dutchmasters package
+    Nan Xiao <me@nanx.me>
+    Miaozhu Li <miaozhu.li@duke.edu>
+              palettes from ggsci package
+    Garrick Aden-Buie <g.adenbuie@gmail.com>
+              palettes from ggpomological package
+    Jeffrey B. Arnold <jeffrey.arnold@gmail.com>
+              palettes from ggthemes package
+    Ewen Henderson <ewenhenderson@gmail.com>
+              palettes from ghibli package
+    Paul Murrell <paul at stat.auckland.ac.nz>
+              palettes from RGraphics package
+    Jared Huling <jaredhuling@gmail.com>
+              palettes from jcolors package
+    Dave Armitage <dave.armitage@gmail.com>
+    Johannes Bjork <bjork.johannes@gmail.com>
+              palettes from LaCroixColoR package
+    John Hughes <breakfast@club.com>
+              palettes from NineteenEightyR package
+    Jake Kaupp <jkaupp@gmail.com>
+              palettes from nord package
+    Alicia Allan
+    Di Cook
+    Ross Gayler
+    Holly Kirk <hollylkirk@gmail.com>
+    Roger Peng
+    Elle Saber
+              palettes from ochRe package
+    Tim Lucas <timcdlucas@gmail.com>
+              palettes from palettetown package
+    Kevin Wright <kw.stat@gmail.com>
+              palettes from pals package
+    Kevin R. Coombes <krc at silicovore.com>
+    Guy Brock
+              palettes from Polychrome package
+    Emil Hvitfeldt <emilhhvitfeldt@gmail.com>
+              palettes from miscpalettes package
+    Jakub Nowosad <nowosad.jakub@gmail.com>
+              palettes from rcartocolor package
+    Erich Neuwirth <erich.neuwirth at univie.ac.at>
+              palettes from RColorBrewer package
+    Pedro Mac Dowell Innecco <dmu at pedroinnecco.com>
+    Erich Neuwirth
+              palettes from Redmonder package
+    Alyssa Frazee <afrazee@jhsph.edu>
+              palettes from RSkittleBrewer package
+    Karthik Ram <karthik.ram@gmail.com>
+    Hadley Wickham <h.wickham@gmail.com>
+              palettes from wesanderson package
+    Nathaniel Phillips <yarrr.book@gmail.com>
+              palettes from yarrr package
