@@ -5,14 +5,14 @@
 
 <!-- badges: start -->
 
-[![R-CMD-check](https://github.com/emilhvitfeldt/paletteer/workflows/R-CMD-check/badge.svg)](https://github.com/emilhvitfeldt/paletteer/actions)
+[![R-CMD-check](https://github.com/EmilHvitfeldt/paletteer/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/EmilHvitfeldt/paletteer/actions/workflows/R-CMD-check.yaml)
+[![Lifecycle:
+stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/paletteer)](https://cran.r-project.org/package=paletteer)
 [![CRAN_Download_Badge](http://cranlogs.r-pkg.org/badges/paletteer)](https://CRAN.R-project.org/package=paletteer)
 [![Codecov test
-coverage](https://codecov.io/gh/emilhvitfeldt/paletteer/branch/main/graph/badge.svg)](https://app.codecov.io/gh/emilhvitfeldt/paletteer?branch=main)
-[![Lifecycle:
-stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html)
+coverage](https://codecov.io/gh/EmilHvitfeldt/paletteer/graph/badge.svg)](https://app.codecov.io/gh/EmilHvitfeldt/paletteer)
 <!-- badges: end -->
 
 The goal of **paletteer** is to be a comprehensive collection of color

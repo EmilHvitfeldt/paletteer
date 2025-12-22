@@ -17,11 +17,11 @@ knitr::opts_chunk$set(
 # paletteer <img src='man/figures/logo.png' style="float:right" height="139" />
 
 <!-- badges: start -->
-[![R-CMD-check](https://github.com/emilhvitfeldt/paletteer/workflows/R-CMD-check/badge.svg)](https://github.com/emilhvitfeldt/paletteer/actions)
+[![R-CMD-check](https://github.com/EmilHvitfeldt/paletteer/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/EmilHvitfeldt/paletteer/actions/workflows/R-CMD-check.yaml)
+[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html)
 [![CRAN status](https://www.r-pkg.org/badges/version/paletteer)](https://cran.r-project.org/package=paletteer)
 [![CRAN_Download_Badge](http://cranlogs.r-pkg.org/badges/paletteer)](https://CRAN.R-project.org/package=paletteer)
-[![Codecov test coverage](https://codecov.io/gh/emilhvitfeldt/paletteer/branch/main/graph/badge.svg)](https://app.codecov.io/gh/emilhvitfeldt/paletteer?branch=main)
-[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html)
+[![Codecov test coverage](https://codecov.io/gh/EmilHvitfeldt/paletteer/graph/badge.svg)](https://app.codecov.io/gh/EmilHvitfeldt/paletteer)
 <!-- badges: end -->
 
 The goal of **paletteer** is to be a comprehensive collection of color palettes in R using a common interface. Think of it as the "caret of palettes".
@@ -54,10 +54,10 @@ library(paletteer)
 pals::pal.bands(
   paletteer_d("nord::frost"),
   paletteer_d("dutchmasters::milkmaid"),
-  paletteer_d("LaCroixColoR::Lime"), 
+  paletteer_d("LaCroixColoR::Lime"),
   main = "Fixed width palettes",
   labels = c("nord\n frost", "dutchmasters\n milkmaid", "LaCroixColoR\n Lime")
-  )
+)
 ```
 
 on the other hand we have the dynamic palettes where the colors of the palette depend on the number of colors you need like the `green.pal` palette from the `cartography` package:
@@ -69,10 +69,12 @@ pals::pal.bands(
   paletteer_dynamic("cartography::green.pal", 5),
   paletteer_dynamic("cartography::green.pal", 8),
   main = "Dynamic palettes",
-  labels = c("cartography\n green.pal\n n = 2",
-             "cartography\n green.pal\n n = 5",
-             "cartography\n green.pal\n n = 6")
+  labels = c(
+    "cartography\n green.pal\n n = 2",
+    "cartography\n green.pal\n n = 5",
+    "cartography\n green.pal\n n = 6"
   )
+)
 ```
 
 Lastly we have the continuous palettes which provides as many colors as you need for a smooth transition of color:
@@ -83,10 +85,14 @@ library(paletteer)
 pals::pal.bands(
   paletteer_c("viridis::inferno", 256),
   paletteer_c("grDevices::terrain.colors", 256),
-  paletteer_c("scico::berlin", 256), 
+  paletteer_c("scico::berlin", 256),
   main = "continuous palettes",
-  labels = c("viridis\n inferno", "grDevices\n terrain.colors", "scico\n berlin")
+  labels = c(
+    "viridis\n inferno",
+    "grDevices\n terrain.colors",
+    "scico\n berlin"
   )
+)
 ```
 
 This package includes `r nrow(palettes_c_names) + nrow(palettes_d_names) + nrow(palettes_dynamic_names)` palettes from `r length(unique(c(palettes_c_names$package, palettes_d_names$package, palettes_dynamic_names$package))) - 2` different packages and information about these can be found in the following data.frames: `palettes_c_names`, `palettes_d_names` and `palettes_dynamic_names`. Additionally this [github repo](https://github.com/EmilHvitfeldt/r-color-palettes) showcases all the palettes included in the package and more.
@@ -152,16 +158,31 @@ paletteer_c("nord::frost")
 ```{r}
 #| echo: false
 p_df <- paletteer_packages
-p_df$Github <- ifelse(!is.na(paletteer_packages$Github),
-                            paste0("[", paletteer_packages$Github, " - ", 
-                            paletteer_packages$github_ver, "](https://github.com/", 
-                            paletteer_packages$Github, ")"),
-                            "-")
+p_df$Github <- ifelse(
+  !is.na(paletteer_packages$Github),
+  paste0(
+    "[",
+    paletteer_packages$Github,
+    " - ",
+    paletteer_packages$github_ver,
+    "](https://github.com/",
+    paletteer_packages$Github,
+    ")"
+  ),
+  "-"
+)
 
-p_df$CRAN <- ifelse(paletteer_packages$CRAN,
-  paste0("[", paletteer_packages$CRAN_ver, "](https://CRAN.R-project.org/package=", paletteer_packages$Name, 
-                    ")"),
-  "-")
+p_df$CRAN <- ifelse(
+  paletteer_packages$CRAN,
+  paste0(
+    "[",
+    paletteer_packages$CRAN_ver,
+    "](https://CRAN.R-project.org/package=",
+    paletteer_packages$Name,
+    ")"
+  ),
+  "-"
+)
 p_df$CRAN[p_df$Name == "grDevices"] <- p_df$CRAN_ver[p_df$Name == "grDevices"]
 
 knitr::kable(p_df[c("Name", "Github", "CRAN")])
