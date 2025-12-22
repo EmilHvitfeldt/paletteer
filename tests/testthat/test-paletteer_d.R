@@ -12,7 +12,7 @@ test_that("paletteer_d returns something when n is unspecified", {
 })
 
 test_that("paletteer_d throws an error when n is specified too high", {
-  expect_error(paletteer_d("wesanderson::Royal1", 100))
+  expect_snapshot(error = TRUE, paletteer_d("wesanderson::Royal1", 100))
 })
 
 test_that("paletteer_d return correct amount when type is set to continuous", {
@@ -34,7 +34,10 @@ test_that("direction works correctly in paletteer_d", {
     paletteer_d("wesanderson::Royal1", 3, direction = -1),
     prismatic::color(c("#FAEFD1", "#C93312", "#899DA4"))
   )
-  expect_error(paletteer_d("wesanderson::Royal1", 3, direction = 10))
+  expect_snapshot(
+    error = TRUE,
+    paletteer_d("wesanderson::Royal1", 3, direction = 10)
+  )
 })
 
 test_that("all ggthemes palettes are of length two or longer", {

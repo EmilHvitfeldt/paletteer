@@ -1,3 +1,19 @@
+# paletteer_d throws an error when n is specified too high
+
+    Code
+      paletteer_d("wesanderson::Royal1", 100)
+    Condition
+      Error in `paletteer_d()`:
+      ! Number of requested colors greater than this palette can offer which is 4.
+
+# direction works correctly in paletteer_d
+
+    Code
+      paletteer_d("wesanderson::Royal1", 3, direction = 10)
+    Condition
+      Error in `paletteer_d()`:
+      ! `direction` must be 1 or -1.
+
 # paletteer_d errors with wrong names
 
     Code
