@@ -13,12 +13,13 @@ palettes_dynamic_names <- purrr::imap_dfr(
   )
 ) %>%
   tibble::remove_rownames() %>%
-  dplyr::mutate(type = case_when(
-    palette %in% c("pastel.pal", "multi.pal") ~ "qualitative",
-    package == "cartography" ~ "sequential",
-    TRUE ~ "qualitative"
-  ))
+  dplyr::mutate(
+    type = case_when(
+      palette %in% c("pastel.pal", "multi.pal") ~ "qualitative",
+      package == "cartography" ~ "sequential",
+      TRUE ~ "qualitative"
+    )
+  )
 
 readr::write_csv(palettes_dynamic_names, "data-raw/palettes_dynamic_names.csv")
 usethis::use_data(palettes_dynamic_names, overwrite = TRUE)
-

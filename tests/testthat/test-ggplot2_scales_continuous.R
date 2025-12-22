@@ -18,8 +18,14 @@ test_that("scale_*_paletteer_c correctly assigns colors", {
     ggplot2::geom_raster() +
     scale_fill_paletteer_c("scico::berlin")
 
-  expect_equal(ggplot2::layer_data(p1)$colour, c("#9EB0FF", "#13313E", "#FFACAC"))
-  expect_equal(ggplot2::layer_data(p2)$colour, c("#9EB0FF", "#13313E", "#FFACAC"))
+  expect_equal(
+    ggplot2::layer_data(p1)$colour,
+    c("#9EB0FF", "#13313E", "#FFACAC")
+  )
+  expect_equal(
+    ggplot2::layer_data(p2)$colour,
+    c("#9EB0FF", "#13313E", "#FFACAC")
+  )
   expect_equal(ggplot2::layer_data(p3)$fill, c("#9EB0FF", "#13313E", "#FFACAC"))
 })
 
@@ -49,11 +55,23 @@ test_that("scale_*_paletteer_c correctly used direction", {
     ggplot2::geom_raster() +
     scale_fill_paletteer_c("scico::berlin", direction = -1)
 
-  expect_equal(ggplot2::layer_data(p1)$colour, c("#9EB0FF", "#13313E", "#FFACAC"))
-  expect_equal(ggplot2::layer_data(p2)$colour, c("#9EB0FF", "#13313E", "#FFACAC"))
+  expect_equal(
+    ggplot2::layer_data(p1)$colour,
+    c("#9EB0FF", "#13313E", "#FFACAC")
+  )
+  expect_equal(
+    ggplot2::layer_data(p2)$colour,
+    c("#9EB0FF", "#13313E", "#FFACAC")
+  )
   expect_equal(ggplot2::layer_data(p3)$fill, c("#9EB0FF", "#13313E", "#FFACAC"))
-  expect_equal(ggplot2::layer_data(p4)$colour, c("#FFACAC", "#3F1200", "#9EB0FF"))
-  expect_equal(ggplot2::layer_data(p5)$colour, c("#FFACAC", "#3F1200", "#9EB0FF"))
+  expect_equal(
+    ggplot2::layer_data(p4)$colour,
+    c("#FFACAC", "#3F1200", "#9EB0FF")
+  )
+  expect_equal(
+    ggplot2::layer_data(p5)$colour,
+    c("#FFACAC", "#3F1200", "#9EB0FF")
+  )
   expect_equal(ggplot2::layer_data(p6)$fill, c("#FFACAC", "#3F1200", "#9EB0FF"))
 })
 

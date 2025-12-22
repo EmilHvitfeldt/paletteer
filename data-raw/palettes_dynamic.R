@@ -2,7 +2,9 @@
 cartography_pals <- cartography:::cartography.colors
 
 ## ggthemes_ptol
-ggthemes_ptol_pals <- list(qualitative = ggthemes::ggthemes_data$ptol$qualitative)
+ggthemes_ptol_pals <- list(
+  qualitative = ggthemes::ggthemes_data$ptol$qualitative
+)
 
 ## ggthemes_solarized
 ggthemes_solarized_pals <- ggthemes::ggthemes_data$solarized$palettes

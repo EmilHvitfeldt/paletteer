@@ -18,9 +18,18 @@ test_that("scale_*_paletteer_d correctly assigns colors", {
     ggplot2::geom_raster() +
     scale_fill_paletteer_d("nord::lumina")
 
-  expect_equal(ggplot2::layer_data(p1)$colour, c("#EDDAEBFF", "#AD8CAEFF", "#4F93B8FF"))
-  expect_equal(ggplot2::layer_data(p2)$colour, c("#EDDAEBFF", "#AD8CAEFF", "#4F93B8FF"))
-  expect_equal(ggplot2::layer_data(p3)$fill, c("#EDDAEBFF", "#AD8CAEFF", "#4F93B8FF"))
+  expect_equal(
+    ggplot2::layer_data(p1)$colour,
+    c("#EDDAEBFF", "#AD8CAEFF", "#4F93B8FF")
+  )
+  expect_equal(
+    ggplot2::layer_data(p2)$colour,
+    c("#EDDAEBFF", "#AD8CAEFF", "#4F93B8FF")
+  )
+  expect_equal(
+    ggplot2::layer_data(p3)$fill,
+    c("#EDDAEBFF", "#AD8CAEFF", "#4F93B8FF")
+  )
 })
 
 test_that("scale_*_paletteer_d correctly assigns colors when dynamic = TRUE", {
@@ -37,9 +46,18 @@ test_that("scale_*_paletteer_d correctly assigns colors when dynamic = TRUE", {
     ggplot2::geom_raster() +
     scale_fill_paletteer_d("cartography::green.pal", dynamic = TRUE)
 
-  expect_equal(ggplot2::layer_data(p1)$colour, c("#B2D6A3FF", "#5A9C50FF", "#197230FF"))
-  expect_equal(ggplot2::layer_data(p2)$colour, c("#B2D6A3FF", "#5A9C50FF", "#197230FF"))
-  expect_equal(ggplot2::layer_data(p3)$fill, c("#B2D6A3FF", "#5A9C50FF", "#197230FF"))
+  expect_equal(
+    ggplot2::layer_data(p1)$colour,
+    c("#B2D6A3FF", "#5A9C50FF", "#197230FF")
+  )
+  expect_equal(
+    ggplot2::layer_data(p2)$colour,
+    c("#B2D6A3FF", "#5A9C50FF", "#197230FF")
+  )
+  expect_equal(
+    ggplot2::layer_data(p3)$fill,
+    c("#B2D6A3FF", "#5A9C50FF", "#197230FF")
+  )
 })
 
 test_that("scale_*_paletteer_d correctly used direction", {
@@ -68,12 +86,30 @@ test_that("scale_*_paletteer_d correctly used direction", {
     ggplot2::geom_raster() +
     scale_fill_paletteer_d("nord::lumina", direction = -1)
 
-  expect_equal(ggplot2::layer_data(p1)$colour, c("#EDDAEBFF", "#AD8CAEFF", "#4F93B8FF"))
-  expect_equal(ggplot2::layer_data(p2)$colour, c("#EDDAEBFF", "#AD8CAEFF", "#4F93B8FF"))
-  expect_equal(ggplot2::layer_data(p3)$fill, c("#EDDAEBFF", "#AD8CAEFF", "#4F93B8FF"))
-  expect_equal(ggplot2::layer_data(p4)$colour, c("#222B4CFF", "#306489FF", "#4F93B8FF"))
-  expect_equal(ggplot2::layer_data(p5)$colour, c("#222B4CFF", "#306489FF", "#4F93B8FF"))
-  expect_equal(ggplot2::layer_data(p6)$fill, c("#222B4CFF", "#306489FF", "#4F93B8FF"))
+  expect_equal(
+    ggplot2::layer_data(p1)$colour,
+    c("#EDDAEBFF", "#AD8CAEFF", "#4F93B8FF")
+  )
+  expect_equal(
+    ggplot2::layer_data(p2)$colour,
+    c("#EDDAEBFF", "#AD8CAEFF", "#4F93B8FF")
+  )
+  expect_equal(
+    ggplot2::layer_data(p3)$fill,
+    c("#EDDAEBFF", "#AD8CAEFF", "#4F93B8FF")
+  )
+  expect_equal(
+    ggplot2::layer_data(p4)$colour,
+    c("#222B4CFF", "#306489FF", "#4F93B8FF")
+  )
+  expect_equal(
+    ggplot2::layer_data(p5)$colour,
+    c("#222B4CFF", "#306489FF", "#4F93B8FF")
+  )
+  expect_equal(
+    ggplot2::layer_data(p6)$fill,
+    c("#222B4CFF", "#306489FF", "#4F93B8FF")
+  )
 })
 
 test_that("scale_*_paletteer_d works with quoted palettes", {

@@ -19,7 +19,10 @@ test_that("paletteer_d return correct amount when type is set to continuous", {
   expect_length(paletteer_d("wesanderson::Royal1", 1, type = "continuous"), 1)
   expect_length(paletteer_d("wesanderson::Royal1", 2, type = "continuous"), 2)
   expect_length(paletteer_d("wesanderson::Royal1", 4, type = "continuous"), 4)
-  expect_length(paletteer_d("wesanderson::Royal1", 100, type = "continuous"), 100)
+  expect_length(
+    paletteer_d("wesanderson::Royal1", 100, type = "continuous"),
+    100
+  )
 })
 
 test_that("direction works correctly in paletteer_d", {
@@ -58,7 +61,6 @@ test_that("paletteer_d works when called from another function", {
 
 
 test_that("palettes_d_names has the right number of rows", {
-
   expect_identical(
     length(unlist(lapply(palettes_d, names))),
     nrow(palettes_d_names)
@@ -71,4 +73,3 @@ test_that("paletteer_d errors with wrong names", {
     paletteer_d("paletteer::notreal")
   )
 })
-

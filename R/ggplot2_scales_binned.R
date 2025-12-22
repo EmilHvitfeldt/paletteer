@@ -24,11 +24,14 @@
 scale_colour_paletteer_binned <- function(palette, direction = 1, ...) {
   check_installed("ggplot2")
 
-  ggplot2::scale_colour_stepsn(colours = paletteer_c(
-    palette = {{ palette }},
-    direction = direction,
-    256
-  ), ...)
+  ggplot2::scale_colour_stepsn(
+    colours = paletteer_c(
+      palette = {{ palette }},
+      direction = direction,
+      256
+    ),
+    ...
+  )
 }
 #' @rdname ggplot2-scales-binned
 #' @export
@@ -40,9 +43,12 @@ scale_color_paletteer_binned <- scale_colour_paletteer_binned
 scale_fill_paletteer_binned <- function(palette, direction = 1, ...) {
   check_installed("ggplot2")
 
-  ggplot2::scale_fill_stepsn(colours = paletteer_c(
-    palette = {{ palette }},
-    direction = direction,
-    256
-  ), ...)
+  ggplot2::scale_fill_stepsn(
+    colours = paletteer_c(
+      palette = {{ palette }},
+      direction = direction,
+      256
+    ),
+    ...
+  )
 }

@@ -74,7 +74,9 @@ populate <- function(env) {
 
   this_ns <- find_the()
 
-  this_fn <- lapply(this_ns, function(x) ls(envir = asNamespace(x), pattern = "opts$"))
+  this_fn <- lapply(this_ns, function(x) {
+    ls(envir = asNamespace(x), pattern = "opts$")
+  })
 
   nms <- lapply(this_fn, function(x) names(get(x)$get()))
 
@@ -99,23 +101,33 @@ build_fields <- function(fields = c("set", "append"), ns = "ns", fn = "fn") {
 }
 
 find_the <- function() {
-  names(which(sapply(loadedNamespaces(), function(x) any(grepl("^the$", ls(envir = asNamespace(x)))))))
+  names(which(sapply(loadedNamespaces(), function(x) {
+    any(grepl("^the$", ls(envir = asNamespace(x))))
+  })))
 }
 
 paletteer_d_completer <- function(env) {
   c_funs <- c(
-    "paletteer_c", "scale_color_paletteer_c",
-    "scale_colour_paletteer_c", "scale_fill_paletteer_c",
+    "paletteer_c",
+    "scale_color_paletteer_c",
+    "scale_colour_paletteer_c",
+    "scale_fill_paletteer_c",
     "scale_color_paletteer_binned",
-    "scale_colour_paletteer_binned", "scale_fill_paletteer_binned"
+    "scale_colour_paletteer_binned",
+    "scale_fill_paletteer_binned"
   )
   d_funs <- c(
-    "paletteer_d", "scale_color_paletteer_d",
-    "scale_colour_paletteer_d", "scale_fill_paletteer_d"
+    "paletteer_d",
+    "scale_color_paletteer_d",
+    "scale_colour_paletteer_d",
+    "scale_fill_paletteer_d"
   )
 
-  if (!(current_function(env) %in% c(c_funs, d_funs, "paletteer_dynamic") &&
-    is_first_argument(env))) {
+  if (
+    !(current_function(env) %in%
+      c(c_funs, d_funs, "paletteer_dynamic") &&
+      is_first_argument(env))
+  ) {
     return(NULL)
   }
 

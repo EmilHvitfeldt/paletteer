@@ -63,5 +63,3 @@ test_that("paletteer_c works with harrypotter", {
     4L
   )
 })
-
-

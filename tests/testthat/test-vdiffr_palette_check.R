@@ -5,9 +5,16 @@ testthat::skip_if_not_installed("ggplot2")
 list_plotter <- function(color_list, names, package_name) {
   par(mar = c(0, 0, 0, 0) + 0.1)
 
-  plot(0, 0,
-    type = "n", axes = FALSE, bty = "n", xlab = "", ylab = "",
-    xlim = c(0, 1), ylim = c(-length(color_list) - 1, 0)
+  plot(
+    0,
+    0,
+    type = "n",
+    axes = FALSE,
+    bty = "n",
+    xlab = "",
+    ylab = "",
+    xlim = c(0, 1),
+    ylim = c(-length(color_list) - 1, 0)
   )
 
   title(package_name, line = -3)
@@ -15,12 +22,14 @@ list_plotter <- function(color_list, names, package_name) {
     colors_len <- length(color_list[[i]])
     breaks <- seq(from = 0, to = 1, length = colors_len + 1)
 
-
     text(0, -i, names[i], pos = 4)
     rect(
-      xleft = breaks[1:colors_len], xright = breaks[1:colors_len + 1],
-      ytop = -0.15 - i, ybottom = -0.8 - i,
-      col = color_list[[i]], border = NA
+      xleft = breaks[1:colors_len],
+      xright = breaks[1:colors_len + 1],
+      ytop = -0.15 - i,
+      ybottom = -0.8 - i,
+      col = color_list[[i]],
+      border = NA
     )
   }
 }
@@ -31,24 +40,32 @@ all_names <- function(package, type = NULL) {
   color_list_dynamic <- character()
 
   if (is.null(type)) {
-    names_d <- palettes_d_names[which(palettes_d_names$package == package), ]$palette
-  } else {
-    names_d <- palettes_d_names[intersect(
+    names_d <- palettes_d_names[
       which(palettes_d_names$package == package),
-      which(palettes_d_names$type == type)
-    ), ]$palette
+    ]$palette
+  } else {
+    names_d <- palettes_d_names[
+      intersect(
+        which(palettes_d_names$package == package),
+        which(palettes_d_names$type == type)
+      ),
+    ]$palette
   }
 
   if (length(names_d) > 0) {
     color_list_d <- lapply(paste0(package, "::", names_d), paletteer_d)
   }
   if (is.null(type)) {
-    names_c <- palettes_c_names[which(palettes_c_names$package == package), ]$palette
-  } else {
-    names_c <- palettes_c_names[intersect(
+    names_c <- palettes_c_names[
       which(palettes_c_names$package == package),
-      which(palettes_c_names$type == type)
-    ), ]$palette
+    ]$palette
+  } else {
+    names_c <- palettes_c_names[
+      intersect(
+        which(palettes_c_names$package == package),
+        which(palettes_c_names$type == type)
+      ),
+    ]$palette
   }
 
   if (length(names_c) > 0) {
@@ -68,9 +85,11 @@ all_names <- function(package, type = NULL) {
   length_dynamic <- palettes_dynamic_names[which_dynamic, ]$length
 
   if (length(names_dynamic) > 0) {
-    color_list_dynamic <- mapply(paletteer_dynamic,
+    color_list_dynamic <- mapply(
+      paletteer_dynamic,
       palette = paste0(package, "::", names_dynamic),
-      n = length_dynamic, SIMPLIFY = FALSE
+      n = length_dynamic,
+      SIMPLIFY = FALSE
     )
   }
 
@@ -105,7 +124,8 @@ all_package_names <- setdiff(
     "palr",
     "pals",
     "scico",
-    "viridisLite")
+    "viridisLite"
+  )
 )
 
 expect_doppelganger <- function(title, fig, ...) {

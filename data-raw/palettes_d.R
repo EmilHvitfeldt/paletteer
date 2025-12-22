@@ -64,18 +64,24 @@ colorblindr_pals <- list(
 )
 
 ## colRoz ---------------------------------------------------------------------
-colRoz_pals <- purrr::reduce(lapply(colRoz::oz_palettes, function(y) lapply(y, function(x) x[1, ])), c)
+colRoz_pals <- purrr::reduce(
+  lapply(colRoz::oz_palettes, function(y) lapply(y, function(x) x[1, ])),
+  c
+)
 
 ## dichromat ------------------------------------------------------------------
 dichromat_pals <- dichromat::colorschemes
 
 ## DresdenColor ---------------------------------------------------------------
 
-DresdenColor_pals <- c(lapply(
-  DresdenColor::dresden_palettes[names(DresdenColor::dresden_palettes) != "paired"],
-  function(x) x[1, ]
-),
-paired = list(DresdenColor::dresden_palettes$paired)
+DresdenColor_pals <- c(
+  lapply(
+    DresdenColor::dresden_palettes[
+      names(DresdenColor::dresden_palettes) != "paired"
+    ],
+    function(x) x[1, ]
+  ),
+  paired = list(DresdenColor::dresden_palettes$paired)
 )
 
 ## dutchmasters ---------------------------------------------------------------
@@ -93,11 +99,26 @@ fishualize_pals <- split(
 
 ## futurevisions --------------------------------------------------------------
 futurevisions_names <- c(
-  "venus", "earth", "mars", "jupiter", "ceres",
-  "enceladus", "europa", "titan", "cancri", "hd",
-  "kepler186", "kepler16b", "pegasi", "pso", "trappest",
-  "grand_tour", "atomic_clock", "atomic_red",
-  "atomic_blue", "atomic_orange"
+  "venus",
+  "earth",
+  "mars",
+  "jupiter",
+  "ceres",
+  "enceladus",
+  "europa",
+  "titan",
+  "cancri",
+  "hd",
+  "kepler186",
+  "kepler16b",
+  "pegasi",
+  "pso",
+  "trappest",
+  "grand_tour",
+  "atomic_clock",
+  "atomic_red",
+  "atomic_blue",
+  "atomic_orange"
 )
 
 names(futurevisions_names) <- futurevisions_names
@@ -135,17 +156,28 @@ ggthemes_tableau_pals <- lapply(
 )
 
 ## ggthemes few
-ggthemes_few_pals <- lapply(ggthemes::ggthemes_data$few$colors, function(x) x$value)
+ggthemes_few_pals <- lapply(ggthemes::ggthemes_data$few$colors, function(x) {
+  x$value
+})
 names(ggthemes_few_pals) <- paste("few", names(ggthemes_few_pals), sep = "_")
 names(ggthemes_few_pals) <- gsub(" ", "_", names(ggthemes_few_pals))
 
 ## ggthemes excel
-ggthemes_excel_pals <- lapply(ggthemes::ggthemes_data$excel$themes, function(x) x$accents)
-names(ggthemes_excel_pals) <- paste("excel", names(ggthemes_excel_pals), sep = "_")
+ggthemes_excel_pals <- lapply(
+  ggthemes::ggthemes_data$excel$themes,
+  function(x) x$accents
+)
+names(ggthemes_excel_pals) <- paste(
+  "excel",
+  names(ggthemes_excel_pals),
+  sep = "_"
+)
 names(ggthemes_excel_pals) <- gsub(" ", "_", names(ggthemes_excel_pals))
 
 ## ggthemes wsj
-ggthemes_wsj_pals <- lapply(ggthemes::ggthemes_data$wsj$palettes, function(x) x$value)
+ggthemes_wsj_pals <- lapply(ggthemes::ggthemes_data$wsj$palettes, function(x) {
+  x$value
+})
 names(ggthemes_wsj_pals) <- paste("wsj", names(ggthemes_wsj_pals), sep = "_")
 names(ggthemes_wsj_pals) <- gsub(" ", "_", names(ggthemes_wsj_pals))
 
@@ -154,7 +186,11 @@ ggthemes_stata_pals <- lapply(
   ggthemes::ggthemes_data$stata$colors$schemes,
   function(x) x$value
 )
-names(ggthemes_stata_pals) <- paste("stata", names(ggthemes_stata_pals), sep = "_")
+names(ggthemes_stata_pals) <- paste(
+  "stata",
+  names(ggthemes_stata_pals),
+  sep = "_"
+)
 names(ggthemes_stata_pals) <- gsub(" ", "_", names(ggthemes_stata_pals))
 
 ## ggthemes hc
@@ -167,7 +203,11 @@ ggthemes_economist_pals <- lapply(
   ggthemes::ggthemes_data$economist,
   function(x) x$value
 )
-names(ggthemes_economist_pals) <- paste("hc", names(ggthemes_economist_pals), sep = "_")
+names(ggthemes_economist_pals) <- paste(
+  "hc",
+  names(ggthemes_economist_pals),
+  sep = "_"
+)
 names(ggthemes_economist_pals) <- gsub(" ", "_", names(ggthemes_economist_pals))
 
 ggthemes_pals <- c(
@@ -282,7 +322,10 @@ musculusColors_pals <- lapply(musculusColors::Bm_palettes, function(x) x[1, ])
 nationalparkcolors_pals <- nationalparkcolors::park_palettes
 
 ## NatParksPalettes -----------------------------------------------------------
-NatParksPalettes_pals <- lapply(NatParksPalettes::NatParksPalettes, function(x) x[[1]])
+NatParksPalettes_pals <- lapply(
+  NatParksPalettes::NatParksPalettes,
+  function(x) x[[1]]
+)
 
 ## nbapalettes ----------------------------------------------------------------
 nbapalettes_pals <- nbapalettes::nba_palettes
@@ -312,7 +355,11 @@ ochRe_pals <- ochRe::ochre_palettes
 ## palettesForR ---------------------------------------------------------------
 library(palettesForR)
 palettesForR_names <- ls(pos = "package:palettesForR", pattern = "_gpl")
-palettesForR_pals <- lapply(palettesForR_names, get, pos = "package:palettesForR")
+palettesForR_pals <- lapply(
+  palettesForR_names,
+  get,
+  pos = "package:palettesForR"
+)
 palettesForR_pals <- lapply(palettesForR_pals, unname)
 names(palettesForR_pals) <- stringr::str_remove(palettesForR_names, "_gpl")
 
@@ -371,7 +418,8 @@ names(rcartocolors_pals) <- rcartocolor::cartocolors$Name
 ## rcolorbrewer ---------------------------------------------------------------
 RColorBrewer_name <- rownames(RColorBrewer::brewer.pal.info)
 RColorBrewer_ncolor <- RColorBrewer::brewer.pal.info$maxcolors
-rcolorbrewer_pals <- mapply(RColorBrewer::brewer.pal,
+rcolorbrewer_pals <- mapply(
+  RColorBrewer::brewer.pal,
   n = RColorBrewer_ncolor,
   name = RColorBrewer_name
 )
@@ -380,7 +428,11 @@ names(rcolorbrewer_pals) <- RColorBrewer_name
 ## redmonder ------------------------------------------------------------------
 redmonder_name <- rownames(Redmonder::redmonder.pal.info)
 redmonder_ncolor <- Redmonder::redmonder.pal.info$maxcolors
-redmonder_pals <- mapply(Redmonder::redmonder.pal, n = redmonder_ncolor, name = redmonder_name)
+redmonder_pals <- mapply(
+  Redmonder::redmonder.pal,
+  n = redmonder_ncolor,
+  name = redmonder_name
+)
 names(redmonder_pals) <- redmonder_name
 
 ## rockthemes -----------------------------------------------------------------
@@ -389,9 +441,7 @@ rockthemes_pals <- rockthemes:::rock_palettes
 ## RSkittleBrewer -------------------------------------------------------------
 RSkittleBrewer_name <- c("original", "tropical", "wildberry", "M&M", "smarties")
 RSkittleBrewer_pals <- lapply(
-  mapply(RSkittleBrewer::RSkittleBrewer,
-    flavor = RSkittleBrewer_name
-  ),
+  mapply(RSkittleBrewer::RSkittleBrewer, flavor = RSkittleBrewer_name),
   unname
 )
 
@@ -438,7 +488,9 @@ tvthemes_pals <- c(
 )
 
 ## unikn ----------------------------------------------------------------------
-unikn_pals <- lapply(unikn:::all_palkn, function(x) unname(unlist(getFromNamespace(x, ns = "unikn"))))
+unikn_pals <- lapply(unikn:::all_palkn, function(x) {
+  unname(unlist(getFromNamespace(x, ns = "unikn")))
+})
 names(unikn_pals) <- unikn:::all_palkn
 
 ## vangogh ---------------------------------------------------------------------

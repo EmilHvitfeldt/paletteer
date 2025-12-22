@@ -1,6 +1,4 @@
-
 pal_pal <- function(palette, direction, dynamic) {
-
   palette <- try(palette, silent = TRUE)
   if (inherits(palette, "try-error")) {
     palette <- attr(palette, "condition")$message
@@ -45,13 +43,21 @@ pal_pal <- function(palette, direction, dynamic) {
 #'   geom_point() +
 #'   scale_colour_paletteer_d("nord::frost")
 #' @export
-scale_colour_paletteer_d <- function(palette, direction = 1,
-                                     dynamic = FALSE, ...) {
-
-  ggplot2::discrete_scale("colour",
-                palette = pal_pal(palette = {{palette}},
-                         dynamic = dynamic, direction = direction), ...)
-
+scale_colour_paletteer_d <- function(
+  palette,
+  direction = 1,
+  dynamic = FALSE,
+  ...
+) {
+  ggplot2::discrete_scale(
+    "colour",
+    palette = pal_pal(
+      palette = {{ palette }},
+      dynamic = dynamic,
+      direction = direction
+    ),
+    ...
+  )
 }
 
 #' @rdname ggplot2-scales-discrete
@@ -62,10 +68,19 @@ scale_color_paletteer_d <- scale_colour_paletteer_d
 #' @rdname ggplot2-scales-discrete
 #' @export
 #'
-scale_fill_paletteer_d <- function(palette, direction = 1,
-                                   dynamic = FALSE, ...) {
-
-  ggplot2::discrete_scale("fill",
-                palette = pal_pal(palette = {{palette}},
-                         dynamic = dynamic, direction = direction), ...)
+scale_fill_paletteer_d <- function(
+  palette,
+  direction = 1,
+  dynamic = FALSE,
+  ...
+) {
+  ggplot2::discrete_scale(
+    "fill",
+    palette = pal_pal(
+      palette = {{ palette }},
+      dynamic = dynamic,
+      direction = direction
+    ),
+    ...
+  )
 }
