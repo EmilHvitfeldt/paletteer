@@ -48,8 +48,8 @@ pal_pal <- function(palette, direction, dynamic) {
 scale_colour_paletteer_d <- function(palette, direction = 1,
                                      dynamic = FALSE, ...) {
 
-  ggplot2::discrete_scale("colour", "palette_name",
-                 pal_pal(palette = {{palette}},
+  ggplot2::discrete_scale("colour",
+                palette = pal_pal(palette = {{palette}},
                          dynamic = dynamic, direction = direction), ...)
 
 }
@@ -65,7 +65,7 @@ scale_color_paletteer_d <- scale_colour_paletteer_d
 scale_fill_paletteer_d <- function(palette, direction = 1,
                                    dynamic = FALSE, ...) {
 
-  ggplot2::discrete_scale("fill", "palette_name",
-                 pal_pal(palette = {{palette}},
+  ggplot2::discrete_scale("fill",
+                palette = pal_pal(palette = {{palette}},
                          dynamic = dynamic, direction = direction), ...)
 }
