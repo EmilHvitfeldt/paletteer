@@ -53,7 +53,7 @@ jobs:
 
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          extra-packages: any::rcmdcheck
+          extra-packages: any::rcmdcheck, oompaBase=?ignore-before-r=4.5.0
           needs: check
 
       - uses: r-lib/actions/check-r-package@v2
