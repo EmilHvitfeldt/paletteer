@@ -141,8 +141,8 @@ ggsci_names <- mapply(
   },
   ggsci:::ggsci_db,
   names(ggsci:::ggsci_db)
-) %>%
-  unlist() %>%
+) |>
+  unlist() |>
   unname()
 ggsci_pals <- lapply(purrr::flatten(ggsci:::ggsci_db), unname)
 names(ggsci_pals) <- ggsci_names
@@ -241,8 +241,8 @@ grDevices_pals <- list(blues9 = grDevices::blues9)
 IslamicArt_pals <- IslamicArt::islamic_palettes
 
 ## impressionist.colors -------------------------------------------------------
-impressionist.colors_pals <- impressionist.colors::palette.list %>%
-  purrr::flatten() %>%
+impressionist.colors_pals <- impressionist.colors::palette.list |>
+  purrr::flatten() |>
   purrr::map("colors")
 
 names(impressionist.colors_pals) <- janitor::make_clean_names(
@@ -534,7 +534,7 @@ wesanderson_pals <- wesanderson::wes_palettes
 
 ## yarrr ----------------------------------------------------------------------
 yarrr_names <- yarrr::piratepal("names")
-yarrr_pals <- mapply(yarrr::piratepal, yarrr_names) %>%
+yarrr_pals <- mapply(yarrr::piratepal, yarrr_names) |>
   lapply(unname)
 
 # discrete fixed number of colors ---------------------------------------------

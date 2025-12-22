@@ -79,7 +79,7 @@ paletteer_packages <- tibble::tribble(
   "werpals"              , "sciencificity/werpals"            , "0.1.0"       , FALSE , NA        ,
   "wesanderson"          , "karthik/wesanderson"              , "0.3.7"       , TRUE  , "0.3.7"   ,
   "yarrr"                , "ndphillips/yarrr"                 , "0.1.6"       , TRUE  , NA
-) %>%
+) |>
   arrange(Name)
 
 readr::write_csv(paletteer_packages, "data-raw/paletteer_packages.csv")
