@@ -1,6 +1,3 @@
-#' @importFrom rlang check_installed abort
-NULL
-
 check_palette <- function(palette, names, call = rlang::caller_env()) {
   if (!(palette %in% names)) {
     abort(

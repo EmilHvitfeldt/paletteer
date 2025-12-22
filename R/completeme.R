@@ -13,7 +13,6 @@ complete_token <- get(".completeToken", asNamespace("utils"))
 # If all registered completions do not have any completions for a given
 # context, than R's standard completions are used.
 # @param ... One or more completion functions specified as named parameters.
-#' @importFrom utils modifyList
 register_completion <- function(...) {
   funs <- list(...)
 
@@ -29,7 +28,6 @@ register_completion <- function(...) {
   invisible(old)
 }
 
-#' @importFrom utils rc.options
 completeme <- function(env) {
   env$fileName <- FALSE
   for (fun in the$completions) {
@@ -56,7 +54,6 @@ completeme <- function(env) {
   invisible(env$comps)
 }
 
-#' @importFrom rematch2 re_match
 current_function <- function(env) {
   buffer <- env[["linebuffer"]]
   fun <- rematch2::re_match(buffer, "(?<fun>[^[:space:](]+)[(][^(]*$")$fun

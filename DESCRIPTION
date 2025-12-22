@@ -28,7 +28,7 @@ Suggests:
     pals,
     rmarkdown,
     scico,
-    testthat (>= 2.1.0),
+    testthat (>= 3.0.0),
     vdiffr,
     viridisLite
 Copyright: See LICENSE.note file.
