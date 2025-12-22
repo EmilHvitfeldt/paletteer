@@ -11,7 +11,7 @@ License: GPL-3
 URL: https://emilhvitfeldt.github.io/paletteer/, https://github.com/EmilHvitfeldt/paletteer
 BugReports: https://github.com/EmilHvitfeldt/paletteer/issues
 Depends:
-    R (>= 2.10)
+    R (>= 4.1)
 Imports: 
     prismatic,
     rematch2,
