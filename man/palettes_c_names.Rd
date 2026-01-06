@@ -5,7 +5,7 @@
 \alias{palettes_c_names}
 \title{Data Frame of all continuous palettes}
 \format{
-A data.frame of 319 observations with 3
+A data.frame of 323 observations with 3
 variables:
 \describe{
 \item{package}{character, name of package}
