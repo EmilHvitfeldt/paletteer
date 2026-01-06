@@ -6,7 +6,13 @@ Available package/palette combinations are available in the data.frame
 ## Usage
 
 ``` r
-paletteer_d(palette, n, direction = 1, type = c("discrete", "continuous"))
+paletteer_d(
+  palette,
+  n,
+  direction = 1,
+  type = c("discrete", "continuous"),
+  call = caller_env(0)
+)
 ```
 
 ## Arguments
@@ -28,6 +34,14 @@ paletteer_d(palette, n, direction = 1, type = c("discrete", "continuous"))
 
   Either "discrete" or "continuous". Colors are interpolated if
   "continuous" is picked. Defaults to "discrete".
+
+- call:
+
+  The execution environment of a currently running function, e.g.
+  `caller_env()`. The function will be mentioned in error messages as
+  the source of the error. See the `call` argument of
+  [`abort()`](https://rlang.r-lib.org/reference/abort.html) for more
+  information.
 
 ## Value
 

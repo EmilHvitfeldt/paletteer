@@ -2,6 +2,9 @@
 
 ## paletteer (development version)
 
+- Updated argument checking to be more precise and uniform.
+  ([\#174](https://github.com/EmilHvitfeldt/paletteer/issues/174))
+
 ## paletteer 1.6.0
 
 CRAN release: 2024-01-21

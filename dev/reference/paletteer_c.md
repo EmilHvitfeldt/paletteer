@@ -6,7 +6,7 @@ Available package/palette combinations are available in the data.frame
 ## Usage
 
 ``` r
-paletteer_c(palette, n, direction = 1)
+paletteer_c(palette, n, direction = 1, call = caller_env(0))
 ```
 
 ## Arguments
@@ -23,6 +23,14 @@ paletteer_c(palette, n, direction = 1)
 - direction:
 
   Either `1` or `-1`. If `-1` the palette will be reversed.
+
+- call:
+
+  The execution environment of a currently running function, e.g.
+  `caller_env()`. The function will be mentioned in error messages as
+  the source of the error. See the `call` argument of
+  [`abort()`](https://rlang.r-lib.org/reference/abort.html) for more
+  information.
 
 ## Value
 
