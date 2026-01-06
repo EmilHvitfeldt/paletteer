@@ -142,7 +142,7 @@ paletteer_c("nord::frost")
 | PrettyCols           | [nrennie/PrettyCols - 1.0.1.9001](https://github.com/nrennie/PrettyCols)                         | [1.0.1](https://CRAN.R-project.org/package=PrettyCols)         |
 | RColorBrewer         | \-                                                                                               | [1.1.3](https://CRAN.R-project.org/package=RColorBrewer)       |
 | RSkittleBrewer       | [alyssafrazee/RSkittleBrewer - 1.1](https://github.com/alyssafrazee/RSkittleBrewer)              | \-                                                             |
-| Redmonder            | \-                                                                                               | [0.2.0](https://CRAN.R-project.org/package=Redmonder)          |
+| Redmonder            | [pmdci/redmonder - 0.2.0](https://github.com/pmdci/redmonder)                                    | [0.2.0](https://CRAN.R-project.org/package=Redmonder)          |
 | awtools              | [awhstin/awtools - 0.2.1](https://github.com/awhstin/awtools)                                    | \-                                                             |
 | basetheme            | [karoliskoncevicius/basetheme - 0.1.3](https://github.com/karoliskoncevicius/basetheme)          | [0.1.3](https://CRAN.R-project.org/package=basetheme)          |
 | beyonce              | [dill/beyonce - 0.1](https://github.com/dill/beyonce)                                            | \-                                                             |
