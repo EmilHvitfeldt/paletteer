@@ -4,6 +4,8 @@
 
 - Updated argument checking to be more precise and uniform.
   ([\#174](https://github.com/EmilHvitfeldt/paletteer/issues/174))
+- Add missing scico palettes.
+  ([\#168](https://github.com/EmilHvitfeldt/paletteer/issues/168))
 
 ## paletteer 1.6.0
 

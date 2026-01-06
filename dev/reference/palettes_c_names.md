@@ -11,7 +11,7 @@ palettes_c_names
 
 ## Format
 
-A data.frame of 319 observations with 3 variables:
+A data.frame of 323 observations with 3 variables:
 
 - package:
 
