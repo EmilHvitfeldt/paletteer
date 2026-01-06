@@ -2,8 +2,8 @@
 "_PACKAGE"
 
 ## usethis namespace: start
+#' @import rlang
 #' @importFrom rematch2 re_match
-#' @importFrom rlang check_installed
 #' @importFrom utils modifyList
 #' @importFrom utils rc.options
 ## usethis namespace: end

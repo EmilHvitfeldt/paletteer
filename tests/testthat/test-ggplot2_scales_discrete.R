@@ -110,6 +110,12 @@ test_that("scale_*_paletteer_d correctly used direction", {
     ggplot2::layer_data(p6)$fill,
     c("#222B4CFF", "#306489FF", "#4F93B8FF")
   )
+
+  expect_snapshot(
+    error = TRUE,
+    ggplot2::ggplot(df, ggplot2::aes(x, y, colour = color)) +
+      scale_colour_paletteer_d("nord::lumina", direction = 10)
+  )
 })
 
 test_that("scale_*_paletteer_d works with quoted palettes", {

@@ -7,14 +7,15 @@
 #' packagename::palettename.
 #' @param n Number of colors desired. Must be supplied.
 #' @param direction Either `1` or `-1`. If `-1` the palette will be reversed.
+#' @inheritParams rlang::args_error_context
+#'
 #' @return A vector of colors.
 #' @examplesIf rlang::is_installed("scico")
 #' paletteer_c("scico::berlin", 100)
 #' @export
-paletteer_c <- function(palette, n, direction = 1) {
-  if (abs(direction) != 1) {
-    cli::cli_abort("{.arg direction} must be 1 or -1, not {direction}.")
-  }
+paletteer_c <- function(palette, n, direction = 1, call = caller_env(0)) {
+  check_number_whole(n, min = 1, call = call)
+  check_direction(direction, call = call)
 
   palette <- try(palette, silent = TRUE)
   if (inherits(palette, "try-error")) {
