@@ -1,5 +1,7 @@
 # paletteer (development version)
 
+* Updated argument checking to be more precise and uniform. (#174)
+
 # paletteer 1.6.0
 
 * 15 palettes have been added from vangogh package. (#133)
