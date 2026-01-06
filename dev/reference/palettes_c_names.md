@@ -1,4 +1,4 @@
-# Names of all continuous palettes
+# Data Frame of all continuous palettes
 
 A data.frame of the names and other characteristics of the continuous
 palettes included in this package.

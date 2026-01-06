@@ -1,6 +1,6 @@
-# Names and version information for all packages included
+# Names and version information for all included packages
 
-Names and version information for all packages included
+Names and version information for all included packages
 
 ## Usage
 
@@ -10,7 +10,7 @@ paletteer_packages
 
 ## Format
 
-A data.frame with 3 variables:
+A data.frame with 5 variables and 77 rows:
 
 - Names:
 
@@ -30,4 +30,4 @@ A data.frame with 3 variables:
 
 - CRAN_ver:
 
-  character, version number on CRAN
+  character, version number on CRAN, NA if not on CRAN

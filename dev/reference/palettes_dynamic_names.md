@@ -1,4 +1,4 @@
-# Names of all fixed discrete palettes
+# Data Frame of all fixed discrete palettes
 
 A data.frame of the names and other characteristics of the dynamic
 palettes included in this package.
