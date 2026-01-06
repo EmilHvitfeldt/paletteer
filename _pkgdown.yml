@@ -3,3 +3,22 @@ template:
 
 development:
   mode: auto
+
+reference:
+- title: Palette Functions
+  contents:
+  - paletteer_c
+  - paletteer_d
+  - paletteer_dynamic
+- title: ggplot2 Functions
+  contents:
+  - starts_with("scale_")
+- title: Datasets
+  contents:
+  - paletteer_packages
+  - palettes_c_names
+  - palettes_d
+  - palettes_d_names
+  - palettes_dynamic
+  - palettes_dynamic_names
+
