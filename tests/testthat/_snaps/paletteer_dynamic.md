@@ -4,7 +4,7 @@
       paletteer_dynamic("ggthemes_solarized::green")
     Condition
       Error in `paletteer_dynamic()`:
-      ! `n` not found. Please supply the number of colors you want returned.
+      ! `n` must be a whole number, not absent.
 
 # paletteer_dynamic throws an error when n is specified too high
 
@@ -12,7 +12,7 @@
       paletteer_dynamic("ggthemes_solarized::green", 100)
     Condition
       Error in `paletteer_dynamic()`:
-      ! Number of requested colors (100) greater than this palette can offer (8).
+      ! `n` must be a whole number between 0 and 8, not the number 100.
 
 # direction works correctly in paletteer_dynamic
 

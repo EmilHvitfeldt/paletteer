@@ -4,7 +4,7 @@
       paletteer_d("wesanderson::Royal1", 100)
     Condition
       Error in `paletteer_d()`:
-      ! Number of requested colors (100) greater than this palette can offer (4).
+      ! `n` must be a whole number between 1 and 4, not the number 100.
 
 # direction works correctly in paletteer_d
 

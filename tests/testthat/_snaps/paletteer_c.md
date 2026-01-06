@@ -4,7 +4,7 @@
       paletteer_c("grDevices::rainbow")
     Condition
       Error in `paletteer_c()`:
-      ! argument "n" is missing, with no default
+      ! `n` must be a whole number, not absent.
 
 # direction works correctly in paletteer_c
 

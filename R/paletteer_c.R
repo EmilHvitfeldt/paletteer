@@ -14,6 +14,7 @@
 #' paletteer_c("scico::berlin", 100)
 #' @export
 paletteer_c <- function(palette, n, direction = 1, call = caller_env(0)) {
+  check_number_whole(n, min = 1, call = call)
   check_direction(direction, call = call)
 
   palette <- try(palette, silent = TRUE)

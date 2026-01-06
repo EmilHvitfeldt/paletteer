@@ -15,12 +15,6 @@
 paletteer_dynamic <- function(palette, n, direction = 1) {
   check_direction(direction)
 
-  if (missing(n)) {
-    cli::cli_abort(
-      "{.arg n} not found. Please supply the number of colors you want returned."
-    )
-  }
-
   palette <- try(palette, silent = TRUE)
   if (inherits(palette, "try-error")) {
     palette <- attr(palette, "condition")$message
@@ -34,12 +28,7 @@ paletteer_dynamic <- function(palette, n, direction = 1) {
 
   pal <- paletteer::palettes_dynamic[[palette]]
 
-  if (n > length(pal)) {
-    cli::cli_abort(
-      "Number of requested colors ({n}) greater than this palette can offer 
-      ({length(pal)})."
-    )
-  }
+  check_number_whole(n, min = 0, max = as.double(length(pal)))
 
   if (direction == -1) {
     prismatic::color(rev(pal[[n]]))

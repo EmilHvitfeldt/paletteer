@@ -4,7 +4,13 @@
 \alias{paletteer_d}
 \title{Get discrete palette by package and name}
 \usage{
-paletteer_d(palette, n, direction = 1, type = c("discrete", "continuous"))
+paletteer_d(
+  palette,
+  n,
+  direction = 1,
+  type = c("discrete", "continuous"),
+  call = caller_env(0)
+)
 }
 \arguments{
 \item{palette}{Name of palette as a string. Must be on the form
@@ -16,6 +22,11 @@ packagename::palettename.}
 
 \item{type}{Either "discrete" or "continuous". Colors are interpolated if
 "continuous" is picked. Defaults to "discrete".}
+
+\item{call}{The execution environment of a currently
+running function, e.g. \code{caller_env()}. The function will be
+mentioned in error messages as the source of the error. See the
+\code{call} argument of \code{\link[rlang:abort]{abort()}} for more information.}
 }
 \value{
 A vector of colors.
