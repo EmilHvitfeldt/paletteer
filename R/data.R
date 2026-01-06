@@ -12,7 +12,7 @@
 #' @format A list of `r length(palettes_d)` lists.
 "palettes_d"
 
-#' Names of all fixed discrete palettes
+#' Data Frame of all fixed discrete palettes
 #'
 #' A data.frame of the names and other characteristics of the discrete palettes
 #' of fixed lengths included in this package.
@@ -46,7 +46,7 @@
 #' @format A list of 3 lists.
 "palettes_dynamic"
 
-#' Names of all fixed discrete palettes
+#' Data Frame of all fixed discrete palettes
 #'
 #' A data.frame of the names and other characteristics of the dynamic palettes
 #' included in this package.
@@ -66,7 +66,7 @@
 #' }
 "palettes_dynamic_names"
 
-#' Names of all continuous palettes
+#' Data Frame of all continuous palettes
 #'
 #' A data.frame of the names and other characteristics of the continuous
 #' palettes included in this package.
@@ -83,14 +83,15 @@
 #' }
 "palettes_c_names"
 
-#' Names and version information for all packages included
+#' Names and version information for all included packages
 #'
-#' @format A data.frame with 3 variables:
+#' @format A data.frame with `r ncol(paletteer_packages)` variables and
+#' `r nrow(paletteer_packages)` rows:
 #' \describe{
 #'   \item{Names}{character, name of package}
 #'   \item{Github}{character, name of Github repository}
 #'   \item{github_ver}{character, version number on Github}
 #'   \item{CRAN}{logical, is package available on CRAN}
-#'   \item{CRAN_ver}{character, version number on CRAN}
+#'   \item{CRAN_ver}{character, version number on CRAN, NA if not on CRAN}
 #' }
 "paletteer_packages"

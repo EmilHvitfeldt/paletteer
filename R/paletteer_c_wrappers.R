@@ -9,6 +9,8 @@
 #'
 #' @return Vector of color values from specified palette.
 #'
+#' @keywords internal
+#'
 #' @name paleteer-c-wrapper
 #' @rdname paleteer-c-wrapper
 paletteer_c_ggthemes <- function(name, n) {

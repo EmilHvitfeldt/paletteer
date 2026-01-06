@@ -3,7 +3,7 @@
 \docType{data}
 \name{palettes_c_names}
 \alias{palettes_c_names}
-\title{Names of all continuous palettes}
+\title{Data Frame of all continuous palettes}
 \format{
 A data.frame of 319 observations with 3
 variables:
