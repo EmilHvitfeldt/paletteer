@@ -3,21 +3,22 @@
 \docType{data}
 \name{paletteer_packages}
 \alias{paletteer_packages}
-\title{Names and version information for all packages included}
+\title{Names and version information for all included packages}
 \format{
-A data.frame with 3 variables:
+A data.frame with 5 variables and
+77 rows:
 \describe{
 \item{Names}{character, name of package}
 \item{Github}{character, name of Github repository}
 \item{github_ver}{character, version number on Github}
 \item{CRAN}{logical, is package available on CRAN}
-\item{CRAN_ver}{character, version number on CRAN}
+\item{CRAN_ver}{character, version number on CRAN, NA if not on CRAN}
 }
 }
 \usage{
 paletteer_packages
 }
 \description{
-Names and version information for all packages included
+Names and version information for all included packages
 }
 \keyword{datasets}

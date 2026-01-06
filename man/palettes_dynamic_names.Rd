@@ -3,7 +3,7 @@
 \docType{data}
 \name{palettes_dynamic_names}
 \alias{palettes_dynamic_names}
-\title{Names of all fixed discrete palettes}
+\title{Data Frame of all fixed discrete palettes}
 \format{
 A data.frame of 25 observations with
 4 variables:

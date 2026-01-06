@@ -41,3 +41,4 @@ These functions provide a function wrapper for each package such that a
 palette can be generated using only the name of the desired palette and the
 length.
 }
+\keyword{internal}
