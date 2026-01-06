@@ -21,10 +21,7 @@ paletteer_d <- function(
   direction = 1,
   type = c("discrete", "continuous")
 ) {
-  if (abs(direction) != 1) {
-    cli::cli_abort("{.arg direction} must be 1 or -1, not {direction}.")
-  }
-
+  check_direction(direction)
   type <- match.arg(type)
 
   palette <- try(palette, silent = TRUE)

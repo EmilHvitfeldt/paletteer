@@ -74,6 +74,12 @@ test_that("scale_*_paletteer_binned correctly used direction", {
   expect_equal(ggplot2::layer_data(p4)$colour, colours)
   expect_equal(ggplot2::layer_data(p5)$colour, colours)
   expect_equal(ggplot2::layer_data(p6)$fill, colours)
+
+  expect_snapshot(
+    error = TRUE,
+    ggplot2::ggplot(df, ggplot2::aes(x, y, colour = color)) +
+      scale_colour_paletteer_binned("scico::berlin", direction = 10)
+  )
 })
 
 test_that("scale_*_paletteer_binned works with quoted palettes", {

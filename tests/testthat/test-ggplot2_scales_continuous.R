@@ -73,6 +73,12 @@ test_that("scale_*_paletteer_c correctly used direction", {
     c("#FFACAC", "#3F1200", "#9EB0FF")
   )
   expect_equal(ggplot2::layer_data(p6)$fill, c("#FFACAC", "#3F1200", "#9EB0FF"))
+
+  expect_snapshot(
+    error = TRUE,
+    ggplot2::ggplot(df, ggplot2::aes(x, y, colour = color)) +
+      scale_colour_paletteer_c("scico::berlin", direction = 10)
+  )
 })
 
 test_that("scale_*_paletteer_c works with quoted palettes", {

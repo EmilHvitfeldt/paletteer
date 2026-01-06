@@ -28,7 +28,8 @@ scale_colour_paletteer_binned <- function(palette, direction = 1, ...) {
     colours = paletteer_c(
       palette = {{ palette }},
       direction = direction,
-      256
+      256,
+      call = caller_env(0)
     ),
     ...
   )

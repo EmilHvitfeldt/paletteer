@@ -13,9 +13,7 @@
 #' paletteer_dynamic("cartography::sand.pal", 20)
 #' @export
 paletteer_dynamic <- function(palette, n, direction = 1) {
-  if (abs(direction) != 1) {
-    cli::cli_abort("{.arg direction} must be 1 or -1, not {direction}.")
-  }
+  check_direction(direction)
 
   if (missing(n)) {
     cli::cli_abort(

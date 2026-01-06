@@ -7,3 +7,12 @@ check_palette <- function(palette, names, call = rlang::caller_env()) {
     )
   }
 }
+
+check_direction <- function(direction, call = caller_env()) {
+  if (abs(direction) != 1) {
+    cli::cli_abort(
+      "{.arg direction} must be 1 or -1, not {direction}.",
+      call = call
+    )
+  }
+}
