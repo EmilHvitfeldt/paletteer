@@ -11,7 +11,7 @@ palettes_d_names
 
 ## Format
 
-A data.frame of 2504 observations with 4 variables:
+A data.frame of 2545 observations with 4 variables:
 
 - package:
 
@@ -40,9 +40,9 @@ colorBlindness, colorblindr, dichromat, dutchmasters, feathers,
 fishualize, futurevisions, ggpomological, ggprism, ggsci, ggthemes,
 ggthemr, ghibli, grDevices, impressionist.colors, jcolors, khroma, lisa,
 ltc, miscpalettes, musculusColors, nationalparkcolors, nbapalettes,
-nord, ochRe, palettesForR, palettetown, pals, peRReo, rcartocolor,
-rockthemes, rtist, severance, soilpalettes, suffrager, tayloRswift,
-tidyquant, trekcolors, tvthemes, unikn, vangogh, vapeplot, vapoRwave,
-waRhol, werpals, wesanderson, yarrr.
+nord, ochRe, palettesForR, palettetown, pals, peRReo, poisonfrogs,
+rcartocolor, rockthemes, rtist, severance, soilpalettes, suffrager,
+tayloRswift, tidyquant, trekcolors, tvthemes, unikn, vangogh, vapeplot,
+vapoRwave, waRhol, werpals, wesanderson, yarrr.
 
 Full list of palette can be found here [`palettes_d`](palettes_d.md).

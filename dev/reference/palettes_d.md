@@ -13,7 +13,7 @@ palettes_d
 
 ## Format
 
-A list of 72 lists.
+A list of 73 lists.
 
 ## Details
 
@@ -26,10 +26,10 @@ colorBlindness, colorblindr, dichromat, dutchmasters, feathers,
 fishualize, futurevisions, ggpomological, ggprism, ggsci, ggthemes,
 ggthemr, ghibli, grDevices, impressionist.colors, jcolors, khroma, lisa,
 ltc, miscpalettes, musculusColors, nationalparkcolors, nbapalettes,
-nord, ochRe, palettesForR, palettetown, pals, peRReo, rcartocolor,
-rockthemes, rtist, severance, soilpalettes, suffrager, tayloRswift,
-tidyquant, trekcolors, tvthemes, unikn, vangogh, vapeplot, vapoRwave,
-waRhol, werpals, wesanderson, yarrr.
+nord, ochRe, palettesForR, palettetown, pals, peRReo, poisonfrogs,
+rcartocolor, rockthemes, rtist, severance, soilpalettes, suffrager,
+tayloRswift, tidyquant, trekcolors, tvthemes, unikn, vangogh, vapeplot,
+vapoRwave, waRhol, werpals, wesanderson, yarrr.
 
 data.frame of palette names can be found here
 [`palettes_d_names`](palettes_d_names.md).

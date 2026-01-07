@@ -45,7 +45,7 @@ you need for a smooth transition of color:
 
 ![](reference/figures/README-unnamed-chunk-4-1.png)
 
-This package includes 2852 palettes from 78 different packages and
+This package includes 2893 palettes from 79 different packages and
 information about these can be found in the following data.frames:
 `palettes_c_names`, `palettes_d_names` and `palettes_dynamic_names`.
 Additionally this [github
@@ -142,6 +142,7 @@ paletteer_c("nord::frost")
 | PrettyCols           | [nrennie/PrettyCols - 1.1.0.9003](https://github.com/nrennie/PrettyCols)                         | [1.1.0](https://CRAN.R-project.org/package=PrettyCols)         |
 | RColorBrewer         | \-                                                                                               | [1.1.3](https://CRAN.R-project.org/package=RColorBrewer)       |
 | RSkittleBrewer       | [alyssafrazee/RSkittleBrewer - 1.1](https://github.com/alyssafrazee/RSkittleBrewer)              | \-                                                             |
+| Rdune                | [nvietto/Rdune - 1.1.1.9000](https://github.com/nvietto/Rdune)                                   | [1.1.1](https://CRAN.R-project.org/package=Rdune)              |
 | Redmonder            | [pmdci/redmonder - 0.2.0](https://github.com/pmdci/redmonder)                                    | [0.2.0](https://CRAN.R-project.org/package=Redmonder)          |
 | amerika              | [pdwaggoner/amerika - 0.1.1](https://github.com/pdwaggoner/amerika)                              | [0.1.1](https://CRAN.R-project.org/package=amerika)            |
 | awtools              | [awhstin/awtools - 0.2.1](https://github.com/awhstin/awtools)                                    | \-                                                             |
@@ -183,6 +184,7 @@ paletteer_c("nord::frost")
 | palr                 | [AustralianAntarcticDivision/palr - 0.4.0](https://github.com/AustralianAntarcticDivision/palr)  | [0.4.0](https://CRAN.R-project.org/package=palr)               |
 | pals                 | [kwstat/pals - 1.10](https://github.com/kwstat/pals)                                             | [1.10](https://CRAN.R-project.org/package=pals)                |
 | peRReo               | [jbgb13/peRReo - 0.1.0](https://github.com/jbgb13/peRReo)                                        | \-                                                             |
+| poisonfrogs          | [laurenoconnelllab/poisonfrogs - 1.0.2.9000](https://github.com/laurenoconnelllab/poisonfrogs)   | [1.0.2](https://CRAN.R-project.org/package=poisonfrogs)        |
 | popthemes            | [johnmackintosh/popthemes - 0.0.0.9000](https://github.com/johnmackintosh/popthemes)             | \-                                                             |
 | rcartocolor          | [Nowosad/rcartocolor - 2.1.2](https://github.com/Nowosad/rcartocolor)                            | [2.1.2](https://CRAN.R-project.org/package=rcartocolor)        |
 | rockthemes           | [johnmackintosh/rockthemes - 0.0.0.9000](https://github.com/johnmackintosh/rockthemes)           | \-                                                             |

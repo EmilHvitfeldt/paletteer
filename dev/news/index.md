@@ -17,6 +17,8 @@
   ([\#158](https://github.com/EmilHvitfeldt/paletteer/issues/158))
 - 15 palettes have been added from Rdune package.
   ([\#157](https://github.com/EmilHvitfeldt/paletteer/issues/157))
+- 41 palettes have been added from poisonfrogs package.
+  ([\#183](https://github.com/EmilHvitfeldt/paletteer/issues/183))
 
 ## paletteer 1.6.0
 
