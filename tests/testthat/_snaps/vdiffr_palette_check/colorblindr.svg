@@ -26,7 +26,7 @@
   </clipPath>
 </defs>
 <g clip-path='url(#cpMS40NHw3MTguNTZ8MS40NHw1NzQuNTY=)'>
-<text x='35.20' y='202.31' style='font-size: 12.00px; font-family: sans;' textLength='48.71px' lengthAdjust='spacingAndGlyphs'>OkabeIto</text>
+<text x='35.20' y='202.31' style='font-size: 12.00px; font-family: sans;' textLength='83.40px' lengthAdjust='spacingAndGlyphs'>OkabeIto_black</text>
 <rect x='28.00' y='226.09' width='83.00' height='114.98' style='stroke-width: 0.75; stroke: none; fill: #E69F00;' />
 <rect x='111.00' y='226.09' width='83.00' height='114.98' style='stroke-width: 0.75; stroke: none; fill: #56B4E9;' />
 <rect x='194.00' y='226.09' width='83.00' height='114.98' style='stroke-width: 0.75; stroke: none; fill: #009E73;' />
@@ -34,8 +34,8 @@
 <rect x='360.00' y='226.09' width='83.00' height='114.98' style='stroke-width: 0.75; stroke: none; fill: #0072B2;' />
 <rect x='443.00' y='226.09' width='83.00' height='114.98' style='stroke-width: 0.75; stroke: none; fill: #D55E00;' />
 <rect x='526.00' y='226.09' width='83.00' height='114.98' style='stroke-width: 0.75; stroke: none; fill: #CC79A7;' />
-<rect x='609.00' y='226.09' width='83.00' height='114.98' style='stroke-width: 0.75; stroke: none; fill: #999999;' />
-<text x='35.20' y='379.20' style='font-size: 12.00px; font-family: sans;' textLength='83.40px' lengthAdjust='spacingAndGlyphs'>OkabeIto_black</text>
+<rect x='609.00' y='226.09' width='83.00' height='114.98' style='stroke-width: 0.75; stroke: none; fill: #000000;' />
+<text x='35.20' y='379.20' style='font-size: 12.00px; font-family: sans;' textLength='48.71px' lengthAdjust='spacingAndGlyphs'>OkabeIto</text>
 <rect x='28.00' y='402.98' width='83.00' height='114.98' style='stroke-width: 0.75; stroke: none; fill: #E69F00;' />
 <rect x='111.00' y='402.98' width='83.00' height='114.98' style='stroke-width: 0.75; stroke: none; fill: #56B4E9;' />
 <rect x='194.00' y='402.98' width='83.00' height='114.98' style='stroke-width: 0.75; stroke: none; fill: #009E73;' />
@@ -43,6 +43,6 @@
 <rect x='360.00' y='402.98' width='83.00' height='114.98' style='stroke-width: 0.75; stroke: none; fill: #0072B2;' />
 <rect x='443.00' y='402.98' width='83.00' height='114.98' style='stroke-width: 0.75; stroke: none; fill: #D55E00;' />
 <rect x='526.00' y='402.98' width='83.00' height='114.98' style='stroke-width: 0.75; stroke: none; fill: #CC79A7;' />
-<rect x='609.00' y='402.98' width='83.00' height='114.98' style='stroke-width: 0.75; stroke: none; fill: #000000;' />
+<rect x='609.00' y='402.98' width='83.00' height='114.98' style='stroke-width: 0.75; stroke: none; fill: #999999;' />
 </g>
 </svg>

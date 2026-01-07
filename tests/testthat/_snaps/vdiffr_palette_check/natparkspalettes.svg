@@ -75,7 +75,7 @@
 <rect x='360.00' y='127.94' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #878195;' />
 <rect x='470.67' y='127.94' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #AEB2B7;' />
 <rect x='581.33' y='127.94' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #D4D9DD;' />
-<text x='35.20' y='145.25' style='font-size: 12.00px; font-family: sans;' textLength='58.03px' lengthAdjust='spacingAndGlyphs'>Charmonix</text>
+<text x='35.20' y='145.25' style='font-size: 12.00px; font-family: sans;' textLength='54.04px' lengthAdjust='spacingAndGlyphs'>Chamonix</text>
 <rect x='28.00' y='145.06' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #008FF8;' />
 <rect x='138.67' y='145.06' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #B6AA0D;' />
 <rect x='249.33' y='145.06' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #E2C2A2;' />
@@ -225,18 +225,18 @@
 <rect x='360.00' y='470.31' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #625D0A;' />
 <rect x='470.67' y='470.31' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #B9741F;' />
 <rect x='581.33' y='470.31' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #213958;' />
-<text x='35.20' y='487.61' style='font-size: 12.00px; font-family: sans;' textLength='55.36px' lengthAdjust='spacingAndGlyphs'>WindCave</text>
-<rect x='28.00' y='487.43' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #2F100E;' />
-<rect x='160.80' y='487.43' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #6C3322;' />
-<rect x='293.60' y='487.43' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #B07159;' />
-<rect x='426.40' y='487.43' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #C9A197;' />
-<rect x='559.20' y='487.43' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #E0CDCD;' />
-<text x='35.20' y='504.73' style='font-size: 12.00px; font-family: sans;' textLength='56.05px' lengthAdjust='spacingAndGlyphs'>Volcanoes</text>
-<rect x='28.00' y='504.55' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #082544;' />
-<rect x='160.80' y='504.55' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #1E547D;' />
-<rect x='293.60' y='504.55' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #79668C;' />
-<rect x='426.40' y='504.55' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #DE3C37;' />
-<rect x='559.20' y='504.55' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #F2DC7E;' />
+<text x='35.20' y='487.61' style='font-size: 12.00px; font-family: sans;' textLength='56.05px' lengthAdjust='spacingAndGlyphs'>Volcanoes</text>
+<rect x='28.00' y='487.43' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #082544;' />
+<rect x='160.80' y='487.43' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #1E547D;' />
+<rect x='293.60' y='487.43' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #79668C;' />
+<rect x='426.40' y='487.43' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #DE3C37;' />
+<rect x='559.20' y='487.43' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #F2DC7E;' />
+<text x='35.20' y='504.73' style='font-size: 12.00px; font-family: sans;' textLength='55.36px' lengthAdjust='spacingAndGlyphs'>WindCave</text>
+<rect x='28.00' y='504.55' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #2F100E;' />
+<rect x='160.80' y='504.55' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #6C3322;' />
+<rect x='293.60' y='504.55' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #B07159;' />
+<rect x='426.40' y='504.55' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #C9A197;' />
+<rect x='559.20' y='504.55' width='132.80' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #E0CDCD;' />
 <text x='35.20' y='521.85' style='font-size: 12.00px; font-family: sans;' textLength='64.71px' lengthAdjust='spacingAndGlyphs'>Yellowstone</text>
 <rect x='28.00' y='521.66' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #0067A2;' />
 <rect x='138.67' y='521.66' width='110.67' height='11.13' style='stroke-width: 0.75; stroke: none; fill: #DFCB91;' />

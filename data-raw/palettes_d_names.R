@@ -177,7 +177,6 @@ palettes_d_names <- tibble::tribble(
   "ButterflyColors"      , "fountainea_ryphea"                                 ,   5L    , "qualitative" , TRUE     ,
   "ButterflyColors"      , "hamadryas_feronia_2"                               ,   5L    , "qualitative" , TRUE     ,
   "ButterflyColors"      , "hamadryas_feronia"                                 ,   5L    , "qualitative" , TRUE     ,
-  "ButterflyColors"      , "hamadryas_feronia"                                 ,   5L    , "qualitative" , TRUE     ,
   "ButterflyColors"      , "heliconius_erato_phyllis"                          ,   5L    , "qualitative" , TRUE     ,
   "ButterflyColors"      , "heliconius_sara_apseudes"                          ,   5L    , "qualitative" , TRUE     ,
   "ButterflyColors"      , "hemiargus_hanno"                                   ,   5L    , "qualitative" , TRUE     ,
