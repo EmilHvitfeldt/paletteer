@@ -3,6 +3,7 @@
 * Updated argument checking to be more precise and uniform. (#174)
 * Add missing scico palettes. (#168)
 * Added new palettes from ButterflyColors, feathers, ggsci, khroma, PrettyCols, and tayloRswift. (#182)
+* 4 palettes have been added from blueycolors package. (#155)
 
 # paletteer 1.6.0
 

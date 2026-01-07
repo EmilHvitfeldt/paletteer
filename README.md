@@ -60,7 +60,7 @@ you need for a smooth transition of color:
 
 ![](man/figures/README-unnamed-chunk-4-1.png)<!-- -->
 
-This package includes 2828 palettes from 75 different packages and
+This package includes 2832 palettes from 76 different packages and
 information about these can be found in the following data.frames:
 `palettes_c_names`, `palettes_d_names` and `palettes_dynamic_names`.
 Additionally this [github
@@ -159,6 +159,7 @@ paletteer_c("nord::frost")
 | awtools | [awhstin/awtools - 0.2.1](https://github.com/awhstin/awtools) | \- |
 | basetheme | [karoliskoncevicius/basetheme - 0.1.3](https://github.com/karoliskoncevicius/basetheme) | [0.1.3](https://CRAN.R-project.org/package=basetheme) |
 | beyonce | [dill/beyonce - 0.1](https://github.com/dill/beyonce) | \- |
+| blueycolors | [ekholme/blueycolors - 0.1.0](https://github.com/ekholme/blueycolors) | \- |
 | calecopal | [an-bui/calecopal - 0.1.0](https://github.com/an-bui/calecopal) | \- |
 | cartography | [riatelab/cartography - 3.1.5](https://github.com/riatelab/cartography) | [3.1.5](https://CRAN.R-project.org/package=cartography) |
 | colRoz | [jacintak/colRoz - 0.2.2](https://github.com/jacintak/colRoz) | \- |
