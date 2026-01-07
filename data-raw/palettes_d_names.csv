@@ -1,4 +1,9 @@
 package,palette,length,type,novelty
+amerika,Dem_Ind_Rep3,3,divergent,FALSE
+amerika,Dem_Ind_Rep5,5,divergent,FALSE
+amerika,Dem_Ind_Rep7,7,divergent,FALSE
+amerika,Democrat,3,sequential,FALSE
+amerika,Republican,3,sequential,FALSE
 awtools,a_palette,8,sequential,TRUE
 awtools,bpalette,16,qualitative,TRUE
 awtools,gpalette,4,sequential,TRUE

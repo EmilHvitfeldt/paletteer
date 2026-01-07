@@ -18,6 +18,11 @@ pal_viz <- function() {
 
 palettes_d_names <- tibble::tribble(
   ~package               , ~palette                                            , ~length , ~type         , ~novelty ,
+  "amerika"              , "Dem_Ind_Rep3"                                      ,   3L    , "divergent"   , FALSE    ,
+  "amerika"              , "Dem_Ind_Rep5"                                      ,   5L    , "divergent"   , FALSE    ,
+  "amerika"              , "Dem_Ind_Rep7"                                      ,   7L    , "divergent"   , FALSE    ,
+  "amerika"              , "Democrat"                                          ,   3L    , "sequential"  , FALSE    ,
+  "amerika"              , "Republican"                                        ,   3L    , "sequential"  , FALSE    ,
   "awtools"              , "a_palette"                                         ,   8L    , "sequential"  , TRUE     ,
   "awtools"              , "bpalette"                                          ,  16L    , "qualitative" , TRUE     ,
   "awtools"              , "gpalette"                                          ,   4L    , "sequential"  , TRUE     ,

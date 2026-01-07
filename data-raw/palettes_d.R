@@ -1,5 +1,8 @@
 library(magrittr)
 
+## amerika ---------------------------------------------------------------------
+amerika_pals <- amerika::amerika_palettes
+
 ## awtools --------------------------------------------------------------------
 awtools_pals <- list(
   a_palette = awtools::a_palette,
@@ -542,6 +545,7 @@ yarrr_pals <- mapply(yarrr::piratepal, yarrr_names) |>
 
 # discrete fixed number of colors ---------------------------------------------
 palettes_d <- list(
+  amerika = amerika_pals,
   awtools = awtools_pals,
   basetheme = basetheme_pals,
   beyonce = beyonce_pals,

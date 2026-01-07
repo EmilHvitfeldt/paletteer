@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' class='svglite' data-engine-version='2.0' width='720.00pt' height='576.00pt' viewBox='0 0 720.00 576.00'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
+<defs>
+  <clipPath id='cpMC4wMHw3MjAuMDB8MC4wMHw1NzYuMDA='>
+    <rect x='0.00' y='0.00' width='720.00' height='576.00' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHw3MjAuMDB8MC4wMHw1NzYuMDA=)'>
+<text x='360.00' y='44.64' text-anchor='middle' style='font-size: 14.40px; font-weight: bold; font-family: sans;' textLength='51.23px' lengthAdjust='spacingAndGlyphs'>amerika</text>
+</g>
+<defs>
+  <clipPath id='cpMS40NHw3MTguNTZ8MS40NHw1NzQuNTY='>
+    <rect x='1.44' y='1.44' width='717.12' height='573.12' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMS40NHw3MTguNTZ8MS40NHw1NzQuNTY=)'>
+<text x='35.20' y='113.86' style='font-size: 12.00px; font-family: sans;' textLength='84.07px' lengthAdjust='spacingAndGlyphs'>Dem_Ind_Rep3</text>
+<rect x='28.00' y='124.38' width='221.33' height='57.49' style='stroke-width: 0.75; stroke: none; fill: #013364;' />
+<rect x='249.33' y='124.38' width='221.33' height='57.49' style='stroke-width: 0.75; stroke: none; fill: #CBCACA;' />
+<rect x='470.67' y='124.38' width='221.33' height='57.49' style='stroke-width: 0.75; stroke: none; fill: #CC0000;' />
+<text x='35.20' y='202.31' style='font-size: 12.00px; font-family: sans;' textLength='84.07px' lengthAdjust='spacingAndGlyphs'>Dem_Ind_Rep5</text>
+<rect x='28.00' y='212.82' width='132.80' height='57.49' style='stroke-width: 0.75; stroke: none; fill: #013364;' />
+<rect x='160.80' y='212.82' width='132.80' height='57.49' style='stroke-width: 0.75; stroke: none; fill: #0033CC;' />
+<rect x='293.60' y='212.82' width='132.80' height='57.49' style='stroke-width: 0.75; stroke: none; fill: #CBCACA;' />
+<rect x='426.40' y='212.82' width='132.80' height='57.49' style='stroke-width: 0.75; stroke: none; fill: #D30B0D;' />
+<rect x='559.20' y='212.82' width='132.80' height='57.49' style='stroke-width: 0.75; stroke: none; fill: #8B0000;' />
+<text x='35.20' y='290.75' style='font-size: 12.00px; font-family: sans;' textLength='84.07px' lengthAdjust='spacingAndGlyphs'>Dem_Ind_Rep7</text>
+<rect x='28.00' y='301.27' width='94.86' height='57.49' style='stroke-width: 0.75; stroke: none; fill: #013364;' />
+<rect x='122.86' y='301.27' width='94.86' height='57.49' style='stroke-width: 0.75; stroke: none; fill: #0033CC;' />
+<rect x='217.71' y='301.27' width='94.86' height='57.49' style='stroke-width: 0.75; stroke: none; fill: #428BCA;' />
+<rect x='312.57' y='301.27' width='94.86' height='57.49' style='stroke-width: 0.75; stroke: none; fill: #CBCACA;' />
+<rect x='407.43' y='301.27' width='94.86' height='57.49' style='stroke-width: 0.75; stroke: none; fill: #D27979;' />
+<rect x='502.29' y='301.27' width='94.86' height='57.49' style='stroke-width: 0.75; stroke: none; fill: #D30B0D;' />
+<rect x='597.14' y='301.27' width='94.86' height='57.49' style='stroke-width: 0.75; stroke: none; fill: #8B0000;' />
+<text x='35.20' y='379.20' style='font-size: 12.00px; font-family: sans;' textLength='52.03px' lengthAdjust='spacingAndGlyphs'>Democrat</text>
+<rect x='28.00' y='389.71' width='221.33' height='57.49' style='stroke-width: 0.75; stroke: none; fill: #013364;' />
+<rect x='249.33' y='389.71' width='221.33' height='57.49' style='stroke-width: 0.75; stroke: none; fill: #0033CC;' />
+<rect x='470.67' y='389.71' width='221.33' height='57.49' style='stroke-width: 0.75; stroke: none; fill: #428BCA;' />
+<text x='35.20' y='467.64' style='font-size: 12.00px; font-family: sans;' textLength='60.05px' lengthAdjust='spacingAndGlyphs'>Republican</text>
+<rect x='28.00' y='478.16' width='221.33' height='57.49' style='stroke-width: 0.75; stroke: none; fill: #8B0000;' />
+<rect x='249.33' y='478.16' width='221.33' height='57.49' style='stroke-width: 0.75; stroke: none; fill: #D30B0D;' />
+<rect x='470.67' y='478.16' width='221.33' height='57.49' style='stroke-width: 0.75; stroke: none; fill: #D27979;' />
+</g>
+</svg>
