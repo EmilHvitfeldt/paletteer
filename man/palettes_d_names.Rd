@@ -5,7 +5,7 @@
 \alias{palettes_d_names}
 \title{Data Frame of all fixed discrete palettes}
 \format{
-A data.frame of 2504 observations with 4
+A data.frame of 2545 observations with 4
 variables:
 \describe{
 \item{package}{character, name of package}
@@ -23,7 +23,7 @@ of fixed lengths included in this package.
 }
 \details{
 Contains palettes names from the following packages:
-ButterflyColors, DresdenColor, IslamicArt, LaCroixColoR, Manu, MapPalettes, MetBrewer, MexBrewer, MoMAColors, NatParksPalettes, NineteenEightyR, PNWColors, Polychrome, PrettyCols, RColorBrewer, RSkittleBrewer, Rdune, Redmonder, amerika, awtools, basetheme, beyonce, blueycolors, calecopal, colRoz, colorBlindness, colorblindr, dichromat, dutchmasters, feathers, fishualize, futurevisions, ggpomological, ggprism, ggsci, ggthemes, ggthemr, ghibli, grDevices, impressionist.colors, jcolors, khroma, lisa, ltc, miscpalettes, musculusColors, nationalparkcolors, nbapalettes, nord, ochRe, palettesForR, palettetown, pals, peRReo, rcartocolor, rockthemes, rtist, severance, soilpalettes, suffrager, tayloRswift, tidyquant, trekcolors, tvthemes, unikn, vangogh, vapeplot, vapoRwave, waRhol, werpals, wesanderson, yarrr.
+ButterflyColors, DresdenColor, IslamicArt, LaCroixColoR, Manu, MapPalettes, MetBrewer, MexBrewer, MoMAColors, NatParksPalettes, NineteenEightyR, PNWColors, Polychrome, PrettyCols, RColorBrewer, RSkittleBrewer, Rdune, Redmonder, amerika, awtools, basetheme, beyonce, blueycolors, calecopal, colRoz, colorBlindness, colorblindr, dichromat, dutchmasters, feathers, fishualize, futurevisions, ggpomological, ggprism, ggsci, ggthemes, ggthemr, ghibli, grDevices, impressionist.colors, jcolors, khroma, lisa, ltc, miscpalettes, musculusColors, nationalparkcolors, nbapalettes, nord, ochRe, palettesForR, palettetown, pals, peRReo, poisonfrogs, rcartocolor, rockthemes, rtist, severance, soilpalettes, suffrager, tayloRswift, tidyquant, trekcolors, tvthemes, unikn, vangogh, vapeplot, vapoRwave, waRhol, werpals, wesanderson, yarrr.
 
 Full list of palette can be found here \code{\link{palettes_d}}.
 }
