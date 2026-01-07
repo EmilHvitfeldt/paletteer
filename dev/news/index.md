@@ -9,6 +9,8 @@
 - Added new palettes from ButterflyColors, feathers, ggsci, khroma,
   PrettyCols, and tayloRswift.
   ([\#182](https://github.com/EmilHvitfeldt/paletteer/issues/182))
+- 4 palettes have been added from blueycolors package.
+  ([\#155](https://github.com/EmilHvitfeldt/paletteer/issues/155))
 
 ## paletteer 1.6.0
 

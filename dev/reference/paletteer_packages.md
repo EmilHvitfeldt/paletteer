@@ -10,7 +10,7 @@ paletteer_packages
 
 ## Format
 
-A data.frame with 5 variables and 77 rows:
+A data.frame with 5 variables and 78 rows:
 
 - Names:
 
