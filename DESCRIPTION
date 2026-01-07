@@ -1,6 +1,6 @@
 Package: paletteer
 Title: Comprehensive Collection of Color Palettes
-Version: 1.6.0.9000
+Version: 1.7.0
 Authors@R: c(
     person("See AUTHORS file.", role = "aut"),
     person("Emil", "Hvitfeldt", , "emilhhvitfeldt@gmail.com", role = c("aut", "cre"))
