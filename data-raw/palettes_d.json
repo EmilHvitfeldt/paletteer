@@ -1,4 +1,37 @@
 {
+  "amerika": {
+    "Republican": [
+      "#8b0000",
+      "#d30b0d",
+      "#d27979"
+    ],
+    "Democrat": [
+      "#013364",
+      "#0033cc",
+      "#428bca"
+    ],
+    "Dem_Ind_Rep3": [
+      "#013364",
+      "#cbcaca",
+      "#cc0000"
+    ],
+    "Dem_Ind_Rep5": [
+      "#013364",
+      "#0033cc",
+      "#cbcaca",
+      "#d30b0d",
+      "#8b0000"
+    ],
+    "Dem_Ind_Rep7": [
+      "#013364",
+      "#0033cc",
+      "#428bca",
+      "#cbcaca",
+      "#d27979",
+      "#d30b0d",
+      "#8b0000"
+    ]
+  },
   "awtools": {
     "a_palette": [
       "#2A363B",

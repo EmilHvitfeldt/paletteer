@@ -1,6 +1,7 @@
 library(dplyr)
 paletteer_packages <- tibble::tribble(
   ~Name                  , ~Github                            , ~github_ver   , ~CRAN , ~CRAN_ver ,
+  "amerika"              , "pdwaggoner/amerika"               , "0.1.1"       , TRUE  , "0.1.1"   ,
   "awtools"              , "awhstin/awtools"                  , "0.2.1"       , FALSE , NA        ,
   "basetheme"            , "karoliskoncevicius/basetheme"     , "0.1.3"       , TRUE  , "0.1.3"   ,
   "beyonce"              , "dill/beyonce"                     , "0.1"         , FALSE , NA        ,

@@ -1,3 +1,8 @@
+amerika::Dem_Ind_Rep3
+amerika::Dem_Ind_Rep5
+amerika::Dem_Ind_Rep7
+amerika::Democrat
+amerika::Republican
 awtools::a_palette
 awtools::bpalette
 awtools::gpalette

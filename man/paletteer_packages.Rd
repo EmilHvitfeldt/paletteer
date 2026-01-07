@@ -6,7 +6,7 @@
 \title{Names and version information for all included packages}
 \format{
 A data.frame with 5 variables and
-78 rows:
+79 rows:
 \describe{
 \item{Names}{character, name of package}
 \item{Github}{character, name of Github repository}
