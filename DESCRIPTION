@@ -1,8 +1,10 @@
 Package: paletteer
 Title: Comprehensive Collection of Color Palettes
 Version: 1.6.0.9000
-Author: See AUTHORS file.
-Maintainer: Emil Hvitfeldt <emilhhvitfeldt@gmail.com>
+Authors@R: c(
+    person("See AUTHORS file.", role = "aut"),
+    person("Emil", "Hvitfeldt", , "emilhhvitfeldt@gmail.com", role = c("aut", "cre"))
+  )
 Description: The choices of color palettes in R can be quite overwhelming
     with palettes spread over many packages with many different API's.
     This packages aims to collect all color palettes across the R

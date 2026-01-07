@@ -19,4 +19,13 @@ Useful links:
 }
 
 }
+\author{
+\strong{Maintainer}: Emil Hvitfeldt \email{emilhhvitfeldt@gmail.com}
+
+Authors:
+\itemize{
+  \item See AUTHORS file.
+}
+
+}
 \keyword{internal}
