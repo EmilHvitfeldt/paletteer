@@ -11,7 +11,7 @@ palettes_d_names
 
 ## Format
 
-A data.frame of 2484 observations with 4 variables:
+A data.frame of 2489 observations with 4 variables:
 
 - package:
 
@@ -35,7 +35,7 @@ Contains palettes names from the following packages: ButterflyColors,
 DresdenColor, IslamicArt, LaCroixColoR, Manu, MapPalettes, MetBrewer,
 MexBrewer, MoMAColors, NatParksPalettes, NineteenEightyR, PNWColors,
 Polychrome, PrettyCols, RColorBrewer, RSkittleBrewer, Redmonder,
-awtools, basetheme, beyonce, blueycolors, calecopal, colRoz,
+amerika, awtools, basetheme, beyonce, blueycolors, calecopal, colRoz,
 colorBlindness, colorblindr, dichromat, dutchmasters, feathers,
 fishualize, futurevisions, ggpomological, ggprism, ggsci, ggthemes,
 ggthemr, ghibli, grDevices, impressionist.colors, jcolors, khroma, lisa,

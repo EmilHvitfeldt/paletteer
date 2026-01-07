@@ -13,7 +13,7 @@ palettes_d
 
 ## Format
 
-A list of 70 lists.
+A list of 71 lists.
 
 ## Details
 
@@ -21,7 +21,7 @@ Contains palettes from the following packages: ButterflyColors,
 DresdenColor, IslamicArt, LaCroixColoR, Manu, MapPalettes, MetBrewer,
 MexBrewer, MoMAColors, NatParksPalettes, NineteenEightyR, PNWColors,
 Polychrome, PrettyCols, RColorBrewer, RSkittleBrewer, Redmonder,
-awtools, basetheme, beyonce, blueycolors, calecopal, colRoz,
+amerika, awtools, basetheme, beyonce, blueycolors, calecopal, colRoz,
 colorBlindness, colorblindr, dichromat, dutchmasters, feathers,
 fishualize, futurevisions, ggpomological, ggprism, ggsci, ggthemes,
 ggthemr, ghibli, grDevices, impressionist.colors, jcolors, khroma, lisa,
