@@ -6,6 +6,9 @@
   ([\#174](https://github.com/EmilHvitfeldt/paletteer/issues/174))
 - Add missing scico palettes.
   ([\#168](https://github.com/EmilHvitfeldt/paletteer/issues/168))
+- Added new palettes from ButterflyColors, feathers, ggsci, khroma,
+  PrettyCols, and tayloRswift.
+  ([\#182](https://github.com/EmilHvitfeldt/paletteer/issues/182))
 
 ## paletteer 1.6.0
 

@@ -11,7 +11,7 @@ palettes_d_names
 
 ## Format
 
-A data.frame of 2415 observations with 4 variables:
+A data.frame of 2480 observations with 4 variables:
 
 - package:
 
