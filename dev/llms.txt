@@ -45,7 +45,7 @@ you need for a smooth transition of color:
 
 ![](reference/figures/README-unnamed-chunk-4-1.png)
 
-This package includes 2837 palettes from 77 different packages and
+This package includes 2852 palettes from 78 different packages and
 information about these can be found in the following data.frames:
 `palettes_c_names`, `palettes_d_names` and `palettes_dynamic_names`.
 Additionally this [github

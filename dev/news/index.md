@@ -13,6 +13,10 @@
   ([\#155](https://github.com/EmilHvitfeldt/paletteer/issues/155))
 - 5 palettes have been added from amerika package.
   ([\#158](https://github.com/EmilHvitfeldt/paletteer/issues/158))
+- 5 palettes have been added from amerika package.
+  ([\#158](https://github.com/EmilHvitfeldt/paletteer/issues/158))
+- 15 palettes have been added from Rdune package.
+  ([\#157](https://github.com/EmilHvitfeldt/paletteer/issues/157))
 
 ## paletteer 1.6.0
 
