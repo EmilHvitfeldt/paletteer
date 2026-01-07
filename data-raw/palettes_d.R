@@ -390,6 +390,9 @@ pals_pals <- lapply(
 ## peRReo ---------------------------------------------------------------------
 peRReo_pals <- peRReo::latin_palettes
 
+## poisonfrogs -----------------------------------------------------------------
+poisonfrogs_pals <- poisonfrogs:::poison_palettes
+
 ## PNWColors ------------------------------------------------------------------
 PNWColors_pals <- lapply(PNWColors::pnw_palettes, function(x) x[1, ])
 
@@ -596,6 +599,7 @@ palettes_d <- list(
   musculusColors = musculusColors_pals,
   palettesForR = palettesForR_pals,
   peRReo = peRReo_pals,
+  poisonfrogs = poisonfrogs_pals,
   PNWColors = PNWColors_pals,
   PrettyCols = PrettyCols_pals,
   rcartocolor = rcartocolors_pals,

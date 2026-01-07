@@ -53,6 +53,7 @@ paletteer_packages <- tibble::tribble(
   "palr"                 , "AustralianAntarcticDivision/palr" , "0.4.0"       , TRUE  , "0.4.0"   ,
   "pals"                 , "kwstat/pals"                      , "1.10"        , TRUE  , "1.10"    ,
   "peRReo"               , "jbgb13/peRReo"                    , "0.1.0"       , FALSE , NA        ,
+  "poisonfrogs"          , "laurenoconnelllab/poisonfrogs"    , "1.0.2.9000"  , TRUE  , "1.0.2"   ,
   "PNWColors"            , "jakelawlor/PNWColors"             , "0.1.0"       , FALSE , NA        ,
   "Polychrome"           , NA                                 , NA            , TRUE  , "1.5.4"   ,
   "popthemes"            , "johnmackintosh/popthemes"         , "0.0.0.9000"  , FALSE , NA        ,

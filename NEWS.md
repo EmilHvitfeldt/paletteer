@@ -7,6 +7,7 @@
 * 5 palettes have been added from amerika package. (#158)
 * 5 palettes have been added from amerika package. (#158)
 * 15 palettes have been added from Rdune package. (#157)
+* 41 palettes have been added from poisonfrogs package. (#183)
 
 # paletteer 1.6.0
 
