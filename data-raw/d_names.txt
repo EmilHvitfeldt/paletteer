@@ -142,6 +142,10 @@ beyonce::X96
 beyonce::X97
 beyonce::X98
 beyonce::X99
+blueycolors::bluey
+blueycolors::chilli
+blueycolors::heeler
+blueycolors::socks
 ButterflyColors::anteos_clorinde
 ButterflyColors::anteos_menippe
 ButterflyColors::archaeoprepona_demophon_thalpius

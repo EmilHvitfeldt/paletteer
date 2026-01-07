@@ -143,6 +143,10 @@ beyonce,X96,20,qualitative,TRUE
 beyonce,X97,19,qualitative,TRUE
 beyonce,X98,16,qualitative,TRUE
 beyonce,X99,19,qualitative,TRUE
+blueycolors,bluey,5,qualitative,TRUE
+blueycolors,chilli,5,qualitative,TRUE
+blueycolors,heeler,5,qualitative,TRUE
+blueycolors,socks,5,qualitative,TRUE
 ButterflyColors,anteos_clorinde,5,qualitative,TRUE
 ButterflyColors,anteos_menippe,5,qualitative,TRUE
 ButterflyColors,archaeoprepona_demophon_thalpius,5,qualitative,TRUE

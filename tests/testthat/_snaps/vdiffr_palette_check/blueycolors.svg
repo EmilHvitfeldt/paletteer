@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' class='svglite' data-engine-version='2.0' width='720.00pt' height='576.00pt' viewBox='0 0 720.00 576.00'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
+<defs>
+  <clipPath id='cpMC4wMHw3MjAuMDB8MC4wMHw1NzYuMDA='>
+    <rect x='0.00' y='0.00' width='720.00' height='576.00' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHw3MjAuMDB8MC4wMHw1NzYuMDA=)'>
+<text x='360.00' y='44.64' text-anchor='middle' style='font-size: 14.40px; font-weight: bold; font-family: sans;' textLength='72.85px' lengthAdjust='spacingAndGlyphs'>blueycolors</text>
+</g>
+<defs>
+  <clipPath id='cpMS40NHw3MTguNTZ8MS40NHw1NzQuNTY='>
+    <rect x='1.44' y='1.44' width='717.12' height='573.12' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMS40NHw3MTguNTZ8MS40NHw1NzQuNTY=)'>
+<text x='35.20' y='131.55' style='font-size: 12.00px; font-family: sans;' textLength='28.69px' lengthAdjust='spacingAndGlyphs'>bluey</text>
+<rect x='28.00' y='144.72' width='132.80' height='68.99' style='stroke-width: 0.75; stroke: none; fill: #D2EBFF;' />
+<rect x='160.80' y='144.72' width='132.80' height='68.99' style='stroke-width: 0.75; stroke: none; fill: #88CAFC;' />
+<rect x='293.60' y='144.72' width='132.80' height='68.99' style='stroke-width: 0.75; stroke: none; fill: #404066;' />
+<rect x='426.40' y='144.72' width='132.80' height='68.99' style='stroke-width: 0.75; stroke: none; fill: #2B2C41;' />
+<rect x='559.20' y='144.72' width='132.80' height='68.99' style='stroke-width: 0.75; stroke: none; fill: #EDCC6F;' />
+<text x='35.20' y='237.69' style='font-size: 12.00px; font-family: sans;' textLength='23.34px' lengthAdjust='spacingAndGlyphs'>chilli</text>
+<rect x='28.00' y='250.85' width='132.80' height='68.99' style='stroke-width: 0.75; stroke: none; fill: #FFFAD8;' />
+<rect x='160.80' y='250.85' width='132.80' height='68.99' style='stroke-width: 0.75; stroke: none; fill: #FFD08D;' />
+<rect x='293.60' y='250.85' width='132.80' height='68.99' style='stroke-width: 0.75; stroke: none; fill: #FFB070;' />
+<rect x='426.40' y='250.85' width='132.80' height='68.99' style='stroke-width: 0.75; stroke: none; fill: #9C5E33;' />
+<rect x='559.20' y='250.85' width='132.80' height='68.99' style='stroke-width: 0.75; stroke: none; fill: #46362A;' />
+<text x='35.20' y='343.82' style='font-size: 12.00px; font-family: sans;' textLength='33.36px' lengthAdjust='spacingAndGlyphs'>heeler</text>
+<rect x='28.00' y='356.99' width='132.80' height='68.99' style='stroke-width: 0.75; stroke: none; fill: #30598A;' />
+<rect x='160.80' y='356.99' width='132.80' height='68.99' style='stroke-width: 0.75; stroke: none; fill: #72BFED;' />
+<rect x='293.60' y='356.99' width='132.80' height='68.99' style='stroke-width: 0.75; stroke: none; fill: #E4DCBD;' />
+<rect x='426.40' y='356.99' width='132.80' height='68.99' style='stroke-width: 0.75; stroke: none; fill: #F1B873;' />
+<rect x='559.20' y='356.99' width='132.80' height='68.99' style='stroke-width: 0.75; stroke: none; fill: #E27A37;' />
+<text x='35.20' y='449.95' style='font-size: 12.00px; font-family: sans;' textLength='30.69px' lengthAdjust='spacingAndGlyphs'>socks</text>
+<rect x='28.00' y='463.12' width='132.80' height='68.99' style='stroke-width: 0.75; stroke: none; fill: #8F9FD8;' />
+<rect x='160.80' y='463.12' width='132.80' height='68.99' style='stroke-width: 0.75; stroke: none; fill: #201A3F;' />
+<rect x='293.60' y='463.12' width='132.80' height='68.99' style='stroke-width: 0.75; stroke: none; fill: #A97D45;' />
+<rect x='426.40' y='463.12' width='132.80' height='68.99' style='stroke-width: 0.75; stroke: none; fill: #C3CAE1;' />
+<rect x='559.20' y='463.12' width='132.80' height='68.99' style='stroke-width: 0.75; stroke: none; fill: #3E2B0B;' />
+</g>
+</svg>
