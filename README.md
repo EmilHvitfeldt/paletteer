@@ -184,7 +184,7 @@ paletteer_c("nord::frost")
 | jcolors | [jaredhuling/jcolors - 0.0.5](https://github.com/jaredhuling/jcolors) | \- |
 | khroma | [tesselle/khroma - 1.17.0.9000](https://github.com/tesselle/khroma) | [1.17.0](https://CRAN.R-project.org/package=khroma) |
 | lisa | [tylerlittlefield/lisa - 0.1.2.9000](https://github.com/tylerlittlefield/lisa) | [0.1.2](https://CRAN.R-project.org/package=lisa) |
-| ltc | [loukesio/ltc_palettes - 0.2.0](https://github.com/loukesio/ltc_palettes) | \- |
+| ltc | [loukesio/ltc-color-palettes - 0.2.0](https://github.com/loukesio/ltc-color-palettes) | \- |
 | miscpalettes | [EmilHvitfeldt/miscpalettes - 0.0.0.9000](https://github.com/EmilHvitfeldt/miscpalettes) | \- |
 | musculusColors | [dawnbarlow/musculusColors - 0.1.0](https://github.com/dawnbarlow/musculusColors) | \- |
 | nationalparkcolors | [katiejolly/nationalparkcolors - 0.1.0](https://github.com/katiejolly/nationalparkcolors) | \- |

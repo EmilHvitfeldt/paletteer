@@ -33,7 +33,7 @@ paletteer_packages <- tibble::tribble(
   "khroma"               , "tesselle/khroma"                  , "1.17.0.9000" , TRUE  , "1.17.0"  ,
   "LaCroixColoR"         , "johannesbjork/LaCroixColoR"       , "0.1.0"       , FALSE , NA        ,
   "lisa"                 , "tylerlittlefield/lisa"            , "0.1.2.9000"  , TRUE  , "0.1.2"   ,
-  "ltc"                  , "loukesio/ltc_palettes"            , "0.2.0"       , FALSE , NA        ,
+  "ltc"                  , "loukesio/ltc-color-palettes"      , "0.2.0"       , FALSE , NA        ,
   "Manu"                 , "G-Thomson/Manu"                   , "0.0.2"       , FALSE , NA        ,
   "MapPalettes"          , "disarm-platform/MapPalettes"      , "0.0.2"       , FALSE , NA        ,
   "MetBrewer"            , "BlakeRMills/MetBrewer"            , "0.3.0"       , TRUE  , "0.2.0"   ,
