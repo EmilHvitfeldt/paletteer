@@ -1,42 +1,11 @@
-# gt
-
-<details>
-
-* Version: 0.10.1
-* GitHub: https://github.com/rstudio/gt
-* Source code: https://github.com/cran/gt
-* Date/Publication: 2024-01-17 23:50:05 UTC
-* Number of recursive dependencies: 109
-
-Run `revdepcheck::revdep_details(, "gt")` for more info
-
-</details>
-
-## Newly broken
-
-*   checking installed package size ... NOTE
-    ```
-      installed size is  5.9Mb
-      sub-directories of 1Mb or more:
-        R      2.4Mb
-        help   1.8Mb
-    ```
-
-## In both
-
-*   checking data for non-ASCII characters ... NOTE
-    ```
-      Note: found 146 marked UTF-8 strings
-    ```
-
 # spatialLIBD
 
 <details>
 
-* Version: 1.14.1
+* Version: 1.22.0
 * GitHub: https://github.com/LieberInstitute/spatialLIBD
 * Source code: https://github.com/cran/spatialLIBD
-* Date/Publication: 2023-11-30
+* Date/Publication: 2025-11-04
 * Number of recursive dependencies: 223
 
 Run `revdepcheck::revdep_details(, "spatialLIBD")` for more info
@@ -58,35 +27,37 @@ Run `revdepcheck::revdep_details(, "spatialLIBD")` for more info
     > 
     > if (enough_ram()) {
     ...
-    +     ## Add an image
-    +     SpatialExperiment::imgData(add_images(
     +         spe,
     +         image_id_current = "lowres",
     +         image_id = "lowres_aws",
     +         image_paths = c("151507" = "https://spatial-dlpfc.s3.us-east-2.amazonaws.com/images/151507_tissue_lowres_image.png")
     +     ))
     + }
-    Error: table metadata already exists
+    2026-01-07 11:11:12.444503 loading file /Users/emilhvitfeldt/Library/Caches/org.R-project.R/R/BiocFileCache/b4b51b7c4828_Human_DLPFC_Visium_processedData_sce_scran_spatialLIBD.Rdata%3Fdl%3D1
+    Error in load(file_path, verbose = FALSE) : error reading from connection
+    Calls: fetch_data ... sce_to_spe -> check_sce -> stopifnot -> is -> fetch_data -> load
     Execution halted
     ```
 
-## In both
-
-*   checking whether package ‘spatialLIBD’ can be installed ... WARNING
+*   checking running R code from vignettes ...
     ```
-    Found the following significant warnings:
-      Warning: package ‘SingleCellExperiment’ was built under R version 4.3.2
-      Warning: package ‘SummarizedExperiment’ was built under R version 4.3.2
-      Warning: package ‘S4Vectors’ was built under R version 4.3.2
-      Warning: package ‘GenomeInfoDb’ was built under R version 4.3.2
-    See ‘/Users/emilhvitfeldt/Github/paletteer/revdep/checks.noindex/spatialLIBD/new/spatialLIBD.Rcheck/00install.out’ for details.
-    ```
-
-*   checking installed package size ... NOTE
-    ```
-      installed size is 15.3Mb
-      sub-directories of 1Mb or more:
-        doc   10.9Mb
-        help   3.7Mb
+      ‘TenX_data_download.Rmd’ using ‘UTF-8’... failed
+      ‘guide_to_spatial_registration.Rmd’ using ‘UTF-8’... OK
+      ‘multi_gene_plots.Rmd’ using ‘UTF-8’... OK
+      ‘spatialLIBD.Rmd’ using ‘UTF-8’... OK
+     ERROR
+    Errors in running code in vignettes:
+    when running code in ‘TenX_data_download.Rmd’
+      ...
+      rid: BFC19
+      fpath: ‘ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_32/gencode.v32.annotation.gtf.gz’
+      reason: download failed
+    Warning in value[[3L]](cond) : 
+    trying to add rname 'ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_32/gencode.v32.annotation.gtf.gz' produced error:
+      bfcadd() failed; see warnings()
+    
+      When sourcing ‘TenX_data_download.R’:
+    Error: not all 'rnames' found or unique.
+    Execution halted
     ```
 
