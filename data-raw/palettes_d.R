@@ -431,6 +431,9 @@ rcolorbrewer_pals <- mapply(
 )
 names(rcolorbrewer_pals) <- RColorBrewer_name
 
+## rockthemes -----------------------------------------------------------------
+Rdune_pals <- Rdune::dune_palettes
+
 ## redmonder ------------------------------------------------------------------
 redmonder_name <- rownames(Redmonder::redmonder.pal.info)
 redmonder_ncolor <- Redmonder::redmonder.pal.info$maxcolors
@@ -597,6 +600,7 @@ palettes_d <- list(
   PrettyCols = PrettyCols_pals,
   rcartocolor = rcartocolors_pals,
   RColorBrewer = rcolorbrewer_pals,
+  Rdune = Rdune_pals,
   Redmonder = redmonder_pals,
   rockthemes = rockthemes_pals,
   RSkittleBrewer = RSkittleBrewer_pals,

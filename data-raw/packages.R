@@ -59,6 +59,7 @@ paletteer_packages <- tibble::tribble(
   "PrettyCols"           , "nrennie/PrettyCols"               , "1.1.0.9003"  , TRUE  , "1.1.0"   ,
   "rcartocolor"          , "Nowosad/rcartocolor"              , "2.1.2"       , TRUE  , "2.1.2"   ,
   "RColorBrewer"         , NA                                 , NA            , TRUE  , "1.1.3"   ,
+  "Rdune"                , "nvietto/Rdune"                    , "1.1.1.9000"  , TRUE  , "1.1.1"   ,
   "Redmonder"            , "pmdci/redmonder"                  , "0.2.0"       , TRUE  , "0.2.0"   ,
   "rockthemes"           , "johnmackintosh/rockthemes"        , "0.0.0.9000"  , FALSE , NA        ,
   "RSkittleBrewer"       , "alyssafrazee/RSkittleBrewer"      , "1.1"         , FALSE , NA        ,
