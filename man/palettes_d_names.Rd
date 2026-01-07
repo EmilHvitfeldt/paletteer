@@ -5,7 +5,7 @@
 \alias{palettes_d_names}
 \title{Data Frame of all fixed discrete palettes}
 \format{
-A data.frame of 2415 observations with 4
+A data.frame of 2481 observations with 4
 variables:
 \describe{
 \item{package}{character, name of package}
