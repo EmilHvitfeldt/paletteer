@@ -2,7 +2,9 @@
 
 ## Authors
 
-- **Emil Hvitfeldt**. Maintainer.
+- **See AUTHORS file.**. Author.
+
+- **Emil Hvitfeldt**. Author, maintainer.
 
 ## Citation
 

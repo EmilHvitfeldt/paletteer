@@ -14,3 +14,11 @@ Useful links:
 - <https://github.com/EmilHvitfeldt/paletteer>
 
 - Report bugs at <https://github.com/EmilHvitfeldt/paletteer/issues>
+
+## Author
+
+**Maintainer**: Emil Hvitfeldt <emilhhvitfeldt@gmail.com>
+
+Authors:
+
+- See AUTHORS file.

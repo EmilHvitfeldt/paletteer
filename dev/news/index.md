@@ -2,6 +2,8 @@
 
 ## paletteer (development version)
 
+## paletteer 1.7.0
+
 - Updated argument checking to be more precise and uniform.
   ([\#174](https://github.com/EmilHvitfeldt/paletteer/issues/174))
 - Add missing scico palettes.
