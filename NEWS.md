@@ -1,3 +1,5 @@
+# paletteer (development version)
+
 # paletteer 1.7.0
 
 * Updated argument checking to be more precise and uniform. (#174)
