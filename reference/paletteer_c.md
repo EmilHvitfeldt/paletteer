@@ -1,0 +1,45 @@
+# Get continuous palette by package and name
+
+Available package/palette combinations are available in the data.frame
+[`palettes_c_names`](palettes_c_names.md).
+
+## Usage
+
+``` r
+paletteer_c(palette, n, direction = 1, call = caller_env(0))
+```
+
+## Arguments
+
+- palette:
+
+  Name of palette as a string. Must be on the form
+  packagename::palettename.
+
+- n:
+
+  Number of colors desired. Must be supplied.
+
+- direction:
+
+  Either `1` or `-1`. If `-1` the palette will be reversed.
+
+- call:
+
+  The execution environment of a currently running function, e.g.
+  `caller_env()`. The function will be mentioned in error messages as
+  the source of the error. See the `call` argument of
+  [`abort()`](https://rlang.r-lib.org/reference/abort.html) for more
+  information.
+
+## Value
+
+A vector of colors.
+
+## Examples
+
+``` r
+paletteer_c("scico::berlin", 100)
+#> <colors>
+#> #9EB0FFFF #98AFFCFF #92AEF9FF #8CADF6FF #86ACF3FF #80ACF1FF #7AABEDFF #73A9EAFF #6DA9E6FF #66A7E2FF #60A5DFFF #5AA3DAFF #54A0D5FF #4E9DD0FF #4799C9FF #4395C4FF #3E91BDFF #3B8DB7FF #3788B0FF #3584AAFF #327EA4FF #2F799DFF #2D7597FF #2B7091FF #296B8BFF #276784FF #26627FFF #245D79FF #215872FF #20546CFF #1E4F67FF #1D4B61FF #1B465BFF #194155FF #183D4FFF #16394AFF #153544FF #13313FFF #132D3AFF #122935FF #11252FFF #10212AFF #0F1E25FF #101B21FF #11181DFF #101519FF #111216FF #131011FF #140E0EFF #170C0AFF #190C08FF #1C0B05FF #1F0B04FF #220C01FF #250C00FF #270C01FF #2B0D00FF #2E0D00FF #310E00FF #340F00FF #381000FF #3C1101FF #401101FF #441301FF #471401FF #4B1601FF #501802FF #551904FF #591C07FF #5E1E09FF #63210CFF #69240FFF #6E2813FF #752D17FF #7A311BFF #803620FF #853A25FF #8A3F2AFF #8F432FFF #944834FF #9A4D3BFF #9F5240FF #A45746FF #A95B4BFF #AE6051FF #B36557FF #B96A5DFF #BE6F63FF #C37469FF #C8796FFF #CD7E75FF #D3837BFF #D88881FF #DE8E87FF #E3938EFF #E99894FF #EE9D9AFF #F3A2A0FF #F9A7A6FF #FFACACFF 
+```
